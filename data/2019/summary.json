@@ -1,0 +1,611 @@
+{
+  "generated": "2026-11-04T00:00:08Z",
+  "total_edits": 2702,
+  "unique_ips": 146,
+  "by_label": {
+    "Shared Services Canada": 1178,
+    "Canadian Department of National Defence": 550,
+    "Canadian Broadcasting Corporation": 226,
+    "Environment Canada": 154,
+    "Shared Services Canada network (AS2665)": 143,
+    "Canadian House of Commons": 120,
+    "Industry Canada": 59,
+    "National Research Council": 48,
+    "Shared Services Canada network (AS2675)": 48,
+    "Natural Resources Canada": 44,
+    "Department of Fisheries and Oceans": 44,
+    "Bank of Canada": 18,
+    "Statistics Canada": 17,
+    "Library and Archives Canada": 16,
+    "Department of Justice Canada": 11,
+    "Canadian Museum of Civilization": 7,
+    "Government of Canada": 5,
+    "Federal Court of Canada": 4,
+    "Canadian Space Agency": 4,
+    "National Research Council (SSC)": 2,
+    "Finance Canada": 2,
+    "Employment and Immigration Canada": 1,
+    "Institute for Biodiagnostics": 1
+  },
+  "by_wiki": {
+    "enwiki": 2262,
+    "wikidatawiki": 248,
+    "frwiki": 180,
+    "commonswiki": 5,
+    "enwiktionary": 5,
+    "enwikivoyage": 2
+  },
+  "by_month": {
+    "2019-01": 236,
+    "2019-02": 178,
+    "2019-03": 219,
+    "2019-04": 154,
+    "2019-05": 237,
+    "2019-06": 165,
+    "2019-07": 406,
+    "2019-08": 337,
+    "2019-09": 158,
+    "2019-10": 214,
+    "2019-11": 186,
+    "2019-12": 212
+  },
+  "top_pages": [
+    {
+      "wiki": "enwiki",
+      "title": "2019–20 Montreal Canadiens season",
+      "edits": 69
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of ambassadors and high commissioners of Canada",
+      "edits": 48
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Judd Apatow",
+      "edits": 45
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q66725442",
+      "edits": 33
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Daytime (Canadian talk show)",
+      "edits": 27
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q64584861",
+      "edits": 27
+    },
+    {
+      "wiki": "enwiki",
+      "title": "90 Day Fiancé",
+      "edits": 25
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Jim Bob Duggar",
+      "edits": 24
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Strathroy Rockets",
+      "edits": 19
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q54358450",
+      "edits": 18
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Ryan Adams",
+      "edits": 17
+    },
+    {
+      "wiki": "enwiki",
+      "title": "CEGEP",
+      "edits": 13
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q63159785",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "James Cooper Morton",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Lobster roll",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Ryan Rozicki",
+      "edits": 9
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Raymonde Saint-Germain",
+      "edits": 9
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q21608819",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Master warrant officer",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Royal Canadian Hussars",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Noble Villeneuve",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of fatal dog attacks in Canada",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "USS John S. McCain and Alnic MC collision",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Saskatchewan",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Northwest Territories",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Coast Guard",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "19 Kids and Counting",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Treaty Three Police Service",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Fred Page Cup",
+      "edits": 7
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q5300478",
+      "edits": 7
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Wikidata:Requests for deletions",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Provinces and territories of Canada",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2013–14 Montreal Canadiens season",
+      "edits": 7
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q21395813",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Chris Johnson (boxer)",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Erik Karlsson",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Little Dog (TV series)",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "3 Military Police Regiment (Canada)",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Marial Shayok",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Neo-prog",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Chief William Commanda Bridge",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Dauphiné",
+      "edits": 6
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q21338920",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Mesenchymal stem cell",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "The Detectives (2018 TV series)",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Uniforms of the Canadian Armed Forces",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Smoke DZA discography",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Sleepless (2017 film)",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Bureau of Pensions Advocates",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Barclay Goodrow",
+      "edits": 5
+    }
+  ],
+  "top_pages_by_label": {
+    "Canadian Department of National Defence": {
+      "Judd Apatow": 45,
+      "Ryan Adams": 17,
+      "Q63159785": 13,
+      "Ryan Rozicki": 9,
+      "Master warrant officer": 9,
+      "USS John S. McCain and Alnic MC collision": 7,
+      "Little Dog (TV series)": 6,
+      "3 Military Police Regiment (Canada)": 6,
+      "Marial Shayok": 6,
+      "Uniforms of the Canadian Armed Forces": 5
+    },
+    "Canadian Broadcasting Corporation": {
+      "Q66725442": 33,
+      "Daytime (Canadian talk show)": 27,
+      "Q64584861": 27,
+      "Q54358450": 18,
+      "Q5300478": 7,
+      "Wikidata:Requests for deletions": 7,
+      "The Detectives (2018 TV series)": 6,
+      "Q4917703": 5,
+      "Zarley Zalapski": 4,
+      "Bob Zimmer": 4
+    },
+    "Shared Services Canada": {
+      "2019–20 Montreal Canadiens season": 69,
+      "List of ambassadors and high commissioners of Canada": 48,
+      "90 Day Fiancé": 25,
+      "Jim Bob Duggar": 24,
+      "Strathroy Rockets": 19,
+      "CEGEP": 13,
+      "Lobster roll": 9,
+      "List of fatal dog attacks in Canada": 8,
+      "Saskatchewan": 7,
+      "Northwest Territories": 7
+    },
+    "Industry Canada": {
+      "James Cooper Morton": 12,
+      "Avocation": 3,
+      "Anastasia Lin": 2,
+      "Mud (disambiguation)": 2,
+      "Bakersfield, California": 2,
+      "WestJet Encore": 1,
+      "Borden Lake mine": 1,
+      "Digital health": 1,
+      "Susan Scherer": 1,
+      "Tsawwassen First Nation": 1
+    },
+    "Environment Canada": {
+      "Sleepless (2017 film)": 5,
+      "Indigenous land claims in Canada": 5,
+      "Space-based measurements of carbon dioxide": 5,
+      "Lincoln–Douglas debate format": 3,
+      "Ng (name)": 3,
+      "Liste des personnages des Simpson": 2,
+      "Leona Aglukkaq": 2,
+      "Q13078381": 2,
+      "Q7531629": 2,
+      "Iroquois Dam": 2
+    },
+    "National Research Council": {
+      "Neo-prog": 6,
+      "Rankings of universities in Canada": 4,
+      "ThinkPad": 3,
+      "Q1238107": 2,
+      "National Research Council Canada": 2,
+      "FlexAID": 2,
+      "Hubble Space Telescope": 2,
+      "List of electric cars currently available": 2,
+      "Canadian Ski Patrol": 2,
+      "John J. Kavelaars": 2
+    },
+    "Shared Services Canada network (AS2675)": {
+      "Ryan Zinke": 4,
+      "List of population centres in Manitoba": 3,
+      "Jamaica men's national ice hockey team": 3,
+      "Stuart Thompson (curler)": 2,
+      "List of largest biomedical companies by revenue": 2,
+      "Royal Canadian Mounted Police": 2,
+      "Q36176990": 2,
+      "Vancouver Police Department": 1,
+      "Fort Qu'Appelle": 1,
+      "Rochfort Bridge": 1
+    },
+    "Natural Resources Canada": {
+      "Chris Johnson (boxer)": 7,
+      "Baffin Mountains": 3,
+      "Geology of Nunavut": 3,
+      "Ancaster, Ontario": 2,
+      "Under-Secretary-General of the United Nations": 1,
+      "Mike Oldfield": 1,
+      "Rhoiteion": 1,
+      "Seminole Wars": 1,
+      "Lefkandi": 1,
+      "Talk:FFC Cambridge process": 1
+    },
+    "Shared Services Canada network (AS2665)": {
+      "Q21608819": 9,
+      "Q21395813": 7,
+      "Q21338920": 6,
+      "Q18986242": 4,
+      "Q3061380": 4,
+      "Q1124975": 3,
+      "Flora Lapponica": 2,
+      "Precision agriculture": 2,
+      "Q3082749": 2,
+      "Q5668680": 2
+    },
+    "Canadian House of Commons": {
+      "Raymonde Saint-Germain": 9,
+      "Noble Villeneuve": 8,
+      "Results of the 2019 Canadian federal election by riding": 5,
+      "Alupa Clarke": 4,
+      "Robert-Falcon Ouellette": 4,
+      "Tom Kmiec": 4,
+      "Match Panda": 3,
+      "Cheryl Hardcastle": 3,
+      "Patricia Bovey": 3,
+      "Shannon Stubbs": 3
+    },
+    "Canadian Museum of Civilization": {
+      "Greco-Buddhist art": 1,
+      "Expédition canadienne dans l'arctique": 1,
+      "Caste": 1,
+      "Montréal": 1,
+      "Royal Heraldry Society of Canada": 1,
+      "Borden System": 1,
+      "History of the Royal Canadian Air Force": 1
+    },
+    "National Research Council (SSC)": {
+      "FN BRG-15": 1,
+      "Ottawa Macdonald–Cartier International Airport": 1
+    },
+    "Department of Fisheries and Oceans": {
+      "Royal Canadian Hussars": 8,
+      "Cape-class motor lifeboat": 5,
+      "Arthur Spooner": 4,
+      "The Shallows (film)": 2,
+      "Laurence Vincent-Lapointe": 2,
+      "Prosopagnosia": 2,
+      "Canadian Coast Guard": 2,
+      "Latin hypercube sampling": 1,
+      "Liste d'écrivains de langue française par année de naissance": 1,
+      "Boeing 737 MAX": 1
+    },
+    "Department of Justice Canada": {
+      "SAP Graphical User Interface": 1,
+      "Comparison of American and Canadian football": 1,
+      "Elspeth": 1,
+      "Talk:Bilderberg Meeting": 1,
+      "Brooke Lynn Hytes": 1,
+      "Sorry Not Sorry (Demi Lovato song)": 1,
+      "Mount Terror (Antarctica)": 1,
+      "Kinngait": 1,
+      "Lions–Packers rivalry": 1,
+      "The quick brown fox jumps over the lazy dog": 1
+    },
+    "Government of Canada": {
+      "Marist School (Marikina)": 4,
+      "Plain English": 1
+    },
+    "Bank of Canada": {
+      "Ruth Ellen Brosseau": 3,
+      "Lower Town": 2,
+      "Network access control": 1,
+      "Necktie": 1,
+      "Chasse-galerie": 1,
+      "Campo Santo (company)": 1,
+      "LaRouche movement": 1,
+      "Shanghai Jiao Tong University": 1,
+      "Basel Committee on Banking Supervision": 1,
+      "Button football": 1
+    },
+    "Federal Court of Canada": {
+      "Supreme Court of Canada": 2,
+      "Félix Auger-Aliassime": 1,
+      "Talk:Browne v Dunn": 1
+    },
+    "Library and Archives Canada": {
+      "File:Royal Proclamation of 1763.jpg": 2,
+      "Q32979516": 2,
+      "Louise Arbour": 1,
+      "List of foreign recipients of the Ordre des Palmes Académiques": 1,
+      "List of members of the Ordre des Arts et des Lettres": 1,
+      "Paul Vermeersch": 1,
+      "Second petit déjeuner": 1,
+      "Aaron Chapman (politician)": 1,
+      "Medal of Honor (série de jeux vidéo)": 1,
+      "Collège Sainte-Marie de Montréal": 1
+    },
+    "Statistics Canada": {
+      "Charles-Henri Sanson": 2,
+      "Discrimination linguistique": 2,
+      "Maru-Gurjara architecture": 2,
+      "Bubble tea": 2,
+      "Thomas Pope (Canadian politician)": 1,
+      "Saginaw Spirit": 1,
+      "Cody Eakin": 1,
+      "Search algorithm": 1,
+      "Reference counting": 1,
+      "List of post-nominal letters (Canada)": 1
+    },
+    "Canadian Space Agency": {
+      "Apostles in the New Testament": 2,
+      "RADARSAT Constellation": 1,
+      "Zero-point energy": 1
+    },
+    "Finance Canada": {
+      "MacOS Catalina": 1,
+      "Discussion:Concino Concini": 1
+    },
+    "Employment and Immigration Canada": {
+      "NET": 1
+    },
+    "Institute for Biodiagnostics": {
+      "Gabrielle Papillon": 1
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "enwiki": "2019-12-31T21:22:28Z",
+    "frwiki": "2019-12-30T17:52:42Z",
+    "wikidatawiki": "2019-12-31T15:01:59Z",
+    "commonswiki": "2019-11-20T18:34:08Z",
+    "enwiktionary": "2019-10-02T12:55:29Z",
+    "enwikivoyage": "2019-09-12T21:53:43Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-11-03T23:56:39Z",
+      "window": [
+        "2019-01-01T00:00:00Z",
+        "2019-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 2262
+    },
+    "frwiki": {
+      "scanned_at": "2026-11-03T23:57:09Z",
+      "window": [
+        "2019-01-01T00:00:00Z",
+        "2019-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 180
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-11-03T23:58:04Z",
+      "window": [
+        "2019-01-01T00:00:00Z",
+        "2019-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 248
+    },
+    "commonswiki": {
+      "scanned_at": "2026-11-03T23:58:30Z",
+      "window": [
+        "2019-01-01T00:00:00Z",
+        "2019-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 5
+    },
+    "enwiktionary": {
+      "scanned_at": "2026-11-03T23:59:23Z",
+      "window": [
+        "2019-01-01T00:00:00Z",
+        "2019-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 5
+    },
+    "enwikivoyage": {
+      "scanned_at": "2026-11-04T00:00:08Z",
+      "window": [
+        "2019-01-01T00:00:00Z",
+        "2019-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 2
+    }
+  }
+}
