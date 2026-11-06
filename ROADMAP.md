@@ -5,6 +5,7 @@ Status as of 2026-10-27 (v1.2.0). Items move to the [changelog](CHANGELOG.md) wh
 ## Now
 - [x] 2025 backfill (en/fr Wikipedia, Wikidata, Commons)
 - [x] 2024 backfill
+- [x] 2018 backfill
 - [x] 2019 backfill
 - [x] 2020 backfill
 - [x] 2021 backfill
