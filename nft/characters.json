@@ -1,0 +1,29 @@
+{
+  "_note": "Fictional composite characters keyed by network exit address. Satire: a character stands for a shared gateway, never a real person. The address itself is never written on-chain or into card metadata.",
+  "characters": {
+    "205.193.239.44": "The Gunner",
+    "205.193.239.76": "The Gunner",
+    "131.137.245.206": "The Gunner (Classic Era)",
+    "131.137.245.207": "The Gunner (Classic Era)",
+    "131.137.245.208": "The Gunner (Classic Era)",
+    "131.137.245.209": "The Gunner (Classic Era)",
+    "205.194.127.36": "The Commissioner of Kayfabe",
+    "198.103.184.76": "The Qualifier",
+    "205.193.40.5": "Captain Roster",
+    "198.103.249.201": "Le Correcteur",
+    "198.103.108.132": "The Scandal Eraser",
+    "198.103.167.20": "The Casting Director",
+    "205.193.94.40": "The Annexation Watcher",
+    "198.103.196.150": "The Heritage Moment"
+  },
+  "by_label": {
+    "Canadian House of Commons": "The Wreck Diver of Parliament Hill",
+    "Canadian Broadcasting Corporation": "The Night Desk",
+    "Canadian Department of National Defence": "The Gunner (Classic Era)",
+    "Environment Canada": "The Forecaster",
+    "Statistics Canada": "The Census Taker",
+    "Industry Canada": "The Industrialist",
+    "National Research Council": "The Lab Coat"
+  },
+  "default": "An Anonymous Public Servant"
+}

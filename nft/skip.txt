@@ -1,0 +1,2 @@
+# Edits never turned into cards. One per line: <wiki>|<revid>  or  <wiki>|page:<Page title>
+# Use this for anything that could single out a real person or a small office.

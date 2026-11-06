@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 web/*.db
 web/*.building
+nft/mint/node_modules/

@@ -1,0 +1,78 @@
+name: NFT collection (satire)
+
+# Nothing mints until you add the SOLANA_KEYPAIR secret, set base_url in
+# nft/config.json, and run this workflow. Daily automatic minting is off until
+# you set the repository variable NFT_AUTOMINT to "true" (and NFT_CLUSTER to
+# devnet or mainnet-beta).
+
+on:
+  schedule:
+    - cron: "41 15 * * *"   # daily, after the watcher
+  workflow_dispatch:
+    inputs:
+      cluster:
+        description: "devnet (free test network) or mainnet-beta (real)"
+        type: choice
+        options: [devnet, mainnet-beta]
+        default: devnet
+      action:
+        description: "setup (once per cluster: collection + tree) or mint"
+        type: choice
+        options: [mint, setup]
+        default: mint
+      limit:
+        description: "Max cards to mint this run"
+        default: "400"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wikisscbot-nft
+  cancel-in-progress: false
+
+jobs:
+  nft:
+    if: github.event_name == 'workflow_dispatch' || vars.NFT_AUTOMINT == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      SOLANA_CLUSTER: ${{ github.event.inputs.cluster || vars.NFT_CLUSTER || 'devnet' }}
+      ACTION: ${{ github.event.inputs.action || 'mint' }}
+      LIMIT: ${{ github.event.inputs.limit || '400' }}
+      SOLANA_KEYPAIR: ${{ secrets.SOLANA_KEYPAIR }}
+      SOLANA_RPC_URL: ${{ secrets.SOLANA_RPC_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Start from the latest main
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build cards (registry + docs/nft)
+        run: python nft/cards.py "$LIMIT"
+      - name: Install mint tools
+        working-directory: nft/mint
+        run: npm install --no-audit --no-fund
+      - name: Setup collection and tree
+        if: env.ACTION == 'setup'
+        working-directory: nft/mint
+        run: node setup.mjs
+      - name: Mint
+        if: env.ACTION == 'mint'
+        working-directory: nft/mint
+        run: node mint.mjs "$LIMIT"
+      - name: Commit ledger, state and card files
+        if: always()
+        run: |
+          git config user.name "wikisscbot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add nft/registry.jsonl nft/state.*.json nft/minted.*.jsonl docs/nft 2>/dev/null || true
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "NFT $SOLANA_CLUSTER $ACTION: $(cat nft/minted.$SOLANA_CLUSTER.jsonl 2>/dev/null | wc -l) minted"
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 20; done

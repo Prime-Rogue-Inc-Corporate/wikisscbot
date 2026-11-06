@@ -1,0 +1,17 @@
+{
+  "name": "wikisscbot-nft",
+  "private": true,
+  "type": "module",
+  "description": "Mints the satirical GC Wiki Edits collection as compressed NFTs on Solana (Metaplex Bubblegum v2).",
+  "scripts": {
+    "setup": "node setup.mjs",
+    "mint": "node mint.mjs",
+    "check": "node --check common.mjs && node --check setup.mjs && node --check mint.mjs"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-bubblegum": "6.0.0",
+    "@metaplex-foundation/mpl-core": "1.10.0",
+    "@metaplex-foundation/umi": "1.6.0",
+    "@metaplex-foundation/umi-bundle-defaults": "1.6.0"
+  }
+}
