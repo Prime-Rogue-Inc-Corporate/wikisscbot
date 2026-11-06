@@ -29,7 +29,7 @@ The **NFT collection** workflow runs all three on GitHub Actions and commits the
 
 ## Setup
 
-1. **Wallet.** Make a new wallet used only for this, e.g. `solana-keygen new -o gcedit.json`, or export a fresh Phantom account. Add the secret key (the JSON array of 64 numbers) as the repository secret **`SOLANA_KEYPAIR`**. Never reuse a wallet that holds anything else.
+1. **Wallet.** Make a new wallet used only for this, e.g. `solana-keygen new -o gcedit.json`, or export a fresh Phantom account. Add the secret key (the JSON array from `solana-keygen`, or the base58 string Phantom exports) as the repository secret **`SOLANA_KEYPAIR`**. Never reuse a wallet that holds anything else.
 2. **Base URL.** Set `base_url` in `nft/config.json` to where `docs/nft/` is published, e.g. `https://yourdomain/nft`. Minting refuses to run while it says `YOUR-DOMAIN`.
 3. **Try devnet first.** Fund the wallet with free devnet SOL (faucet.solana.com). Run the workflow with *cluster: devnet, action: setup*, then *action: mint, limit: 20*, and check the cards on the Solana Explorer links in the log.
 4. **Mainnet.** Send ~1 SOL to the wallet (tree rent plus fees for the whole archive with room to spare). Run *mainnet-beta / setup* once, then *mint* in batches. 400 per run is the default; the archive is ~13,500 cards, so about 34 runs.

@@ -3,14 +3,16 @@
 // Environment:
 //   SOLANA_CLUSTER   devnet (default) or mainnet-beta
 //   SOLANA_RPC_URL   optional RPC endpoint (defaults to the public one for the cluster)
-//   SOLANA_KEYPAIR   the minting wallet's secret key as a JSON array of 64 numbers
-//                    (the format `solana-keygen` writes). Keep it in a GitHub secret.
+//   SOLANA_KEYPAIR   the minting wallet's secret key: a JSON array of 64 numbers (what
+//                    `solana-keygen` writes) or a base58 string (what Phantom exports).
+//                    Keep it in a GitHub secret.
 
 import { readFileSync, writeFileSync, existsSync, appendFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createUmi } from "@metaplex-foundation/umi-bundle-defaults";
 import { keypairIdentity } from "@metaplex-foundation/umi";
+import { base58 } from "@metaplex-foundation/umi/serializers";
 import { mplBubblegum } from "@metaplex-foundation/mpl-bubblegum";
 import { mplCore } from "@metaplex-foundation/mpl-core";
 
@@ -30,9 +32,12 @@ export const LEDGER_PATH = join(NFT, `minted.${CLUSTER}.jsonl`);
 
 export function makeUmi() {
   const raw = process.env.SOLANA_KEYPAIR;
-  if (!raw) throw new Error("SOLANA_KEYPAIR is not set (JSON array of the wallet's 64-byte secret key)");
+  if (!raw) throw new Error("SOLANA_KEYPAIR is not set");
+  const trimmed = raw.trim();
+  const secret = trimmed.startsWith("[") ? new Uint8Array(JSON.parse(trimmed)) : base58.serialize(trimmed);
+  if (secret.length !== 64) throw new Error(`SOLANA_KEYPAIR must decode to 64 bytes, got ${secret.length}`);
   const umi = createUmi(process.env.SOLANA_RPC_URL || DEFAULT_RPC[CLUSTER]).use(mplBubblegum()).use(mplCore());
-  const kp = umi.eddsa.createKeypairFromSecretKey(new Uint8Array(JSON.parse(raw)));
+  const kp = umi.eddsa.createKeypairFromSecretKey(secret);
   umi.use(keypairIdentity(kp));
   return umi;
 }
