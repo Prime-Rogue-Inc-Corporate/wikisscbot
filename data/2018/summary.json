@@ -1,0 +1,613 @@
+{
+  "generated": "2026-11-06T09:47:14Z",
+  "total_edits": 3704,
+  "unique_ips": 160,
+  "by_label": {
+    "Shared Services Canada": 2210,
+    "Canadian Department of National Defence": 634,
+    "Canadian House of Commons": 178,
+    "Environment Canada": 129,
+    "Industry Canada": 91,
+    "Canadian Broadcasting Corporation": 86,
+    "Shared Services Canada network (AS2665)": 70,
+    "National Research Council": 53,
+    "Natural Resources Canada": 52,
+    "Shared Services Canada network (AS2675)": 33,
+    "Statistics Canada": 32,
+    "Library and Archives Canada": 31,
+    "Department of Fisheries and Oceans": 29,
+    "Department of Justice Canada": 18,
+    "Canadian Museum of Civilization": 17,
+    "Bank of Canada": 16,
+    "Canadian Space Agency": 7,
+    "National Research Council (UBC)": 5,
+    "Institute for Biodiagnostics": 4,
+    "Finance Canada": 3,
+    "Federal Court of Canada": 3,
+    "Government of Canada": 2,
+    "Transport Canada": 1
+  },
+  "by_wiki": {
+    "enwiki": 3315,
+    "frwiki": 320,
+    "wikidatawiki": 30,
+    "enwikivoyage": 27,
+    "enwiktionary": 7,
+    "commonswiki": 5
+  },
+  "by_month": {
+    "2018-01": 317,
+    "2018-02": 451,
+    "2018-03": 435,
+    "2018-04": 617,
+    "2018-05": 351,
+    "2018-06": 239,
+    "2018-07": 314,
+    "2018-08": 276,
+    "2018-09": 198,
+    "2018-10": 196,
+    "2018-11": 162,
+    "2018-12": 148
+  },
+  "top_pages": [
+    {
+      "wiki": "enwiki",
+      "title": "2017 European Curling Championships",
+      "edits": 89
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2017–18 Olympique de Marseille season",
+      "edits": 76
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2018 World Women's Curling Championship",
+      "edits": 60
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2018 World Mixed Doubles Curling Championship",
+      "edits": 60
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2018 World Junior Curling Championships",
+      "edits": 44
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Black Nova Scotians",
+      "edits": 26
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of Indian reserves in Canada by population",
+      "edits": 22
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2010 European Curling Championships – Men's tournament",
+      "edits": 21
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Graham Fraser",
+      "edits": 20
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Coalition Avenir Québec",
+      "edits": 19
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2017 World Mixed Doubles Curling Championship",
+      "edits": 19
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Thaidene Nëné National Park Reserve",
+      "edits": 19
+    },
+    {
+      "wiki": "enwiki",
+      "title": "North Preston",
+      "edits": 18
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Jane and Finch",
+      "edits": 17
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Uniacke Square",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "65th Infantry Division (Wehrmacht)",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2010 Newfoundland and Labrador Scotties Tournament of Hearts",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2009 World Men's Curling Championship",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of My Hero Academia chapters",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Official Languages Act (Canada)",
+      "edits": 14
+    },
+    {
+      "wiki": "frwiki",
+      "title": "2e Division du Canada",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Mongolia's Next Top Model season 1",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Amber Valley, Alberta",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2018 Quebec Scotties Tournament of Hearts",
+      "edits": 12
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Raymond Théberge",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Black Canadians",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2009 European Curling Championships",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Victor Goldbloom",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "19 Kids and Counting",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Curling at the 2018 Winter Olympics – Men's tournament",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "HMCS Ville de Québec (FFH 332)",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Names of the British Isles",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Chłędowski coat of arms",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian weather radar network",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2018 World Senior Curling Championships",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of My Hero Academia episodes",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "CFB Halifax",
+      "edits": 10
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Université Lakehead",
+      "edits": 10
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Garnett Genuis",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Public recursive name server",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2010 European Curling Championships – Women's tournament",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2018 Canadian Mixed Doubles Curling Championship",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Royal Canadian Mounted Police",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2018–19 Olympique de Marseille season",
+      "edits": 9
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Charles Bowman",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Koh-Lanta: Fidji",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Curling at the 2018 Winter Olympics – Women's tournament",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Dyane Adam",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2018 World Men's Curling Championship",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Friends of Canadian Media",
+      "edits": 8
+    }
+  ],
+  "top_pages_by_label": {
+    "Shared Services Canada": {
+      "2017 European Curling Championships": 89,
+      "2018 World Women's Curling Championship": 60,
+      "2018 World Mixed Doubles Curling Championship": 60,
+      "2018 World Junior Curling Championships": 44,
+      "Black Nova Scotians": 26,
+      "List of Indian reserves in Canada by population": 22,
+      "2010 European Curling Championships – Men's tournament": 21,
+      "Graham Fraser": 20,
+      "Coalition Avenir Québec": 19,
+      "2017 World Mixed Doubles Curling Championship": 19
+    },
+    "Library and Archives Canada": {
+      "Guy Berthiaume": 6,
+      "List of web archiving initiatives": 2,
+      "President of the King's Privy Council for Canada": 2,
+      "File:3rd Canadian Division vehicles advancing during Operation Tractable August 1944.jpg": 2,
+      "Air Canada": 2,
+      "L'Île-du-Grand-Calumet": 1,
+      "Campbell's Bay, Quebec": 1,
+      "Waltham, Quebec": 1,
+      "Litchfield, Quebec": 1,
+      "Clarendon, Quebec": 1
+    },
+    "National Research Council": {
+      "Maunakea Spectroscopic Explorer": 5,
+      "National Research Council Canada": 4,
+      "Phase-locked loop": 3,
+      "EGS (program)": 2,
+      "Q1238107": 2,
+      "Mount Kobau National Observatory": 2,
+      "NGC 4103": 2,
+      "Molecular-beam epitaxy": 2,
+      "Versification française": 2,
+      "International Union of Pure and Applied Chemistry": 2
+    },
+    "Environment Canada": {
+      "Canadian weather radar network": 10,
+      "2018 IIHF World Championship rosters": 5,
+      "Population of Canada by province and territory": 4,
+      "Saskatchewan": 4,
+      "Charlottetown": 4,
+      "FC Gatineau": 4,
+      "British Columbia": 3,
+      "Alberta": 3,
+      "Manitoba": 3,
+      "Yukon": 3
+    },
+    "Shared Services Canada network (AS2675)": {
+      "Royal Canadian Mounted Police": 9,
+      "Wadena, Saskatchewan": 5,
+      "New Japan Pro-Wrestling": 2,
+      "Embrun (Ontario)": 1,
+      "Hinton, Alberta": 1,
+      "Wikipedia:Media copyright questions": 1,
+      "Ana Matronic": 1,
+      "Westlock": 1,
+      "Wikipedia:Help desk": 1,
+      "Shawinigan": 1
+    },
+    "Industry Canada": {
+      "Public recursive name server": 10,
+      "Competition Bureau": 5,
+      "Ministre de l'Identité et de la Culture canadiennes": 5,
+      "Charlie Montoyo": 5,
+      "Wesley Willis": 4,
+      "Maxime Talbot": 3,
+      "Galveston (song)": 2,
+      "Marina Bay Sands": 2,
+      "Railsea": 2,
+      "Anne-Marie Losique": 2
+    },
+    "Canadian House of Commons": {
+      "Garnett Genuis": 16,
+      "Friends of Canadian Media": 8,
+      "Karen Ludwig (politician)": 6,
+      "Chambre des communes du Canada": 5,
+      "Matthew Dubé": 4,
+      "Christine Moore": 4,
+      "Montcalm (circonscription fédérale)": 4,
+      "Repentigny (circonscription fédérale)": 4,
+      "Parliament Hill rehabilitation": 4,
+      "Alupa Clarke": 4
+    },
+    "Canadian Department of National Defence": {
+      "2017–18 Olympique de Marseille season": 76,
+      "65th Infantry Division (Wehrmacht)": 16,
+      "2e Division du Canada": 14,
+      "HMCS Ville de Québec (FFH 332)": 10,
+      "Chłędowski coat of arms": 10,
+      "CFB Halifax": 10,
+      "2018–19 Olympique de Marseille season": 9,
+      "Le Régiment de la Chaudière": 8,
+      "Canadian Special Operations Regiment": 6,
+      "18 Field Ambulance": 6
+    },
+    "Natural Resources Canada": {
+      "Vijay Sethupathi filmography": 7,
+      "Clean Energy Ministerial": 4,
+      "Minoan civilization": 3,
+      "Louis Sullivan": 2,
+      "Ammophila arenaria": 2,
+      "Akane no Mai": 2,
+      "Battle of Jumonville Glen": 2,
+      "Standard atmosphere (unit)": 1,
+      "Wikipedia:Sandbox": 1,
+      "Castlefrank Elementary School": 1
+    },
+    "Shared Services Canada network (AS2665)": {
+      "List of Andrena species": 4,
+      "Chrysodeixis chalcites": 3,
+      "The Dirty Nil": 3,
+      "Chrysodeixis eriosoma": 2,
+      "Maktupur": 2,
+      "Agriculture Union": 2,
+      "List of Canadian toponyms of Ukrainian origin": 2,
+      "History of Africa": 2,
+      "Asparagus beetle": 2,
+      "Shadow darner": 2
+    },
+    "Statistics Canada": {
+      "List of oil pipelines": 6,
+      "From First to Last": 2,
+      "2021 Canadian census": 2,
+      "Dylan Thomas": 2,
+      "Shirou Emiya": 2,
+      "Français québécois": 1,
+      "Cluster analysis": 1,
+      "Gabe Mantle": 1,
+      "Theo Goutzinakis": 1,
+      "Krewella": 1
+    },
+    "Government of Canada": {
+      "Sir Robert Borden High School": 1,
+      "Talk:Tim Gleason": 1
+    },
+    "Canadian Broadcasting Corporation": {
+      "Exhibitionists (TV series)": 7,
+      "NHL on Sportsnet": 6,
+      "CBC Arts": 5,
+      "Filipino Canadians": 4,
+      "Twix": 4,
+      "Brenda Irving": 3,
+      "Stephen Leacock Collegiate Institute": 3,
+      "Gilmore Junio": 2,
+      "Anastasia Bucsis": 2,
+      "Michael Pollan": 2
+    },
+    "Department of Fisheries and Oceans": {
+      "William Kaplan": 8,
+      "Oshawa Seamount": 3,
+      "Guinguette": 1,
+      "John Cena": 1,
+      "CCGS Sir Humphrey Gilbert": 1,
+      "List of Sumerian Records artists": 1,
+      "Talk:Madeleine L'Engle": 1,
+      "Rosario Strait": 1,
+      "Cook Ice Shelf": 1,
+      "Eosalmo": 1
+    },
+    "Finance Canada": {
+      "Conseil de la radiodiffusion et des télécommunications canadiennes": 2,
+      "Maurice Paquin": 1
+    },
+    "Transport Canada": {
+      "Réseau routier": 1
+    },
+    "Canadian Museum of Civilization": {
+      "HMS Terror (1813)": 2,
+      "Waltham Watch Company": 2,
+      "User talk:The Raven's Librarian": 1,
+      "Viola Desmond": 1,
+      "Discussion:Joe Dassin": 1,
+      "List of Canadian Victoria Cross recipients": 1,
+      "Fort Severn First Nation": 1,
+      "David Thomson (entrepreneur)": 1,
+      "Au pays de Fanfreluche": 1,
+      "Luck Mervil": 1
+    },
+    "Department of Justice Canada": {
+      "Abousfian Abdelrazik": 6,
+      "Official Languages Act (Canada)": 2,
+      "Sarah Thomson (publisher)": 1,
+      "File:Violet Pauline King Henry.jpg": 1,
+      "Director of public prosecutions": 1,
+      "Pigeon post": 1,
+      "C. William Doody": 1,
+      "Victorian Certificate of Applied Learning": 1,
+      "Stonewall, Manitoba": 1,
+      "Court of King's Bench of Alberta": 1
+    },
+    "Bank of Canada": {
+      "The Return of Doctor Mysterio": 2,
+      "Dunkirk (2017 film)": 2,
+      "Graham Chapman": 1,
+      "Special drawing rights": 1,
+      "Kitchen Meeting": 1,
+      "Choi Soon-sil": 1,
+      "Wye Oak": 1,
+      "Sept-Îles": 1,
+      "с": 1,
+      "Jennifer Keesmaat": 1
+    },
+    "Canadian Space Agency": {
+      "RADARSAT Constellation": 3,
+      "2019 World Junior Ice Hockey Championships": 3,
+      "Radarsat-2": 1
+    },
+    "Federal Court of Canada": {
+      "Laura Lippman": 2,
+      "Laurier Québec": 1
+    },
+    "National Research Council (UBC)": {
+      "Gronant": 4,
+      "University of British Columbia": 1
+    },
+    "Institute for Biodiagnostics": {
+      "Teledyne FLIR": 4
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "enwiki": "2018-12-31T15:27:40Z",
+    "enwikivoyage": "2018-06-20T17:09:28Z",
+    "wikidatawiki": "2018-09-06T12:16:57Z",
+    "frwiki": "2018-12-17T21:35:53Z",
+    "commonswiki": "2018-11-15T20:54:04Z",
+    "enwiktionary": "2018-06-08T10:24:45Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-11-06T09:43:47Z",
+      "window": [
+        "2018-01-01T00:00:00Z",
+        "2018-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 3315
+    },
+    "frwiki": {
+      "scanned_at": "2026-11-06T09:44:14Z",
+      "window": [
+        "2018-01-01T00:00:00Z",
+        "2018-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 320
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-11-06T09:45:08Z",
+      "window": [
+        "2018-01-01T00:00:00Z",
+        "2018-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 30
+    },
+    "commonswiki": {
+      "scanned_at": "2026-11-06T09:45:28Z",
+      "window": [
+        "2018-01-01T00:00:00Z",
+        "2018-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 5
+    },
+    "enwiktionary": {
+      "scanned_at": "2026-11-06T09:46:20Z",
+      "window": [
+        "2018-01-01T00:00:00Z",
+        "2018-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 7
+    },
+    "enwikivoyage": {
+      "scanned_at": "2026-11-06T09:47:14Z",
+      "window": [
+        "2018-01-01T00:00:00Z",
+        "2018-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 27
+    }
+  }
+}

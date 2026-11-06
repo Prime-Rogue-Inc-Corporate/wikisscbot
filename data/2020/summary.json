@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04T00:12:06Z",
+  "generated": "2026-11-06T10:04:08Z",
   "total_edits": 1518,
   "unique_ips": 100,
   "by_label": {
@@ -490,78 +490,78 @@
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-11-04T00:08:21Z",
+      "scanned_at": "2026-11-06T10:00:17Z",
       "window": [
         "2020-01-01T00:00:00Z",
         "2020-12-31T23:59:59Z"
       ],
-      "blocks_total": 146,
-      "blocks_scanned": 146,
+      "blocks_total": 149,
+      "blocks_scanned": 149,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 1425
     },
     "frwiki": {
-      "scanned_at": "2026-11-04T00:09:08Z",
+      "scanned_at": "2026-11-06T10:01:09Z",
       "window": [
         "2020-01-01T00:00:00Z",
         "2020-12-31T23:59:59Z"
       ],
-      "blocks_total": 146,
-      "blocks_scanned": 146,
+      "blocks_total": 149,
+      "blocks_scanned": 149,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 53
     },
     "wikidatawiki": {
-      "scanned_at": "2026-11-04T00:10:02Z",
+      "scanned_at": "2026-11-06T10:02:02Z",
       "window": [
         "2020-01-01T00:00:00Z",
         "2020-12-31T23:59:59Z"
       ],
-      "blocks_total": 146,
-      "blocks_scanned": 146,
+      "blocks_total": 149,
+      "blocks_scanned": 149,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 31
     },
     "commonswiki": {
-      "scanned_at": "2026-11-04T00:10:17Z",
+      "scanned_at": "2026-11-06T10:02:22Z",
       "window": [
         "2020-01-01T00:00:00Z",
         "2020-12-31T23:59:59Z"
       ],
-      "blocks_total": 146,
-      "blocks_scanned": 146,
+      "blocks_total": 149,
+      "blocks_scanned": 149,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 3
     },
     "enwiktionary": {
-      "scanned_at": "2026-11-04T00:11:12Z",
+      "scanned_at": "2026-11-06T10:03:14Z",
       "window": [
         "2020-01-01T00:00:00Z",
         "2020-12-31T23:59:59Z"
       ],
-      "blocks_total": 146,
-      "blocks_scanned": 146,
+      "blocks_total": 149,
+      "blocks_scanned": 149,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 6
     },
     "enwikivoyage": {
-      "scanned_at": "2026-11-04T00:12:06Z",
+      "scanned_at": "2026-11-06T10:04:08Z",
       "window": [
         "2020-01-01T00:00:00Z",
         "2020-12-31T23:59:59Z"
       ],
-      "blocks_total": 146,
-      "blocks_scanned": 146,
+      "blocks_total": 149,
+      "blocks_scanned": 149,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,

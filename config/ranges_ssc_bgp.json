@@ -1,12 +1,12 @@
 {
   "source": "RIPEstat announced-prefixes",
-  "since": "2019-01-01T00:00",
-  "fetched": "2026-11-03T23:56:08Z",
+  "since": "2018-01-01T00:00",
+  "fetched": "2026-11-06T09:43:09Z",
   "counts_by_asn": {
     "2665": 279,
-    "2675": 367,
-    "2682": 9,
-    "25689": 45,
+    "2675": 368,
+    "2682": 10,
+    "25689": 50,
     "806": 25
   },
   "prefixes": [
@@ -102,6 +102,21 @@
     },
     {
       "prefix": "132.246.0.0/17",
+      "asn": 25689,
+      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+    },
+    {
+      "prefix": "132.246.2.0/24",
+      "asn": 25689,
+      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+    },
+    {
+      "prefix": "132.246.3.0/24",
+      "asn": 25689,
+      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+    },
+    {
+      "prefix": "132.246.11.0/24",
       "asn": 25689,
       "label": "Shared Services Canada network (AS25689, legacy NRC)"
     },
@@ -2026,6 +2041,11 @@
       "label": "Shared Services Canada network (AS2675)"
     },
     {
+      "prefix": "205.194.0.0/17",
+      "asn": 2675,
+      "label": "Shared Services Canada network (AS2675)"
+    },
+    {
       "prefix": "205.194.7.0/24",
       "asn": 2665,
       "label": "Shared Services Canada network (AS2665)"
@@ -2191,6 +2211,11 @@
       "label": "Shared Services Canada network (AS2665)"
     },
     {
+      "prefix": "205.194.255.0/24",
+      "asn": 2682,
+      "label": "Shared Services Canada network (AS2682)"
+    },
+    {
       "prefix": "205.211.132.0/24",
       "asn": 2675,
       "label": "Shared Services Canada network (AS2675)"
@@ -2204,6 +2229,16 @@
       "prefix": "205.211.134.0/24",
       "asn": 2675,
       "label": "Shared Services Canada network (AS2675)"
+    },
+    {
+      "prefix": "2001:410:9000::/42",
+      "asn": 25689,
+      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+    },
+    {
+      "prefix": "2001:410:9080::/42",
+      "asn": 25689,
+      "label": "Shared Services Canada network (AS25689, legacy NRC)"
     },
     {
       "prefix": "2001:1920::/32",
