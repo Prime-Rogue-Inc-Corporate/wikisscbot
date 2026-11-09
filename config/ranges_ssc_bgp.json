@@ -1,10 +1,10 @@
 {
   "source": "RIPEstat announced-prefixes",
-  "since": "2016-01-01T00:00",
-  "fetched": "2026-11-09T07:34:15Z",
+  "since": "2015-01-01T00:00",
+  "fetched": "2026-11-09T10:16:48Z",
   "counts_by_asn": {
-    "2665": 279,
-    "2675": 368,
+    "2665": 281,
+    "2675": 372,
     "2682": 10,
     "25689": 50,
     "806": 25
@@ -292,6 +292,21 @@
     },
     {
       "prefix": "167.32.0.0/17",
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
+    },
+    {
+      "prefix": "167.35.10.0/23",
+      "asn": 2675,
+      "label": "Shared Services Canada network (AS2675)"
+    },
+    {
+      "prefix": "167.35.10.0/24",
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
+    },
+    {
+      "prefix": "167.35.11.0/24",
       "asn": 2665,
       "label": "Shared Services Canada network (AS2665)"
     },
@@ -669,6 +684,11 @@
       "prefix": "192.197.77.0/24",
       "asn": 2665,
       "label": "Shared Services Canada network (AS2665)"
+    },
+    {
+      "prefix": "192.197.79.0/24",
+      "asn": 2675,
+      "label": "Shared Services Canada network (AS2675)"
     },
     {
       "prefix": "192.197.82.0/24",

@@ -1,0 +1,619 @@
+{
+  "generated": "2026-11-09T10:21:08Z",
+  "total_edits": 3733,
+  "unique_ips": 165,
+  "by_label": {
+    "Shared Services Canada": 1165,
+    "Environment Canada": 971,
+    "Canadian Department of National Defence": 765,
+    "Canadian Broadcasting Corporation": 155,
+    "Shared Services Canada network (AS2675)": 132,
+    "Canadian House of Commons": 131,
+    "Shared Services Canada network (AS2665)": 81,
+    "Natural Resources Canada": 72,
+    "National Research Council": 59,
+    "Industry Canada": 33,
+    "Library and Archives Canada": 32,
+    "Government of Canada": 30,
+    "Canadian Museum of Civilization": 21,
+    "Department of Justice Canada": 20,
+    "Department of Fisheries and Oceans": 20,
+    "Federal Court of Canada": 16,
+    "Statistics Canada": 12,
+    "Transport Canada": 8,
+    "Bank of Canada": 6,
+    "Finance Canada": 2,
+    "Canadian Space Agency": 2
+  },
+  "by_wiki": {
+    "enwiki": 2569,
+    "commonswiki": 627,
+    "frwiki": 502,
+    "enwikivoyage": 22,
+    "enwiktionary": 11,
+    "wikidatawiki": 2
+  },
+  "by_month": {
+    "2015-01": 243,
+    "2015-02": 308,
+    "2015-03": 286,
+    "2015-04": 292,
+    "2015-05": 449,
+    "2015-06": 346,
+    "2015-07": 302,
+    "2015-08": 329,
+    "2015-09": 267,
+    "2015-10": 265,
+    "2015-11": 287,
+    "2015-12": 359
+  },
+  "top_pages": [
+    {
+      "wiki": "enwiki",
+      "title": "HMCS Algonquin (DDG 283)",
+      "edits": 62
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Cadet Instructors Cadre",
+      "edits": 28
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Need for Speed",
+      "edits": 26
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Brioude",
+      "edits": 20
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Colt Canada C7",
+      "edits": 19
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Sherbrooke Hussars",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Royal Regina Rifles",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Milton line",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Steam Era",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Alberta Football League",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Skytone",
+      "edits": 15
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Eau précipitable",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Milton, Ontario",
+      "edits": 14
+    },
+    {
+      "wiki": "frwiki",
+      "title": "RETScreen",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "The Girls in the Office",
+      "edits": 12
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Charny (Lévis)",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Proaftn",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "South Stormont",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Commercial Corporation",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Super cup",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Ron Tugnutt",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Northern Breweries",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Disappearance of Johnny Gosch",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Gonzaga University",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Unpretty Rapstar season 1",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Royal Canadian Air Cadets",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "LeVar Burton",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Chiac",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Deborah Drever",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Fire Emblem Fates",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "401 Tactical Fighter Squadron",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Jim Slater (ice hockey)",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Raymond Grant, 11th Baron de Longueuil",
+      "edits": 8
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Marjolaine Boutin-Sweet",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Zoo Legacy",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of firearm brands",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Don Meredith (politician)",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "ATP Masters 1000 singles records and statistics",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Forensic accounting",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Names of Lithuanian places in other languages",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Dickie Moore (ice hockey)",
+      "edits": 7
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Éruption de tornades d'août 2005 en Ontario",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Patrick Brown (Canadian politician)",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Office of Religious Freedom",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Marasmius oreades",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "James Jauncey",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2015 ATP World Tour Finals",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "1 Service Battalion",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "The Sketchersons",
+      "edits": 6
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Relations entre la Russie et l'Ukraine",
+      "edits": 6
+    }
+  ],
+  "top_pages_by_label": {
+    "Shared Services Canada network (AS2675)": {
+      "Cadet Instructors Cadre": 27,
+      "Jim Slater (ice hockey)": 8,
+      "2015 ATP World Tour Finals": 6,
+      "Al Franken": 6,
+      "List of Alberta provincial ministers": 5,
+      "Mark Margolis": 3,
+      "Incubation period": 3,
+      "Marie-Josée Saint-Pierre": 3,
+      "Prejudice": 3,
+      "List of killings by law enforcement officers in Canada": 3
+    },
+    "Shared Services Canada": {
+      "Need for Speed": 26,
+      "Alberta Football League": 15,
+      "Skytone": 15,
+      "South Stormont": 12,
+      "Canadian Commercial Corporation": 12,
+      "Northern Breweries": 11,
+      "Disappearance of Johnny Gosch": 10,
+      "Gonzaga University": 10,
+      "Unpretty Rapstar season 1": 10,
+      "Royal Canadian Air Cadets": 9
+    },
+    "Canadian Department of National Defence": {
+      "HMCS Algonquin (DDG 283)": 62,
+      "Brioude": 20,
+      "Colt Canada C7": 19,
+      "Sherbrooke Hussars": 16,
+      "Royal Regina Rifles": 16,
+      "Charny (Lévis)": 12,
+      "Super cup": 11,
+      "LeVar Burton": 9,
+      "Fire Emblem Fates": 8,
+      "401 Tactical Fighter Squadron": 8
+    },
+    "Natural Resources Canada": {
+      "RETScreen": 13,
+      "Wolf Lake (Ontario)": 3,
+      "The Warehouse Studio": 3,
+      "History of democracy": 3,
+      "Ancaster, Ontario": 2,
+      "Carpenter Gothic": 2,
+      "Meen (band)": 2,
+      "Nerium": 1,
+      "Talk:Lays of Ancient Rome": 1,
+      "Le Hibou Coffee House": 1
+    },
+    "Canadian House of Commons": {
+      "Marjolaine Boutin-Sweet": 7,
+      "Patrick Brown (Canadian politician)": 6,
+      "Don Meredith (politician)": 6,
+      "Maurice Vellacott": 5,
+      "Deborah Drever": 5,
+      "Fin Donnelly": 3,
+      "Matthew Kellway": 3,
+      "HMCS Annapolis (DDH 265)": 3,
+      "Dean Allison": 3,
+      "Chandra Arya": 3
+    },
+    "Canadian Museum of Civilization": {
+      "Musées numériques Canada": 2,
+      "Durham Report": 2,
+      "Quebec Mercury": 2,
+      "Challenge for Change": 2,
+      "Digital Museums Canada": 1,
+      "Howard Terpning": 1,
+      "Nisgaʼa Final Agreement": 1,
+      "File:Pontiac conspiracy.jpg": 1,
+      "Pontiac's War": 1,
+      "Frances Brooke": 1
+    },
+    "Government of Canada": {
+      "The Girls in the Office": 12,
+      "Alek Keshishian": 5,
+      "The Flintstone Comedy Hour": 2,
+      "David Wayne": 1,
+      "Opposites Attract (film)": 1,
+      "Prince Edward Island": 1,
+      "Convulsionnaires of Saint-Médard": 1,
+      "List of The Golden Girls episodes": 1,
+      "The Doris Day Show": 1,
+      "Baby... I'm Back!": 1
+    },
+    "Industry Canada": {
+      "Chevon Walker": 6,
+      "List of fiction set in Toronto": 4,
+      "Poutine": 2,
+      "Canada's Technology Triangle": 2,
+      "Canadian Policy Research Networks": 2,
+      "Glioblastoma": 2,
+      "Red Crow Community College": 2,
+      "Marie-Madeleine Lachenais": 1,
+      "The Ten O'Clock People": 1,
+      "Section 1782 discovery": 1
+    },
+    "Environment Canada": {
+      "Eau précipitable": 15,
+      "Éruption de tornades d'août 2005 en Ontario": 7,
+      "Tempête d'octobre 2015 dans l'est du Canada et des États-Unis": 6,
+      "Spirale d'Ekman": 5,
+      "Radar millimétrique de nébulosité": 5,
+      "Gautham Ram Karthik": 5,
+      "SS El Faro": 5,
+      "Water Survey of Canada": 5,
+      "Simulation de pluie": 5,
+      "Nuage noctulescent": 4
+    },
+    "Canadian Broadcasting Corporation": {
+      "Milton line": 16,
+      "Steam Era": 16,
+      "Milton, Ontario": 14,
+      "Ron Tugnutt": 11,
+      "Dickie Moore (ice hockey)": 7,
+      "The Sketchersons": 6,
+      "Jeffrey Orridge": 5,
+      "Red Fisher (journalist)": 4,
+      "Rudyard Griffiths": 3,
+      "Larry Keenan": 3
+    },
+    "Shared Services Canada network (AS2665)": {
+      "Zoo Legacy": 7,
+      "Maggie Kirkpatrick": 3,
+      "Actebia squalida": 3,
+      "Hot Tub Time Machine 2": 2,
+      "Abdelâdim El Guerrouj": 2,
+      "Elmyr de Hory": 2,
+      "Îles de la Madeleine": 2,
+      "Lean startup": 2,
+      "Moscow Cathedral Mosque": 2,
+      "Fumonisin": 2
+    },
+    "National Research Council": {
+      "Proaftn": 12,
+      "Talk:Eckankar": 4,
+      "Pluton (complex)": 4,
+      "National Research Council Canada": 3,
+      "Comparison of code generation tools": 3,
+      "John R. McDougall": 2,
+      "Vivisector: Beast Within": 2,
+      "Gliclazide": 2,
+      "Soap Bubble Nebula": 1,
+      "List of Christian radio stations in Canada": 1
+    },
+    "Statistics Canada": {
+      "Saudi-led intervention in the Yemeni civil war": 2,
+      "Delisle–Richler controversy": 2,
+      "Riverside South, Ottawa": 1,
+      "Daniele Gatti": 1,
+      "Liste de musiciens et ensembles de musique traditionnelle québécoise": 1,
+      "Classification of Instructional Programs": 1,
+      "Newton": 1,
+      "Ministre de l'Innovation, des Sciences et de l'Industrie": 1,
+      "Kent Nagano": 1,
+      "Talk:Education in Quebec": 1
+    },
+    "Library and Archives Canada": {
+      "Clifford Clark": 6,
+      "Guy Berthiaume": 3,
+      "List of snipers": 2,
+      "Bishops whitmorei": 2,
+      "Herb Carnegie": 2,
+      "Léo Dandurand": 2,
+      "List of tortilla-based dishes": 1,
+      "Birthright: The Gorgon's Alliance": 1,
+      "Governor General's Awards": 1,
+      "Thomas Craig (jurist)": 1
+    },
+    "Department of Justice Canada": {
+      "Croton-on-Hudson, New York": 2,
+      "Rotten and pocket boroughs": 2,
+      "Crimes against humanity": 2,
+      "List of The Stand characters": 1,
+      "Guy Marcoux": 1,
+      "Governor General's Foot Guards": 1,
+      "SDSS J0100+2802": 1,
+      "Nephilim in popular culture": 1,
+      "Battle of the Sexes (tennis)": 1,
+      "List of Claremont Graduate University people": 1
+    },
+    "Finance Canada": {
+      "Parc de la Gatineau": 1,
+      "Halifax (Nouvelle-Écosse)": 1
+    },
+    "Department of Fisheries and Oceans": {
+      "Halifax, Nova Scotia": 5,
+      "Elizabeth J. Duncan": 1,
+      "Behavioural Insights Team": 1,
+      "Sustainable yield in fisheries": 1,
+      "Orange roughy": 1,
+      "Monism and dualism in international law": 1,
+      "Dubmatique": 1,
+      "Cloud computing": 1,
+      "Lampricide": 1,
+      "Patrice Bernier": 1
+    },
+    "Bank of Canada": {
+      "Tim Hortons": 2,
+      "File:Digha Science city Chameleon.jpg": 1,
+      "Michener Award": 1,
+      "Queen Elizabeth Way": 1,
+      "2015 Kentucky gubernatorial election": 1
+    },
+    "Transport Canada": {
+      "Chemin de fer National Transcontinental": 3,
+      "Gare centrale de Montréal": 1,
+      "Vol Air Transat 236": 1,
+      "Route 112 (Québec)": 1,
+      "Gare de Shawinigan (Canadien National)": 1,
+      "Tragédie du lac Saint-Jean de 1926": 1
+    },
+    "Canadian Space Agency": {
+      "IRIG timecode": 1,
+      "Radio clock": 1
+    },
+    "Federal Court of Canada": {
+      "Tax Court of Canada": 4,
+      "Stikeman Elliott": 2,
+      "Don Meredith (politician)": 1,
+      "Victoria Building (Ottawa)": 1,
+      "Mary Ann Davidson": 1,
+      "Lucie Lamarre": 1,
+      "Eugene Rossiter": 1,
+      "Dolores Hansen": 1,
+      "Parchive": 1,
+      "Irwin Cotler": 1
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "enwiki": "2015-12-31T21:33:52Z",
+    "frwiki": "2015-12-26T07:15:06Z",
+    "enwiktionary": "2015-12-02T20:34:21Z",
+    "commonswiki": "2015-12-11T06:42:53Z",
+    "wikidatawiki": "2015-11-06T22:22:24Z",
+    "enwikivoyage": "2015-07-23T19:48:15Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-11-09T10:17:16Z",
+      "window": [
+        "2015-01-01T00:00:00Z",
+        "2015-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 2569
+    },
+    "frwiki": {
+      "scanned_at": "2026-11-09T10:18:08Z",
+      "window": [
+        "2015-01-01T00:00:00Z",
+        "2015-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 502
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-11-09T10:19:03Z",
+      "window": [
+        "2015-01-01T00:00:00Z",
+        "2015-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 2
+    },
+    "commonswiki": {
+      "scanned_at": "2026-11-09T10:19:29Z",
+      "window": [
+        "2015-01-01T00:00:00Z",
+        "2015-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 627
+    },
+    "enwiktionary": {
+      "scanned_at": "2026-11-09T10:20:23Z",
+      "window": [
+        "2015-01-01T00:00:00Z",
+        "2015-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 11
+    },
+    "enwikivoyage": {
+      "scanned_at": "2026-11-09T10:21:08Z",
+      "window": [
+        "2015-01-01T00:00:00Z",
+        "2015-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 22
+    }
+  }
+}
