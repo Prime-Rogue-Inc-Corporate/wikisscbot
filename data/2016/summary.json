@@ -1,0 +1,623 @@
+{
+  "generated": "2026-11-09T07:38:09Z",
+  "total_edits": 2617,
+  "unique_ips": 163,
+  "by_label": {
+    "Shared Services Canada": 916,
+    "Canadian Department of National Defence": 617,
+    "Canadian Broadcasting Corporation": 203,
+    "Canadian House of Commons": 173,
+    "Environment Canada": 112,
+    "Shared Services Canada network (AS2665)": 100,
+    "Natural Resources Canada": 98,
+    "Shared Services Canada network (AS2675)": 74,
+    "Industry Canada": 65,
+    "Bank of Canada": 37,
+    "Statistics Canada": 36,
+    "National Research Council": 34,
+    "Library and Archives Canada": 32,
+    "Department of Fisheries and Oceans": 30,
+    "Federal Court of Canada": 27,
+    "Government of Canada": 26,
+    "Department of Justice Canada": 17,
+    "Canadian Space Agency": 8,
+    "Finance Canada": 5,
+    "Canadian Museum of Civilization": 3,
+    "Transport Canada": 2,
+    "National Research Council (UBC)": 2
+  },
+  "by_wiki": {
+    "enwiki": 2339,
+    "frwiki": 211,
+    "commonswiki": 25,
+    "wikidatawiki": 19,
+    "enwiktionary": 15,
+    "enwikivoyage": 8
+  },
+  "by_month": {
+    "2016-01": 174,
+    "2016-02": 208,
+    "2016-03": 235,
+    "2016-04": 230,
+    "2016-05": 202,
+    "2016-06": 224,
+    "2016-07": 182,
+    "2016-08": 243,
+    "2016-09": 240,
+    "2016-10": 258,
+    "2016-11": 206,
+    "2016-12": 215
+  },
+  "top_pages": [
+    {
+      "wiki": "enwiki",
+      "title": "Talk:Vapor pressure of water",
+      "edits": 47
+    },
+    {
+      "wiki": "enwiki",
+      "title": "John Tonelli",
+      "edits": 23
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Campbellville Intermediate Baseball Team",
+      "edits": 21
+    },
+    {
+      "wiki": "enwiki",
+      "title": "3rd Canadian Division",
+      "edits": 19
+    },
+    {
+      "wiki": "enwiki",
+      "title": "15 Field Ambulance",
+      "edits": 19
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Innovation, Science and Economic Development Canada",
+      "edits": 18
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of breweries in Canada",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Lac-Sainte-Marie, Quebec",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Rational Youth",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Broadcasting Corporation",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Natural Sciences and Engineering Research Council of Canada",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Marjolaine Boutin-Sweet",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Royal Canadian Mounted Police",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Milton, Ontario",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Cornelia Oberlander",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2016–17 UC Sampdoria season",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Newspaper endorsements in the 2016 United States presidential election",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of Northeastern University people",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Clarkson Cup",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Office of the Prime Minister (Canada)",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Simon Fraser University",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Technological singularity",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Ottawa Macdonald–Cartier International Airport",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Michael Chan (politician)",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Maryam Monsef",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Peter Kent",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Royal Regina Rifles",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Alberta Football League",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canada Mortgage and Housing Corporation",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "39 Canadian Brigade Group",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Norm Macdonald",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Dawn Coe-Jones",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Grey and Simcoe Foresters",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "John Malkovich on stage and screen",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canada West Universities Athletic Association",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Floorball League",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of people from Laval, Quebec",
+      "edits": 7
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Liste alphabétique d'écrivains de langue ukrainienne",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of Airbus A220 orders and deliveries",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Ronald Charles Grant, 10th Baron de Longueuil",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Johnny Cash singles discography",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "7th Toronto Regiment, RCA",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Betsy Palmer",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Maktupur",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2017 Progressive Conservative Association of Alberta leadership election",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Yuan Wang-class tracking ship",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Presentation National High School",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Broadcasting Centre",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Certified engineering technologist",
+      "edits": 5
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q16943273",
+      "edits": 5
+    }
+  ],
+  "top_pages_by_label": {
+    "Shared Services Canada": {
+      "List of breweries in Canada": 15,
+      "Simon Fraser University": 10,
+      "Technological singularity": 10,
+      "Ottawa Macdonald–Cartier International Airport": 9,
+      "Office of the Prime Minister (Canada)": 9,
+      "Alberta Football League": 8,
+      "Canada Mortgage and Housing Corporation": 8,
+      "Canada West Universities Athletic Association": 7,
+      "Canadian Floorball League": 7,
+      "Liste alphabétique d'écrivains de langue ukrainienne": 7
+    },
+    "Canadian Broadcasting Corporation": {
+      "John Tonelli": 23,
+      "Campbellville Intermediate Baseball Team": 21,
+      "Canadian Broadcasting Corporation": 14,
+      "Milton, Ontario": 12,
+      "Clarkson Cup": 10,
+      "Dawn Coe-Jones": 8,
+      "Canadian Broadcasting Centre": 5,
+      "Bob Probert": 5,
+      "Darryl Sydor": 4,
+      "1984 Stanley Cup playoffs": 4
+    },
+    "Shared Services Canada network (AS2675)": {
+      "Royal Canadian Mounted Police": 14,
+      "John Malkovich on stage and screen": 7,
+      "Enablers of big data": 5,
+      "Joe Ledger series": 3,
+      "Ottawa SkyHawks": 3,
+      "Triggerheart Exelica": 3,
+      "Independence of Jamaica": 3,
+      "Wong Kam-po": 2,
+      "Chile national football team": 2,
+      "2016 ATP World Tour Finals": 2
+    },
+    "Canadian Department of National Defence": {
+      "3rd Canadian Division": 19,
+      "15 Field Ambulance": 19,
+      "Rational Youth": 14,
+      "Cornelia Oberlander": 12,
+      "Royal Regina Rifles": 8,
+      "39 Canadian Brigade Group": 8,
+      "Norm Macdonald": 8,
+      "Maryam Monsef": 7,
+      "Grey and Simcoe Foresters": 7,
+      "List of people from Laval, Quebec": 7
+    },
+    "Library and Archives Canada": {
+      "Martha Black": 3,
+      "M. J. Coldwell": 3,
+      "Registrar General of Canada": 2,
+      "Mike Grier": 1,
+      "Thomas Duggan (disambiguation)": 1,
+      "Isabelle Brossard": 1,
+      "Utilisateur:Sabrina (BiblioArchivesCanada-LibraryArchivesCanada)": 1,
+      "Royal Victoria Hospital, Montreal": 1,
+      "Beaverbrook, Ottawa": 1,
+      "Victor Barbeau": 1
+    },
+    "Natural Resources Canada": {
+      "Talk:Vapor pressure of water": 47,
+      "Marble": 3,
+      "Ta-ku": 3,
+      "Hôtel Ritz Paris": 2,
+      "Fuel economy in automobiles": 2,
+      "RETScreen": 2,
+      "CBM-CFS3": 1,
+      "Ethylene glycol": 1,
+      "My Way killings": 1,
+      "Earth Observing-1": 1
+    },
+    "Department of Justice Canada": {
+      "Canadian dollar": 3,
+      "Operation Khukri": 2,
+      "Sean Casey (Canadian politician)": 2,
+      "Jacqueline Durran": 1,
+      "Hodan Nalayeh Secondary School": 1,
+      "Janice Charette": 1,
+      "Mirror neuron": 1,
+      "Guy Marcoux": 1,
+      "Women in World War II": 1,
+      "Boys Over Flowers": 1
+    },
+    "Industry Canada": {
+      "Innovation, Science and Economic Development Canada": 18,
+      "List of Guyanese Canadians": 4,
+      "Fennel": 2,
+      "Innovation, Sciences et Développement économique Canada": 2,
+      "List of Ottawa Senators head coaches": 2,
+      "Ottawa Senators": 2,
+      "Vincent Basciano": 2,
+      "Subramaniam v Public Prosecutor": 1,
+      "Lazarus": 1,
+      "Peter Sunde": 1
+    },
+    "Federal Court of Canada": {
+      "Blacklock's Reporter": 5,
+      "Mack Trucks": 3,
+      "Administrative divisions of New York (state)": 3,
+      "Wikipedia:Requests for page protection": 3,
+      "82 (nombre)": 2,
+      "Federal Court of Canada": 2,
+      "Federal Court (Canada)": 2,
+      "Matchbox (brand)": 1,
+      "Listuguj": 1,
+      "Hisarlik": 1
+    },
+    "Environment Canada": {
+      "George T. Kingston": 4,
+      "John Henry Lefroy": 4,
+      "motherhood statement": 4,
+      "List of Produce 101 contestants": 3,
+      "David Suzuki": 3,
+      "Lagrange polynomial": 3,
+      "Carmichael function": 3,
+      "Men, Women and Children": 3,
+      "West Coast Video": 2,
+      "North American Waterfowl Management Plan": 2
+    },
+    "Canadian House of Commons": {
+      "Marjolaine Boutin-Sweet": 17,
+      "Michael Chan (politician)": 9,
+      "Peter Kent": 8,
+      "2017 Progressive Conservative Association of Alberta leadership election": 6,
+      "Gagan Sikand": 5,
+      "Stephen Fuhr": 5,
+      "Yves Robillard": 5,
+      "Raj Saini": 5,
+      "Sidney, Manitoba": 3,
+      "Candice Bergen (politician)": 3
+    },
+    "Shared Services Canada network (AS2665)": {
+      "Natural Sciences and Engineering Research Council of Canada": 10,
+      "Maktupur": 6,
+      "Murder of Amanda Zhao": 5,
+      "List of churches in Ottawa": 5,
+      "List of The Flash episodes": 4,
+      "Suits (American TV series)": 4,
+      "Q16943273": 3,
+      "2014 Russian annexation of Crimea": 3,
+      "World Tag Team Championship (WWE)": 3,
+      "EDS": 2
+    },
+    "National Research Council": {
+      "National Research Council Canada": 3,
+      "(528219) 2008 KV42": 3,
+      "Surface diffusion": 2,
+      "List of presidents of the National Research Council of Canada": 2,
+      "Commons:Deletion requests/File:Prime Minister Pierre Trudeau & Bobby Lalonde at the 7th G7 summit..jpg": 2,
+      "Wikipedia:Possibly unfree files/2016 January 9": 1,
+      "Proaftn": 1,
+      "Michael Garrett (astronomer)": 1,
+      "De revolutionibus orbium coelestium": 1,
+      "Multi-core processor": 1
+    },
+    "Canadian Museum of Civilization": {
+      "List of royal tours of Canada (18th–20th centuries)": 1,
+      "Ordre de Jacques-Cartier": 1,
+      "Collège Saint-Joseph de Hull": 1
+    },
+    "Canadian Space Agency": {
+      "SCISAT-1": 2,
+      "History of artificial intelligence": 2,
+      "Maritime Monitoring and Messaging Microsatellite": 2,
+      "International Docking Adapter": 1,
+      "Talk:Mercury (planet)": 1
+    },
+    "Department of Fisheries and Oceans": {
+      "2016–17 UC Sampdoria season": 12,
+      "Elsie Wayne": 4,
+      "Citrus": 2,
+      "¶": 1,
+      "Portail:Franco-Ontariens/Sélection": 1,
+      "Pomme": 1,
+      "Boat Bluff Lighthouse": 1,
+      "List of lighthouses in Canada": 1,
+      "Sonde (cartographie)": 1,
+      "Maurice Proulx": 1
+    },
+    "Finance Canada": {
+      "MDMA": 1,
+      "Opération Dragon rouge": 1,
+      "KIC 8462852": 1,
+      "Histoire de l'Espagne pendant la Seconde Guerre mondiale": 1,
+      "Droit criminel au Canada": 1
+    },
+    "Statistics Canada": {
+      "List of Northeastern University people": 11,
+      "Auto detailing": 3,
+      "Wayne Smith (statistician)": 3,
+      "Ipsos-Reid": 2,
+      "Greg Miller (host)": 2,
+      "ZAP (software)": 2,
+      "Corporate structure": 1,
+      "List of crude oil products": 1,
+      "EMTEC": 1,
+      "Statistics Act": 1
+    },
+    "Government of Canada": {
+      "Betsy Palmer": 6,
+      "Public Service Commission of Canada": 4,
+      "Henry Corden": 2,
+      "The Raes": 2,
+      "Dancing Up a Storm": 2,
+      "The Raes (TV series)": 2,
+      "List of Madonna concerts": 1,
+      "Victor/Victoria (1995 film)": 1,
+      "Victor/Victoria (musical)": 1,
+      "You Light Up My Life (soundtrack)": 1
+    },
+    "Bank of Canada": {
+      "Lac-Sainte-Marie, Quebec": 15,
+      "Newspaper endorsements in the 2016 United States presidential election": 12,
+      "Uri, Jammu and Kashmir": 3,
+      "Nostro and vostro accounts": 1,
+      "Talk:2016 United Kingdom European Union membership referendum": 1,
+      "Data editing": 1,
+      "Skyzoo": 1,
+      "Statewide opinion polling for the 2016 United States presidential election": 1,
+      "Mohsin Abbas Haider": 1,
+      "Sarah Palin Channel": 1
+    },
+    "Transport Canada": {
+      "Rivière Quinchien": 1,
+      "Bras-d'Apic": 1
+    },
+    "National Research Council (UBC)": {
+      "Parts-per notation": 2
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "enwiki": "2016-12-30T16:54:29Z",
+    "frwiki": "2016-12-21T16:38:22Z",
+    "wikidatawiki": "2016-12-14T13:45:39Z",
+    "enwikivoyage": "2016-11-09T21:32:15Z",
+    "enwiktionary": "2016-12-15T15:30:55Z",
+    "commonswiki": "2016-12-19T19:49:25Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-11-09T07:34:42Z",
+      "window": [
+        "2016-01-01T00:00:00Z",
+        "2016-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 2339
+    },
+    "frwiki": {
+      "scanned_at": "2026-11-09T07:35:10Z",
+      "window": [
+        "2016-01-01T00:00:00Z",
+        "2016-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 211
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-11-09T07:36:05Z",
+      "window": [
+        "2016-01-01T00:00:00Z",
+        "2016-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 19
+    },
+    "commonswiki": {
+      "scanned_at": "2026-11-09T07:36:30Z",
+      "window": [
+        "2016-01-01T00:00:00Z",
+        "2016-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 25
+    },
+    "enwiktionary": {
+      "scanned_at": "2026-11-09T07:37:24Z",
+      "window": [
+        "2016-01-01T00:00:00Z",
+        "2016-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 15
+    },
+    "enwikivoyage": {
+      "scanned_at": "2026-11-09T07:38:09Z",
+      "window": [
+        "2016-01-01T00:00:00Z",
+        "2016-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 8
+    }
+  }
+}

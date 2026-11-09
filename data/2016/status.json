@@ -1,0 +1,80 @@
+{
+  "enwiki": {
+    "scanned_at": "2026-11-09T07:34:42Z",
+    "window": [
+      "2016-01-01T00:00:00Z",
+      "2016-12-31T23:59:59Z"
+    ],
+    "blocks_total": 149,
+    "blocks_scanned": 149,
+    "block_errors": 0,
+    "error_samples": {},
+    "fatal": null,
+    "edits": 2339
+  },
+  "frwiki": {
+    "scanned_at": "2026-11-09T07:35:10Z",
+    "window": [
+      "2016-01-01T00:00:00Z",
+      "2016-12-31T23:59:59Z"
+    ],
+    "blocks_total": 149,
+    "blocks_scanned": 149,
+    "block_errors": 0,
+    "error_samples": {},
+    "fatal": null,
+    "edits": 211
+  },
+  "wikidatawiki": {
+    "scanned_at": "2026-11-09T07:36:05Z",
+    "window": [
+      "2016-01-01T00:00:00Z",
+      "2016-12-31T23:59:59Z"
+    ],
+    "blocks_total": 149,
+    "blocks_scanned": 149,
+    "block_errors": 0,
+    "error_samples": {},
+    "fatal": null,
+    "edits": 19
+  },
+  "commonswiki": {
+    "scanned_at": "2026-11-09T07:36:30Z",
+    "window": [
+      "2016-01-01T00:00:00Z",
+      "2016-12-31T23:59:59Z"
+    ],
+    "blocks_total": 149,
+    "blocks_scanned": 149,
+    "block_errors": 0,
+    "error_samples": {},
+    "fatal": null,
+    "edits": 25
+  },
+  "enwiktionary": {
+    "scanned_at": "2026-11-09T07:37:24Z",
+    "window": [
+      "2016-01-01T00:00:00Z",
+      "2016-12-31T23:59:59Z"
+    ],
+    "blocks_total": 149,
+    "blocks_scanned": 149,
+    "block_errors": 0,
+    "error_samples": {},
+    "fatal": null,
+    "edits": 15
+  },
+  "enwikivoyage": {
+    "scanned_at": "2026-11-09T07:38:09Z",
+    "window": [
+      "2016-01-01T00:00:00Z",
+      "2016-12-31T23:59:59Z"
+    ],
+    "blocks_total": 149,
+    "blocks_scanned": 149,
+    "block_errors": 0,
+    "error_samples": {},
+    "fatal": null,
+    "edits": 8
+  }
+}
