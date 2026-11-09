@@ -1,0 +1,631 @@
+{
+  "generated": "2026-11-09T03:59:04Z",
+  "total_edits": 3455,
+  "unique_ips": 165,
+  "by_label": {
+    "Shared Services Canada": 1997,
+    "Canadian Department of National Defence": 586,
+    "Canadian House of Commons": 194,
+    "Environment Canada": 144,
+    "Canadian Broadcasting Corporation": 85,
+    "Industry Canada": 66,
+    "Shared Services Canada network (AS2665)": 65,
+    "National Research Council": 64,
+    "Natural Resources Canada": 41,
+    "Shared Services Canada network (AS2675)": 33,
+    "Federal Court of Canada": 28,
+    "Department of Fisheries and Oceans": 26,
+    "Library and Archives Canada": 26,
+    "Department of Justice Canada": 19,
+    "Bank of Canada": 18,
+    "Statistics Canada": 15,
+    "National Research Council (UBC)": 13,
+    "Canadian Museum of Civilization": 9,
+    "Transport Canada": 8,
+    "Finance Canada": 6,
+    "Government of Canada": 5,
+    "Canadian Space Agency": 4,
+    "Correctional Services Canada": 3
+  },
+  "by_wiki": {
+    "enwiki": 3151,
+    "frwiki": 240,
+    "wikidatawiki": 41,
+    "enwikivoyage": 13,
+    "commonswiki": 5,
+    "enwiktionary": 5
+  },
+  "by_month": {
+    "2017-01": 235,
+    "2017-02": 223,
+    "2017-03": 634,
+    "2017-04": 427,
+    "2017-05": 248,
+    "2017-06": 232,
+    "2017-07": 258,
+    "2017-08": 208,
+    "2017-09": 209,
+    "2017-10": 286,
+    "2017-11": 325,
+    "2017-12": 170
+  },
+  "top_pages": [
+    {
+      "wiki": "enwiki",
+      "title": "2017 World Women's Curling Championship",
+      "edits": 71
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2017 European Curling Championships",
+      "edits": 39
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2017 World Men's Curling Championship",
+      "edits": 37
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2017 World Mixed Doubles Curling Championship",
+      "edits": 36
+    },
+    {
+      "wiki": "enwiki",
+      "title": "MasterChef Australia series 4",
+      "edits": 27
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Madhumila",
+      "edits": 26
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2017 Tim Hortons Brier",
+      "edits": 25
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2016 Humpty's Champions Cup",
+      "edits": 25
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Germany's Next Topmodel season 12",
+      "edits": 25
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2017 WGC-Dell Technologies Match Play",
+      "edits": 19
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2016 Boost National",
+      "edits": 18
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2017 Humpty's Champions Cup",
+      "edits": 18
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2017 Elite 10",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "MasterChef Australia All-Stars",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of current senators of Canada",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Nancy Hartling",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2017 World Mixed Curling Championship",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "MasterChef Australia series 6",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Beverly Hills Cop (soundtrack)",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2017 Scotties Tournament of Hearts",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Top Chef Canada season 5",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Ottawa Macdonald–Cartier International Airport",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2007 European Curling Championships",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2017 World Senior Curling Championships",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "90 Day Fiancé",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Andrew Scheer",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Tracy Howe",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Vazgen I",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Jessa Seewald",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2016 World Men's Curling Championship",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Leona Alleslev",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Pleasant Camp, British Columbia",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "John Charles Moore Grant, 9th Baron de Longueuil",
+      "edits": 9
+    },
+    {
+      "wiki": "enwikivoyage",
+      "title": "Ottawa",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2016 European Curling Championships – Men's tournament",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2009 European Curling Championships",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2011 European Curling Championships – Men's tournament",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Arnold Chan",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Terrorism in the United States",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Proliferation Security Initiative",
+      "edits": 8
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Holodomor, la grande famine ukrainienne",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2015 European Curling Championships – Women's tournament",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2014 European Curling Championships – Women's tournament",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2013 European Curling Championships – Women's tournament",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2007 World Women's Curling Championship",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "4 Health Services Group",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2014 Toronto municipal election",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Nicola Di Iorio",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Britain's Next Top Model series 11",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of countries on the Mediterranean Sea",
+      "edits": 8
+    }
+  ],
+  "top_pages_by_label": {
+    "Shared Services Canada network (AS2675)": {
+      "Wasaga Beach": 3,
+      "1982 Memorial Cup": 3,
+      "Royal Canadian Mounted Police": 2,
+      "HMS Hecla (1815)": 2,
+      "JoJo Worthington": 2,
+      "Generalized inverse": 2,
+      "High Five Drive": 2,
+      "Gustafsen Lake standoff": 2,
+      "Gravure sur pellicule": 2,
+      "Wheeler (surname)": 1
+    },
+    "Federal Court of Canada": {
+      "Federal Court (Canada)": 7,
+      "Dodge Charger (1966)": 4,
+      "Enter the Dragon": 3,
+      "Cheryl Strayed": 3,
+      "Valcin": 2,
+      "Iso Grifo": 2,
+      "Dragon NaturallySpeaking": 2,
+      "Ferrari Berlinetta Boxer": 2,
+      "Mitch Albom": 2,
+      "Lisa Unger": 1
+    },
+    "Canadian Broadcasting Corporation": {
+      "Rock on the Range": 7,
+      "The Doc Project": 5,
+      "Milton line": 4,
+      "CBC News Network": 4,
+      "+ (album)": 4,
+      "Ken Lowe": 4,
+      "NHL on Sportsnet": 3,
+      "Le Téléjournal-Alberta": 3,
+      "2015 World Championships in Athletics": 3,
+      "Dennis Savoie": 3
+    },
+    "Shared Services Canada": {
+      "2017 World Women's Curling Championship": 71,
+      "2017 European Curling Championships": 39,
+      "2017 World Men's Curling Championship": 37,
+      "2017 World Mixed Doubles Curling Championship": 36,
+      "MasterChef Australia series 4": 27,
+      "Madhumila": 26,
+      "2016 Humpty's Champions Cup": 25,
+      "Germany's Next Topmodel season 12": 25,
+      "2017 WGC-Dell Technologies Match Play": 19,
+      "2017 Tim Hortons Brier": 18
+    },
+    "Shared Services Canada network (AS2665)": {
+      "Nowruz": 5,
+      "Mathieu Ravignat": 3,
+      "Apostolic succession": 3,
+      "Maktupur": 3,
+      "List of sequenced eukaryotic genomes": 2,
+      "Parasitoid": 2,
+      "McLean": 2,
+      "Tomas Kalnoky": 2,
+      "Vincetoxicum rossicum": 2,
+      "Doñana National Park": 2
+    },
+    "Canadian Department of National Defence": {
+      "Tracy Howe": 11,
+      "Vazgen I": 11,
+      "John Charles Moore Grant, 9th Baron de Longueuil": 9,
+      "Proliferation Security Initiative": 8,
+      "4 Health Services Group": 8,
+      "Charles James Irwin Grant, 6th Baron de Longueuil": 7,
+      "2017 Tim Hortons Brier": 7,
+      "Great Recession": 7,
+      "Grant Allen": 6,
+      "Stormont, Dundas and Glengarry Highlanders": 6
+    },
+    "National Research Council": {
+      "Geometric phase": 7,
+      "EGS (program)": 6,
+      "William Lipscomb": 6,
+      "Proaftn": 5,
+      "International Committee on Aeronautical Fatigue and Structural Integrity": 4,
+      "Molecular symmetry": 4,
+      "Greater Victoria": 2,
+      "Teatro Caupolicán": 2,
+      "Z-drive": 2,
+      "Tri topologique": 2
+    },
+    "Department of Fisheries and Oceans": {
+      "Baby, Let Me Follow You Down": 2,
+      "CCGS Mamilossa": 2,
+      "Adrian Grenier": 2,
+      "Liste d'îles sans voiture": 2,
+      "Seymour Heller": 1,
+      "Hervé Villechaize": 1,
+      "Great Pacific Garbage Patch": 1,
+      "Les Escoumins": 1,
+      "List of the largest population centres in Canada": 1,
+      "Rouyn-Noranda": 1
+    },
+    "Natural Resources Canada": {
+      "Chief William Commanda Bridge": 4,
+      "Skaði": 3,
+      "Nonsuch (album)": 3,
+      "1973–74 NHL season": 2,
+      "Gatineau": 2,
+      "Togo, Saskatchewan": 1,
+      "Einkorn": 1,
+      "Iron catastrophe": 1,
+      "Hibernation": 1,
+      "Flag of Nova Scotia": 1
+    },
+    "Environment Canada": {
+      "Michel Band": 6,
+      "2017 IIHF World Championship rosters": 5,
+      "Daniel Klem": 5,
+      "Substitute (association football)": 5,
+      "Vancouver": 4,
+      "Lions Bay": 3,
+      "Q718985": 3,
+      "Retractable hardtop": 3,
+      "Heteropatriarchy": 3,
+      "French Canadians": 2
+    },
+    "Canadian House of Commons": {
+      "Nancy Hartling": 15,
+      "Andrew Scheer": 11,
+      "Leona Alleslev": 10,
+      "Arnold Chan": 9,
+      "Nicola Di Iorio": 8,
+      "Genocide Prevention Group (Canada)": 8,
+      "Parliamentary Budget Officer": 8,
+      "Alex Nuttall": 7,
+      "Harold Greenberg": 6,
+      "Clerk of the House of Commons (Canada)": 5
+    },
+    "Statistics Canada": {
+      "Supercalifragilisticexpialidocious": 4,
+      "Pierre-feuille-ciseaux": 2,
+      "Moana (1926 film)": 2,
+      "Statistique Canada": 1,
+      "Star (TV series)": 1,
+      "Pierre Pascau": 1,
+      "Fire Emblem": 1,
+      "Magmic": 1,
+      "Amit Mishra": 1,
+      "Zeller's congruence": 1
+    },
+    "National Research Council (UBC)": {
+      "Five Ancestors": 3,
+      "Alum": 2,
+      "Ring of Fire": 2,
+      "Coast Salish peoples": 2,
+      "Karate": 2,
+      "Musqueam First Nation": 1,
+      "Luke Shaw": 1
+    },
+    "Industry Canada": {
+      "Régiment de Hull": 4,
+      "Martinsville, Virginia": 3,
+      "National Capital Junior Hockey League": 2,
+      "Cumberland Castors": 2,
+      "Anthony Wayne": 2,
+      "Adriana Leon": 2,
+      "CIDG-FM": 2,
+      "Identitarian movement": 2,
+      "Big Bear Lake, California": 2,
+      "Talk:Kent Hehr": 2
+    },
+    "Library and Archives Canada": {
+      "AA battery": 2,
+      "Guy Berthiaume": 2,
+      "Magical Mystery Tour (album)": 2,
+      "Rusyn": 1,
+      "Robert Giguère": 1,
+      "Tit-Coq": 1,
+      "Yao (peuple d'Afrique)": 1,
+      "Joseph Fiennes": 1,
+      "Bidou Laloge": 1,
+      "Star Trek Beyond": 1
+    },
+    "Department of Justice Canada": {
+      "James Baldwin": 4,
+      "Posani Krishna Murali": 3,
+      "Talk:Resolute, Nunavut": 3,
+      "Talk:Baker Lake, Nunavut": 2,
+      "Brock Sunderland": 1,
+      "Méthylphénidate": 1,
+      "Ninjas in Pyjamas": 1,
+      "The 6th Day": 1,
+      "Summernats": 1,
+      "Eyre Highway": 1
+    },
+    "Canadian Museum of Civilization": {
+      "User talk:MarcusObal": 3,
+      "33 Combat Engineer Regiment": 2,
+      "Musée canadien de l'histoire": 1,
+      "Canadian Museum of History": 1,
+      "Wojtek": 1,
+      "Gordon Flowerdew": 1
+    },
+    "Transport Canada": {
+      "Saint Catharines": 3,
+      "Rudimental": 2,
+      "Discussion:Saint Catharines": 1,
+      "Cliff Burton": 1,
+      "Discussion:Bernache du Canada": 1
+    },
+    "Canadian Space Agency": {
+      "Expedition 50": 1,
+      "Trade secrets in Canada": 1,
+      "Ellen Ochoa": 1,
+      "United Nations Committee on the Peaceful Uses of Outer Space": 1
+    },
+    "Correctional Services Canada": {
+      "Kokkuvil Hindu College": 2,
+      "Freedoom": 1
+    },
+    "Finance Canada": {
+      "Yann Le Gac": 3,
+      "Fluide frigorigène": 1,
+      "Slobodan Praljak": 1,
+      "José Théodore": 1
+    },
+    "Bank of Canada": {
+      "Doris Roberts": 5,
+      "Blattaria": 2,
+      "Talk:Hurricane Ophelia (2017)": 2,
+      "Talk:Bank of Canada Museum": 1,
+      "Mother of the House": 1,
+      "Flight lieutenant": 1,
+      "Battle of Bloody Gulch": 1,
+      "Cromartie High School": 1,
+      "Lynchburg, Tennessee": 1,
+      "Always (Whisper) (brand)": 1
+    },
+    "Government of Canada": {
+      "Wikipedia:Sandbox": 3,
+      "Public Service Commission of Canada": 1,
+      "Arroz chaufa": 1
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "enwiki": "2017-12-29T18:25:16Z",
+    "frwiki": "2017-12-21T14:00:55Z",
+    "wikidatawiki": "2017-12-06T12:38:34Z",
+    "enwikivoyage": "2017-12-20T22:27:15Z",
+    "commonswiki": "2017-06-07T19:43:51Z",
+    "enwiktionary": "2017-10-18T14:29:38Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-11-09T03:55:12Z",
+      "window": [
+        "2017-01-01T00:00:00Z",
+        "2017-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 3151
+    },
+    "frwiki": {
+      "scanned_at": "2026-11-09T03:56:05Z",
+      "window": [
+        "2017-01-01T00:00:00Z",
+        "2017-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 240
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-11-09T03:56:30Z",
+      "window": [
+        "2017-01-01T00:00:00Z",
+        "2017-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 41
+    },
+    "commonswiki": {
+      "scanned_at": "2026-11-09T03:57:25Z",
+      "window": [
+        "2017-01-01T00:00:00Z",
+        "2017-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 5
+    },
+    "enwiktionary": {
+      "scanned_at": "2026-11-09T03:58:09Z",
+      "window": [
+        "2017-01-01T00:00:00Z",
+        "2017-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 5
+    },
+    "enwikivoyage": {
+      "scanned_at": "2026-11-09T03:59:04Z",
+      "window": [
+        "2017-01-01T00:00:00Z",
+        "2017-12-31T23:59:59Z"
+      ],
+      "blocks_total": 149,
+      "blocks_scanned": 149,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 13
+    }
+  }
+}

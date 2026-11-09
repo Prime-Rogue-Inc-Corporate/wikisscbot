@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06T11:04:11Z",
+  "generated": "2026-11-09T05:20:07Z",
   "total_edits": 2645,
   "unique_ips": 107,
   "by_label": {
@@ -45,7 +45,7 @@
   "top_pages": [
     {
       "wiki": "enwiki",
-      "title": "30th Field Artillery Regiment (Canada)",
+      "title": "30th Field Artillery Regiment, RCA",
       "edits": 90
     },
     {
@@ -296,7 +296,7 @@
   ],
   "top_pages_by_label": {
     "Shared Services Canada": {
-      "30th Field Artillery Regiment (Canada)": 90,
+      "30th Field Artillery Regiment, RCA": 90,
       "Q66305343": 58,
       "Q130545513": 48,
       "Q124622990": 44,
@@ -473,7 +473,7 @@
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-11-06T11:00:30Z",
+      "scanned_at": "2026-11-09T05:16:21Z",
       "window": [
         "2025-01-01T00:00:00Z",
         "2025-12-31T23:59:59Z"
@@ -486,7 +486,7 @@
       "edits": 1087
     },
     "frwiki": {
-      "scanned_at": "2026-11-06T11:01:13Z",
+      "scanned_at": "2026-11-09T05:17:09Z",
       "window": [
         "2025-01-01T00:00:00Z",
         "2025-12-31T23:59:59Z"
@@ -499,7 +499,7 @@
       "edits": 718
     },
     "wikidatawiki": {
-      "scanned_at": "2026-11-06T11:02:06Z",
+      "scanned_at": "2026-11-09T05:18:04Z",
       "window": [
         "2025-01-01T00:00:00Z",
         "2025-12-31T23:59:59Z"
@@ -512,7 +512,7 @@
       "edits": 825
     },
     "commonswiki": {
-      "scanned_at": "2026-11-06T11:02:26Z",
+      "scanned_at": "2026-11-09T05:18:29Z",
       "window": [
         "2025-01-01T00:00:00Z",
         "2025-12-31T23:59:59Z"
@@ -525,7 +525,7 @@
       "edits": 13
     },
     "enwiktionary": {
-      "scanned_at": "2026-11-06T11:03:18Z",
+      "scanned_at": "2026-11-09T05:19:23Z",
       "window": [
         "2025-01-01T00:00:00Z",
         "2025-12-31T23:59:59Z"
@@ -538,7 +538,7 @@
       "edits": 2
     },
     "enwikivoyage": {
-      "scanned_at": "2026-11-06T11:04:11Z",
+      "scanned_at": "2026-11-09T05:20:07Z",
       "window": [
         "2025-01-01T00:00:00Z",
         "2025-12-31T23:59:59Z"
