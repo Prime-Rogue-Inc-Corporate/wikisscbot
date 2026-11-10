@@ -1,0 +1,626 @@
+{
+  "generated": "2026-11-10T10:56:25Z",
+  "total_edits": 3151,
+  "unique_ips": 173,
+  "by_label": {
+    "Shared Services Canada": 1234,
+    "Canadian Department of National Defence": 594,
+    "Environment Canada": 310,
+    "Canadian House of Commons": 305,
+    "Natural Resources Canada": 102,
+    "Canadian Broadcasting Corporation": 84,
+    "Industry Canada": 79,
+    "National Research Council": 66,
+    "Shared Services Canada network (AS2675)": 64,
+    "Shared Services Canada network (AS2665)": 61,
+    "Library and Archives Canada": 61,
+    "Government of Canada": 51,
+    "Statistics Canada": 33,
+    "Department of Justice Canada": 30,
+    "Department of Fisheries and Oceans": 23,
+    "Bank of Canada": 20,
+    "Canadian Museum of Civilization": 9,
+    "Canadian Space Agency": 8,
+    "Federal Court of Canada": 6,
+    "National Research Council (UBC)": 5,
+    "Finance Canada": 4,
+    "Correctional Services Canada": 2
+  },
+  "by_wiki": {
+    "enwiki": 2636,
+    "frwiki": 331,
+    "commonswiki": 156,
+    "wikidatawiki": 14,
+    "enwiktionary": 13,
+    "enwikivoyage": 1
+  },
+  "by_month": {
+    "2014-01": 306,
+    "2014-02": 284,
+    "2014-03": 287,
+    "2014-04": 244,
+    "2014-05": 199,
+    "2014-06": 187,
+    "2014-07": 285,
+    "2014-08": 273,
+    "2014-09": 199,
+    "2014-10": 242,
+    "2014-11": 300,
+    "2014-12": 345
+  },
+  "top_pages": [
+    {
+      "wiki": "enwiki",
+      "title": "St. John River campaign",
+      "edits": 24
+    },
+    {
+      "wiki": "enwiki",
+      "title": "SIRIUS Travel Link",
+      "edits": 24
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Mitchell Kutney",
+      "edits": 23
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Star Citizen",
+      "edits": 21
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Family Day (Canada)",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of Canadian universities by endowment",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Ancaster, Ontario",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Ottawa",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of web archiving initiatives",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Norman Paterson School of International Affairs",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "HMCS St. John's",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Pär Mårts",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Yonah Martin",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Robert Goguen",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Hanna–Barbera Classics Collection",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Talk:List of PlayStation 3 games (A–C)",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of law enforcement agencies in Canada",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "The Hallmarks of Cancer",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "History of Dartmouth, Nova Scotia",
+      "edits": 9
+    },
+    {
+      "wiki": "commonswiki",
+      "title": "Commons:Village pump",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of churches in Ottawa",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Jennifer Jones (curler)",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Don Davies",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Dean Del Mastro",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Wendy (singer)",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Bennett, British Columbia",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Andy Duguid",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Ryan Leef",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2015 Newfoundland and Labrador general election",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "William Landymore",
+      "edits": 7
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Isabelle Morin",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Lise St-Denis",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "ATP Tour records",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "South Alberta Light Horse",
+      "edits": 7
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Émile Durkheim",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Isabelle Morin",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Walk off the Earth",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "4th Canadian Division Support Group",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Richacha Balengola",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Marie-Josée Saint-Pierre",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Andrzej Czajkowski",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Cameroon national football team",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "ZMapp",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Transportation Safety Board of Canada",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Janis Johnson",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Chengdu J-10",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "British Columbia Mountaineering Club",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Princess Patricia's Canadian Light Infantry",
+      "edits": 5
+    },
+    {
+      "wiki": "commonswiki",
+      "title": "Commons:Village pump/Copyright",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "HMCS Preserver (AOR 510)",
+      "edits": 5
+    }
+  ],
+  "top_pages_by_label": {
+    "Shared Services Canada": {
+      "SIRIUS Travel Link": 24,
+      "Mitchell Kutney": 23,
+      "Star Citizen": 21,
+      "List of Canadian universities by endowment": 16,
+      "Family Day (Canada)": 13,
+      "Norman Paterson School of International Affairs": 13,
+      "Pär Mårts": 12,
+      "List of law enforcement agencies in Canada": 9,
+      "Jennifer Jones (curler)": 8,
+      "Bennett, British Columbia": 8
+    },
+    "Canadian Department of National Defence": {
+      "St. John River campaign": 24,
+      "HMCS St. John's": 12,
+      "Talk:List of PlayStation 3 games (A–C)": 10,
+      "History of Dartmouth, Nova Scotia": 9,
+      "Commons:Village pump": 8,
+      "William Landymore": 7,
+      "ATP Tour records": 7,
+      "South Alberta Light Horse": 7,
+      "4th Canadian Division Support Group": 6,
+      "Chengdu J-10": 6
+    },
+    "Finance Canada": {
+      "Éric Duhaime": 1,
+      "Frère André (religieux)": 1,
+      "Gamme (musique)": 1,
+      "Volkswagen Passat": 1
+    },
+    "Environment Canada": {
+      "History of flooding in Canada": 4,
+      "Manteau neigeux": 4,
+      "Legislative Assembly of Ontario": 3,
+      "Canadian Environmental Protection Act, 1999": 3,
+      "Euphyes vestris": 3,
+      "Utilisateur:AntonyB/Communes-Météo": 3,
+      "Glossaire de la météorologie": 3,
+      "Jet Ski": 3,
+      "Motomarine": 3,
+      "Walton Goggins": 2
+    },
+    "Canadian Broadcasting Corporation": {
+      "Andy Duguid": 7,
+      "Walk off the Earth": 6,
+      "Canada Davis Cup team": 4,
+      "Champlain Society": 4,
+      "CBUT-DT": 3,
+      "String Quartet No. 1 (Tchaikovsky)": 3,
+      "Toronto FC": 3,
+      "AtkinsRéalis": 3,
+      "CBC Olympic broadcasts": 2,
+      "Bowling": 2
+    },
+    "Bank of Canada": {
+      "Expected value of perfect information": 1,
+      "Northeast megalopolis": 1,
+      "Noah (2014 film)": 1,
+      "Repurchase agreement": 1,
+      "February 22": 1,
+      "Manon Massé": 1,
+      "Werner Schmidt": 1,
+      "Western Canada Concept": 1,
+      "Bad bank": 1,
+      "Arab Canadians": 1
+    },
+    "Canadian House of Commons": {
+      "Isabelle Morin": 13,
+      "Yonah Martin": 11,
+      "Robert Goguen": 11,
+      "Lise St-Denis": 10,
+      "Don Davies": 8,
+      "Ryan Leef": 7,
+      "Dean Del Mastro": 7,
+      "Janis Johnson": 6,
+      "Peter Braid": 5,
+      "Jamie Nicholls": 4
+    },
+    "Natural Resources Canada": {
+      "Ancaster, Ontario": 15,
+      "Ottawa": 15,
+      "Natural Resources Canada": 5,
+      "2015 Indy Lights": 5,
+      "CBM-CFS3": 4,
+      "Kepler's laws of planetary motion": 3,
+      "User talk:Nmcke": 3,
+      "2015 Pro Mazda Championship": 3,
+      "January 9": 2,
+      "List of elected or appointed female heads of government": 2
+    },
+    "Shared Services Canada network (AS2665)": {
+      "Barbara Ann Scott": 4,
+      "Social Sciences and Humanities Research Council": 4,
+      "2013 Stanley Cup playoffs": 3,
+      "Conseil de recherches en sciences humaines du Canada": 3,
+      "Zoo Legacy": 3,
+      "Sambal": 3,
+      "Food Structure": 2,
+      "Aleš Hemský": 2,
+      "Mack the Knife": 2,
+      "Nord-Est de l'Ontario": 2
+    },
+    "Canadian Museum of Civilization": {
+      "Musée canadien de l'histoire": 2,
+      "Bruce Allan Clark": 1,
+      "Virtual Museum of New France": 1,
+      "Inuit Tapiriit Kanatami": 1,
+      "Munich/South-West": 1,
+      "Tabagie (feast)": 1,
+      "Bobby Shmurda": 1,
+      "Feminist art movement": 1
+    },
+    "National Research Council": {
+      "The Hallmarks of Cancer": 9,
+      "2015 Newfoundland and Labrador general election": 7,
+      "ZMapp": 6,
+      "BoardGameGeek": 3,
+      "Suspension training": 2,
+      "2013–14 NHL season": 2,
+      "Dominion Astrophysical Observatory": 2,
+      "Talk:Density wave theory": 2,
+      "Milky Way": 2,
+      "Daemon Tools": 2
+    },
+    "Statistics Canada": {
+      "List of churches in Ottawa": 4,
+      "Transportation in North America": 4,
+      "Census in Canada": 3,
+      "Colin Firth": 2,
+      "Consumer price index by country": 2,
+      "Autoregressive conditional heteroskedasticity": 2,
+      "Riverview station (Ottawa)": 1,
+      "Wikipedia talk:AutoWikiBrowser/Sources": 1,
+      "Net neutrality in Canada": 1,
+      "Les Revenants (série télévisée)": 1
+    },
+    "Department of Fisheries and Oceans": {
+      "Halifax, Nova Scotia": 2,
+      "Huron Tract": 2,
+      "Minnesota Vikings": 1,
+      "Marcos Witt": 1,
+      "Less-than sign": 1,
+      "Gabrielle (film, 2013)": 1,
+      "Hudson's Bay (department store)": 1,
+      "Shinjuku Station": 1,
+      "Canadian Coast Guard": 1,
+      "Shadow price": 1
+    },
+    "Shared Services Canada network (AS2675)": {
+      "Marie-Josée Saint-Pierre": 6,
+      "List of postal codes of Canada: K": 3,
+      "2014 Australian Open": 2,
+      "Britannia, Ottawa": 2,
+      "Explosive belt": 2,
+      "Francesca Lia Block": 2,
+      "Angels on horseback": 1,
+      "Piaggio P.180 Avanti": 1,
+      "Zugzwang": 1,
+      "Windsor, Ontario": 1
+    },
+    "Department of Justice Canada": {
+      "Émile Durkheim": 7,
+      "CKCU-FM": 2,
+      "Ferguson, Missouri": 2,
+      "Thomas J. Lawson": 2,
+      "Napoleon III": 1,
+      "Laval Rocket roster": 1,
+      "Talk:9 Beaches": 1,
+      "Prince Albert National Park": 1,
+      "Lac Grand (Quebec)": 1,
+      "The Current (radio program)": 1
+    },
+    "National Research Council (UBC)": {
+      "Magna Steyr": 1,
+      "Tears to Tiara": 1,
+      "Talk:Hydrogen tank": 1,
+      "Membrane electrode assembly": 1,
+      "Air–fuel ratio": 1
+    },
+    "Government of Canada": {
+      "Hanna–Barbera Classics Collection": 11,
+      "The Super Globetrotters": 4,
+      "I Saw What You Did": 3,
+      "The Pebbles and Bamm-Bamm Show": 3,
+      "Yabba-Dabba-Doo! The Happy World of Hanna-Barbera": 3,
+      "The Small One": 3,
+      "Danny Tull": 2,
+      "Dallas (2012 TV series)": 2,
+      "Shirt Tales": 2,
+      "Madonna fashion brands": 1
+    },
+    "Industry Canada": {
+      "List of churches in Ottawa": 4,
+      "Jim Corsi (ice hockey)": 3,
+      "Karl Bélanger": 3,
+      "Dexter (TV series)": 2,
+      "Matías Pérez (balloonist)": 2,
+      "Arthur Kroeger College of Public Affairs": 2,
+      "Rocky Saganiuk": 2,
+      "List of Carleton University people": 2,
+      "Richard Dawkins": 2,
+      "Cinderella (sports)": 2
+    },
+    "Library and Archives Canada": {
+      "List of web archiving initiatives": 15,
+      "Robert Giguère": 3,
+      "John Jones McGill": 3,
+      "Family Day (Canada)": 3,
+      "File:Arras cathedral destruction ww1.jpg": 3,
+      "Centre Block": 3,
+      "Hariot Hamilton-Temple-Blackwood, Marchioness of Dufferin and Ava": 2,
+      "Banker's draft": 2,
+      "File:First Stanley Cup.jpg": 2,
+      "Jim Hart (British Columbia politician)": 1
+    },
+    "Canadian Space Agency": {
+      "Q16943273": 2,
+      "Liste des escadrons des Cadets de l'Aviation royale du Canada": 2,
+      "HMCS Donnacona": 1,
+      "Talk:Project plan": 1,
+      "STS-111": 1,
+      "Nanoracks CubeSat Deployer": 1
+    },
+    "Federal Court of Canada": {
+      "Checker Marathon": 2,
+      "Law clerk": 2,
+      "Michael Carter (nose tackle)": 1,
+      "Maritime University Field Lacrosse League": 1
+    },
+    "Correctional Services Canada": {
+      "Talk:Women and smoking": 1,
+      "Bansi Lal": 1
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "enwiki": "2014-12-31T16:24:03Z",
+    "frwiki": "2014-12-29T18:10:17Z",
+    "commonswiki": "2014-12-30T17:36:35Z",
+    "enwiktionary": "2014-11-14T16:15:02Z",
+    "wikidatawiki": "2014-12-31T14:12:22Z",
+    "enwikivoyage": "2014-08-25T19:27:55Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-11-10T10:53:02Z",
+      "window": [
+        "2014-01-01T00:00:00Z",
+        "2014-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 2636
+    },
+    "frwiki": {
+      "scanned_at": "2026-11-10T10:53:28Z",
+      "window": [
+        "2014-01-01T00:00:00Z",
+        "2014-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 331
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-11-10T10:54:11Z",
+      "window": [
+        "2014-01-01T00:00:00Z",
+        "2014-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 14
+    },
+    "commonswiki": {
+      "scanned_at": "2026-11-10T10:55:06Z",
+      "window": [
+        "2014-01-01T00:00:00Z",
+        "2014-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 156
+    },
+    "enwiktionary": {
+      "scanned_at": "2026-11-10T10:56:01Z",
+      "window": [
+        "2014-01-01T00:00:00Z",
+        "2014-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 13
+    },
+    "enwikivoyage": {
+      "scanned_at": "2026-11-10T10:56:25Z",
+      "window": [
+        "2014-01-01T00:00:00Z",
+        "2014-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 1
+    }
+  }
+}
