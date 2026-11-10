@@ -5,7 +5,8 @@ Status as of 2026-10-27 (v1.2.0). Items move to the [changelog](CHANGELOG.md) wh
 ## Now
 - [x] 2025 backfill (en/fr Wikipedia, Wikidata, Commons)
 - [x] 2024 backfill
-- [ ] 2015 backfill (federal election year; first full @gccaedits year)
+- [ ] 2014 backfill (full year; @gccaedits launched July 2014)
+- [x] 2015 backfill (federal election year; first full @gccaedits year)
 - [x] 2016 backfill
 - [x] 2017 backfill (fully inside the @gccaedits era)
 - [x] 2018 backfill
