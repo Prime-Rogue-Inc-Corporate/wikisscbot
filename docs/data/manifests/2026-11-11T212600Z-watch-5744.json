@@ -1,0 +1,80 @@
+{
+  "schema": "wikisscbot-manifest/1",
+  "run_id": "2026-11-11T212600Z-watch-5744",
+  "kind": "watch",
+  "started": "2026-11-11T21:26:00Z",
+  "finished": "2026-11-11T21:38:05Z",
+  "tool_version": "1.2.0",
+  "code_commit": "95a9511c85f3b91ae3406edee4474273e0052375",
+  "workflow_run": {
+    "id": "43102963241",
+    "attempt": "1",
+    "workflow": "Watch for new edits",
+    "url": "https://github.com/Prime-Rogue-Inc-Corporate/wikisscbot/actions/runs/43102963241"
+  },
+  "params": {
+    "window": [
+      "2026-11-10T15:26:00Z",
+      "2026-11-11T21:26:00Z"
+    ],
+    "wikis": [
+      "enwiki",
+      "frwiki",
+      "wikidatawiki",
+      "commonswiki",
+      "enwiktionary",
+      "enwikivoyage"
+    ]
+  },
+  "inputs": {
+    "config/niche_wikis.json": "87dc091e9277bdf6bddf25c43491fedf96f767c9b5a58098637fab3864965358",
+    "config/ranges_gccaedits.json": "b371a8e3c54b39b654ca23d67265255f7a4c93c56cb9ba2e91d8b48015ae0f17",
+    "config/ranges_ssc_bgp.json": "089e3ad48632354f19db9989e9b3ac96cc6fa3edb4c9f7cc9c2a218b54cf18b6",
+    "config/settings.json": "09a833663e59dbbde98ce27929cb77797ee499f221ca2a7149055952081235d6"
+  },
+  "responses": {
+    "count": 901,
+    "bytes": 72080,
+    "by_host": {
+      "en.wikipedia.org": {
+        "responses": 151,
+        "bytes": 12080
+      },
+      "fr.wikipedia.org": {
+        "responses": 150,
+        "bytes": 12000
+      },
+      "www.wikidata.org": {
+        "responses": 150,
+        "bytes": 12000
+      },
+      "commons.wikimedia.org": {
+        "responses": 150,
+        "bytes": 12000
+      },
+      "en.wiktionary.org": {
+        "responses": 150,
+        "bytes": 12000
+      },
+      "en.wikivoyage.org": {
+        "responses": 150,
+        "bytes": 12000
+      }
+    },
+    "chain_sha256": "5b44f1e0e0509dce9aedd96a6f1265de80e77a2c398025ae2f399e00c4b7831c",
+    "log": "data/manifests/2026-11-11T212600Z-watch-5744.responses.jsonl",
+    "log_sha256": "6859874dedbd8644fe3e321435bdc6556f1f28ffca1b1be901661bffb7d859a8"
+  },
+  "outputs": {
+    "data/live/edits.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "data_sums_sha256": "10f681cecfec0eb0f694c4cd2a83f208b9053923511c2fb8880c4c23eb74ba93",
+  "counts": {
+    "new_edits": 0
+  },
+  "previous_manifest": {
+    "run_id": "2026-11-11T121009Z-enrich-618e",
+    "sha256": "7116be2add115c8a58869b067b4e6abc8d66ef0082973596bc3ad9057a3e8210"
+  },
+  "notes": ""
+}
