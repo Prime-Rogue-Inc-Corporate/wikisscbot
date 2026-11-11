@@ -1,0 +1,650 @@
+{
+  "generated": "2026-11-11T10:31:20Z",
+  "total_edits": 3591,
+  "unique_ips": 171,
+  "by_label": {
+    "Shared Services Canada": 1469,
+    "Canadian Department of National Defence": 762,
+    "Canadian House of Commons": 314,
+    "Shared Services Canada network (AS2665)": 162,
+    "Industry Canada": 113,
+    "Environment Canada": 112,
+    "Government of Canada": 105,
+    "Natural Resources Canada": 99,
+    "Canadian Broadcasting Corporation": 90,
+    "National Research Council": 83,
+    "Shared Services Canada network (AS2675)": 58,
+    "Department of Justice Canada": 40,
+    "Statistics Canada": 39,
+    "Department of Fisheries and Oceans": 38,
+    "Library and Archives Canada": 28,
+    "Bank of Canada": 23,
+    "National Research Council (UBC)": 14,
+    "Finance Canada": 10,
+    "Federal Court of Canada": 8,
+    "Canadian Museum of Civilization": 7,
+    "Canadian Space Agency": 6,
+    "Employment and Immigration Canada": 3,
+    "National Research Council (UofT)": 3,
+    "Communications Security Establishment Canada": 2,
+    "Transport Canada": 2,
+    "Correctional Services Canada": 1
+  },
+  "by_wiki": {
+    "enwiki": 3092,
+    "frwiki": 325,
+    "commonswiki": 106,
+    "enwiktionary": 46,
+    "enwikivoyage": 11,
+    "wikidatawiki": 11
+  },
+  "by_month": {
+    "2013-01": 270,
+    "2013-02": 355,
+    "2013-03": 298,
+    "2013-04": 257,
+    "2013-05": 310,
+    "2013-06": 280,
+    "2013-07": 293,
+    "2013-08": 322,
+    "2013-09": 302,
+    "2013-10": 329,
+    "2013-11": 318,
+    "2013-12": 257
+  },
+  "top_pages": [
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Commercial Corporation",
+      "edits": 53
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Drake Jensen",
+      "edits": 35
+    },
+    {
+      "wiki": "enwiki",
+      "title": "HMCS St. John's",
+      "edits": 33
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Jamie Nicholls",
+      "edits": 26
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Competition Bureau",
+      "edits": 22
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Food Structure",
+      "edits": 21
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Edmonton",
+      "edits": 18
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Automotive industry in Canada",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Douglas Kinsella",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of law enforcement agencies in Canada",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Régiment de Hull",
+      "edits": 14
+    },
+    {
+      "wiki": "commonswiki",
+      "title": "Commons:Village pump",
+      "edits": 14
+    },
+    {
+      "wiki": "commonswiki",
+      "title": "Commons:Deletion requests/File:Jimmy Wales by Pricasso (the making of).ogv",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Land Force Central Area",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Freedom Mobile",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Eastern Basketball Alliance",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Royal Canadian Air Force",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "3rd Canadian Division",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Jon Brooks",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "The MDNA Tour",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Northeast Sr. Eagles",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "January Uprising",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Army",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "41 Combat Engineer Regiment",
+      "edits": 10
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Musées numériques Canada",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Matt Read",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Roger Sweet",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiktionary",
+      "title": "Appendix:Glossary of military slang",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Chris Warkentin",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of highest paved roads in Europe",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Charlie Watt",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Barbara Eden",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Corneliu Chisu",
+      "edits": 8
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Jim Flaherty",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "MDNA World Tour (album)",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Manic GT",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Family Day (Canada)",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "La Compagnie Créole",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Steven Blaney",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Talk:CFIA",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Isotope dilution",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of cinemas in Ottawa-Gatineau",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Armed Forces ranks and insignia",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Wikipedia:Articles for creation/Redirects",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Drowned World Tour",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Chemical potential",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "HMCS Preserver (AOR 510)",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Brockville Rifles",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Pauline Marois",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Norman Paterson School of International Affairs",
+      "edits": 6
+    }
+  ],
+  "top_pages_by_label": {
+    "Shared Services Canada": {
+      "Canadian Commercial Corporation": 53,
+      "Drake Jensen": 35,
+      "Régiment de Hull": 14,
+      "Freedom Mobile": 13,
+      "Eastern Basketball Alliance": 12,
+      "Jim Flaherty": 11,
+      "Northeast Sr. Eagles": 11,
+      "Musées numériques Canada": 10,
+      "Matt Read": 9,
+      "Manic GT": 8
+    },
+    "Canadian House of Commons": {
+      "Jamie Nicholls": 26,
+      "Douglas Kinsella": 15,
+      "Chris Warkentin": 8,
+      "List of highest paved roads in Europe": 8,
+      "Charlie Watt": 8,
+      "Corneliu Chisu": 8,
+      "Pauline Marois": 6,
+      "Maria Mourani": 6,
+      "Sébastien Pietrasanta": 6,
+      "Marjolaine Boutin-Sweet": 5
+    },
+    "Industry Canada": {
+      "Competition Bureau": 22,
+      "Wikipedia:Articles for creation/Redirects": 7,
+      "Eddie Läck": 5,
+      "List of current NHL general managers": 4,
+      "Institut National d'Optique": 3,
+      "Take Me Home Tour (One Direction)": 3,
+      "Public Mobile": 2,
+      "Toyota Corolla": 2,
+      "Free Zone (Scientology)": 2,
+      "Aaron Voros": 2
+    },
+    "Canadian Broadcasting Corporation": {
+      "Jon Brooks": 11,
+      "Canada Reads": 3,
+      "Rudyard Griffiths": 3,
+      "Joseph Wright Jr. (rower)": 3,
+      "List of active Canadian military aircraft": 3,
+      "Dianne Buckner": 3,
+      "Sucker Punch": 3,
+      "List of programs broadcast by CBC Television": 2,
+      "The Verge (XM)": 2,
+      "Suicide by cop": 2
+    },
+    "Canadian Department of National Defence": {
+      "HMCS St. John's": 33,
+      "Commons:Village pump": 14,
+      "Commons:Deletion requests/File:Jimmy Wales by Pricasso (the making of).ogv": 14,
+      "Land Force Central Area": 13,
+      "List of law enforcement agencies in Canada": 12,
+      "Royal Canadian Air Force": 12,
+      "3rd Canadian Division": 12,
+      "January Uprising": 10,
+      "41 Combat Engineer Regiment": 10,
+      "Canadian Army": 9
+    },
+    "Natural Resources Canada": {
+      "Dihydroxyacetone": 6,
+      "2013 U.S. F2000 National Championship": 4,
+      "Matt Kassian": 4,
+      "Priorities and Planning Committee": 4,
+      "Amanita muscaria": 3,
+      "Thomas Tew": 3,
+      "Fuel efficiency": 3,
+      "Ancaster, Ontario": 3,
+      "Spondulix": 2,
+      "Jean Bart": 2
+    },
+    "Environment Canada": {
+      "Chemical potential": 6,
+      "List of AWS-1 devices": 5,
+      "Category:Hurricane Esther (1961)": 4,
+      "Blackface": 3,
+      "List of most expensive films": 3,
+      "Canadian Council of Ministers of the Environment": 3,
+      "Canadian Wildlife Service": 3,
+      "98 Degrees": 2,
+      "Comparison of vector graphics editors": 2,
+      "Talk:Wind chill": 2
+    },
+    "Shared Services Canada network (AS2675)": {
+      "Roger Sweet": 9,
+      "Ou (surname)": 4,
+      "Fang (surname)": 3,
+      "2015 UEFA European Under-21 Championship qualification Group 7": 3,
+      "Royal Canadian Mounted Police": 2,
+      "Juliana Hatfield": 2,
+      "SEQ": 2,
+      "Canoe camping": 2,
+      "Sai Kung Town": 2,
+      "Between the Lines (TV series)": 1
+    },
+    "Shared Services Canada network (AS2665)": {
+      "Food Structure": 21,
+      "Edmonton": 18,
+      "Talk:CFIA": 7,
+      "CFIA": 5,
+      "Conseil de recherches en sciences humaines du Canada": 5,
+      "Aphroditeola": 4,
+      "Social Sciences and Humanities Research Council": 4,
+      "Canadian Wheat Board": 4,
+      "Government spending": 4,
+      "Wu Xiubo": 4
+    },
+    "Statistics Canada": {
+      "HP Universal Print Driver": 4,
+      "Q3377292": 3,
+      "2010 Lanark County municipal elections": 3,
+      "Fonds de stabilisation de la fédération de Russie": 2,
+      "Château de Josselin": 2,
+      "Maison en paille": 2,
+      "List of most common surnames in Asian countries": 2,
+      "List of schools in Ottawa": 1,
+      "Discussion:Association des oulémas musulmans algériens": 1,
+      "Jules Fournier": 1
+    },
+    "Department of Justice Canada": {
+      "Prussia": 3,
+      "Director of public prosecutions": 3,
+      "Kitsault": 2,
+      "Extract, transform, load": 2,
+      "Ensemble, c'est tout": 2,
+      "Department of Justice (Canada)": 2,
+      "Patrick Healy (judge)": 2,
+      "Talk:Marc Nadon": 2,
+      "Talk:Project Mercury": 2,
+      "Brett Hull": 1
+    },
+    "Library and Archives Canada": {
+      "Current Swell": 3,
+      "Daniel J. Caron": 3,
+      "The Biggest Loser season 15": 3,
+      "Charles Cathcart, 2nd Earl Cathcart": 2,
+      "Andrei Kostitsyn": 2,
+      "The Biggest Loser season 12": 2,
+      "Patrimoine canadien": 2,
+      "File:Fort Edward1753 by Capt. John Hamilton..jpg": 1,
+      "The Biggest Loser (American TV series)": 1,
+      "Elzéar-Alexandre Taschereau": 1
+    },
+    "Employment and Immigration Canada": {
+      "Ginger Snaps (film)": 1,
+      "Ginger Snaps 2: Unleashed": 1,
+      "Schutterij": 1
+    },
+    "National Research Council": {
+      "Automotive industry in Canada": 16,
+      "Isotope dilution": 7,
+      "Emergency telephone number": 3,
+      "John O'Sullivan (engineer)": 3,
+      "Halifax": 2,
+      "Focal-plane array (radio astronomy)": 2,
+      "Doug Fitch": 2,
+      "Commission on Isotopic Abundances and Atomic Weights": 2,
+      "File:Karl Seubert.jpg": 2,
+      "Gilles Bibeau (linguiste)": 2
+    },
+    "National Research Council (UofT)": {
+      "Proaftn": 3
+    },
+    "Bank of Canada": {
+      "Jack Benny": 3,
+      "British Columbia Social Credit Party": 3,
+      "Just Energy": 2,
+      "Conservative Party of British Columbia": 2,
+      "Battle of Walaja": 2,
+      "Ghost hunting": 1,
+      "Milton College": 1,
+      "Central Bank of the United Arab Emirates": 1,
+      "British Columbia Libertarian Party": 1,
+      "Great Lakes": 1
+    },
+    "Department of Fisheries and Oceans": {
+      "Du contrat social": 3,
+      "List of world news channels": 2,
+      "Canadian passport": 2,
+      "Michael Peña": 2,
+      "Folkes Brothers": 2,
+      "MiWay": 1,
+      "User talk:198.103.161.1": 1,
+      "Mario Tennis": 1,
+      "Brandon Prust": 1,
+      "Christine Love (writer)": 1
+    },
+    "Correctional Services Canada": {
+      "Category:Meteorite minerals": 1
+    },
+    "Communications Security Establishment Canada": {
+      "Certificate authority": 1,
+      "List of philanthropists": 1
+    },
+    "Government of Canada": {
+      "The MDNA Tour": 11,
+      "Barbara Eden": 8,
+      "MDNA World Tour (album)": 8,
+      "List of cinemas in Ottawa-Gatineau": 7,
+      "Drowned World Tour": 7,
+      "Blond Ambition World Tour": 6,
+      "Sticky & Sweet Tour": 5,
+      "List of Madonna concerts": 4,
+      "Help!... It's the Hair Bear Bunch!": 3,
+      "Yogi's Space Race": 3
+    },
+    "National Research Council (UBC)": {
+      "Heart cancer": 3,
+      "User talk:206.12.28.161": 2,
+      "Biological system": 2,
+      "Toaster": 2,
+      "King penguin": 1,
+      "Cryostat": 1,
+      "Nickel titanium": 1,
+      "Wright etch": 1,
+      "Vlaai": 1
+    },
+    "Canadian Museum of Civilization": {
+      "Désirée Clary": 2,
+      "Petra": 1,
+      "List of bean-to-bar chocolate manufacturers": 1,
+      "Wolfred Nelson": 1,
+      "James Boyle Uniacke": 1,
+      "Nick Sikkuark": 1
+    },
+    "Finance Canada": {
+      "Éric Duhaime": 3,
+      "Steven Blaney": 2,
+      "User talk:Padraic": 1,
+      "Grades des Forces armées canadiennes": 1,
+      "Q7836936": 1,
+      "Parc de la Gatineau": 1,
+      "Commission de la capitale nationale (Canada)": 1
+    },
+    "Federal Court of Canada": {
+      "Curling": 2,
+      "Vito Rizzuto": 1,
+      "Discussion:Thalidomide": 1,
+      "Ente Scambi Coloniali Internazionali": 1,
+      "Monogram (company)": 1,
+      "List of adjectivals and demonyms for cities": 1,
+      "Jason Kenney": 1
+    },
+    "Canadian Space Agency": {
+      "Tomber la chemise": 3,
+      "Walter Natynczyk": 2,
+      "Zebda": 1
+    },
+    "Transport Canada": {
+      "Zec Saint-Patrice": 1,
+      "North American Transportation Statistics Interchange": 1
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "enwiki": "2013-12-31T18:07:13Z",
+    "frwiki": "2013-12-31T14:47:35Z",
+    "enwiktionary": "2013-11-19T21:11:37Z",
+    "enwikivoyage": "2013-06-04T20:59:17Z",
+    "commonswiki": "2013-12-26T02:42:34Z",
+    "wikidatawiki": "2013-12-04T13:12:10Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-11-11T10:27:46Z",
+      "window": [
+        "2013-01-01T00:00:00Z",
+        "2013-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 3092
+    },
+    "frwiki": {
+      "scanned_at": "2026-11-11T10:28:11Z",
+      "window": [
+        "2013-01-01T00:00:00Z",
+        "2013-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 325
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-11-11T10:29:05Z",
+      "window": [
+        "2013-01-01T00:00:00Z",
+        "2013-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 11
+    },
+    "commonswiki": {
+      "scanned_at": "2026-11-11T10:30:01Z",
+      "window": [
+        "2013-01-01T00:00:00Z",
+        "2013-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 106
+    },
+    "enwiktionary": {
+      "scanned_at": "2026-11-11T10:30:25Z",
+      "window": [
+        "2013-01-01T00:00:00Z",
+        "2013-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 46
+    },
+    "enwikivoyage": {
+      "scanned_at": "2026-11-11T10:31:20Z",
+      "window": [
+        "2013-01-01T00:00:00Z",
+        "2013-12-31T23:59:59Z"
+      ],
+      "blocks_total": 150,
+      "blocks_scanned": 150,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 11
+    }
+  }
+}
