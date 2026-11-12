@@ -7,6 +7,7 @@ on:
       - "wikisscbot/**"
       - "config/settings.json"
       - "config/ranges_gccaedits.json"
+      - "config/ranges_confirmed.json"
       - ".github/workflows/backfill.yml"
   workflow_dispatch:
     inputs:

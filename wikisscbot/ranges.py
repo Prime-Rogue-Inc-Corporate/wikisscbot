@@ -1,6 +1,10 @@
 """Government of Canada IP ranges: labelled list + live SSC BGP announcements.
 
-Two sources, merged:
+Three sources, merged:
+
+0. config/ranges_confirmed.json - individual addresses or ranges whose
+   institution Prime Rogue has confirmed with stronger evidence (for example
+   reverse DNS). Each carries its basis and the date the label starts.
 
 1. config/ranges_gccaedits.json - the public-domain @gccaedits list
    (github.com/ruebot/gccaedits-ip-address-ranges), department-labelled,
@@ -47,9 +51,11 @@ Network = ipaddress.IPv4Network | ipaddress.IPv6Network
 class Range:
     network: Network
     label: str
-    source: str  # "gccaedits" or "ssc-bgp"
+    source: str  # "confirmed", "gccaedits" or "ssc-bgp"
     # ISO date an SSC ASN last announced the prefix; None = still announced, or undated.
     last_seen: str | None = None
+    # ISO date a confirmed label starts to apply; None = no start date.
+    first_valid: str | None = None
 
     @property
     def valid_until(self) -> str | None:
@@ -60,8 +66,18 @@ class Range:
 
     def valid_at(self, ts: str | None) -> bool:
         """Was this range attributable to the government at time `ts` (ISO)?"""
+        if ts is None:
+            return True
+        if self.first_valid and ts[:10] < self.first_valid[:10]:
+            return False
         until = self.valid_until
-        return ts is None or until is None or ts[:10] <= until
+        return until is None or ts[:10] <= until
+
+    def valid_in_year(self, year: int | str) -> bool:
+        """Was this range attributable at any point in calendar year `year`?"""
+        until = self.valid_until
+        return ((until is None or until >= f"{year}-01-01")
+                and (not self.first_valid or self.first_valid[:10] <= f"{year}-12-31"))
 
 
 def _parse_entry(entry) -> list[Network]:
@@ -98,18 +114,30 @@ def load_ssc_bgp(path: Path = CONFIG / "ranges_ssc_bgp.json") -> list[Range]:
     return out
 
 
+def load_confirmed(path: Path = CONFIG / "ranges_confirmed.json") -> list[Range]:
+    if not path.exists():
+        return []
+    out = []
+    for item in json.loads(path.read_text()).get("ranges", []):
+        out.append(Range(ipaddress.ip_network(item["range"], strict=False), item["label"],
+                         "confirmed", None, item.get("from")))
+    return out
+
+
 def load_all() -> list[Range]:
-    return load_gccaedits() + load_ssc_bgp()
+    return load_confirmed() + load_gccaedits() + load_ssc_bgp()
 
 
 class Labeller:
     """Most-specific-match lookup from IP to range label."""
 
     def __init__(self, ranges: list[Range]):
-        # gccaedits ranges first (most specific first), then SSC BGP prefixes.
+        # Confirmed and gccaedits ranges first (most specific first, confirmed
+        # winning ties), then SSC BGP prefixes.
         self.ranges = sorted(
             ranges,
-            key=lambda r: (0 if r.source == "gccaedits" else 1, -r.network.prefixlen),
+            key=lambda r: (1 if r.source == "ssc-bgp" else 0, -r.network.prefixlen,
+                           0 if r.source == "confirmed" else 1),
         )
 
     def match(self, ip: str, ts: str | None = None) -> Range | None:
@@ -136,7 +164,7 @@ def query_blocks(ranges: list[Range], year: int | str | None = None) -> tuple[li
     """
     warnings = []
     if year is not None:
-        ranges = [r for r in ranges if r.valid_at(f"{year}-01-01")]
+        ranges = [r for r in ranges if r.valid_in_year(year)]
     v4 = ipaddress.collapse_addresses(r.network for r in ranges if r.network.version == 4)
     v6 = ipaddress.collapse_addresses(r.network for r in ranges if r.network.version == 6)
     blocks: list[Network] = []

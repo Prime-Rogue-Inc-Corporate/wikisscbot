@@ -13,6 +13,7 @@ All notable changes to wikisscbot. Versions follow [semantic versioning](https:/
 - **Discovery files**: `sitemap.xml`, `robots.txt` (search and AI crawlers allowed; `data/manifests/` excluded) and `llms.txt`.
 - `index_biographies` in `config/site.json` (default `false`): the crawlable pages leave biographies and not-yet-classified pages out of the most-edited lists. The search is unaffected.
 - Backfill extended year by year to 2010.
+- **Confirmed attributions** (`config/ranges_confirmed.json`): addresses whose institution has been confirmed with stronger evidence take priority over the range lists, from a stated start date. First entry: 205.193.51.200, Office of the Information Commissioner of Canada.
 - **`site` branch**: every workflow run publishes the contents of `docs/` as a single commit on `site`, for hosts that can only serve a branch root.
 
 ### Fixed

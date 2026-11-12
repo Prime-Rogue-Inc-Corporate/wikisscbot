@@ -46,6 +46,19 @@ class RangeTests(unittest.TestCase):
         current = ranges.Range(net, "SSC bgp", "ssc-bgp", None)
         self.assertIsNotNone(ranges.Labeller([current]).match("203.0.113.9", "2025-01-01T00:00:00Z"))
 
+    def test_confirmed_address_label_applies_only_from_its_start_date(self):
+        ssc = ranges.Range(ipaddress.ip_network("205.193.0.0/16"), "SSC bgp", "ssc-bgp")
+        lab = ranges.Labeller(ranges.load_confirmed() + [ssc])
+        oic = "Office of the Information Commissioner of Canada"
+        self.assertEqual(lab.match("205.193.51.200", "2024-06-01T12:00:00Z").label, oic)
+        self.assertEqual(lab.match("205.193.51.200", "2024-06-01T12:00:00Z").source, "confirmed")
+        self.assertEqual(lab.match("205.193.51.200", "2009-06-01T12:00:00Z").label, "SSC bgp")
+        self.assertFalse(lab.lapsed("205.193.51.200", "2009-06-01T12:00:00Z"))
+        self.assertEqual(lab.match("205.193.51.201", "2024-06-01T12:00:00Z").label, "SSC bgp")
+        only = ranges.Labeller(ranges.load_confirmed()).ranges[0]
+        self.assertTrue(only.valid_in_year(2011))
+        self.assertFalse(only.valid_in_year(2010))
+
     def test_bgp_refresh_records_announcement_dates(self):
         import json, tempfile
         from pathlib import Path
