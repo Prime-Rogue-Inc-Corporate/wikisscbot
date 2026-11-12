@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-11T10:31:20Z",
-  "total_edits": 3591,
-  "unique_ips": 171,
+  "generated": "2026-11-12T00:24:02Z",
+  "total_edits": 3592,
+  "unique_ips": 172,
   "by_label": {
     "Shared Services Canada": 1469,
     "Canadian Department of National Defence": 762,
@@ -28,10 +28,11 @@
     "National Research Council (UofT)": 3,
     "Communications Security Establishment Canada": 2,
     "Transport Canada": 2,
-    "Correctional Services Canada": 1
+    "Correctional Services Canada": 1,
+    "Shared Services Canada network (AS25689, legacy NRC)": 1
   },
   "by_wiki": {
-    "enwiki": 3092,
+    "enwiki": 3093,
     "frwiki": 325,
     "commonswiki": 106,
     "enwiktionary": 46,
@@ -41,7 +42,7 @@
   "by_month": {
     "2013-01": 270,
     "2013-02": 355,
-    "2013-03": 298,
+    "2013-03": 299,
     "2013-04": 257,
     "2013-05": 310,
     "2013-06": 280,
@@ -523,6 +524,9 @@
       "Wright etch": 1,
       "Vlaai": 1
     },
+    "Shared Services Canada network (AS25689, legacy NRC)": {
+      "Campesterol": 1
+    },
     "Canadian Museum of Civilization": {
       "Désirée Clary": 2,
       "Petra": 1,
@@ -569,78 +573,78 @@
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-11-11T10:27:46Z",
+      "scanned_at": "2026-11-12T00:20:09Z",
       "window": [
         "2013-01-01T00:00:00Z",
         "2013-12-31T23:59:59Z"
       ],
-      "blocks_total": 150,
-      "blocks_scanned": 150,
+      "blocks_total": 151,
+      "blocks_scanned": 151,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 3092
+      "edits": 3093
     },
     "frwiki": {
-      "scanned_at": "2026-11-11T10:28:11Z",
+      "scanned_at": "2026-11-12T00:21:02Z",
       "window": [
         "2013-01-01T00:00:00Z",
         "2013-12-31T23:59:59Z"
       ],
-      "blocks_total": 150,
-      "blocks_scanned": 150,
+      "blocks_total": 151,
+      "blocks_scanned": 151,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 325
     },
     "wikidatawiki": {
-      "scanned_at": "2026-11-11T10:29:05Z",
+      "scanned_at": "2026-11-12T00:21:16Z",
       "window": [
         "2013-01-01T00:00:00Z",
         "2013-12-31T23:59:59Z"
       ],
-      "blocks_total": 150,
-      "blocks_scanned": 150,
+      "blocks_total": 151,
+      "blocks_scanned": 151,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 11
     },
     "commonswiki": {
-      "scanned_at": "2026-11-11T10:30:01Z",
+      "scanned_at": "2026-11-12T00:22:11Z",
       "window": [
         "2013-01-01T00:00:00Z",
         "2013-12-31T23:59:59Z"
       ],
-      "blocks_total": 150,
-      "blocks_scanned": 150,
+      "blocks_total": 151,
+      "blocks_scanned": 151,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 106
     },
     "enwiktionary": {
-      "scanned_at": "2026-11-11T10:30:25Z",
+      "scanned_at": "2026-11-12T00:23:06Z",
       "window": [
         "2013-01-01T00:00:00Z",
         "2013-12-31T23:59:59Z"
       ],
-      "blocks_total": 150,
-      "blocks_scanned": 150,
+      "blocks_total": 151,
+      "blocks_scanned": 151,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 46
     },
     "enwikivoyage": {
-      "scanned_at": "2026-11-11T10:31:20Z",
+      "scanned_at": "2026-11-12T00:24:02Z",
       "window": [
         "2013-01-01T00:00:00Z",
         "2013-12-31T23:59:59Z"
       ],
-      "blocks_total": 150,
-      "blocks_scanned": 150,
+      "blocks_total": 151,
+      "blocks_scanned": 151,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,

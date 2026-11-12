@@ -1,12 +1,12 @@
 {
   "source": "RIPEstat announced-prefixes",
-  "since": "2013-01-01T00:00",
-  "fetched": "2026-11-11T10:27:19Z",
+  "since": "2012-01-01T00:00",
+  "fetched": "2026-11-12T00:15:15Z",
   "counts_by_asn": {
     "2665": 281,
     "2675": 372,
     "2682": 10,
-    "25689": 50,
+    "25689": 52,
     "806": 25
   },
   "prefixes": [
@@ -1404,6 +1404,16 @@
       "prefix": "204.19.79.0/24",
       "asn": 2675,
       "label": "Shared Services Canada network (AS2675)"
+    },
+    {
+      "prefix": "204.83.146.0/24",
+      "asn": 25689,
+      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+    },
+    {
+      "prefix": "204.83.147.0/24",
+      "asn": 25689,
+      "label": "Shared Services Canada network (AS25689, legacy NRC)"
     },
     {
       "prefix": "204.174.103.0/24",

@@ -1,0 +1,666 @@
+{
+  "generated": "2026-11-12T00:19:10Z",
+  "total_edits": 4152,
+  "unique_ips": 203,
+  "by_label": {
+    "Shared Services Canada": 1901,
+    "Canadian Department of National Defence": 780,
+    "Canadian House of Commons": 346,
+    "Industry Canada": 169,
+    "Shared Services Canada network (AS2665)": 166,
+    "Environment Canada": 156,
+    "Canadian Broadcasting Corporation": 103,
+    "Natural Resources Canada": 94,
+    "National Research Council": 86,
+    "Shared Services Canada network (AS2675)": 75,
+    "Government of Canada": 48,
+    "Department of Justice Canada": 46,
+    "Department of Fisheries and Oceans": 32,
+    "Library and Archives Canada": 26,
+    "Bank of Canada": 23,
+    "Canadian Museum of Civilization": 20,
+    "Statistics Canada": 17,
+    "Canadian Space Agency": 15,
+    "Employment and Immigration Canada": 11,
+    "Finance Canada": 10,
+    "Federal Court of Canada": 7,
+    "National Research Council (UBC)": 6,
+    "National Research Council (UofT)": 4,
+    "Shared Services Canada network (AS25689, legacy NRC)": 4,
+    "Canada Centre for Inland Waters": 2,
+    "Correctional Services Canada": 2,
+    "Transport Canada": 2,
+    "National Research Council (SSC)": 1
+  },
+  "by_wiki": {
+    "enwiki": 3523,
+    "frwiki": 507,
+    "commonswiki": 92,
+    "enwiktionary": 19,
+    "enwikivoyage": 11
+  },
+  "by_month": {
+    "2012-01": 333,
+    "2012-02": 392,
+    "2012-03": 333,
+    "2012-04": 262,
+    "2012-05": 405,
+    "2012-06": 444,
+    "2012-07": 389,
+    "2012-08": 484,
+    "2012-09": 288,
+    "2012-10": 267,
+    "2012-11": 267,
+    "2012-12": 288
+  },
+  "top_pages": [
+    {
+      "wiki": "enwiki",
+      "title": "2012 Quebec general election",
+      "edits": 87
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Drake Jensen",
+      "edits": 74
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Régiment de Hull",
+      "edits": 38
+    },
+    {
+      "wiki": "enwiki",
+      "title": "BizPaL",
+      "edits": 35
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Buchans",
+      "edits": 24
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Royal Canadian Navy",
+      "edits": 18
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Muwatalli II",
+      "edits": 17
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Villa Bellevue (Kingston)",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Algonquin Regiment (Northern Pioneers)",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Yu-Gi-Oh! Duel Monsters season 1",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Nisgaʼa",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Star Académie",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Algonquin College",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Ultimate Championships",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Montreal City Council",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Milos Raonic",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Robert Sopuck",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of South Korean idol groups",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "E. D. Morel",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "4 Engineer Support Regiment",
+      "edits": 10
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Zannanza",
+      "edits": 10
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Régiment Royal-Roussillon",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "National Council of Welfare",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of Star Trek novels",
+      "edits": 9
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Géopolitique du pétrole",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Orca-class patrol vessel",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiktionary",
+      "title": "Appendix:Canadian English military slang",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Kitchener—Waterloo (provincial electoral district)",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "The Power of One (film)",
+      "edits": 8
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Brioude",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Wisconsin–River Falls Falcons football",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Regional tartans of Canada",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2000 (number)",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "University of Ottawa",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "1958 CFL season",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Jeroen Krabbé",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Point Pelee National Park",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Virtual Museum of New France",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "White Latin Americans",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Chris Hadfield",
+      "edits": 7
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Stepan Bandera",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Vaughan (provincial electoral district)",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Yaprak",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "User:Wintermute.Neuromancer/sandbox",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Talk:Mahabharata",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Explosion",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "HMCS St. John's",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Land Force Western Area",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Lisa Whelchel",
+      "edits": 6
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Isabelle Morin",
+      "edits": 6
+    }
+  ],
+  "top_pages_by_label": {
+    "Shared Services Canada": {
+      "2012 Quebec general election": 87,
+      "Drake Jensen": 74,
+      "Régiment de Hull": 38,
+      "Buchans": 24,
+      "Muwatalli II": 17,
+      "Villa Bellevue (Kingston)": 16,
+      "Yu-Gi-Oh! Duel Monsters season 1": 15,
+      "Nisgaʼa": 15,
+      "Algonquin College": 13,
+      "Canadian Ultimate Championships": 13
+    },
+    "Environment Canada": {
+      "E. D. Morel": 10,
+      "List of South Korean idol groups": 7,
+      "Congo Free State propaganda war": 5,
+      "List of male professional bodybuilders": 5,
+      "List of people who disappeared mysteriously": 5,
+      "Turbulent diffusion": 4,
+      "Lists of unusual deaths": 4,
+      "Plant Bath": 3,
+      "Honor killing": 3,
+      "Erik Karlsson": 3
+    },
+    "Finance Canada": {
+      "Steven Blaney": 3,
+      "File:Shermandriver.jpg": 2,
+      "Richie Sambora": 1,
+      "Commission de la capitale nationale (Canada)": 1,
+      "Déterminant possessif en français": 1,
+      "Anciens Combattants Canada": 1,
+      "Heart of Oak": 1
+    },
+    "Canadian Department of National Defence": {
+      "Royal Canadian Navy": 18,
+      "Algonquin Regiment (Northern Pioneers)": 15,
+      "4 Engineer Support Regiment": 10,
+      "Orca-class patrol vessel": 8,
+      "Appendix:Canadian English military slang": 8,
+      "Brioude": 8,
+      "Stepan Bandera": 7,
+      "HMCS St. John's": 6,
+      "Land Force Western Area": 6,
+      "Courland Pocket": 6
+    },
+    "Natural Resources Canada": {
+      "Raymond Thorsteinsson": 5,
+      "Nenad Mišković": 4,
+      "Derek Drouin": 4,
+      "Elliott Loughlin": 3,
+      "Monster (manga)": 2,
+      "Ron Caron": 2,
+      "Tomochichi": 2,
+      "Scipione Piattoli": 2,
+      "Miguel Grau": 2,
+      "Ermenegildo Gasperoni": 2
+    },
+    "Canadian House of Commons": {
+      "Montreal City Council": 12,
+      "Robert Sopuck": 12,
+      "Isabelle Morin": 10,
+      "List of Star Trek novels": 9,
+      "1958 CFL season": 7,
+      "Sadia Groguhé": 7,
+      "1956 in Canadian football": 6,
+      "Party standings in the Senate of Canada": 5,
+      "Hélène LeBlanc": 5,
+      "Liste des conventions d'anime": 5
+    },
+    "Canadian Broadcasting Corporation": {
+      "Regional tartans of Canada": 7,
+      "Ross Geller": 6,
+      "A Different Kind of Truth": 3,
+      "Niagara-on-the-Lake": 3,
+      "Kumi Naidoo": 3,
+      "Telstar (instrumental)": 3,
+      "CKSH-DT": 2,
+      "Rexdale": 2,
+      "Night Lines": 2,
+      "List of 100 Bullets characters": 2
+    },
+    "Department of Fisheries and Oceans": {
+      "Talk:Metadata": 4,
+      "Toyota FJ Cruiser": 3,
+      "Brad Staubitz": 2,
+      "Daniel Carcillo": 1,
+      "Wikipedia:Sandbox": 1,
+      "Brian Ching": 1,
+      "Discussion:Patrick Roy (hockey sur glace)": 1,
+      "Anguille d'Amérique": 1,
+      "2012 NHL entry draft": 1,
+      "HMCS Nipigon (DDH 266)": 1
+    },
+    "Statistics Canada": {
+      "Celine Lomez": 2,
+      "Great Train Robbery (1963)": 1,
+      "Lise Martin (actrice)": 1,
+      "Disc number": 1,
+      "Brigitte Poupart": 1,
+      "Lucian Bute": 1,
+      "Superintendent (police)": 1,
+      "Nathalie Gascon": 1,
+      "Edward Hopper": 1,
+      "Lady Be Good (aircraft)": 1
+    },
+    "Library and Archives Canada": {
+      "Susanna Montgomerie, Countess of Eglinton": 5,
+      "Barachois (band)": 2,
+      "Daniel J. Caron": 2,
+      "Radclyffe Hall": 1,
+      "Guillaume Couture": 1,
+      "Ishbel Hamilton-Gordon, Marchioness of Aberdeen and Temair": 1,
+      "List of Druze": 1,
+      "Delisle–Richler controversy": 1,
+      "Robin Morgan": 1,
+      "O Holy Night": 1
+    },
+    "Shared Services Canada network (AS2675)": {
+      "Explosion": 6,
+      "Rum and Coke": 3,
+      "Skid mark": 3,
+      "List of law enforcement agencies in Canada": 3,
+      "Green iguana": 3,
+      "Djamel Mesbah": 2,
+      "List of active Canadian military aircraft": 2,
+      "Mundy Pond (Newfoundland)": 2,
+      "Beaver moon": 2,
+      "The Wizard of Stone Mountain": 2
+    },
+    "Industry Canada": {
+      "BizPaL": 35,
+      "Star Académie": 18,
+      "Adrien D. Pouliot": 6,
+      "Claude Garcia": 5,
+      "Flagstar Bank (1987–2022)": 4,
+      "Assisted Human Reproduction Canada": 3,
+      "Soulcalibur (video game)": 2,
+      "Phoenix Force": 2,
+      "Valery Bykovsky": 2,
+      "Cyprus Turkish Football Association": 2
+    },
+    "National Research Council": {
+      "Collision attack": 6,
+      "Sephadex": 4,
+      "Robert Harris": 4,
+      "Alex Munter": 3,
+      "Gonzalo de Alvarado": 3,
+      "Philippe Coutinho": 3,
+      "Jurassic Park (franchise)": 3,
+      "RIPK1": 2,
+      "Carter Ashton": 2,
+      "Dictation machine": 2
+    },
+    "Government of Canada": {
+      "Lisa Whelchel": 6,
+      "Jabberjaw": 4,
+      "Shazzan": 4,
+      "Madonna singles discography": 3,
+      "Hanna–Barbera Classics Collection": 3,
+      "Alice (American TV series)": 3,
+      "Turn Up the Radio (Madonna song)": 3,
+      "The Amazing Chan and the Chan Clan": 2,
+      "The MDNA Tour": 2,
+      "I Dream of Jeannie... Fifteen Years Later": 2
+    },
+    "Canadian Museum of Civilization": {
+      "Virtual Museum of New France": 7,
+      "Tecumseh, Ontario": 3,
+      "Lac Courte Oreilles Band of Lake Superior Chippewa Indians": 2,
+      "Musée virtuel de la Nouvelle-France": 2,
+      "Psilocybin mushroom": 1,
+      "Syilx": 1,
+      "Peter Pitseolak": 1,
+      "Paysana": 1,
+      "Dylan Neal": 1,
+      "Jeff Bridges": 1
+    },
+    "Shared Services Canada network (AS2665)": {
+      "2000 (number)": 7,
+      "Odd Todd": 6,
+      "UFC on Fuel TV: Franklin vs. Le": 4,
+      "Responsible government": 3,
+      "100,000": 3,
+      "Martin (name)": 3,
+      "Sean Mooney": 3,
+      "The Real Housewives of New Jersey": 3,
+      "List of -gate scandals and controversies": 3,
+      "Institut supérieur d'agriculture Rhône-Alpes": 3
+    },
+    "Canada Centre for Inland Waters": {
+      "API": 1,
+      "Bev Oda": 1
+    },
+    "National Research Council (UBC)": {
+      "Seal hunting": 2,
+      "Explosive": 2,
+      "Talysh people": 1,
+      "Silicone rubber": 1
+    },
+    "Department of Justice Canada": {
+      "Joke chess problem": 5,
+      "Talk:Apriori algorithm": 5,
+      "Talk:Guy Fawkes": 4,
+      "Quebec Route 132": 3,
+      "List of Ringer episodes": 2,
+      "Sputum": 2,
+      "Richard Matheson": 2,
+      "Talk:Babbar Khalsa": 2,
+      "A Sunday Afternoon on the Island of La Grande Jatte": 2,
+      "AMD 10h": 2
+    },
+    "Correctional Services Canada": {
+      "4 mai": 1,
+      "Try Again (Aaliyah song)": 1
+    },
+    "Canadian Space Agency": {
+      "Chris Hadfield": 7,
+      "Robert Thirsk": 2,
+      "Tony Accurso": 2,
+      "John H. Chapman Space Centre": 1,
+      "Rubicon Riders": 1,
+      "Discussion:Maurice-Richard (circonscription provinciale)/À faire": 1,
+      "Method (computer programming)": 1
+    },
+    "Bank of Canada": {
+      "Noreen Young": 3,
+      "List of Canadian inventions, innovations, and discoveries": 3,
+      "Shadow banking system": 2,
+      "Robin Cayzer, 3rd Baron Rotherwick": 2,
+      "One for the Road (Cheers)": 1,
+      "National Geographic": 1,
+      "User talk:Ram-Man": 1,
+      "LLVM": 1,
+      "Naming and Necessity": 1,
+      "Provinces of China": 1
+    },
+    "National Research Council (UofT)": {
+      "Proaftn": 3,
+      "Statistical classification": 1
+    },
+    "Employment and Immigration Canada": {
+      "Radio Songs (chart)": 2,
+      "Salt (2010 film)": 2,
+      "Angelina Pivarnick": 2,
+      "List of awards and nominations received by Aaliyah": 1,
+      "Kentville": 1,
+      "Wikipedia:WikiProject Articles for creation/Help desk": 1,
+      "One in a Million (Aaliyah album)": 1,
+      "Maleficent (film)": 1
+    },
+    "Federal Court of Canada": {
+      "Brookfield High School (Ottawa)": 2,
+      "Hold-up (film, 1985)": 2,
+      "Talk:Jehovah": 1,
+      "Nathan Whitling": 1,
+      "Velcro": 1
+    },
+    "National Research Council (SSC)": {
+      "École polytechnique universitaire de Bourgogne": 1
+    },
+    "Shared Services Canada network (AS25689, legacy NRC)": {
+      "Violent crime": 2,
+      "Thermotogae": 1,
+      "Brachypodium": 1
+    },
+    "Transport Canada": {
+      "Edmond Landry": 1,
+      "Steven Fletcher (homme politique)": 1
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "enwiki": "2012-12-31T17:18:58Z",
+    "frwiki": "2012-12-28T14:27:29Z",
+    "commonswiki": "2012-12-24T05:37:49Z",
+    "enwikivoyage": "2012-08-01T19:36:20Z",
+    "enwiktionary": "2012-12-11T23:05:06Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-11-12T00:15:39Z",
+      "window": [
+        "2012-01-01T00:00:00Z",
+        "2012-12-31T23:59:59Z"
+      ],
+      "blocks_total": 151,
+      "blocks_scanned": 151,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 3523
+    },
+    "frwiki": {
+      "scanned_at": "2026-11-12T00:16:10Z",
+      "window": [
+        "2012-01-01T00:00:00Z",
+        "2012-12-31T23:59:59Z"
+      ],
+      "blocks_total": 151,
+      "blocks_scanned": 151,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 507
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-11-12T00:17:06Z",
+      "window": [
+        "2012-01-01T00:00:00Z",
+        "2012-12-31T23:59:59Z"
+      ],
+      "blocks_total": 151,
+      "blocks_scanned": 151,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 0
+    },
+    "commonswiki": {
+      "scanned_at": "2026-11-12T00:18:01Z",
+      "window": [
+        "2012-01-01T00:00:00Z",
+        "2012-12-31T23:59:59Z"
+      ],
+      "blocks_total": 151,
+      "blocks_scanned": 151,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 92
+    },
+    "enwiktionary": {
+      "scanned_at": "2026-11-12T00:18:14Z",
+      "window": [
+        "2012-01-01T00:00:00Z",
+        "2012-12-31T23:59:59Z"
+      ],
+      "blocks_total": 151,
+      "blocks_scanned": 151,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 19
+    },
+    "enwikivoyage": {
+      "scanned_at": "2026-11-12T00:19:10Z",
+      "window": [
+        "2012-01-01T00:00:00Z",
+        "2012-12-31T23:59:59Z"
+      ],
+      "blocks_total": 151,
+      "blocks_scanned": 151,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 11
+    }
+  }
+}
