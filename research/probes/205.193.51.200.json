@@ -1,0 +1,23 @@
+{
+  "ip": "205.193.51.200",
+  "wikis": {
+    "enwiki": 0,
+    "frwiki": 0,
+    "wikidatawiki": 0,
+    "commonswiki": 0,
+    "enwiktionary": 0,
+    "enwikivoyage": 0,
+    "simplewiki": 0,
+    "frwiktionary": 0,
+    "enwikinews": 0,
+    "enwikiquote": 0,
+    "enwikisource": 0,
+    "metawiki": 0
+  },
+  "edits": [],
+  "errors": {},
+  "total": 0,
+  "first": null,
+  "last": null,
+  "probed_at": "2026-11-12T09:09:09Z"
+}
