@@ -37,7 +37,7 @@ class SiteTests(unittest.TestCase):
             self.assertIn(f"Sitemap: {base}sitemap.xml", (out / "robots.txt").read_text())
             sitemap = (out / "sitemap.xml").read_text()
             years = sorted(p.parent.name for p in (site.ROOT / "data").glob("[0-9][0-9][0-9][0-9]/summary.json"))
-            for rel in ["years.html", "faq.html", "methodology.html", "data.html", "coverage.html", "llms.txt",
+            for rel in ["years.html", "faq.html", "methodology.html", "data.html", "coverage.html", "clusters.html", "llms.txt",
                         "static/og.png", "static/favicon.svg"] + [f"years/{y}.html" for y in years]:
                 self.assertTrue((out / rel).exists(), rel)
                 if rel.endswith(".html"):
