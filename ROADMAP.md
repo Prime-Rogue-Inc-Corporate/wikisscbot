@@ -5,7 +5,8 @@ Status as of 2026-10-27 (v1.2.0). Items move to the [changelog](CHANGELOG.md) wh
 ## Now
 - [x] 2025 backfill (en/fr Wikipedia, Wikidata, Commons)
 - [x] 2024 backfill
-- [ ] 2011 backfill (federal election year; SSC created Aug 2011)
+- [ ] 2010 backfill (pre-SSC; departments on their own networks)
+- [x] 2011 backfill (federal election year; SSC created Aug 2011)
 - [x] 2012 backfill
 - [x] 2013 backfill (pre-@gccaedits)
 - [x] 2014 backfill (full year; @gccaedits launched July 2014)
