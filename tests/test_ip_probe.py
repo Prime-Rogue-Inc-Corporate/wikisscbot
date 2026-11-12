@@ -62,6 +62,19 @@ class IpProbeTests(unittest.TestCase):
                                   ranges.Labeller([]), quick=True)
         self.assertEqual(r["wikis"], {"good": 0})
         self.assertIn("bad", r["errors"])
+
+        # A wiki that fails in the fast sweep gets a second, slower attempt.
+        seen = []
+        def flaky(url, params, **kw):
+            seen.append(kw)
+            if len(seen) == 1:
+                raise ip_probe.ApiError("HTTP 429")
+            return {"query": {"usercontribs": []}}
+        with mock.patch.object(ip_probe, "get_json", side_effect=flaky), mock.patch.object(ip_probe.time, "sleep"):
+            r2 = ip_probe.probe_ip("205.193.51.200", [{"id": "slow", "host": "slow.example"}],
+                                   ranges.Labeller([]), quick=True)
+        self.assertEqual((r2["wikis"], r2["errors"]), ({"slow": 0}, {}))
+        self.assertEqual(seen[1], {})
         self.assertIn("1 wikis could not be checked: bad.", ip_probe.markdown([r], {}, [{"id": "good", "host": "good.example"}, {"id": "bad", "host": "bad.example"}], "now"))
 
     def test_rejects_ranges(self):

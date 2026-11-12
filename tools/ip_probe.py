@@ -21,6 +21,7 @@ import datetime as dt
 import ipaddress
 import json
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -104,6 +105,18 @@ def probe_ip(ip: str, wikis: list[dict], labeller: Labeller, quick: bool = False
 
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:
         results = list(pool.map(one, wikis))
+    # Second pass for wikis that failed in the fast sweep: one at a time, with
+    # the full retry and back-off settings, so rate limits can clear.
+    retried = []
+    for w, rows, err in results:
+        if err and quick:
+            time.sleep(1)
+            try:
+                rows, err = contributions(w["api_url"], ip, quick=False), None
+            except Exception as e:
+                err = str(e)
+        retried.append((w, rows, err))
+    results = retried
     for w, rows, err in results:
         if err:
             res["errors"][w["id"]] = err[:200]
