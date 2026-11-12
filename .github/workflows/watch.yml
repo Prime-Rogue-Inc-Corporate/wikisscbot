@@ -56,3 +56,11 @@ jobs:
           git commit -m "Watch: $(tail -n1 data/manifests/chain.jsonl | python -c "import json,sys;l=json.load(sys.stdin);print(l['run_id'], l['sha256'][:12])")"
           git pull --rebase origin main
           git push origin HEAD:main
+      - name: Publish docs/ to the site branch (the site at its web root)
+        run: |
+          # One fresh commit holding only the contents of docs/, so hosts that
+          # publish a branch root serve the site at the domain root.
+          tree=$(git rev-parse HEAD:docs)
+          commit=$(git -c user.name="wikisscbot" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit-tree "$tree" -m "Deploy $(git rev-parse --short HEAD)")
+          git push -f origin "$commit:refs/heads/site"

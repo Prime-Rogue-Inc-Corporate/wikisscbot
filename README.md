@@ -75,7 +75,9 @@ API endpoints live under `/api/`: `meta`, `search`, `export.csv`, `ips`, `ips/{i
 
 3. Back in Settings → Pages, enter `revisionhistory.ca` as the custom domain and tick **Enforce HTTPS** once the certificate is issued.
 
-**Option B: any other static host** (Netlify, Cloudflare Pages, S3, shared hosting): connect `Prime-Rogue-Inc-Corporate/wikisscbot`, set the publish directory to `docs`, leave the build command empty, and add the domain in the host's dashboard. If a host can only publish the repo root, the root `index.html` forwards to `docs/`, but the canonical links then point at the wrong paths, so prefer a host that can publish a folder.
+**Option B: a host that publishes a branch** (shared hosting with Git deploy, and most others): deploy the **`site`** branch. Every workflow run force-pushes the contents of `docs/` to `site` as a single commit, so that branch's root is the web root and the site sits at `https://revisionhistory.ca/`. Do not deploy `main` to the web root: the site would then live under `/docs/`, and the canonical links, `robots.txt` and sitemap would all point at the wrong paths.
+
+**Option C: a host with a publish-directory setting** (Netlify, Cloudflare Pages): connect `main` and set the publish directory to `docs`, with no build command.
 
 The browser loads the raw data files and does all searching and aggregation itself. It hashes every file it loads with SHA-256 and checks it against `data/SHA256SUMS` and the latest signed manifest; the Provenance page can also walk the full hash chain in the browser.
 

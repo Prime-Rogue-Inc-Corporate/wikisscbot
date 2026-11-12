@@ -13,6 +13,7 @@ All notable changes to wikisscbot. Versions follow [semantic versioning](https:/
 - **Discovery files**: `sitemap.xml`, `robots.txt` (search and AI crawlers allowed; `data/manifests/` excluded) and `llms.txt`.
 - `index_biographies` in `config/site.json` (default `false`): the crawlable pages leave biographies and not-yet-classified pages out of the most-edited lists. The search is unaffected.
 - Backfill extended year by year to 2010.
+- **`site` branch**: every workflow run publishes the contents of `docs/` as a single commit on `site`, for hosts that can only serve a branch root.
 
 ### Fixed
 - **Edits are no longer attributed to an SSC prefix after it was withdrawn.** The prefix list covers every prefix an SSC network announced since the first backfill year, and was applied to every year. Extending the backfill to 2010 pulled in two prefixes that the legacy NRC network (AS25689) announced only around 2010 (`206.167.190.0/23`, `192.70.164.0/24`), which added 315 edits made from those addresses in 2017–2025, long after the announcements ended. `refresh-ranges` now records when each prefix was first and last seen; an edit counts only up to 90 days after the last announcement, and lapsed prefixes are not queried for later years. Each year's `status.json` reports how many edits were excluded this way.
