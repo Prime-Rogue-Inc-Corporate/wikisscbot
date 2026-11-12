@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T08:50:03Z",
+  "generated": "2026-11-12T10:52:00Z",
   "total_edits": 6333,
   "unique_ips": 253,
   "by_label": {
@@ -587,7 +587,7 @@
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-11-12T08:46:05Z",
+      "scanned_at": "2026-11-12T10:48:02Z",
       "window": [
         "2010-01-01T00:00:00Z",
         "2010-12-31T23:59:59Z"
@@ -597,10 +597,11 @@
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 5380
+      "edits": 5380,
+      "lapsed_prefix_edits_excluded": 0
     },
     "frwiki": {
-      "scanned_at": "2026-11-12T08:46:27Z",
+      "scanned_at": "2026-11-12T10:48:21Z",
       "window": [
         "2010-01-01T00:00:00Z",
         "2010-12-31T23:59:59Z"
@@ -610,10 +611,11 @@
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 749
+      "edits": 749,
+      "lapsed_prefix_edits_excluded": 0
     },
     "wikidatawiki": {
-      "scanned_at": "2026-11-12T08:47:20Z",
+      "scanned_at": "2026-11-12T10:49:18Z",
       "window": [
         "2010-01-01T00:00:00Z",
         "2010-12-31T23:59:59Z"
@@ -623,10 +625,11 @@
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 0
+      "edits": 0,
+      "lapsed_prefix_edits_excluded": 0
     },
     "commonswiki": {
-      "scanned_at": "2026-11-12T08:48:14Z",
+      "scanned_at": "2026-11-12T10:50:05Z",
       "window": [
         "2010-01-01T00:00:00Z",
         "2010-12-31T23:59:59Z"
@@ -636,10 +639,11 @@
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 100
+      "edits": 100,
+      "lapsed_prefix_edits_excluded": 0
     },
     "enwiktionary": {
-      "scanned_at": "2026-11-12T08:49:08Z",
+      "scanned_at": "2026-11-12T10:51:03Z",
       "window": [
         "2010-01-01T00:00:00Z",
         "2010-12-31T23:59:59Z"
@@ -649,10 +653,11 @@
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 35
+      "edits": 35,
+      "lapsed_prefix_edits_excluded": 0
     },
     "enwikivoyage": {
-      "scanned_at": "2026-11-12T08:50:03Z",
+      "scanned_at": "2026-11-12T10:52:00Z",
       "window": [
         "2010-01-01T00:00:00Z",
         "2010-12-31T23:59:59Z"
@@ -662,7 +667,8 @@
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 69
+      "edits": 69,
+      "lapsed_prefix_edits_excluded": 0
     }
   }
 }

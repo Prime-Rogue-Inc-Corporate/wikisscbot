@@ -1,10 +1,10 @@
 # Revision History
 
-> Searchable, verifiable archive of 50,558 anonymous Wikipedia edits made from Government of Canada networks, 2010–2025: Parliament, National Defence, Shared Services Canada and more. Published by Prime Rogue Inc. Data built 2026-11-12.
+> Searchable, verifiable archive of 50,240 anonymous Wikipedia edits made from Government of Canada networks, 2010–2025: Parliament, National Defence, Shared Services Canada and more. Published by Prime Rogue Inc. Data built 2026-11-12.
 
 ## Key facts
 
-- 50,558 edits from 1,037 IP addresses, 1 January 2010 to 3 November 2025.
+- 50,240 edits from 1,033 IP addresses, 1 January 2010 to 3 November 2025.
 - Sources: English and French Wikipedia, Wikidata, Wikimedia Commons, English Wiktionary, English Wikivoyage.
 - Edits are those made without logging in, where Wikipedia published the editor's IP address.
 - Networks: the @gccaedits department range list plus Shared Services Canada's routed prefixes (AS2665, AS2675, AS2682, AS25689, AS806).
@@ -26,20 +26,20 @@
 
 ## Edits by year
 
-- [2025](https://revisionhistory.ca/years/2025.html): 2,652 edits from 109 addresses
-- [2024](https://revisionhistory.ca/years/2024.html): 1,264 edits from 130 addresses
-- [2023](https://revisionhistory.ca/years/2023.html): 1,537 edits from 109 addresses
-- [2022](https://revisionhistory.ca/years/2022.html): 2,190 edits from 110 addresses
-- [2021](https://revisionhistory.ca/years/2021.html): 2,630 edits from 115 addresses
-- [2020](https://revisionhistory.ca/years/2020.html): 1,536 edits from 102 addresses
-- [2019](https://revisionhistory.ca/years/2019.html): 2,731 edits from 148 addresses
-- [2018](https://revisionhistory.ca/years/2018.html): 3,745 edits from 162 addresses
-- [2017](https://revisionhistory.ca/years/2017.html): 3,520 edits from 167 addresses
+- [2025](https://revisionhistory.ca/years/2025.html): 2,645 edits from 107 addresses
+- [2024](https://revisionhistory.ca/years/2024.html): 1,249 edits from 129 addresses
+- [2023](https://revisionhistory.ca/years/2023.html): 1,534 edits from 108 addresses
+- [2022](https://revisionhistory.ca/years/2022.html): 2,157 edits from 107 addresses
+- [2021](https://revisionhistory.ca/years/2021.html): 2,526 edits from 113 addresses
+- [2020](https://revisionhistory.ca/years/2020.html): 1,518 edits from 100 addresses
+- [2019](https://revisionhistory.ca/years/2019.html): 2,702 edits from 146 addresses
+- [2018](https://revisionhistory.ca/years/2018.html): 3,704 edits from 160 addresses
+- [2017](https://revisionhistory.ca/years/2017.html): 3,455 edits from 165 addresses
 - [2016](https://revisionhistory.ca/years/2016.html): 2,617 edits from 163 addresses
 - [2015](https://revisionhistory.ca/years/2015.html): 3,733 edits from 165 addresses
 - [2014](https://revisionhistory.ca/years/2014.html): 3,151 edits from 173 addresses
-- [2013](https://revisionhistory.ca/years/2013.html): 3,592 edits from 172 addresses
-- [2012](https://revisionhistory.ca/years/2012.html): 4,152 edits from 203 addresses
+- [2013](https://revisionhistory.ca/years/2013.html): 3,591 edits from 171 addresses
+- [2012](https://revisionhistory.ca/years/2012.html): 4,150 edits from 202 addresses
 - [2011](https://revisionhistory.ca/years/2011.html): 5,175 edits from 229 addresses
 - [2010](https://revisionhistory.ca/years/2010.html): 6,333 edits from 253 addresses
 

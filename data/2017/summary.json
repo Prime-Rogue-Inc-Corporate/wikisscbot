@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-12T09:23:13Z",
-  "total_edits": 3520,
-  "unique_ips": 167,
+  "generated": "2026-11-12T11:23:19Z",
+  "total_edits": 3455,
+  "unique_ips": 165,
   "by_label": {
     "Shared Services Canada": 1997,
     "Canadian Department of National Defence": 586,
@@ -10,7 +10,6 @@
     "Canadian Broadcasting Corporation": 85,
     "Industry Canada": 66,
     "Shared Services Canada network (AS2665)": 65,
-    "Shared Services Canada network (AS25689, legacy NRC)": 65,
     "National Research Council": 64,
     "Natural Resources Canada": 41,
     "Shared Services Canada network (AS2675)": 33,
@@ -29,9 +28,9 @@
     "Correctional Services Canada": 3
   },
   "by_wiki": {
-    "enwiki": 3166,
-    "frwiki": 288,
-    "wikidatawiki": 43,
+    "enwiki": 3151,
+    "frwiki": 240,
+    "wikidatawiki": 41,
     "enwikivoyage": 13,
     "commonswiki": 5,
     "enwiktionary": 5
@@ -41,14 +40,14 @@
     "2017-02": 223,
     "2017-03": 634,
     "2017-04": 427,
-    "2017-05": 279,
-    "2017-06": 233,
+    "2017-05": 248,
+    "2017-06": 232,
     "2017-07": 258,
     "2017-08": 208,
-    "2017-09": 214,
-    "2017-10": 309,
-    "2017-11": 328,
-    "2017-12": 172
+    "2017-09": 209,
+    "2017-10": 286,
+    "2017-11": 325,
+    "2017-12": 170
   },
   "top_pages": [
     {
@@ -523,18 +522,6 @@
       "Slobodan Praljak": 1,
       "José Théodore": 1
     },
-    "Shared Services Canada network (AS25689, legacy NRC)": {
-      "Saint-Émile": 7,
-      "Histoire et chronologie de l'Univers": 5,
-      "Air pollution in Taiwan": 5,
-      "Étole": 4,
-      "Tokyo": 4,
-      "Tyran huppé": 3,
-      "PlayStation VR": 3,
-      "Bouddha": 3,
-      "Symbolisme des couleurs": 2,
-      "Camille Bouchard": 2
-    },
     "Bank of Canada": {
       "Doris Roberts": 5,
       "Blattaria": 2,
@@ -563,82 +550,88 @@
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-11-12T09:19:17Z",
+      "scanned_at": "2026-11-12T11:20:02Z",
       "window": [
         "2017-01-01T00:00:00Z",
         "2017-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 149,
+      "blocks_scanned": 149,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 3166
+      "edits": 3151,
+      "lapsed_prefix_edits_excluded": 0
     },
     "frwiki": {
-      "scanned_at": "2026-11-12T09:20:09Z",
+      "scanned_at": "2026-11-12T11:20:20Z",
       "window": [
         "2017-01-01T00:00:00Z",
         "2017-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 149,
+      "blocks_scanned": 149,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 288
+      "edits": 240,
+      "lapsed_prefix_edits_excluded": 0
     },
     "wikidatawiki": {
-      "scanned_at": "2026-11-12T09:21:03Z",
+      "scanned_at": "2026-11-12T11:21:17Z",
       "window": [
         "2017-01-01T00:00:00Z",
         "2017-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 149,
+      "blocks_scanned": 149,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 43
+      "edits": 41,
+      "lapsed_prefix_edits_excluded": 0
     },
     "commonswiki": {
-      "scanned_at": "2026-11-12T09:21:24Z",
+      "scanned_at": "2026-11-12T11:22:03Z",
       "window": [
         "2017-01-01T00:00:00Z",
         "2017-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 149,
+      "blocks_scanned": 149,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 5
+      "edits": 5,
+      "lapsed_prefix_edits_excluded": 0
     },
     "enwiktionary": {
-      "scanned_at": "2026-11-12T09:22:18Z",
+      "scanned_at": "2026-11-12T11:23:01Z",
       "window": [
         "2017-01-01T00:00:00Z",
         "2017-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 149,
+      "blocks_scanned": 149,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 5
+      "edits": 5,
+      "lapsed_prefix_edits_excluded": 0
     },
     "enwikivoyage": {
-      "scanned_at": "2026-11-12T09:23:13Z",
+      "scanned_at": "2026-11-12T11:23:18Z",
       "window": [
         "2017-01-01T00:00:00Z",
         "2017-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 149,
+      "blocks_scanned": 149,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 13
+      "edits": 13,
+      "lapsed_prefix_edits_excluded": 0
     }
   }
 }

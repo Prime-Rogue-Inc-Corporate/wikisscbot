@@ -1,7 +1,7 @@
 {
   "source": "RIPEstat announced-prefixes",
   "since": "2010-01-01T00:00",
-  "fetched": "2026-11-12T08:45:32Z",
+  "fetched": "2026-11-12T10:47:33Z",
   "counts_by_asn": {
     "2665": 281,
     "2675": 372,
@@ -9,2331 +9,3727 @@
     "25689": 61,
     "806": 27
   },
+  "lapsed": 52,
   "prefixes": [
     {
       "prefix": "128.43.0.0/16",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "131.132.0.0/16",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "131.135.0.0/16",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "131.136.0.0/16",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "131.137.0.0/16",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "131.137.0.0/17",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "131.137.128.0/17",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "131.137.245.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "131.137.249.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "131.138.0.0/16",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "131.138.0.0/17",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "131.138.128.0/17",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "131.139.128.0/17",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "131.139.128.0/18",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "131.139.192.0/18",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "131.235.0.0/16",
       "asn": 806,
-      "label": "Shared Services Canada network (AS806, legacy Environment Canada)"
+      "label": "Shared Services Canada network (AS806, legacy Environment Canada)",
+      "first_seen": "2010-01-01",
+      "last_seen": "2011-10-04",
+      "current": false
     },
     {
       "prefix": "132.156.0.0/16",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "132.156.40.0/23",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2023-12-13",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "132.246.0.0/16",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-01-01",
+      "last_seen": "2026-02-07",
+      "current": false
     },
     {
       "prefix": "132.246.0.0/17",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-05-03",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "132.246.2.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2016-01-12",
+      "last_seen": "2018-02-14",
+      "current": false
     },
     {
       "prefix": "132.246.3.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2016-01-12",
+      "last_seen": "2018-03-08",
+      "current": false
     },
     {
       "prefix": "132.246.11.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2018-02-21",
+      "last_seen": "2018-03-08",
+      "current": false
     },
     {
       "prefix": "132.246.56.0/23",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2020-04-09",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "132.246.60.0/23",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2021-12-07",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "132.246.60.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2020-04-09",
+      "last_seen": "2021-12-06",
+      "current": false
     },
     {
       "prefix": "132.246.128.0/18",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2018-08-02",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "132.246.161.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2021-08-26",
+      "last_seen": "2021-08-26",
+      "current": false
     },
     {
       "prefix": "132.246.172.0/23",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2019-10-31",
+      "last_seen": "2025-04-07",
+      "current": false
     },
     {
       "prefix": "132.246.180.0/22",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-04-24",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "132.246.192.0/19",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-04-24",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "132.246.224.0/19",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-04-24",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "132.246.224.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "142.74.0.0/21",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2020-12-16",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "142.74.1.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "142.74.2.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "142.74.4.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "142.78.0.0/16",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "142.78.9.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "142.98.224.0/24",
       "asn": 2682,
-      "label": "Shared Services Canada network (AS2682)"
+      "label": "Shared Services Canada network (AS2682)",
+      "first_seen": "2018-03-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "142.98.227.0/24",
       "asn": 2682,
-      "label": "Shared Services Canada network (AS2682)"
+      "label": "Shared Services Canada network (AS2682)",
+      "first_seen": "2021-03-15",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "142.98.230.0/23",
       "asn": 2682,
-      "label": "Shared Services Canada network (AS2682)"
+      "label": "Shared Services Canada network (AS2682)",
+      "first_seen": "2018-03-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "142.98.254.0/24",
       "asn": 2682,
-      "label": "Shared Services Canada network (AS2682)"
+      "label": "Shared Services Canada network (AS2682)",
+      "first_seen": "2020-11-03",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "142.135.0.0/16",
       "asn": 806,
-      "label": "Shared Services Canada network (AS806, legacy Environment Canada)"
+      "label": "Shared Services Canada network (AS806, legacy Environment Canada)",
+      "first_seen": "2010-01-01",
+      "last_seen": "2011-10-04",
+      "current": false
     },
     {
       "prefix": "142.191.8.0/21",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "142.206.0.0/16",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "142.206.230.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "142.236.0.0/17",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "142.236.76.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-20",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "142.236.78.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2025-10-18",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "142.236.81.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2025-10-18",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "157.244.190.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "157.244.195.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "160.106.64.0/18",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "160.106.64.0/19",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-01-29",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "160.106.104.0/21",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-01-29",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "160.106.112.0/20",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-01-29",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "160.106.252.0/23",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2019-02-21",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.32.0.0/17",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2023-12-21",
+      "current": false
     },
     {
       "prefix": "167.35.10.0/23",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2015-05-22",
+      "last_seen": "2015-11-13",
+      "current": false
     },
     {
       "prefix": "167.35.10.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-05-22",
+      "last_seen": "2015-11-13",
+      "current": false
     },
     {
       "prefix": "167.35.11.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-05-25",
+      "last_seen": "2015-11-13",
+      "current": false
     },
     {
       "prefix": "167.37.27.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.28.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2020-04-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.33.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.47.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.57.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.58.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-01-24",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.62.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.63.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.168.0/22",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.172.0/23",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.174.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.177.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.179.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.186.0/23",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.188.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.192.0/21",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.201.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.202.0/23",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.204.0/22",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.208.0/23",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.210.0/23",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.212.0/23",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.214.0/23",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.216.0/22",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.220.0/22",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.224.0/22",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.228.0/22",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.238.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2026-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.244.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2016-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.245.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2016-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.246.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2016-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.247.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2016-02-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.37.249.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2016-02-11",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.40.16.0/20",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2021-04-28",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.40.26.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2019-09-07",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.40.64.0/19",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-05-07",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.40.96.0/21",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-05-07",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.40.104.0/22",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-05-07",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.40.108.0/23",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-05-07",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.40.110.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-05-07",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.40.112.0/20",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-05-07",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.43.0.0/20",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-10-16",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.43.128.0/20",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-10-16",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.43.192.0/21",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-05-16",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.43.252.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-10-16",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.44.0.0/21",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-06-15",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.44.32.0/21",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-06-15",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.44.105.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2020-10-21",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.44.106.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2023-01-06",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.46.196.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2023-02-17",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.227.0.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.227.32.0/21",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.227.40.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2023-03-31",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "167.227.48.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.16.250.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.16.251.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.67.45.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-05-05",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.70.164.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-01-01",
+      "last_seen": "2010-08-27",
+      "current": false
     },
     {
       "prefix": "192.70.172.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-06-03",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.75.14.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-05-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.75.17.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.75.68.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2012-11-11",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.75.99.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.139.6.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.139.7.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.139.21.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-01-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.139.116.0/23",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-01-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.139.141.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.139.194.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.139.195.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.139.198.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-01-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.139.202.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2023-04-30",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.197.71.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.197.72.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.197.76.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.197.77.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-08-12",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.197.79.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2015-10-07",
+      "last_seen": "2015-10-27",
+      "current": false
     },
     {
       "prefix": "192.197.82.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.197.83.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.197.114.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.197.115.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.197.178.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.197.180.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.197.181.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.197.183.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.197.184.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "192.197.243.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.73.135.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2012-11-11",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.73.136.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2012-11-11",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.96.2.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.96.3.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.96.62.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.0.0/16",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.6.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.10.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.11.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.12.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-07-21",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.15.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-07-21",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.18.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.21.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.32.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.33.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.34.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.36.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.38.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.40.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.41.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.45.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-09-28",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.47.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.48.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.52.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.53.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.54.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2023-02-11",
+      "current": false
     },
     {
       "prefix": "198.103.55.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2025-05-14",
+      "current": false
     },
     {
       "prefix": "198.103.56.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.57.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.58.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.61.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-09-03",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.69.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.89.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-10",
+      "current": true
     },
     {
       "prefix": "198.103.92.0/22",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.96.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-07-14",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.97.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.98.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.99.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.103.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.104.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.108.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.109.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.111.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-07-30",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.112.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-07-30",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.113.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-07-30",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.114.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-07-30",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.115.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2025-10-18",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.134.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.137.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2019-06-17",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.138.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2021-04-07",
+      "current": false
     },
     {
       "prefix": "198.103.140.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.143.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.144.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2025-10-18",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.145.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.146.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.147.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.148.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.152.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.153.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.159.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2019-06-17",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.161.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-10-05",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.162.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.167.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-07-21",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.169.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.172.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.174.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.176.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.180.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.182.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.183.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-09-28",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.184.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-09-03",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.185.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-07-30",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.193.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.194.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.195.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.196.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2019-06-11",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.198.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.205.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2023-12-02",
+      "current": false
     },
     {
       "prefix": "198.103.206.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-07-30",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.208.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.211.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.213.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.217.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.218.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.221.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.223.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-10-05",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.234.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.235.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.237.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.238.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.244.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.245.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.247.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.249.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.103.254.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "198.164.3.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.84.162.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.212.16.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2012-11-11",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.212.17.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2010-01-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.212.18.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.212.19.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2012-11-11",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.212.20.0/23",
       "asn": 806,
-      "label": "Shared Services Canada network (AS806, legacy Environment Canada)"
+      "label": "Shared Services Canada network (AS806, legacy Environment Canada)",
+      "first_seen": "2019-03-01",
+      "last_seen": "2021-09-13",
+      "current": false
     },
     {
       "prefix": "199.212.20.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2012-11-11",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.212.21.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2012-11-11",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.212.150.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.212.200.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.212.212.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.212.215.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.212.216.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.231.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.232.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.233.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.234.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.235.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.236.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.237.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.238.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.239.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.240.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.241.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.242.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.243.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.244.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.245.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.246.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.247.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.248.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.249.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.250.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.251.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.252.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "199.246.253.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2016-06-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "204.19.79.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "204.83.146.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2012-07-02",
+      "last_seen": "2012-09-08",
+      "current": false
     },
     {
       "prefix": "204.83.147.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2012-07-02",
+      "last_seen": "2012-09-08",
+      "current": false
     },
     {
       "prefix": "204.174.103.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-01-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "204.187.48.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "204.225.144.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.189.5.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2012-11-11",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.189.6.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2012-11-11",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.189.7.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2012-11-11",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.189.8.0/24",
       "asn": 2682,
-      "label": "Shared Services Canada network (AS2682)"
+      "label": "Shared Services Canada network (AS2682)",
+      "first_seen": "2014-08-01",
+      "last_seen": "2024-09-12",
+      "current": false
     },
     {
       "prefix": "205.189.9.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2012-11-11",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.189.10.0/23",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2024-02-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.189.10.0/24",
       "asn": 806,
-      "label": "Shared Services Canada network (AS806, legacy Environment Canada)"
+      "label": "Shared Services Canada network (AS806, legacy Environment Canada)",
+      "first_seen": "2012-11-11",
+      "last_seen": "2024-05-15",
+      "current": false
     },
     {
       "prefix": "205.189.11.0/24",
       "asn": 806,
-      "label": "Shared Services Canada network (AS806, legacy Environment Canada)"
+      "label": "Shared Services Canada network (AS806, legacy Environment Canada)",
+      "first_seen": "2015-12-12",
+      "last_seen": "2024-05-15",
+      "current": false
     },
     {
       "prefix": "205.193.0.0/16",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.1.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.3.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.5.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.6.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.7.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.12.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2025-09-22",
+      "current": false
     },
     {
       "prefix": "205.193.36.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.37.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-09-28",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.39.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.40.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.41.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.42.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.44.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.45.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-24",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.50.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.51.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.60.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-07-30",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.61.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-07-30",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.63.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-07-30",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.64.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.67.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.72.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2019-12-13",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.78.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.81.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.82.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.85.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.86.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.91.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.93.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.94.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.96.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.97.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.98.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.99.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-09-03",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.101.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.103.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.105.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.107.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.109.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-07-30",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.112.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.114.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.115.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.116.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-20",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.117.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.118.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.119.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.120.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.122.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.123.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.124.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-07-30",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.125.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-07-30",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.128.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.138.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.139.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2025-01-16",
+      "current": false
     },
     {
       "prefix": "205.193.144.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.146.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.147.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-09-28",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.148.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.149.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.150.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.152.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.156.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.157.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.158.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.163.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-04-29",
+      "current": false
     },
     {
       "prefix": "205.193.164.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-04-29",
+      "current": false
     },
     {
       "prefix": "205.193.166.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.167.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.168.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.170.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.172.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.173.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.174.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.180.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.182.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.183.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2024-12-06",
+      "current": false
     },
     {
       "prefix": "205.193.185.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2025-10-18",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.187.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.188.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2020-07-20",
+      "current": false
     },
     {
       "prefix": "205.193.190.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.191.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.192.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.198.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2025-09-22",
+      "current": false
     },
     {
       "prefix": "205.193.199.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2023-11-11",
+      "current": false
     },
     {
       "prefix": "205.193.200.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.203.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-05-24",
+      "last_seen": "2024-03-22",
+      "current": false
     },
     {
       "prefix": "205.193.204.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.208.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.209.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.210.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.211.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2020-01-18",
+      "current": false
     },
     {
       "prefix": "205.193.212.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.213.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.214.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.215.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.216.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-09-28",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.217.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-09-28",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.218.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.219.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-05-24",
+      "last_seen": "2022-03-13",
+      "current": false
     },
     {
       "prefix": "205.193.220.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.222.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.223.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.224.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.225.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-20",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.226.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2023-11-05",
+      "current": false
     },
     {
       "prefix": "205.193.227.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.228.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.229.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.230.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.231.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2025-10-18",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.232.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.233.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2025-10-18",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.234.0/23",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2019-02-13",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.236.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2019-04-30",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.237.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2025-10-18",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.238.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2021-03-17",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.239.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2025-10-18",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.240.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.193.242.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.0.0/17",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2015-11-22",
+      "last_seen": "2018-10-18",
+      "current": false
     },
     {
       "prefix": "205.194.7.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.9.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2023-01-25",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.13.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2022-11-24",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.14.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2021-10-24",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.15.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2022-11-30",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.16.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2021-01-24",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.17.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2021-04-14",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.20.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.21.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.25.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.26.0/23",
       "asn": 2682,
-      "label": "Shared Services Canada network (AS2682)"
+      "label": "Shared Services Canada network (AS2682)",
+      "first_seen": "2018-01-30",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.30.0/23",
       "asn": 2682,
-      "label": "Shared Services Canada network (AS2682)"
+      "label": "Shared Services Canada network (AS2682)",
+      "first_seen": "2018-03-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.32.0/23",
       "asn": 2682,
-      "label": "Shared Services Canada network (AS2682)"
+      "label": "Shared Services Canada network (AS2682)",
+      "first_seen": "2018-03-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.36.0/22",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2021-10-24",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.40.0/22",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2021-10-22",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.44.0/22",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2023-05-19",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.56.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.58.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2023-12-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.59.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2023-12-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.60.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2023-12-10",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.61.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2024-08-20",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.62.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2025-10-18",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.63.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2025-10-18",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.96.0/22",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2024-04-13",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.99.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2024-06-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.100.0/22",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2024-05-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.103.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2024-06-08",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.104.0/22",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.104.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2025-02-07",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.108.0/22",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2023-12-06",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.124.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-09-23",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.126.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2017-06-15",
+      "last_seen": "2022-03-13",
+      "current": false
     },
     {
       "prefix": "205.194.127.0/24",
       "asn": 2665,
-      "label": "Shared Services Canada network (AS2665)"
+      "label": "Shared Services Canada network (AS2665)",
+      "first_seen": "2018-10-19",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.194.255.0/24",
       "asn": 2682,
-      "label": "Shared Services Canada network (AS2682)"
+      "label": "Shared Services Canada network (AS2682)",
+      "first_seen": "2016-05-13",
+      "last_seen": "2018-06-27",
+      "current": false
     },
     {
       "prefix": "205.211.132.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2012-11-11",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.211.133.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2010-05-12",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "205.211.134.0/24",
       "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "label": "Shared Services Canada network (AS2675)",
+      "first_seen": "2014-08-01",
+      "last_seen": "2026-11-12",
+      "current": true
     },
     {
       "prefix": "206.167.190.0/23",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-02-21",
+      "last_seen": "2010-03-18",
+      "current": false
     },
     {
       "prefix": "206.167.201.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-02-21",
+      "last_seen": "2010-03-05",
+      "current": false
     },
     {
       "prefix": "206.167.202.0/24",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-02-21",
+      "last_seen": "2010-03-05",
+      "current": false
     },
     {
       "prefix": "206.167.204.0/23",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-02-21",
+      "last_seen": "2010-03-18",
+      "current": false
     },
     {
       "prefix": "2001:410:9000::/42",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-01-01",
+      "last_seen": "2018-09-20",
+      "current": false
     },
     {
       "prefix": "2001:410:9000:ed0::/64",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-01-30",
+      "last_seen": "2010-06-26",
+      "current": false
     },
     {
       "prefix": "2001:410:9000:ed1::/64",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-01-30",
+      "last_seen": "2010-06-26",
+      "current": false
     },
     {
       "prefix": "2001:410:9000:ed2::/64",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-04-15",
+      "last_seen": "2010-06-26",
+      "current": false
     },
     {
       "prefix": "2001:410:9000:ed3::/64",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-04-15",
+      "last_seen": "2010-06-26",
+      "current": false
     },
     {
       "prefix": "2001:410:9080::/42",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-01-01",
+      "last_seen": "2018-09-20",
+      "current": false
     },
     {
       "prefix": "2001:1920::/32",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2013-08-16",
+      "last_seen": "2026-02-07",
+      "current": false
     },
     {
       "prefix": "2604:8400::/32",
       "asn": 25689,
-      "label": "Shared Services Canada network (AS25689, legacy NRC)"
+      "label": "Shared Services Canada network (AS25689, legacy NRC)",
+      "first_seen": "2010-06-30",
+      "last_seen": "2026-02-07",
+      "current": false
     }
   ]
 }

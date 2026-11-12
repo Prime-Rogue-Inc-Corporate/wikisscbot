@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-12T10:21:18Z",
-  "total_edits": 1537,
-  "unique_ips": 109,
+  "generated": "2026-11-12T12:20:03Z",
+  "total_edits": 1534,
+  "unique_ips": 108,
   "by_label": {
     "Shared Services Canada": 917,
     "Canadian Department of National Defence": 234,
@@ -22,26 +22,25 @@
     "Federal Court of Canada": 7,
     "Employment and Immigration Canada": 6,
     "National Research Council (SSC)": 4,
-    "Shared Services Canada network (AS25689, legacy NRC)": 3,
     "Statistics Canada": 3,
     "Canadian Space Agency": 2,
     "Finance Canada": 1,
     "Canadian Museum of Civilization": 1
   },
   "by_wiki": {
-    "enwiki": 1397,
+    "enwiki": 1395,
     "frwiki": 104,
     "wikidatawiki": 22,
-    "commonswiki": 9,
+    "commonswiki": 8,
     "enwikivoyage": 4,
     "enwiktionary": 1
   },
   "by_month": {
     "2023-01": 147,
-    "2023-02": 111,
+    "2023-02": 109,
     "2023-03": 91,
     "2023-04": 109,
-    "2023-05": 136,
+    "2023-05": 135,
     "2023-06": 134,
     "2023-07": 209,
     "2023-08": 146,
@@ -405,10 +404,6 @@
       "Minister of state (Canada)": 1,
       "Sustainable Development Goals": 1
     },
-    "Shared Services Canada network (AS25689, legacy NRC)": {
-      "Planet of the Humans": 2,
-      "File:SCH (rappeur).ogg": 1
-    },
     "National Research Council": {
       "Cary-Hiroyuki Tagawa": 2,
       "Lost Dutchman State Park": 1,
@@ -524,82 +519,88 @@
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-11-12T10:17:38Z",
+      "scanned_at": "2026-11-12T12:16:20Z",
       "window": [
         "2023-01-01T00:00:00Z",
         "2023-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 146,
+      "blocks_scanned": 146,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 1397
+      "edits": 1395,
+      "lapsed_prefix_edits_excluded": 0
     },
     "frwiki": {
-      "scanned_at": "2026-11-12T10:18:14Z",
+      "scanned_at": "2026-11-12T12:17:04Z",
       "window": [
         "2023-01-01T00:00:00Z",
         "2023-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 146,
+      "blocks_scanned": 146,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 104
+      "edits": 104,
+      "lapsed_prefix_edits_excluded": 0
     },
     "wikidatawiki": {
-      "scanned_at": "2026-11-12T10:19:09Z",
+      "scanned_at": "2026-11-12T12:18:02Z",
       "window": [
         "2023-01-01T00:00:00Z",
         "2023-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 146,
+      "blocks_scanned": 146,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 22
+      "edits": 22,
+      "lapsed_prefix_edits_excluded": 0
     },
     "commonswiki": {
-      "scanned_at": "2026-11-12T10:20:03Z",
+      "scanned_at": "2026-11-12T12:18:20Z",
       "window": [
         "2023-01-01T00:00:00Z",
         "2023-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 146,
+      "blocks_scanned": 146,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 9
+      "edits": 8,
+      "lapsed_prefix_edits_excluded": 0
     },
     "enwiktionary": {
-      "scanned_at": "2026-11-12T10:20:23Z",
+      "scanned_at": "2026-11-12T12:19:17Z",
       "window": [
         "2023-01-01T00:00:00Z",
         "2023-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 146,
+      "blocks_scanned": 146,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 1
+      "edits": 1,
+      "lapsed_prefix_edits_excluded": 0
     },
     "enwikivoyage": {
-      "scanned_at": "2026-11-12T10:21:18Z",
+      "scanned_at": "2026-11-12T12:20:03Z",
       "window": [
         "2023-01-01T00:00:00Z",
         "2023-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 146,
+      "blocks_scanned": 146,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 4
+      "edits": 4,
+      "lapsed_prefix_edits_excluded": 0
     }
   }
 }

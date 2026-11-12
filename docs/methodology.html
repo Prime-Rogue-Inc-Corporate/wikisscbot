@@ -53,11 +53,11 @@
 <main class="wrap">
 <h1>Methodology</h1>
 <div class="prose">
-<p class="lede">How the 50,558 edits in the archive were collected, labelled and secured, and what the data cannot show.</p>
+<p class="lede">How the 50,240 edits in the archive were collected, labelled and secured, and what the data cannot show.</p>
 <h2>Collection</h2>
 <p>For every Government of Canada IP block, the collector asks the MediaWiki API for all logged-out contributions in a calendar year (<span class="mono">list=usercontribs</span> with <span class="mono">uciprange</span>). It covers English and French Wikipedia, Wikidata, Wikimedia Commons, English Wiktionary and English Wikivoyage. Blocks are queried at /16 or smaller, and a block that times out is split into smaller blocks down to /24 until it succeeds. Every configured year is collected again in full on every run.</p>
 <h2>Network labels</h2>
-<p>Each address gets the label of the most specific range that contains it. Ranges come from the public-domain department list compiled for @gccaedits in 2014–16, and from every prefix announced by Shared Services Canada's networks (AS2665, AS2675, AS2682, AS25689, AS806) according to RIPEstat. A department label is a lead, not proof. The label "Shared Services Canada" means the department cannot be determined.</p>
+<p>Each address gets the label of the most specific range that contains it. Ranges come from the public-domain department list compiled for @gccaedits in 2014–16, and from every prefix announced by Shared Services Canada's networks (AS2665, AS2675, AS2682, AS25689, AS806) according to RIPEstat. An edit is attributed to a Shared Services Canada prefix only while that prefix was being announced by one of those networks, plus 90 days, because address space can change hands. A few individual addresses carry a label that Prime Rogue has confirmed with stronger evidence, such as reverse DNS; these are listed with their basis and start date in <span class="mono">config/ranges_confirmed.json</span>. A department label is a lead, not proof. The label "Shared Services Canada" means the department cannot be determined.</p>
 <h2>Topics</h2>
 <p>Pages are classified with Wikimedia's own article-topic model and with keyword groups called beats, tuned for Canadian government reporting. Beats are simple rules and will mislabel some pages.</p>
 <h2>Provenance</h2>

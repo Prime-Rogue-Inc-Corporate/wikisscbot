@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-12T09:45:15Z",
-  "total_edits": 1536,
-  "unique_ips": 102,
+  "generated": "2026-11-12T11:44:03Z",
+  "total_edits": 1518,
+  "unique_ips": 100,
   "by_label": {
     "Shared Services Canada": 621,
     "Canadian House of Commons": 324,
@@ -13,7 +13,6 @@
     "Industry Canada": 28,
     "Library and Archives Canada": 20,
     "Bank of Canada": 19,
-    "Shared Services Canada network (AS25689, legacy NRC)": 18,
     "Shared Services Canada network (AS2675)": 16,
     "National Research Council": 15,
     "Department of Fisheries and Oceans": 14,
@@ -24,24 +23,24 @@
     "Finance Canada": 4
   },
   "by_wiki": {
-    "enwiki": 1427,
-    "frwiki": 58,
-    "wikidatawiki": 42,
+    "enwiki": 1425,
+    "frwiki": 53,
+    "wikidatawiki": 31,
     "enwiktionary": 6,
     "commonswiki": 3
   },
   "by_month": {
     "2020-01": 142,
-    "2020-02": 224,
-    "2020-03": 132,
+    "2020-02": 222,
+    "2020-03": 131,
     "2020-04": 41,
     "2020-05": 74,
-    "2020-06": 51,
+    "2020-06": 50,
     "2020-07": 80,
     "2020-08": 80,
-    "2020-09": 89,
-    "2020-10": 127,
-    "2020-11": 269,
+    "2020-09": 87,
+    "2020-10": 119,
+    "2020-11": 265,
     "2020-12": 227
   },
   "top_pages": [
@@ -463,18 +462,6 @@
       "Mark Carney": 1,
       "Think tank": 1
     },
-    "Shared Services Canada network (AS25689, legacy NRC)": {
-      "Pizzicato": 3,
-      "Q7321": 3,
-      "Q3287708": 2,
-      "Q2765144": 1,
-      "Q1336052": 1,
-      "Frères Mailoni": 1,
-      "Geb": 1,
-      "Liste des records de Michael Jordan": 1,
-      "Q5597": 1,
-      "Q7933011": 1
-    },
     "Finance Canada": {
       "Q2993801": 3,
       "Canadian Internet Registration Authority": 1
@@ -503,82 +490,88 @@
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-11-12T09:41:21Z",
+      "scanned_at": "2026-11-12T11:40:33Z",
       "window": [
         "2020-01-01T00:00:00Z",
         "2020-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 146,
+      "blocks_scanned": 146,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 1427
+      "edits": 1425,
+      "lapsed_prefix_edits_excluded": 0
     },
     "frwiki": {
-      "scanned_at": "2026-11-12T09:42:12Z",
+      "scanned_at": "2026-11-12T11:41:04Z",
       "window": [
         "2020-01-01T00:00:00Z",
         "2020-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 146,
+      "blocks_scanned": 146,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 58
+      "edits": 53,
+      "lapsed_prefix_edits_excluded": 0
     },
     "wikidatawiki": {
-      "scanned_at": "2026-11-12T09:43:05Z",
+      "scanned_at": "2026-11-12T11:42:01Z",
       "window": [
         "2020-01-01T00:00:00Z",
         "2020-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 146,
+      "blocks_scanned": 146,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 42
+      "edits": 31,
+      "lapsed_prefix_edits_excluded": 0
     },
     "commonswiki": {
-      "scanned_at": "2026-11-12T09:44:00Z",
+      "scanned_at": "2026-11-12T11:42:20Z",
       "window": [
         "2020-01-01T00:00:00Z",
         "2020-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 146,
+      "blocks_scanned": 146,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 3
+      "edits": 3,
+      "lapsed_prefix_edits_excluded": 0
     },
     "enwiktionary": {
-      "scanned_at": "2026-11-12T09:44:21Z",
+      "scanned_at": "2026-11-12T11:43:16Z",
       "window": [
         "2020-01-01T00:00:00Z",
         "2020-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 146,
+      "blocks_scanned": 146,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 6
+      "edits": 6,
+      "lapsed_prefix_edits_excluded": 0
     },
     "enwikivoyage": {
-      "scanned_at": "2026-11-12T09:45:15Z",
+      "scanned_at": "2026-11-12T11:44:03Z",
       "window": [
         "2020-01-01T00:00:00Z",
         "2020-12-31T23:59:59Z"
       ],
-      "blocks_total": 158,
-      "blocks_scanned": 158,
+      "blocks_total": 146,
+      "blocks_scanned": 146,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 0
+      "edits": 0,
+      "lapsed_prefix_edits_excluded": 0
     }
   }
 }
