@@ -27,6 +27,8 @@ class ScanResult:
     blocks_scanned: int = 0
     block_errors: dict[str, str] = field(default_factory=dict)
     fatal: str | None = None
+    # Edits from addresses whose prefix had stopped being announced by then (not collected).
+    lapsed: int = 0
 
 
 def _is_ip(user: str) -> bool:
@@ -96,7 +98,10 @@ def scan_wiki(wiki: dict, blocks: list[Network], labeller: Labeller,
                 if not _is_ip(user) or c["revid"] in seen:
                     continue
                 seen.add(c["revid"])
-                rng = labeller.match(user)
+                rng = labeller.match(user, c["timestamp"])
+                if rng is None and labeller.lapsed(user, c["timestamp"]):
+                    res.lapsed += 1
+                    continue
                 res.edits.append({
                     "wiki": wiki["id"],
                     "host": host,

@@ -14,6 +14,9 @@ All notable changes to wikisscbot. Versions follow [semantic versioning](https:/
 - `index_biographies` in `config/site.json` (default `false`): the crawlable pages leave biographies and not-yet-classified pages out of the most-edited lists. The search is unaffected.
 - Backfill extended year by year to 2010.
 
+### Fixed
+- **Edits are no longer attributed to an SSC prefix after it was withdrawn.** The prefix list covers every prefix an SSC network announced since the first backfill year, and was applied to every year. Extending the backfill to 2010 pulled in two prefixes that the legacy NRC network (AS25689) announced only around 2010 (`206.167.190.0/23`, `192.70.164.0/24`), which added 315 edits made from those addresses in 2017–2025, long after the announcements ended. `refresh-ranges` now records when each prefix was first and last seen; an edit counts only up to 90 days after the last announcement, and lapsed prefixes are not queried for later years. Each year's `status.json` reports how many edits were excluded this way.
+
 ### Changed
 - Repository links and the collector's User-Agent point at `Prime-Rogue-Inc-Corporate/wikisscbot` and the new site.
 - **Profiles** (`#/profiles`): hand-written analyst pages kept in `web/static/profiles/` (an `index.json` plus one HTML fragment per profile) and copied into the static build. First profile: **DRELAN-SPARKY**, the DND gateway pair 131.137.245.206/.207 and the Shared Services Canada pair 205.193.239.44/.76 that took over its pages from November 2023.

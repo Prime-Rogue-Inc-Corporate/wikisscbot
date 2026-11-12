@@ -90,6 +90,8 @@ def _backfill_year(year, wikis, labeller, blocks, ranges) -> tuple[int, bool]:
     base = ROOT / "data" / year
     status_path = base / "status.json"
     status = json.loads(status_path.read_text()) if status_path.exists() else {}
+    # Leave out prefixes that had already lapsed before this year began.
+    blocks, _ = query_blocks(ranges, year)
     print(f"{year}: {len(ranges)} ranges, {len(blocks)} query blocks", file=sys.stderr)
     for wiki in wikis:
         print(f"scanning {wiki['id']} {year} ...", file=sys.stderr)
@@ -104,6 +106,7 @@ def _backfill_year(year, wikis, labeller, blocks, ranges) -> tuple[int, bool]:
             "error_samples": dict(list(res.block_errors.items())[:5]),
             "fatal": res.fatal,
             "edits": len(res.edits),
+            "lapsed_prefix_edits_excluded": res.lapsed,
         }
         base.mkdir(parents=True, exist_ok=True)
         status_path.write_text(json.dumps(status, indent=2) + "\n")

@@ -31,6 +31,44 @@ class RangeTests(unittest.TestCase):
         self.assertEqual(lab.match("199.212.20.3").label, "Environment Canada")
         self.assertEqual(lab.match("199.212.99.1").label, "SSC bgp")
 
+    def test_lapsed_bgp_prefix_is_not_attributed_after_withdrawal(self):
+        net = ipaddress.ip_network("203.0.113.0/24")
+        lapsed = ranges.Range(net, "SSC bgp", "ssc-bgp", "2010-06-30")
+        lab = ranges.Labeller([lapsed])
+        self.assertEqual(lab.match("203.0.113.9", "2010-03-01T00:00:00Z").label, "SSC bgp")
+        self.assertIsNotNone(lab.match("203.0.113.9", "2010-09-01T00:00:00Z"))   # inside the grace period
+        self.assertIsNone(lab.match("203.0.113.9", "2017-05-08T00:00:00Z"))
+        self.assertTrue(lab.lapsed("203.0.113.9", "2017-05-08T00:00:00Z"))
+        self.assertFalse(lab.lapsed("198.51.100.1", "2017-05-08T00:00:00Z"))      # never in any range
+        self.assertIsNotNone(lab.match("203.0.113.9"))                           # undated lookups unchanged
+        self.assertEqual(ranges.query_blocks([lapsed], 2010)[0], [net])
+        self.assertEqual(ranges.query_blocks([lapsed], 2017)[0], [])
+        current = ranges.Range(net, "SSC bgp", "ssc-bgp", None)
+        self.assertIsNotNone(ranges.Labeller([current]).match("203.0.113.9", "2025-01-01T00:00:00Z"))
+
+    def test_bgp_refresh_records_announcement_dates(self):
+        import json, tempfile
+        from pathlib import Path
+        from wikisscbot import bgp
+
+        def fake(url, params):
+            return {"data": {"query_endtime": "2026-11-12T00:00:00", "prefixes": [
+                {"prefix": "203.0.113.0/24", "timelines": [{"starttime": "2010-01-01T00:00:00", "endtime": "2010-06-30T00:00:00"}]},
+                {"prefix": "198.51.100.0/24", "timelines": [{"starttime": "2010-01-01T00:00:00", "endtime": "2012-01-01T00:00:00"},
+                                                           {"starttime": "2015-01-01T00:00:00", "endtime": "2026-11-12T00:00:00"}]}]}}
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.object(bgp, "get_json", fake), \
+                mock.patch.object(bgp, "settings", lambda: {"ssc_asns": {"2665": "SSC"}}):
+            out = Path(tmp) / "bgp.json"
+            doc = bgp.refresh("2010-01-01T00:00", out)
+            by = {p["prefix"]: p for p in doc["prefixes"]}
+            self.assertFalse(by["203.0.113.0/24"]["current"])
+            self.assertEqual(by["203.0.113.0/24"]["last_seen"], "2010-06-30")
+            self.assertTrue(by["198.51.100.0/24"]["current"])
+            self.assertEqual(doc["lapsed"], 1)
+            loaded = {str(r.network): r for r in ranges.load_ssc_bgp(out)}
+            self.assertEqual(loaded["203.0.113.0/24"].last_seen, "2010-06-30")
+            self.assertIsNone(loaded["198.51.100.0/24"].last_seen)
+
     def test_query_blocks_respect_wikimedia_limits(self):
         blocks, warnings = ranges.query_blocks(self.ranges)
         self.assertFalse(warnings)
@@ -63,6 +101,19 @@ def contrib(revid, user, ts="2025-03-01T12:00:00Z", title="Ottawa"):
 
 class CollectTests(unittest.TestCase):
     wiki = {"id": "enwiki", "host": "en.wikipedia.org", "lang": "en"}
+
+    def test_edits_after_prefix_withdrawal_are_not_collected(self):
+        net = ipaddress.ip_network("203.0.113.0/24")
+        lab = ranges.Labeller([ranges.Range(net, "SSC bgp", "ssc-bgp", "2010-06-30")])
+
+        def fake(url, params):
+            return page([contrib(21, "203.0.113.2", "2010-12-01T00:00:00Z"),
+                         contrib(20, "203.0.113.2", "2010-03-01T00:00:00Z")])
+
+        with mock.patch.object(collect, "get_json", side_effect=fake):
+            res = collect.scan_wiki(self.wiki, [net], lab, "2010-12-31T23:59:59Z", "2010-01-01T00:00:00Z")
+        self.assertEqual([e["revid"] for e in res.edits], [20])
+        self.assertEqual(res.lapsed, 1)
 
     def test_pagination_dedupe_and_temp_accounts(self):
         lab = ranges.Labeller(ranges.load_gccaedits())
