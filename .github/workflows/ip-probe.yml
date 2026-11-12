@@ -1,0 +1,37 @@
+name: Single-address probe
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "tools/ip_probe.py"
+      - "config/probe_ips.json"
+      - ".github/workflows/ip-probe.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wikisscbot-ip-probe
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Look up each address across all years
+        run: python tools/ip_probe.py
+      - name: Commit
+        run: |
+          git config user.name "wikisscbot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research/probes
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Address probe: $(python -c "import json,glob;print(', '.join(json.load(open(p))['ip']+' '+str(json.load(open(p))['total'])+' edits' for p in sorted(glob.glob('research/probes/*.json'))))")"
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 20; done
