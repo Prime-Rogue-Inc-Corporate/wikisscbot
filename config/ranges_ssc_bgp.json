@@ -1,7 +1,7 @@
 {
   "source": "RIPEstat announced-prefixes",
   "since": "2010-01-01T00:00",
-  "fetched": "2026-11-12T06:39:57Z",
+  "fetched": "2026-11-12T08:45:32Z",
   "counts_by_asn": {
     "2665": 281,
     "2675": 372,
