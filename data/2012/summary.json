@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T00:19:10Z",
+  "generated": "2026-11-12T03:57:02Z",
   "total_edits": 4152,
   "unique_ips": 203,
   "by_label": {
@@ -585,78 +585,78 @@
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-11-12T00:15:39Z",
+      "scanned_at": "2026-11-12T03:53:07Z",
       "window": [
         "2012-01-01T00:00:00Z",
         "2012-12-31T23:59:59Z"
       ],
-      "blocks_total": 151,
-      "blocks_scanned": 151,
+      "blocks_total": 153,
+      "blocks_scanned": 153,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 3523
     },
     "frwiki": {
-      "scanned_at": "2026-11-12T00:16:10Z",
+      "scanned_at": "2026-11-12T03:54:02Z",
       "window": [
         "2012-01-01T00:00:00Z",
         "2012-12-31T23:59:59Z"
       ],
-      "blocks_total": 151,
-      "blocks_scanned": 151,
+      "blocks_total": 153,
+      "blocks_scanned": 153,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 507
     },
     "wikidatawiki": {
-      "scanned_at": "2026-11-12T00:17:06Z",
+      "scanned_at": "2026-11-12T03:54:20Z",
       "window": [
         "2012-01-01T00:00:00Z",
         "2012-12-31T23:59:59Z"
       ],
-      "blocks_total": 151,
-      "blocks_scanned": 151,
+      "blocks_total": 153,
+      "blocks_scanned": 153,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 0
     },
     "commonswiki": {
-      "scanned_at": "2026-11-12T00:18:01Z",
+      "scanned_at": "2026-11-12T03:55:19Z",
       "window": [
         "2012-01-01T00:00:00Z",
         "2012-12-31T23:59:59Z"
       ],
-      "blocks_total": 151,
-      "blocks_scanned": 151,
+      "blocks_total": 153,
+      "blocks_scanned": 153,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 92
     },
     "enwiktionary": {
-      "scanned_at": "2026-11-12T00:18:14Z",
+      "scanned_at": "2026-11-12T03:56:04Z",
       "window": [
         "2012-01-01T00:00:00Z",
         "2012-12-31T23:59:59Z"
       ],
-      "blocks_total": 151,
-      "blocks_scanned": 151,
+      "blocks_total": 153,
+      "blocks_scanned": 153,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 19
     },
     "enwikivoyage": {
-      "scanned_at": "2026-11-12T00:19:10Z",
+      "scanned_at": "2026-11-12T03:57:02Z",
       "window": [
         "2012-01-01T00:00:00Z",
         "2012-12-31T23:59:59Z"
       ],
-      "blocks_total": 151,
-      "blocks_scanned": 151,
+      "blocks_total": 153,
+      "blocks_scanned": 153,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,

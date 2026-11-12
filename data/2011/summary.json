@@ -1,0 +1,655 @@
+{
+  "generated": "2026-11-12T03:52:17Z",
+  "total_edits": 5175,
+  "unique_ips": 229,
+  "by_label": {
+    "Shared Services Canada": 2079,
+    "Canadian Broadcasting Corporation": 835,
+    "Canadian Department of National Defence": 772,
+    "Canadian House of Commons": 309,
+    "Environment Canada": 248,
+    "Shared Services Canada network (AS2665)": 194,
+    "Industry Canada": 123,
+    "Natural Resources Canada": 107,
+    "Shared Services Canada network (AS2675)": 101,
+    "Government of Canada": 84,
+    "National Research Council": 77,
+    "Department of Fisheries and Oceans": 48,
+    "Library and Archives Canada": 38,
+    "Department of Justice Canada": 36,
+    "Statistics Canada": 34,
+    "Bank of Canada": 18,
+    "Correctional Services Canada": 17,
+    "Canadian Museum of Civilization": 12,
+    "National Research Council (UofT)": 11,
+    "Federal Court of Canada": 8,
+    "Canadian Space Agency": 7,
+    "Finance Canada": 6,
+    "National Research Council (UBC)": 5,
+    "Transport Canada": 3,
+    "Canada Centre for Inland Waters": 2,
+    "National Research Council (SSC)": 1
+  },
+  "by_wiki": {
+    "enwiki": 3640,
+    "frwiki": 736,
+    "commonswiki": 687,
+    "enwiktionary": 77,
+    "enwikivoyage": 35
+  },
+  "by_month": {
+    "2011-01": 486,
+    "2011-02": 404,
+    "2011-03": 447,
+    "2011-04": 272,
+    "2011-05": 504,
+    "2011-06": 737,
+    "2011-07": 487,
+    "2011-08": 596,
+    "2011-09": 348,
+    "2011-10": 328,
+    "2011-11": 309,
+    "2011-12": 257
+  },
+  "top_pages": [
+    {
+      "wiki": "frwiki",
+      "title": "HMS Victorious (R38)",
+      "edits": 40
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Friends General Conference",
+      "edits": 38
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Politique au Canada",
+      "edits": 33
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Ordre du Canada",
+      "edits": 26
+    },
+    {
+      "wiki": "enwiki",
+      "title": "House Courcel",
+      "edits": 23
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Norman Buchanan",
+      "edits": 22
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Jeffrey Morgan (writer)",
+      "edits": 20
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Wikipedia:Sandbox",
+      "edits": 20
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Bataille de Fort Bull",
+      "edits": 20
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Kushiel's Chosen",
+      "edits": 20
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Matsqui Institution",
+      "edits": 20
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Novak Djokovic",
+      "edits": 18
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Lublin R-XIII",
+      "edits": 17
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2011 Saskatchewan Scotties Tournament of Hearts",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiktionary",
+      "title": "Appendix:Canadian English military slang",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of South Korean idol groups",
+      "edits": 14
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Régiment de Guyenne (1684-1762)",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Malcolm Allen (politician)",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Dean Allison",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Kushiel's Legacy",
+      "edits": 11
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Senators de Binghamton",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "OC Transpo",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Holy Trinity Catholic Secondary School (Courtice)",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Royal Canadian Navy",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "British Columbia Regiment (Duke of Connaught's Own)",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Environmental Sustainability Indicators",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Royal Canadian Infantry Corps",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of law enforcement agencies in Montana",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Carly Pope",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Wikipedia:Reference desk/Science",
+      "edits": 9
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Ukrainien",
+      "edits": 9
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Littérature ukrainienne",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "E2D International",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Golshifteh Farahani",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Ancaster, Ontario",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Alexei Kovalev",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Jabberjaw",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Clue Club",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Cuthbert Sebastian",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Flyday",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Windows Server 2008 R2",
+      "edits": 8
+    },
+    {
+      "wiki": "enwikivoyage",
+      "title": "Trento",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Forces Military Police",
+      "edits": 8
+    },
+    {
+      "wiki": "frwiki",
+      "title": "51e régiment d'infanterie (France)",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "House Shahrizai",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Stregazza family",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "The Golden Pin",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Richard Woodville, 3rd Earl Rivers",
+      "edits": 7
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Neil Tennant",
+      "edits": 7
+    },
+    {
+      "wiki": "frwiki",
+      "title": "François Bigot",
+      "edits": 7
+    }
+  ],
+  "top_pages_by_label": {
+    "Canadian Broadcasting Corporation": {
+      "The Golden Pin": 7,
+      "Gilles Duceppe": 6,
+      "Dick Swett": 6,
+      "Alison Redford": 5,
+      "Carol Off": 4,
+      "Denise Donlon": 4,
+      "Florence and the Machine": 4,
+      "Jean-Claude Duvalier": 3,
+      "Métis in Canada": 3,
+      "Vince Carlin": 3
+    },
+    "Canadian Department of National Defence": {
+      "Norman Buchanan": 22,
+      "Appendix:Canadian English military slang": 13,
+      "Holy Trinity Catholic Secondary School (Courtice)": 10,
+      "Royal Canadian Navy": 10,
+      "British Columbia Regiment (Duke of Connaught's Own)": 10,
+      "Royal Canadian Infantry Corps": 10,
+      "Ukrainien": 9,
+      "Littérature ukrainienne": 9,
+      "Canadian Forces Military Police": 8,
+      "Fusiliers de Sherbrooke": 7
+    },
+    "Shared Services Canada network (AS2675)": {
+      "Pyrotechnic composition": 6,
+      "Persis Khambatta": 5,
+      "Ain't It Cool News": 4,
+      "Humboldt, Saskatchewan": 4,
+      "Mantas Armalis": 4,
+      "Hangover": 3,
+      "Damian Pettigrew": 3,
+      "Samsung Galaxy S (1st generation)": 3,
+      "Artjoms Rudņevs": 3,
+      "Wukan protests": 3
+    },
+    "National Research Council": {
+      "Hervé Lacelles": 7,
+      "History of electromagnetic theory": 5,
+      "Halal": 3,
+      "Sephadex": 3,
+      "National Research Council Canada National Science Library": 2,
+      "Ágatha Ruiz de la Prada": 2,
+      "Antineoplaston": 2,
+      "Fried parameter": 2,
+      "RNA-Seq": 2,
+      "Newfoundland and Labrador": 2
+    },
+    "Shared Services Canada": {
+      "HMS Victorious (R38)": 41,
+      "Friends General Conference": 38,
+      "Politique au Canada": 33,
+      "Ordre du Canada": 26,
+      "Jeffrey Morgan (writer)": 20,
+      "Bataille de Fort Bull": 20,
+      "Matsqui Institution": 20,
+      "Novak Djokovic": 18,
+      "Lublin R-XIII": 18,
+      "Wikipedia:Sandbox": 16
+    },
+    "Statistics Canada": {
+      "2011 Canadian census": 3,
+      "François Mauriac": 3,
+      "Wikipedia talk:AutoWikiBrowser/CheckPage": 3,
+      "Economic impact of immigration to Canada": 2,
+      "Jean-Claude Duvalier": 2,
+      "Median": 1,
+      "Ontario": 1,
+      "Statistics Canada": 1,
+      "Classified information": 1,
+      "Ford Hotel": 1
+    },
+    "Industry Canada": {
+      "Communications Research Centre Canada": 5,
+      "Bachelor of Business Administration": 4,
+      "National Capital Junior Hockey League": 4,
+      "Bachelor's degree": 3,
+      "Centre de recherches sur les communications Canada": 3,
+      "Judgement of Solomon": 3,
+      "Alejandro Sanz": 3,
+      "Talk:Vancouver": 3,
+      "East Coast bias": 3,
+      "Brigitte Alepin": 2
+    },
+    "Canadian House of Commons": {
+      "Malcolm Allen (politician)": 12,
+      "Dean Allison": 11,
+      "Senators de Binghamton": 11,
+      "Jacques Gourde": 7,
+      "Jonathan Genest-Jourdain": 6,
+      "Dance radio": 5,
+      "British Columbia": 5,
+      "Fort St. John, British Columbia": 5,
+      "Randy Hoback": 5,
+      "Shannen's Dream": 5
+    },
+    "Environment Canada": {
+      "House Courcel": 23,
+      "Kushiel's Chosen": 20,
+      "List of South Korean idol groups": 14,
+      "Kushiel's Legacy": 11,
+      "Canadian Environmental Sustainability Indicators": 10,
+      "House Shahrizai": 8,
+      "Stregazza family": 8,
+      "Kushiel's Dart": 5,
+      "Centre météorologique canadien": 4,
+      "Talk:Eagles (band)": 4
+    },
+    "Shared Services Canada network (AS2665)": {
+      "Carly Pope": 9,
+      "E2D International": 9,
+      "Alexei Kovalev": 8,
+      "Richard Woodville, 3rd Earl Rivers": 7,
+      "User:J2xF/E2D Manifesto": 5,
+      "Blake Comeau": 5,
+      "Cellared in Canada": 4,
+      "Internet Party (Spain)": 4,
+      "Malcolm Lowry": 3,
+      "Egg salad": 3
+    },
+    "Natural Resources Canada": {
+      "Ancaster, Ontario": 8,
+      "Shelly Glover": 4,
+      "Nusrat Bhutto": 4,
+      "Urban Terror": 3,
+      "CBM-CFS3": 3,
+      "Sanzō Nosaka": 3,
+      "Talk:Pauline Bonaparte": 3,
+      "RIS (file format)": 3,
+      "List of countries and dependencies by population": 2,
+      "Natural Resources Canada": 2
+    },
+    "Department of Fisheries and Oceans": {
+      "Steinbach Christian School": 5,
+      "Canadian Coast Guard": 3,
+      "File:Paris - Eiffelturm und Marsfeld2.jpg": 2,
+      "Tokyo Tower": 2,
+      "Marion Cotillard": 2,
+      "Department of Fisheries and Aquaculture": 2,
+      "Rimouski": 2,
+      "Garde côtière canadienne": 2,
+      "Yamaha Virago": 2,
+      "Steve Bégin": 2
+    },
+    "Library and Archives Canada": {
+      "Stéphane Jean": 6,
+      "Amanda Wilson": 3,
+      "Keith MacLellan": 2,
+      "List of All My Children characters": 2,
+      "Lest We Forget Project": 2,
+      "Katy B": 2,
+      "Najm": 1,
+      "Jean-Sébastien Giguère": 1,
+      "Claude Voilier": 1,
+      "Allan Blakeney": 1
+    },
+    "Department of Justice Canada": {
+      "Jim Bob Duggar": 3,
+      "Charles Spencer, 9th Earl Spencer": 2,
+      "Ibanez Jet King": 2,
+      "Software requirements specification": 2,
+      "Lee Daniels": 2,
+      "Truth in sentencing": 2,
+      "Wacey Rabbit": 2,
+      "Samsung Wave S8500": 1,
+      "Lucien Bouchard": 1,
+      "Elizabeth Hurley": 1
+    },
+    "Government of Canada": {
+      "Jabberjaw": 8,
+      "Clue Club": 8,
+      "The Flintstone Comedy Hour": 5,
+      "Ray of Light (song)": 4,
+      "Where the Boys Are '84": 4,
+      "Berserk!": 4,
+      "Dallas: J.R. Returns": 3,
+      "Dallas: War of the Ewings": 3,
+      "Dallas Reunion: The Return to Southfork": 2,
+      "Dallas: The Early Years": 2
+    },
+    "Correctional Services Canada": {
+      "Try Again (Aaliyah song)": 6,
+      "Google": 4,
+      "Salt (2010 film)": 2,
+      "The Tourist (2010 film)": 1,
+      "List of awards and nominations received by Aaliyah": 1,
+      "Aaliyah": 1,
+      "Education in Canada": 1,
+      "Fichier:Hotmail 2000 logo.png": 1
+    },
+    "Bank of Canada": {
+      "Laurentian Bank of Canada": 3,
+      "Steck-Salathé Route": 2,
+      "Příbor": 1,
+      "Outlawries Bill": 1,
+      "Julie Kavner": 1,
+      "Saint-Sorlin-en-Bugey": 1,
+      "Provisional Irish Republican Army": 1,
+      "Cheondoism": 1,
+      "Economy of Iceland": 1,
+      "Near-field communication": 1
+    },
+    "National Research Council (SSC)": {
+      "Chromium acetate hydroxide": 1
+    },
+    "Canada Centre for Inland Waters": {
+      "Dense non-aqueous phase liquid": 1,
+      "North-West Rebellion": 1
+    },
+    "National Research Council (UBC)": {
+      "The Walking Dead (comic book)": 3,
+      "Comparison of the AK-47 and M16": 1,
+      "Time travel": 1
+    },
+    "Canadian Space Agency": {
+      "NASA Social": 2,
+      "Gilles Fontaine": 1,
+      "Canadiens de Montréal": 1,
+      "Lester B. Pearson School Board": 1,
+      "Nic et Pic": 1,
+      "Ottawa Macdonald–Cartier International Airport": 1
+    },
+    "Federal Court of Canada": {
+      "Tax Court of Canada": 3,
+      "Ordre de préséance canadien": 1,
+      "Dragon boat": 1,
+      "Habeas corpus": 1,
+      "Tom Flanagan (political scientist)": 1,
+      "Métis in Canada": 1
+    },
+    "Finance Canada": {
+      "Ottawa": 2,
+      "File:Ottawa Elgin Street.jpg": 1,
+      "John By": 1,
+      "Ptérygion": 1,
+      "Gatineau": 1
+    },
+    "National Research Council (UofT)": {
+      "Talk:All Right Now": 3,
+      "Supervised learning": 2,
+      "Massive open online course": 2,
+      "Spam and Open Relay Blocking System": 1,
+      "Stanisław Ulam": 1,
+      "SLD": 1,
+      "Multicriteria classification": 1
+    },
+    "Transport Canada": {
+      "Appendix:Canadian English military slang": 2,
+      "La Grande Séduction": 1
+    },
+    "Canadian Museum of Civilization": {
+      "List of Berlin Wall segments": 2,
+      "Coureur des bois": 2,
+      "Great-West Lifeco": 2,
+      "Territorial claims in the Arctic": 2,
+      "Canadian Museum of History": 1,
+      "Canadian War Museum": 1,
+      "John Torrington": 1,
+      "Nova Scotia Voice of Women": 1
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "commonswiki": "2011-11-22T19:13:06Z",
+    "enwiki": "2011-12-30T19:46:43Z",
+    "frwiki": "2011-12-28T17:30:23Z",
+    "enwiktionary": "2011-12-28T16:16:16Z",
+    "enwikivoyage": "2011-11-29T18:38:49Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-11-12T03:48:33Z",
+      "window": [
+        "2011-01-01T00:00:00Z",
+        "2011-12-31T23:59:59Z"
+      ],
+      "blocks_total": 153,
+      "blocks_scanned": 153,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 3640
+    },
+    "frwiki": {
+      "scanned_at": "2026-11-12T03:49:16Z",
+      "window": [
+        "2011-01-01T00:00:00Z",
+        "2011-12-31T23:59:59Z"
+      ],
+      "blocks_total": 153,
+      "blocks_scanned": 153,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 736
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-11-12T03:50:04Z",
+      "window": [
+        "2011-01-01T00:00:00Z",
+        "2011-12-31T23:59:59Z"
+      ],
+      "blocks_total": 153,
+      "blocks_scanned": 153,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 0
+    },
+    "commonswiki": {
+      "scanned_at": "2026-11-12T03:51:01Z",
+      "window": [
+        "2011-01-01T00:00:00Z",
+        "2011-12-31T23:59:59Z"
+      ],
+      "blocks_total": 153,
+      "blocks_scanned": 153,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 687
+    },
+    "enwiktionary": {
+      "scanned_at": "2026-11-12T03:51:20Z",
+      "window": [
+        "2011-01-01T00:00:00Z",
+        "2011-12-31T23:59:59Z"
+      ],
+      "blocks_total": 153,
+      "blocks_scanned": 153,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 77
+    },
+    "enwikivoyage": {
+      "scanned_at": "2026-11-12T03:52:17Z",
+      "window": [
+        "2011-01-01T00:00:00Z",
+        "2011-12-31T23:59:59Z"
+      ],
+      "blocks_total": 153,
+      "blocks_scanned": 153,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 35
+    }
+  }
+}
