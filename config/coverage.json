@@ -1,0 +1,1078 @@
+{
+ "as_of": "2026-11-12",
+ "wikimedia": {
+  "wikis": 1009,
+  "gc_edits": 26746,
+  "note": "All public Wikimedia wikis (every language Wikipedia, Wiktionary, Commons, Wikidata, Wikibooks, Wikiquote, Wikisource, Wikinews, Wikiversity, Wikivoyage). IP attribution ended 3–4 November 2025."
+ },
+ "wikis_checked": [
+  {
+   "site": "military-history.fandom.com",
+   "gc_edits": 41
+  },
+  {
+   "site": "fallout.fandom.com",
+   "gc_edits": 40
+  },
+  {
+   "site": "en.uncyclopedia.co",
+   "gc_edits": 19
+  },
+  {
+   "site": "metalgear.fandom.com",
+   "gc_edits": 8
+  },
+  {
+   "site": "starwars.fandom.com",
+   "gc_edits": 8
+  },
+  {
+   "site": "elderscrolls.fandom.com",
+   "gc_edits": 7
+  },
+  {
+   "site": "battlefield.fandom.com",
+   "gc_edits": 6
+  },
+  {
+   "site": "memory-alpha.fandom.com",
+   "gc_edits": 6
+  },
+  {
+   "site": "memory-beta.fandom.com",
+   "gc_edits": 6
+  },
+  {
+   "site": "ageofempires.fandom.com",
+   "gc_edits": 4
+  },
+  {
+   "site": "icehockey.fandom.com",
+   "gc_edits": 4
+  },
+  {
+   "site": "ottawa.fandom.com",
+   "gc_edits": 2
+  },
+  {
+   "site": "transformers.fandom.com",
+   "gc_edits": 2
+  },
+  {
+   "site": "warthunder.fandom.com",
+   "gc_edits": 2
+  },
+  {
+   "site": "callofduty.fandom.com",
+   "gc_edits": 1
+  },
+  {
+   "site": "community.fandom.com",
+   "gc_edits": 1
+  },
+  {
+   "site": "cryptidz.fandom.com",
+   "gc_edits": 1
+  },
+  {
+   "site": "tardis.fandom.com",
+   "gc_edits": 1
+  },
+  {
+   "site": "tomclancy.fandom.com",
+   "gc_edits": 1
+  },
+  {
+   "site": "www.appropedia.org",
+   "gc_edits": 1
+  },
+  {
+   "site": "harrypotter.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "historica.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "liquipedia.net/counterstrike",
+   "gc_edits": 0
+  },
+  {
+   "site": "liquipedia.net/leagueoflegends",
+   "gc_edits": 0
+  },
+  {
+   "site": "lostpedia.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "marvel.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "minecraft.wiki",
+   "gc_edits": 0
+  },
+  {
+   "site": "wiki.archlinux.org",
+   "gc_edits": 0
+  },
+  {
+   "site": "wiki.openstreetmap.org",
+   "gc_edits": 0
+  },
+  {
+   "site": "wikispooks.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "www.conservapedia.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "www.pcgamingwiki.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "www.wikihow.com",
+   "gc_edits": 0
+  }
+ ],
+ "wikis_blocked": [
+  {
+   "site": "1000xresist.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "13sentinels.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "1traitdanger.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "20minutestilldawn.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "20xx.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "33immortals.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "5dchess.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "7d2dmodding.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "7daystodie.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "9kings.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "9yearsofshadows.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "adaca.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "adaywithoutme.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "ahatintime.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "aliens.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "althistory.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "ark.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "arma.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "ataleofcrowns.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "awoiaf.westeros.org",
+   "gc_edits": 0
+  },
+  {
+   "site": "backrooms.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "ballotpedia.org",
+   "gc_edits": 0
+  },
+  {
+   "site": "baseball.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "bulbapedia.bulbagarden.net",
+   "gc_edits": 0
+  },
+  {
+   "site": "canada.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "cbc.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "cfl.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "chorusofdragons.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "civilization.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "commandandconquer.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "conspiracy.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "corner-gas.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "cornergas.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "coronationday.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "creepypasta.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "dc.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "deadcells.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "deeprockgalactic.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "degrassi.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "disney.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "en.citizendium.org",
+   "gc_edits": 0
+  },
+  {
+   "site": "en.everybodywiki.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "en.metapedia.org",
+   "gc_edits": 0
+  },
+  {
+   "site": "en.wikifur.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "encyclopediadramatica.online",
+   "gc_edits": 0
+  },
+  {
+   "site": "escapefromtarkov.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "eu4.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "football.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "gameofthrones.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "gnorp.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "gta.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "halo.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "hearts-of-iron-4.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "hero.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "hockey.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "hoi4.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "ice-hockey.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "jamesbond.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "knowyourmeme.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "letterkenny.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "lettrkenny.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "lotr.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "lyrics.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "minecraft.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "montreal.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "muppet.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "nfl.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "nhl.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "pokemon.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "politicsandwar.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "powerrangers.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "rainbowsix.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "rationalwiki.org",
+   "gc_edits": 0
+  },
+  {
+   "site": "scp-wiki.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "simpsons.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "stellaris.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "terraria.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "totalwar.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "townshiptale.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "trailerparkboys.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "tvo.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "villains.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "wikisource.org/w/api.php",
+   "gc_edits": 0
+  },
+  {
+   "site": "wikitravel.org/en",
+   "gc_edits": 0
+  },
+  {
+   "site": "worldofkeflings.wiki.gg",
+   "gc_edits": 0
+  },
+  {
+   "site": "worldoftanks.fandom.com",
+   "gc_edits": 0
+  },
+  {
+   "site": "www.sourcewatch.org",
+   "gc_edits": 0
+  },
+  {
+   "site": "zelda.fandom.com",
+   "gc_edits": 0
+  }
+ ],
+ "wikis_not_checkable": [
+  [
+   "Wikis using MediaWiki temporary accounts (all Wikimedia projects since Nov 2025; any third-party wiki that enabled them)",
+   "IPs of logged-out editors are no longer published"
+  ],
+  [
+   "Miraheze, wiki.gg and the rest of Fandom",
+   "Checkable in principle; the sweep covers them as their wiki lists can be read. Fandom has no public list, so only hand-picked wikis are covered"
+  ],
+  [
+   "Knowyourmeme, Ballotpedia, Citizendium, EverybodyWiki, Wikitravel, SourceWatch, Bulbapedia, RationalWiki, Metapedia, Encyclopedia Dramatica, WikiFur",
+   "MediaWiki API not reachable (blocked, moved or disabled); nothing further is attempted"
+  ],
+  [
+   "Elite Prospects, HockeyDB and other volunteer databases",
+   "Not wikis; corrections go in by form and nothing about the submitter is published"
+  ],
+  [
+   "Reddit, Discord, 4chan, X",
+   "Never publish poster IPs; 4chan shows a country flag and a per-thread hash only"
+  ]
+ ],
+ "hockey_checked": [
+  {
+   "site": "www.nrhl.lhse.org/website",
+   "entries": 1471,
+   "gc_entries": 1,
+   "gc_teams": 1
+  },
+  {
+   "site": "thenshl.com/sths_output",
+   "entries": 1462,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "cphl.sths.ca",
+   "entries": 1423,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "www.ashligue.com/S14",
+   "entries": 1415,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "dchl.sths.ca",
+   "entries": 1108,
+   "gc_entries": 14,
+   "gc_teams": 1
+  },
+  {
+   "site": "swhl.sths.ca",
+   "entries": 840,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "the-cchl.byethost4.com",
+   "entries": 736,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "swe-hl.com",
+   "entries": 716,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lhs.sths.ca",
+   "entries": 688,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "fchs.sths.ca",
+   "entries": 652,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "mfhl.sths.ca",
+   "entries": 622,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "www.lhse.org/File/2035-RegularSeason",
+   "entries": 619,
+   "gc_entries": 66,
+   "gc_teams": 5
+  },
+  {
+   "site": "lhsrsm.com",
+   "entries": 574,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "moneyligue.com/Saison22-PLF",
+   "entries": 533,
+   "gc_entries": 26,
+   "gc_teams": 2
+  },
+  {
+   "site": "nlhsa.sths.ca",
+   "entries": 528,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "www.nsimhl.com",
+   "entries": 500,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "nashl.sths.ca",
+   "entries": 481,
+   "gc_entries": 1,
+   "gc_teams": 1
+  },
+  {
+   "site": "lnhvs.sths.ca",
+   "entries": 477,
+   "gc_entries": 7,
+   "gc_teams": 1
+  },
+  {
+   "site": "laahs.info",
+   "entries": 474,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "www.snhl.net/Output",
+   "entries": 449,
+   "gc_entries": 1,
+   "gc_teams": 1
+  },
+  {
+   "site": "mohl.sths.ca",
+   "entries": 433,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "schl.sths.ca",
+   "entries": 430,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lvch.sths.ca",
+   "entries": 426,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lnhs.sths.ca",
+   "entries": 424,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lhsnq.sths.ca",
+   "entries": 411,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "nahl.sths.ca",
+   "entries": 375,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "ochl.sths.ca",
+   "entries": 374,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lh117.sths.ca",
+   "entries": 365,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "ldn.sths.ca",
+   "entries": 350,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "bfha.sths.ca",
+   "entries": 349,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "othl.net",
+   "entries": 347,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "sim.virtualhockeyleague.com",
+   "entries": 338,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "virtualhockeyleague.com",
+   "entries": 338,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lmhsq.sths.ca",
+   "entries": 329,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "glhs.sths.ca",
+   "entries": 325,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "bash.sths.ca",
+   "entries": 321,
+   "gc_entries": 8,
+   "gc_teams": 2
+  },
+  {
+   "site": "spxhl.sths.ca",
+   "entries": 311,
+   "gc_entries": 5,
+   "gc_teams": 1
+  },
+  {
+   "site": "nqhs.sths.ca",
+   "entries": 308,
+   "gc_entries": 2,
+   "gc_teams": 1
+  },
+  {
+   "site": "ccfhl.sths.ca",
+   "entries": 300,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "breakawayhockey.sths.ca",
+   "entries": 294,
+   "gc_entries": 2,
+   "gc_teams": 1
+  },
+  {
+   "site": "lhat.sths.ca",
+   "entries": 276,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lhs2.sths.ca",
+   "entries": 264,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "nahlligue.com",
+   "entries": 258,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "pfkhl.ca",
+   "entries": 242,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lhs1.sths.ca",
+   "entries": 240,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "sa.sths.ca",
+   "entries": 209,
+   "gc_entries": 1,
+   "gc_teams": 1
+  },
+  {
+   "site": "cafhl.sths.ca",
+   "entries": 205,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "laswhl.sths.ca",
+   "entries": 202,
+   "gc_entries": 3,
+   "gc_teams": 1
+  },
+  {
+   "site": "nlhp.sths.ca",
+   "entries": 201,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lnhv3.sths.ca",
+   "entries": 200,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lhvs.sths.ca",
+   "entries": 194,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "hockeymaniac.ca",
+   "entries": 185,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lehna.sths.ca",
+   "entries": 161,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lhsmki.sths.ca",
+   "entries": 135,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "slnf.sths.ca",
+   "entries": 134,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "ohl.sths.ca",
+   "entries": 122,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lnhsim.sths.ca",
+   "entries": 115,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lihv.sths.ca",
+   "entries": 91,
+   "gc_entries": 2,
+   "gc_teams": 1
+  },
+  {
+   "site": "www.hshockey.ca",
+   "entries": 90,
+   "gc_entries": 1,
+   "gc_teams": 1
+  },
+  {
+   "site": "www.thebfhl.ca/sths",
+   "entries": 61,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "rhlq.sths.ca",
+   "entries": 49,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lssh.sths.ca",
+   "entries": 38,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lhspj.sths.ca",
+   "entries": 36,
+   "gc_entries": 1,
+   "gc_teams": 1
+  },
+  {
+   "site": "lhsmki.com",
+   "entries": 8,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "fnhl.cz",
+   "entries": 1,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "yghl.sths.ca",
+   "entries": 1,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "couchcoach.org",
+   "entries": 0,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "demo.sths.ca",
+   "entries": 0,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "dev.fihl.ch",
+   "entries": 0,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "dnhl.sths.ca",
+   "entries": 0,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "gha.sths.ca",
+   "entries": 0,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "leahs.sths.ca",
+   "entries": 0,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lhs22.sths.ca",
+   "entries": 0,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "lkhs.sths.ca",
+   "entries": 0,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "mlh.sths.ca",
+   "entries": 0,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "nhlq.sths.ca",
+   "entries": 0,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "nqhsj.sths.ca",
+   "entries": 0,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "phi.sths.ca",
+   "entries": 0,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "proam.sths.ca",
+   "entries": 0,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "superstar.sths.ca",
+   "entries": 0,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "www.thebfhl.ca/bfhl/sths",
+   "entries": 0,
+   "gc_entries": 0,
+   "gc_teams": 0
+  }
+ ],
+ "hockey_dead": [
+  "dhl.sths.ca",
+  "ehl.sths.ca",
+  "esha.sths.ca",
+  "funhl.sths.ca",
+  "gfhl.us",
+  "ghl.sths.ca",
+  "gmwhl.sths.ca",
+  "gthl.sths.ca",
+  "hfhl.sths.ca",
+  "jhl.sths.ca",
+  "khl.sths.ca",
+  "lcs.sths.ca",
+  "lehs.sths.ca",
+  "lesh.sths.ca",
+  "lhfs.sths.ca",
+  "lhl.sths.ca",
+  "lhl2.sths.ca",
+  "lhqc.sths.ca",
+  "lhsjmq.sths.ca",
+  "lhspp.sths.ca",
+  "lhsvp.sths.ca",
+  "lmhs.net",
+  "lnh100.sths.ca",
+  "lphs.sths.ca",
+  "mhl.sths.ca",
+  "mihl.sths.ca",
+  "mlhy1.sths.ca",
+  "ndhl.sths.ca",
+  "nfl.sths.ca",
+  "nhlquebec.sths.ca",
+  "nvhl.sths.ca",
+  "otha.sths.ca",
+  "pbhl.sths.ca",
+  "ssqc.sths.ca",
+  "tgihf.sths.ca",
+  "ths.sths.ca",
+  "ttl.sths.ca",
+  "vhrl.sths.ca",
+  "www.sths.ca",
+  "www.the-shl.ca/SHL-PLF-TodayTransactions.php"
+ ],
+ "hockey_not_checkable": [
+  [
+   "Yahoo, ESPN, CBS, Sleeper, NHL.com fantasy",
+   "No IP display; private leagues behind login"
+  ],
+  [
+   "Fantrax (including KKUPFL, which runs on it)",
+   "Same; KKUPFL's public side is standings and a Discord"
+  ],
+  [
+   "DraftKings, FanDuel",
+   "Daily fantasy; regulated operators, no IP display"
+  ],
+  [
+   "MyFantasyLeague",
+   "Logs an IP per transaction but shows it to commissioners only; one public leak, US Thanksgiving weekend 2016"
+  ],
+  [
+   "Officepools, HockeyDraft.ca, Marqueur, HokeyPool, gestionpool, Pool Expert",
+   "Office and Quebec pool hosts; public pages show entries and picks, no IPs"
+  ],
+  [
+   "Forum-run sim leagues (phpBB, MyBB, ProBoards, Invision, jcink)",
+   "Poster IPs visible to staff only unless misconfigured"
+  ],
+  [
+   "Franchise Hockey Manager, OOTP/StatsPlus, Front Office Football, Draft Day Sports, ZenGM leagues",
+   "No sign of public IP logging; STHS is the only sim software found that prints the submitting IP"
+  ]
+ ]
+}

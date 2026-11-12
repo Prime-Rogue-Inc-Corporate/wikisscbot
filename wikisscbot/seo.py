@@ -177,7 +177,7 @@ def footer_links(depth: int) -> str:
     pre = "../" * depth
     return (f'<nav class="footnav" aria-label="Reference pages"><a href="{pre}years.html">Edits by year</a>'
             f'<a href="{pre}methodology.html">Methodology</a><a href="{pre}faq.html">FAQ</a>'
-            f'<a href="{pre}data.html">Data &amp; verification</a></nav>')
+            f'<a href="{pre}data.html">Data &amp; verification</a><a href="{pre}coverage.html">Coverage</a></nav>')
 
 
 def page(site: dict, *, path: str, title: str, desc: str, body: str, built: str, depth: int = 0,
@@ -485,10 +485,59 @@ def robots(site: dict) -> str:
             + f"\nSitemap: {site['base_url']}sitemap.xml\n")
 
 
+def coverage_page(site: dict, g: dict, built: str) -> str:
+    """Where the project can and cannot look: wikis and hockey-sim leagues, from config/coverage.json."""
+    cov = json.loads((ROOT / "config" / "coverage.json").read_text(encoding="utf-8"))
+    wm = cov["wikimedia"]
+    checked = cov["wikis_checked"]
+    hits = [w for w in checked if w["gc_edits"]]
+    hockey = cov["hockey_checked"]
+    hockey_hits = [h for h in hockey if h["gc_entries"]]
+    hockey_entries = sum(h["entries"] for h in hockey)
+    hockey_gc = sum(h["gc_entries"] for h in hockey)
+
+    ONE, THREE = {1}, {1, 2, 3}
+
+    def reasons(rows):
+        return table(["Where", "Why it cannot be checked"], [[e(a), e(b)] for a, b in rows])
+
+    body = f"""<h1>Coverage</h1>
+<div class="prose">
+<p class="lede">Where this project can look for traffic from Government of Canada networks, and where it cannot. A place is checkable only if it publishes the IP address of the person acting; nothing here comes from private systems. Data as of {e(cov['as_of'])}.</p>
+
+<h2>Wikis</h2>
+<h3>Checked: Wikimedia</h3>
+<p>{n(wm['wikis'])} wikis, {n(wm['gc_edits'])} logged-out edits from government ranges. {e(wm['note'])} The English and French Wikipedia share of this is the archive you can search on this site; the rest (other languages, Commons, Wiktionary, Wikivoyage and the smaller projects) is summarised in the methodology.</p>
+<h3>Checked: other MediaWiki sites</h3>
+<p>{len(checked)} wikis outside Wikimedia answered the same range query. {len(hits)} had edits from government ranges. These wikis still publish IPs, so unlike Wikimedia they can show activity after November 2025.</p>
+{table(["Wiki", "Government-range edits"], [[e(w['site']), n(w['gc_edits'])] for w in checked], numeric=ONE)}
+<h3>Attempted, not reachable</h3>
+<p>{len(cov['wikis_blocked'])} wikis were queried and did not answer (dead, renamed, API disabled or bot protection): {e(', '.join(w['site'] for w in cov['wikis_blocked']))}.</p>
+<h3>Not checkable</h3>
+{reasons(cov['wikis_not_checkable'])}
+
+<h2>Hockey-simulation leagues</h2>
+<p>One piece of league software, STHS (SimonT Hockey Simulator), prints the IP address of each general manager who saves a lineup through its web client into a public transaction log. Those logs are the only fantasy-sport source found that publishes member IPs. {len(hockey)} leagues answered; together they hold {n(hockey_entries)} lineup submissions this season, {n(hockey_gc)} of them from government ranges, in {len(hockey_hits)} leagues. The log timestamp is when the commissioner ran the simulation, not when the manager submitted, so it says nothing about time of day.</p>
+<h3>Checked</h3>
+{table(["League site", "Submissions", "From government ranges", "Teams"], [[e(h['site']), n(h['entries']), n(h['gc_entries']), n(h['gc_teams'])] for h in hockey], numeric=THREE)}
+<h3>Attempted, not reachable</h3>
+<p>{e(', '.join(cov['hockey_dead']))}.</p>
+<h3>Not checkable</h3>
+{reasons(cov['hockey_not_checkable'])}
+
+<h2>What this list is for</h2>
+<p>Absence of a result means nothing unless the place was actually checkable and actually answered. This page is the denominator. It is regenerated with the data; sites move between sections as they come and go.</p>
+<p>{e(CAVEAT)} Team names are the leagues' own; managers are not identified.</p>
+</div>"""
+    return page(site, path="coverage.html", title="Coverage", body=body, built=built,
+                desc="Which wikis and hockey-simulation leagues publish user IP addresses and can be checked for "
+                     "Government of Canada network traffic, which were tried and did not answer, and which never can be.")
+
+
 def sitemap(site: dict, g: dict, built: str) -> str:
     base, day = site["base_url"], built[:10]
     urls = [("", "1.0"), ("years.html", "0.8"), ("faq.html", "0.7"), ("methodology.html", "0.7"),
-            ("data.html", "0.7")] + [(f"years/{y['year']}.html", "0.6") for y in reversed(g["years"])]
+            ("data.html", "0.7"), ("coverage.html", "0.6")] + [(f"years/{y['year']}.html", "0.6") for y in reversed(g["years"])]
     body = "".join(f"<url><loc>{e(base + p)}</loc><lastmod>{day}</lastmod><priority>{pr}</priority></url>\n"
                    for p, pr in urls)
     return ('<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -520,7 +569,9 @@ def llms_txt(site: dict, g: dict, built: str) -> str:
         f"- [Edits by year]({base}years.html): one summary page per year",
         f"- [Methodology]({base}methodology.html): collection, labelling, provenance and limits",
         f"- [FAQ]({base}faq.html): what the data does and does not show",
-        f"- [Data and verification]({base}data.html): downloads, checksums and how to cite", "",
+        f"- [Data and verification]({base}data.html): downloads, checksums and how to cite",
+        f"- [Coverage]({base}coverage.html): which wikis and hockey-sim leagues can be checked for government "
+        "network traffic, and which cannot", "",
         "## Data", "",
         *[f"- [{y['year']} edits, JSON Lines]({base}data/{y['year']}/edits.jsonl)" for y in reversed(g["years"])], "",
         "## Citing", "",
@@ -549,6 +600,7 @@ def write_all(out: Path, agg: dict, built: str, chain_len: int, latest: dict | N
             "years.html": years_page(site, g, built), "faq.html": faq_page(site, g, built),
             "methodology.html": methodology_page(site, g, built),
             "data.html": data_page(site, g, built, chain_len, latest),
+            "coverage.html": coverage_page(site, g, built),
             **{f"years/{y['year']}.html": year_page(site, g, y, labels, built) for y in g["years"]},
             "sitemap.xml": sitemap(site, g, built), "llms.txt": llms_txt(site, g, built),
         }
