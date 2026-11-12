@@ -38,7 +38,7 @@
     "25689": "Shared Services Canada network (AS25689, legacy NRC)",
     "806": "Shared Services Canada network (AS806, legacy Environment Canada)"
   },
-  "user_agent": "wikisscbot/1.0 (https://github.com/primerogueinc/wikisscbot; Government of Canada anonymous-edit transparency archive)",
+  "user_agent": "wikisscbot/1.3 (https://revisionhistory.ca; https://github.com/Prime-Rogue-Inc-Corporate/wikisscbot; Government of Canada anonymous-edit transparency archive)",
   "backfill_years": [
     2010,
     2011,

@@ -4,7 +4,18 @@ All notable changes to wikisscbot. Versions follow [semantic versioning](https:/
 
 ## [Unreleased]
 
+## [1.3.0] — 2026-11-12
+
 ### Added
+- **Revision History** (`revisionhistory.ca`): the site has its own name and domain. Site identity lives in `config/site.json`; the collector keeps the name wikisscbot. The build writes `docs/CNAME`.
+- **Crawlable pages** (`wikisscbot/seo.py`): a pre-rendered summary inside the home page, `years.html` with one page per year, `methodology.html`, `faq.html` and `data.html`. Every number is computed from the data at build time.
+- **Metadata**: titles, descriptions, canonical links, Open Graph and Twitter cards, a share image and favicon, and JSON-LD (`WebSite`, `Dataset` with one download per year and its SHA-256, `FAQPage`, breadcrumbs).
+- **Discovery files**: `sitemap.xml`, `robots.txt` (search and AI crawlers allowed; `data/manifests/` excluded) and `llms.txt`.
+- `index_biographies` in `config/site.json` (default `false`): the crawlable pages leave biographies and not-yet-classified pages out of the most-edited lists. The search is unaffected.
+- Backfill extended year by year to 2010.
+
+### Changed
+- Repository links and the collector's User-Agent point at `Prime-Rogue-Inc-Corporate/wikisscbot` and the new site.
 - **Profiles** (`#/profiles`): hand-written analyst pages kept in `web/static/profiles/` (an `index.json` plus one HTML fragment per profile) and copied into the static build. First profile: **DRELAN-SPARKY**, the DND gateway pair 131.137.245.206/.207 and the Shared Services Canada pair 205.193.239.44/.76 that took over its pages from November 2023.
 
 ## [1.2.0] — 2026-10-27

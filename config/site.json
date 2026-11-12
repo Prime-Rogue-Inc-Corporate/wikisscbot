@@ -1,0 +1,27 @@
+{
+  "name": "Revision History",
+  "domain": "revisionhistory.ca",
+  "base_url": "https://revisionhistory.ca/",
+  "tagline": "watching you watching me watching SSC",
+  "headline": "Wikipedia edits from Government of Canada networks",
+  "lang": "en-CA",
+  "region": "CA",
+  "publisher": {
+    "name": "Prime Rogue Inc.",
+    "url": "https://primerogueinc.com/"
+  },
+  "repo": "https://github.com/Prime-Rogue-Inc-Corporate/wikisscbot",
+  "keywords": [
+    "Government of Canada Wikipedia edits",
+    "gccaedits",
+    "anonymous Wikipedia edits",
+    "House of Commons Wikipedia edits",
+    "Shared Services Canada",
+    "Department of National Defence",
+    "Parliament of Canada",
+    "Wikipedia conflict of interest editing",
+    "open government Canada",
+    "OSINT"
+  ],
+  "index_biographies": false
+}

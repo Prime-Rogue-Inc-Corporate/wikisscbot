@@ -10,10 +10,12 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import re
 import shutil
+from collections import Counter
 from pathlib import Path
 
-from . import __version__, provenance, topics
+from . import __version__, provenance, seo, topics
 from .config import ROOT
 
 OUT = ROOT / "docs"
@@ -66,6 +68,9 @@ def build(out: Path = OUT) -> dict:
     labels = cache.get("labels", {})
     beats = {}
     n = 0
+    ips, pages = set(), set()
+    by_label, by_wiki = Counter(), Counter()
+    first = last = ""
     for rel in files:
         if not rel.endswith(".jsonl"):
             continue
@@ -74,6 +79,13 @@ def build(out: Path = OUT) -> dict:
                 continue
             e = json.loads(line)
             n += 1
+            ips.add(e["ip"])
+            pages.add((e["wiki"], e["title"]))
+            by_label[e["label"]] += 1
+            by_wiki[e["wiki"]] += 1
+            ts = e["timestamp"]
+            first = ts if not first or ts < first else first
+            last = ts if ts > last else last
             b = topics.beats(labels.get(f"{e['wiki']}|{e['title']}") or e["title"], e.get("comment") or "")
             if b:
                 beats[f"{e['wiki']}|{e['revid']}"] = b
@@ -92,9 +104,10 @@ def build(out: Path = OUT) -> dict:
             "ots": _ots_status(mpath.with_suffix(".json.ots")),
             "ots_file": link["manifest"] + ".ots",
         })
+    built = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     derived = {
         "version": __version__,
-        "built": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "built": built,
         "files": files,
         "beats": beats,
         "provenance": {"chain_length": len(links), "latest": links[-1] if links else None,
@@ -104,14 +117,22 @@ def build(out: Path = OUT) -> dict:
 
     # Front end: same files as the web app, switched to the in-browser engine.
     (out / "static").mkdir(parents=True, exist_ok=True)
-    for name in ("app.js", "engine.js", "style.css"):
-        shutil.copyfile(WEB / name, out / "static" / name)
+    for f in sorted(WEB.iterdir()):
+        if f.is_file() and f.name != "index.html":
+            shutil.copyfile(f, out / "static" / f.name)
     if (WEB / "profiles").is_dir():
         shutil.copytree(WEB / "profiles", out / "static" / "profiles")
-    index = (WEB / "index.html").read_text(encoding="utf-8").replace(
+
+    # Crawlable pages, metadata and discovery files (see seo.py).
+    meta = seo.write_all(out, {"edits": n, "ips": len(ips), "pages": len(pages), "first": first, "last": last,
+                               "by_label": dict(by_label), "by_wiki": dict(by_wiki)},
+                         built, len(links), links[-1] if links else None, cache)
+    template = (WEB / "index.html").read_text(encoding="utf-8").replace(
         "<!--STATIC-->",
         '<script>window.WIKISSC_STATIC = true;</script>\n<script src="static/engine.js"></script>')
-    (out / "index.html").write_text(index, encoding="utf-8")
-    (out / "404.html").write_text(index, encoding="utf-8")
+    template = template.replace("<!--PRERENDER-->", meta["prerender"]).replace("<!--FOOTLINKS-->", meta["footer"])
+    seo_block = re.compile(r"<!--SEO-->.*?<!--/SEO-->", re.S)
+    (out / "index.html").write_text(seo_block.sub(lambda _: meta["head"], template), encoding="utf-8")
+    (out / "404.html").write_text(seo_block.sub(lambda _: meta["head_404"], template), encoding="utf-8")
     (out / ".nojekyll").write_text("")
-    return {"edits": n, "files": len(files), "manifests": len(links), "out": str(out)}
+    return {"edits": n, "files": len(files), "manifests": len(links), "pages": meta["pages"], "out": str(out)}

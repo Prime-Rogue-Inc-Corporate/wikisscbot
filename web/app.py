@@ -9,7 +9,7 @@ Environment:
                       downloads it every WIKISSC_SYNC_HOURS, verifies the
                       manifest chain and checksums, and only then swaps in the
                       new data. Example:
-                      https://codeload.github.com/primerogueinc/wikisscbot/tar.gz/refs/heads/main
+                      https://codeload.github.com/Prime-Rogue-Inc-Corporate/wikisscbot/tar.gz/refs/heads/main
   WIKISSC_SYNC_HOURS  default 6
   WIKISSC_CACHE_DIR   where synced copies are unpacked (default: /tmp/wikissc)
 """
@@ -154,7 +154,7 @@ async def lifespan(_app):
     yield
 
 
-app = FastAPI(title="wikisscbot", version=__version__, lifespan=lifespan)
+app = FastAPI(title="Revision History (wikisscbot)", version=__version__, lifespan=lifespan)
 
 
 # --- filters ----------------------------------------------------------------

@@ -171,3 +171,16 @@ pre.code { background: var(--card); border: 1px solid var(--rule); border-radius
 .foot { border-top: 1px solid var(--rule); padding-top: 14px; padding-bottom: 28px; font-size: 12px; color: var(--muted); display: flex; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
 .more-btn { display: block; margin: 14px auto 0; }
 .copy { cursor: pointer; border-bottom: 1px dotted var(--muted); }
+
+/* static reference pages and the pre-rendered home summary */
+th.n { text-align: right; }
+main.wrap { padding-top: 22px; padding-bottom: 48px; }
+.footnav { display: flex; gap: 14px; flex-wrap: wrap; }
+.foot a { color: var(--ink-2); }
+.prerender .loading { padding: 14px 0 0; }
+.prose h2 { margin-top: 28px; }
+.prose .lede { margin-bottom: 4px; }
+p .btn { display: inline-block; margin: 0 6px 6px 0; }
+p.back { margin: 0 0 10px; }
+p.back a { color: var(--muted); text-decoration: none; }
+p.back a:hover { color: var(--ink); }

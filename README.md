@@ -1,9 +1,9 @@
 # wikisscbot
 watching you watching me watching SSC
 
-A searchable, tamper-evident archive of anonymous Wikipedia edits made from Government of Canada networks, rebuilt from the @gccaedits idea for the post-2025 internet.
+The collector and site behind **[Revision History](https://revisionhistory.ca/)**: a searchable, tamper-evident archive of anonymous Wikipedia edits made from Government of Canada networks, rebuilt from the @gccaedits idea for the post-2025 internet.
 
-**Version 1.2.0** · [Changelog](CHANGELOG.md) · [Roadmap](ROADMAP.md) · [Build log](data/BUILDLOG.md)
+**Version 1.3.0** · [Changelog](CHANGELOG.md) · [Roadmap](ROADMAP.md) · [Build log](data/BUILDLOG.md)
 
 ## What it does
 
@@ -55,15 +55,42 @@ FastAPI and SQLite (FTS5), with a frontend that needs no build step. It runs as 
 
 API endpoints live under `/api/`: `meta`, `search`, `export.csv`, `ips`, `ips/{ip}`, `topics`, `topics/{beat|topic}/{name}`, `ranges`, `provenance` and `health`.
 
-### Deploy on a static host (no server)
+### Deploy to revisionhistory.ca (static, no server)
 
-`docs/` is a complete static build of the site, rebuilt and committed by every workflow run. Publish that folder on any static host (Netlify, Cloudflare Pages, GitHub Pages, S3, shared hosting) and point your domain at it:
+`docs/` is a complete static build of the site, rebuilt and committed by every workflow run. **Publish `docs/` as the web root** so the site sits at `https://revisionhistory.ca/`. The domain, name and descriptions live in `config/site.json`.
 
-- **Publish directory:** `docs`
-- **Build command:** none (or `python -m wikisscbot site` to rebuild it yourself)
-- **GitHub Pages:** Settings → Pages → Deploy from a branch → `main` / `/docs`
+**Option A: GitHub Pages** (free, redeploys on every workflow commit, HTTPS included)
 
-The browser loads the raw data files and does all searching and aggregation itself. It hashes every file it loads with SHA-256 and checks it against `data/SHA256SUMS` and the latest signed manifest; the Provenance page can also walk the full hash chain in the browser. The site updates whenever the repo does, if your host redeploys on push.
+1. Repo → Settings → Pages → Deploy from a branch → `main` / `/docs`. The build already writes `docs/CNAME`.
+2. At the domain registrar, point the apex at GitHub Pages and `www` at the organisation's Pages host:
+
+   | Type | Name | Value |
+   |---|---|---|
+   | A | @ | 185.199.108.153 |
+   | A | @ | 185.199.109.153 |
+   | A | @ | 185.199.110.153 |
+   | A | @ | 185.199.111.153 |
+   | AAAA | @ | 2606:50c0:8000::153 (also `8001`, `8002`, `8003`) |
+   | CNAME | www | prime-rogue-inc-corporate.github.io |
+
+3. Back in Settings → Pages, enter `revisionhistory.ca` as the custom domain and tick **Enforce HTTPS** once the certificate is issued.
+
+**Option B: any other static host** (Netlify, Cloudflare Pages, S3, shared hosting): connect `Prime-Rogue-Inc-Corporate/wikisscbot`, set the publish directory to `docs`, leave the build command empty, and add the domain in the host's dashboard. If a host can only publish the repo root, the root `index.html` forwards to `docs/`, but the canonical links then point at the wrong paths, so prefer a host that can publish a folder.
+
+The browser loads the raw data files and does all searching and aggregation itself. It hashes every file it loads with SHA-256 and checks it against `data/SHA256SUMS` and the latest signed manifest; the Provenance page can also walk the full hash chain in the browser.
+
+### Search engines and AI answer engines
+
+The search app is a single page driven by the URL hash, which crawlers mostly cannot read. `wikisscbot/seo.py` therefore writes plain HTML next to it on every build, with every number computed from the data:
+
+- a pre-rendered summary inside the home page (totals, edits by year, by network, by wiki), which the app replaces once it loads;
+- `years.html` and one page per year (`years/2018.html`), plus `methodology.html`, `faq.html` and `data.html`;
+- titles, descriptions, canonical links, Open Graph and Twitter cards, and JSON-LD (`WebSite`, `Dataset` with a download per year, `FAQPage`, breadcrumbs);
+- `sitemap.xml`, `robots.txt` (search and AI crawlers allowed; only `data/manifests/` excluded) and `llms.txt`, a plain-text summary for AI assistants.
+
+By default the crawlable pages do not list biographies among the most-edited pages, so a person's name is not put in front of search engines next to "government network edits". Those edits are still in the search. Set `"index_biographies": true` in `config/site.json` to include them.
+
+After the first deploy, add the domain to Google Search Console and Bing Webmaster Tools and submit `https://revisionhistory.ca/sitemap.xml`.
 
 ### Deploy with the Python server
 
@@ -79,7 +106,7 @@ Environment variables (all optional):
 
 | Variable | Purpose |
 |---|---|
-| `WIKISSC_SYNC_URL` | Keep the site current without redeploying. Set to `https://codeload.github.com/primerogueinc/wikisscbot/tar.gz/refs/heads/main`; the app downloads the repo every `WIKISSC_SYNC_HOURS`, **verifies the chain and checksums**, and swaps in the data only if they pass |
+| `WIKISSC_SYNC_URL` | Keep the site current without redeploying. Set to `https://codeload.github.com/Prime-Rogue-Inc-Corporate/wikisscbot/tar.gz/refs/heads/main`; the app downloads the repo every `WIKISSC_SYNC_HOURS`, **verifies the chain and checksums**, and swaps in the data only if they pass |
 | `WIKISSC_SYNC_HOURS` | Sync interval, default 6 |
 | `WIKISSC_DATA_DIR` | Data directory, default `./data` |
 | `WIKISSC_DB` | SQLite path, default `web/wikissc.db` (rebuilt at startup; an ephemeral disk is fine) |
@@ -114,7 +141,7 @@ The collector uses only the Python standard library. The web app needs `requirem
 | `data/<year>/summary.json`, `status.json` | Aggregates; per-wiki scan status and errors |
 | `data/topics.json` | Wikimedia topics per page, Wikidata labels |
 | `data/live/edits.jsonl` | Daily watcher findings |
-| `docs/` | Static build of the full site (publish this folder) |
+| `docs/` | Static build of the full site (publish this folder), including the crawlable pages, `sitemap.xml`, `robots.txt` and `llms.txt` |
 | `docs/reports/<year>.html` | Single-file report per year |
 
 ## Reading the labels

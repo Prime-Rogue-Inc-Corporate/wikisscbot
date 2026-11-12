@@ -1,6 +1,6 @@
 # Roadmap
 
-Status as of 2026-10-27 (v1.2.0). Items move to the [changelog](CHANGELOG.md) when shipped.
+Status as of 2026-11-12 (v1.3.0). Items move to the [changelog](CHANGELOG.md) when shipped.
 
 ## Now
 - [x] 2025 backfill (en/fr Wikipedia, Wikidata, Commons)
@@ -22,7 +22,8 @@ Status as of 2026-10-27 (v1.2.0). Items move to the [changelog](CHANGELOG.md) wh
 - [x] Checksummed, hash-chained, OpenTimestamped manifests for every pull
 - [x] Searchable web app with aggregation by address, topic and range
 - [ ] First signed pulls committed and Bitcoin-anchored (next workflow run)
-- [ ] Deploy web app to the Prime Rogue domain
+- [x] Site named Revision History, with crawlable pages, structured data, sitemap and llms.txt
+- [ ] Point revisionhistory.ca at the `docs/` build (DNS + host settings)
 
 ## Next
 - **Earlier years.** Extend `backfill_years` back to 2014 to overlap the original @gccaedits era. Each year is one config change.

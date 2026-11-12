@@ -425,7 +425,7 @@
       <h2>Verify it yourself</h2>
       <div class="prose">
         <p>Clone the repository and run the bot's verifier, which recomputes every hash and walks the chain:</p>
-        <pre class="code">git clone https://github.com/primerogueinc/wikisscbot
+        <pre class="code">git clone https://github.com/Prime-Rogue-Inc-Corporate/wikisscbot
 cd wikisscbot
 python -m wikisscbot verify          # chain + SHA256SUMS
 sha256sum -c data/SHA256SUMS         # same check with standard tools</pre>
@@ -483,7 +483,7 @@ ots verify data/manifests/&lt;run&gt;.json.ots</pre>
     view.innerHTML = `
       <h1>About</h1>
       <div class="prose">
-        <p>wikisscbot archives Wikipedia, Wikidata and Commons edits made while logged out from IP ranges belonging to the Government of Canada, in the tradition of the @gccaedits bot (2014).</p>
+        <p>Revision History archives Wikipedia, Wikidata and Commons edits made while logged out from IP ranges belonging to the Government of Canada, in the tradition of the @gccaedits bot (2014).</p>
         <h2>How the data is collected</h2>
         <p>The collector asks the MediaWiki API for every contribution from each government address block over a time window. The ranges are the public-domain @gccaedits department list plus every prefix announced in the period by Shared Services Canada's networks (AS2665, AS2675, AS2682, AS25689, AS806). Each address is labelled by its most specific department range; addresses only covered by an SSC announcement are labelled as SSC network, department unknown.</p>
         <h2>Limits</h2>
@@ -494,7 +494,8 @@ ots verify data/manifests/&lt;run&gt;.json.ots</pre>
           <li>Beats are keyword rules and will mislabel some pages. Wikimedia topics come from Wikimedia's article-topic model.</li>
         </ul>
         <h2>Source</h2>
-        <p>Code, data, manifests and the build log: <a href="https://github.com/primerogueinc/wikisscbot" target="_blank" rel="noopener">github.com/primerogueinc/wikisscbot</a>. A project of Prime Rogue Inc.</p>
+        <p>Code, data, manifests and the build log: <a href="https://github.com/Prime-Rogue-Inc-Corporate/wikisscbot" target="_blank" rel="noopener">github.com/Prime-Rogue-Inc-Corporate/wikisscbot</a>. The collector is called wikisscbot. A project of Prime Rogue Inc.</p>
+        <p>More: <a href="methodology.html">methodology</a>, <a href="faq.html">FAQ</a>, <a href="years.html">edits by year</a>, <a href="data.html">data and verification</a>.</p>
       </div>`;
   }
 
