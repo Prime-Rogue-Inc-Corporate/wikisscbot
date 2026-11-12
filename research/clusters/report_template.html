@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cross-address thread matches 2012–2025</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* layout idea: a case file. One reading column, wide tables break out inside their own scrollers, mechanism is always a coloured chip. */
+:root{
+  --bg:#eef1f4; --surface:#ffffff; --ink:#15202b; --muted:#566473; --line:#d5dbe2; --accent:#0a56a5;
+  --pool:#6246b8; --renum:#0b7285; --par:#2a7a3a; --later:#a8530a; --none:#73808d; --wash:#f5f7f9;
+  --display:"IBM Plex Sans Condensed","IBM Plex Sans",system-ui,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f141a; --surface:#171e26; --ink:#e4e9ee; --muted:#98a5b2; --line:#2a3541; --accent:#74b3ff;
+    --pool:#b7a3fb; --renum:#62cadb; --par:#84d08c; --later:#f2a65e; --none:#8f9ba7; --wash:#1c242d; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f141a; --surface:#171e26; --ink:#e4e9ee; --muted:#98a5b2; --line:#2a3541; --accent:#74b3ff;
+  --pool:#b7a3fb; --renum:#62cadb; --par:#84d08c; --later:#f2a65e; --none:#8f9ba7; --wash:#1c242d; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.55 var(--body)}
+.wrap{max-width:1080px;margin:0 auto;padding:32px 20px 80px;display:flex;flex-direction:column;gap:40px}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.15;margin:0;text-wrap:balance}
+h1{font-size:2.3rem;letter-spacing:-.01em}
+h2{font-size:1.5rem}
+h3{font-size:1.1rem}
+p{margin:0;max-width:68ch}
+a{color:var(--accent)}
+.kicker{font:500 .78rem/1 var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+header{display:flex;flex-direction:column;gap:14px}
+.lede{font-size:1.1rem}
+section{display:flex;flex-direction:column;gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:6px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.tile{padding:14px 16px;display:flex;flex-direction:column;gap:4px}
+.tile b{font:600 1.7rem/1 var(--display);font-variant-numeric:tabular-nums}
+.tile span{font-size:.85rem;color:var(--muted)}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{padding:8px 10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+th{font:500 .74rem/1.2 var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.05em;white-space:nowrap}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:0}
+.ip{font-family:var(--mono);font-size:.86rem;white-space:nowrap}
+.muted{color:var(--muted)}
+.small{font-size:.85rem}
+.chip{display:inline-block;font:500 .72rem/1 var(--mono);padding:4px 7px;border-radius:3px;border:1px solid currentColor;white-space:nowrap}
+.chip.pool{color:var(--pool)} .chip.renumbering{color:var(--renum)} .chip.parallel{color:var(--par)} .chip.later{color:var(--later)} .chip.none{color:var(--none)}
+.chip.moderate{border-style:dashed}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:.88rem}
+.legend div{display:flex;gap:8px;align-items:baseline}
+.years{display:flex;flex-wrap:wrap;gap:6px}
+.years button{font:500 .9rem/1 var(--mono);padding:8px 10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:4px;cursor:pointer}
+.years button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.years button:focus-visible,summary:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.rows{display:flex;flex-direction:column;gap:8px}
+.row{padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.rowhead{display:grid;grid-template-columns:2ch minmax(150px,1.1fr) 7ch minmax(180px,2fr) minmax(170px,1.2fr);gap:6px 14px;align-items:baseline}
+.rowhead .rank{font-family:var(--mono);color:var(--muted)}
+.rowhead .n{font-family:var(--mono);text-align:right;font-variant-numeric:tabular-nums}
+@media (max-width:760px){.rowhead{grid-template-columns:2ch 1fr 7ch}.rowhead .main,.rowhead .best{grid-column:2 / -1}}
+details summary{cursor:pointer;font-size:.85rem;color:var(--accent)}
+.thread{border-left:3px solid var(--line);padding:6px 0 6px 12px;display:flex;flex-direction:column;gap:6px;margin-top:8px}
+.match{background:var(--wash);border-radius:4px;padding:8px 10px;display:flex;flex-direction:column;gap:4px;font-size:.88rem}
+.match .top{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline}
+.read{font-weight:600}
+.read.likely{color:var(--par)} .read.possible{color:var(--later)} .read.network{color:var(--renum)} .read.unlikely{color:var(--none)}
+.note{padding:14px 16px}
+ul{margin:0;padding-left:1.2em;max-width:70ch}
+li+li{margin-top:6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="kicker">wikisscbot archive · anonymous edits from Government of Canada networks</div>
+    <h1>Which editing threads show up on more than one address?</h1>
+    <p class="lede" id="lede"></p>
+    <div class="tiles" id="tiles"></div>
+  </header>
+
+  <section>
+    <h2>How to read a match</h2>
+    <p>A thread is a set of pages one address edits in the same sittings, or pages with similar titles and sections. Each thread on a top-ten address is scored against every thread on every other address, 2012 to 2025. A match then gets one of four explanations.</p>
+    <div class="legend card note">
+      <div><span class="chip pool">Pool</span><span>The two addresses hand the same page back and forth within the hour. One exit, several addresses.</span></div>
+      <div><span class="chip renumbering">Renumbering</span><span>One address goes quiet, another block starts, and pages from many threads carry over.</span></div>
+      <div><span class="chip parallel">Parallel exits</span><span>The same thread on two addresses in the same weeks, without enough handoffs to prove a pool.</span></div>
+      <div><span class="chip later">Reappears later</span><span>The thread stops on one address and turns up months or years later on another. The only one of the four that points at a person.</span></div>
+      <div><span class="chip none moderate">dashed</span><span>A possible match: weaker score, or resting on a single shared page.</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Fourteen years at a glance</h2>
+    <p>Each cell counts how many of that year's ten busiest addresses had their best match explained that way. Pick a year to see its ten.</p>
+    <div class="card scroll"><table id="matrix"></table></div>
+  </section>
+
+  <section>
+    <h2>Threads that cross addresses</h2>
+    <p>The matches outside the known pools, read by hand. The reading in the last column is a judgement from metadata, not a finding about any individual.</p>
+    <div class="card scroll"><table id="curated"></table></div>
+  </section>
+
+  <section>
+    <h2>What the matches say about the network</h2>
+    <div class="card scroll"><table>
+      <thead><tr><th>Block</th><th>Behaviour</th><th>Evidence</th><th>Label in the range file</th></tr></thead>
+      <tbody>
+        <tr><td class="ip">131.137.245.206–209</td><td><span class="chip pool">Pool</span></td><td>Hundreds of same-page handoffs within an hour, 2012–2021.</td><td>National Defence</td></tr>
+        <tr><td class="ip">205.193.239.44, .76</td><td><span class="chip renumbering">Renumbering</span> <span class="chip pool">Pool</span></td><td>Start in November 2023 as the DND pool winds down; 81 of their 310 pages were edited from that pool before.</td><td>Shared Services Canada</td></tr>
+        <tr><td class="ip">192.197.82.153, .203</td><td><span class="chip pool">Pool</span></td><td>Same-page handoffs within the hour, 2012–2018.</td><td>House of Commons</td></tr>
+        <tr><td class="ip">207.35.15.x</td><td><span class="chip renumbering">Renumbering</span></td><td>Starts mid-2018 as 192.197.82.x winds down; 31 pages carried over.</td><td>House of Commons</td></tr>
+        <tr><td class="ip">167.32.2.x</td><td><span class="chip renumbering">Renumbering</span></td><td>Starts August 2024 as 207.35.15.x stops; nine pages carried over, eight of them MP biographies.</td><td>Shared Services Canada</td></tr>
+        <tr><td class="ip">198.103.198.248–255</td><td><span class="chip renumbering">Renumbering</span></td><td>Starts two weeks after 198.103.104.11 falls silent in October 2020; embassy, ambassador and airport threads follow.</td><td>Shared Services Canada</td></tr>
+        <tr><td class="ip">159.33.10.190–199</td><td><span class="chip renumbering">Renumbering</span></td><td>Replace 159.33.10.155 inside the same /24 during 2021.</td><td>CBC</td></tr>
+        <tr><td class="ip">198.103.152/221/223 .51–.52</td><td><span class="chip parallel">Parallel exits</span></td><td>Three separate threads each appear on two or three of the six within weeks.</td><td>Shared Services Canada</td></tr>
+      </tbody></table></div>
+    <p>Three blocks the range file labels only as Shared Services Canada behave like a specific institution's exit: National Defence, the House of Commons and the foreign service.</p>
+  </section>
+
+  <section id="years-section">
+    <h2>Year by year</h2>
+    <div class="years" id="yearbar" role="group" aria-label="Year"></div>
+    <div class="card note"><h3 id="yhead"></h3><p id="ynote" style="margin-top:6px"></p></div>
+    <div class="rows" id="rows"></div>
+  </section>
+
+  <section>
+    <h2>Method and limits</h2>
+    <ul>
+      <li id="m-threads"></li>
+      <li>Two threads are compared on four things: shared pages weighted by rarity, title words, the section headings edited, and summary wording. Habits (hour of day, typical size of change, how often a summary is left) adjust the score.</li>
+      <li>A strong match needs a score of 0.60 or more and two independent kinds of evidence. A possible match needs 0.45 and at least a shared page, shared sections or shared summary wording. These cut-offs were set to recover cases already found by hand; there is no ground truth to test them against.</li>
+      <li>About half of all edits are one-off touches that belong to no thread and cannot be matched. The share for each address is shown beside it.</li>
+      <li>Known ways this goes wrong: live events and much-edited pages draw several people to the same place; given names in titles can collide; a renumbered network makes every thread look as if it moved.</li>
+      <li>Only metadata was used: titles, summaries, sizes and timestamps. No diff text was read. Email addresses and signatures in summaries are stripped. Nothing here identifies an editor.</li>
+    </ul>
+  </section>
+</div>
+
+<script>
+const D = /*__DATA__*/null;
+const MECH = {pool:'Pool', renumbering:'Renumbering', parallel:'Parallel exits', later:'Reappears later'};
+const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; };
+const fmt = n => n.toLocaleString('en-CA');
+const pages = list => list.map(p => p[0] + ' (' + p[1] + ')').join('; ');
+function chip(grade, mech){
+  if (!mech) return el('span', 'chip none', 'No match');
+  const c = el('span', 'chip ' + mech + (grade === 'moderate' ? ' moderate' : ''), MECH[mech]);
+  c.title = grade === 'moderate' ? 'Possible match' : 'Strong match';
+  return c;
+}
+const YEARS = Object.keys(D.years).sort().reverse();
+const T = D.tally, g = k => T[k] || 0;
+const strong = g('strong|pool') + g('strong|renumbering') + g('strong|parallel') + g('strong|later');
+const possible = g('moderate|pool') + g('moderate|renumbering') + g('moderate|parallel') + g('moderate|later');
+document.getElementById('lede').textContent =
+  'For each year from 2025 back to 2012, the ten busiest addresses were split into editing threads and every thread was compared with the rest of the archive. Of the ' +
+  (YEARS.length * 10) + ' address-years, ' + strong + ' have a strong match on another address, ' + possible + ' a possible one and ' + g('none|') +
+  ' none. Most strong matches are network plumbing; ' + g('strong|later') + ' are a thread that reappears somewhere else later.';
+const tiles = document.getElementById('tiles');
+[[fmt(D.meta.edits), 'edits in the archive'], [fmt(D.meta.addresses), 'addresses'], [g('strong|pool'), 'address-years explained by a pool'],
+ [g('strong|renumbering'), 'by renumbering'], [g('strong|parallel'), 'by parallel exits'], [g('strong|later'), 'by a thread reappearing later']]
+ .forEach(([b, s]) => { const t = el('div', 'tile card'); t.append(el('b', '', String(b)), el('span', '', s)); tiles.append(t); });
+
+// matrix
+const mx = document.getElementById('matrix');
+const mh = el('thead'); const mhr = el('tr');
+['Year', 'Edits', 'Addresses', 'Top-10 share', 'Pool', 'Renumbering', 'Parallel', 'Reappears', 'Possible', 'No match'].forEach((h, i) => mhr.append(el('th', i ? 'num' : '', h)));
+mh.append(mhr); mx.append(mh);
+const mb = el('tbody');
+YEARS.forEach(y => {
+  const Y = D.years[y], t = Y.tally, v = k => t[k] || 0, tr = el('tr');
+  const a = el('a', '', y); a.href = '#y' + y; const td = el('td'); td.append(a); tr.append(td);
+  const poss = v('moderate|pool') + v('moderate|renumbering') + v('moderate|parallel') + v('moderate|later');
+  [fmt(Y.tot), Y.addr, Math.round(Y.share * 100) + '%', v('strong|pool'), v('strong|renumbering'), v('strong|parallel'), v('strong|later'), poss, v('none|')]
+    .forEach(x => tr.append(el('td', 'num' + (x === 0 ? ' muted' : ''), String(x))));
+  mb.append(tr);
+});
+mx.append(mb);
+
+// curated
+const cu = document.getElementById('curated');
+const ch = el('thead'), chr = el('tr');
+['Thread', 'Addresses and dates', 'Mechanism', 'Evidence', 'Reading'].forEach(h => chr.append(el('th', '', h))); ch.append(chr); cu.append(ch);
+const cb = el('tbody');
+D.curated.forEach(c => {
+  const tr = el('tr');
+  tr.append(el('td', '', c.t), el('td', 'ip', c.a));
+  tr.lastChild.style.whiteSpace = 'normal';
+  const m = el('td'); m.append(chip('strong', c.m)); tr.append(m);
+  tr.append(el('td', 'small', c.e), el('td', 'read ' + c.c, c.r));
+  cb.append(tr);
+});
+cu.append(cb);
+
+// years
+const bar = document.getElementById('yearbar');
+YEARS.forEach(y => { const b = el('button', '', y); b.type = 'button'; b.dataset.y = y; b.addEventListener('click', () => { location.hash = 'y' + y; show(y); }); bar.append(b); });
+function matchBlock(m){
+  const box = el('div', 'match'), top = el('div', 'top');
+  top.append(chip(m.g, m.m), el('span', 'ip', m.ip), el('span', 'muted', m.n + ' edits, ' + m.f + ' to ' + m.t), el('span', 'muted', 'score ' + m.s.toFixed(2)));
+  box.append(top, el('div', '', pages(m.p)));
+  const ev = [];
+  if (m.sh) ev.push(m.sh + ' shared page' + (m.sh > 1 ? 's' : '') + (m.sl.length ? ' (' + m.sl.join('; ') + ')' : ''));
+  if (m.se >= 0.5) ev.push('same sections edited');
+  if (m.fr >= 0.3) ev.push('similar summary wording');
+  if (m.ti >= 0.6 && !m.sh) ev.push('similar page titles');
+  box.append(el('div', 'muted small', (ev.length ? ev.join(' · ') + ' · ' : '') + m.d));
+  return box;
+}
+function show(y){
+  const Y = D.years[y];
+  bar.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', b.dataset.y === y ? 'true' : 'false'));
+  document.getElementById('yhead').textContent = y + ': ' + fmt(Y.tot) + ' edits from ' + Y.addr + ' addresses; the top ten made ' + Math.round(Y.share * 100) + '%';
+  document.getElementById('ynote').textContent = D.notes[y] || '';
+  const rows = document.getElementById('rows'); rows.replaceChildren();
+  Y.rows.forEach(r => {
+    const card = el('article', 'row card'), head = el('div', 'rowhead');
+    const who = el('div'); who.append(el('div', 'ip', r.ip), el('div', 'muted small', r.lab + (r.pool.length ? ' · pool member' : '')));
+    const main = el('div', 'main');
+    main.append(el('div', '', r.th.length ? pages(r.th[0].p.slice(0, 3)) : 'No thread of five or more edits this year'),
+                el('div', 'muted small', Math.round(r.cov * 100) + '% of the year\'s edits sit in the threads listed; in use ' + r.first + ' to ' + r.last));
+    const best = el('div', 'best');
+    if (r.b) { best.append(chip(r.b.g, r.b.m), document.createTextNode(' '), el('span', 'ip', r.b.ip)); } else best.append(chip(null, null));
+    head.append(el('div', 'rank', String(r.k)), who, el('div', 'n', fmt(r.n)), main, best);
+    card.append(head);
+    if (r.th.length) {
+      const det = el('details'); det.append(el('summary', '', r.th.length + ' thread' + (r.th.length > 1 ? 's' : '') + ' and their matches'));
+      r.th.forEach(t => {
+        const th = el('div', 'thread');
+        th.append(el('div', '', pages(t.p)));
+        const bits = [t.ny + ' edits this year, ' + t.n + ' in all, ' + t.f + ' to ' + t.t];
+        if (t.sec.length) bits.push('sections: ' + t.sec.join(', '));
+        if (t.sum.length) bits.push('summaries: "' + t.sum.join('", "') + '"'); else if (t.ns >= 0.95) bits.push('never leaves a summary');
+        th.append(el('div', 'muted small', bits.join(' · ')));
+        if (t.mt.length) t.mt.forEach(m => th.append(matchBlock(m))); else th.append(el('div', 'small muted', 'No match on any other address.'));
+        det.append(th);
+      });
+      card.append(det);
+    }
+    rows.append(card);
+  });
+}
+function route(){ const h = (location.hash || '').replace('#y', ''); show(D.years[h] ? h : YEARS[0]); }
+window.addEventListener('hashchange', () => { route(); if (location.hash) document.getElementById('years-section').scrollIntoView(); });
+route();
+document.getElementById('m-threads').textContent = 'The archive splits into ' + fmt(D.meta.threads_total) + ' threads; ' + fmt(D.meta.threads_fingerprinted) +
+  ' have five or more edits and were compared. They hold ' + Math.round(D.meta.edit_mass_fingerprinted * 100) + '% of all edits. A thread is cut where it falls silent for a year.';
+</script>
+</body>
+</html>
