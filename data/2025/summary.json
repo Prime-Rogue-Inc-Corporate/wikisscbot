@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-12T05:41:16Z",
-  "total_edits": 2645,
-  "unique_ips": 107,
+  "generated": "2026-11-12T08:39:24Z",
+  "total_edits": 2652,
+  "unique_ips": 109,
   "by_label": {
     "Shared Services Canada": 2406,
     "Environment Canada": 53,
@@ -16,6 +16,7 @@
     "Shared Services Canada network (AS2675)": 11,
     "Employment and Immigration Canada": 11,
     "Statistics Canada": 9,
+    "Shared Services Canada network (AS25689, legacy NRC)": 7,
     "Shared Services Canada network (AS2665)": 6,
     "National Research Council (SSC)": 6,
     "National Research Council": 6,
@@ -24,21 +25,21 @@
   },
   "by_wiki": {
     "enwiki": 1087,
-    "wikidatawiki": 825,
+    "wikidatawiki": 832,
     "frwiki": 718,
     "commonswiki": 13,
     "enwiktionary": 2
   },
   "by_month": {
-    "2025-01": 122,
+    "2025-01": 125,
     "2025-02": 845,
-    "2025-03": 498,
-    "2025-04": 199,
+    "2025-03": 499,
+    "2025-04": 201,
     "2025-05": 133,
     "2025-06": 141,
     "2025-07": 336,
     "2025-08": 150,
-    "2025-09": 66,
+    "2025-09": 67,
     "2025-10": 146,
     "2025-11": 9
   },
@@ -408,6 +409,13 @@
       "Universal Carrier": 1,
       "The Kid Who Couldn't Miss": 1
     },
+    "Shared Services Canada network (AS25689, legacy NRC)": {
+      "Q7440732": 3,
+      "Q207898": 1,
+      "Q674485": 1,
+      "Q124447212": 1,
+      "Q78225055": 1
+    },
     "Statistics Canada": {
       "Kubilai Khan": 4,
       "Fentanyl": 1,
@@ -473,78 +481,78 @@
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-11-12T05:37:32Z",
+      "scanned_at": "2026-11-12T08:35:35Z",
       "window": [
         "2025-01-01T00:00:00Z",
         "2025-12-31T23:59:59Z"
       ],
-      "blocks_total": 153,
-      "blocks_scanned": 153,
+      "blocks_total": 158,
+      "blocks_scanned": 158,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 1087
     },
     "frwiki": {
-      "scanned_at": "2026-11-12T05:38:05Z",
+      "scanned_at": "2026-11-12T08:36:10Z",
       "window": [
         "2025-01-01T00:00:00Z",
         "2025-12-31T23:59:59Z"
       ],
-      "blocks_total": 153,
-      "blocks_scanned": 153,
+      "blocks_total": 158,
+      "blocks_scanned": 158,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 718
     },
     "wikidatawiki": {
-      "scanned_at": "2026-11-12T05:39:03Z",
+      "scanned_at": "2026-11-12T08:37:06Z",
       "window": [
         "2025-01-01T00:00:00Z",
         "2025-12-31T23:59:59Z"
       ],
-      "blocks_total": 153,
-      "blocks_scanned": 153,
+      "blocks_total": 158,
+      "blocks_scanned": 158,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 825
+      "edits": 832
     },
     "commonswiki": {
-      "scanned_at": "2026-11-12T05:40:00Z",
+      "scanned_at": "2026-11-12T08:38:02Z",
       "window": [
         "2025-01-01T00:00:00Z",
         "2025-12-31T23:59:59Z"
       ],
-      "blocks_total": 153,
-      "blocks_scanned": 153,
+      "blocks_total": 158,
+      "blocks_scanned": 158,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 13
     },
     "enwiktionary": {
-      "scanned_at": "2026-11-12T05:40:19Z",
+      "scanned_at": "2026-11-12T08:38:28Z",
       "window": [
         "2025-01-01T00:00:00Z",
         "2025-12-31T23:59:59Z"
       ],
-      "blocks_total": 153,
-      "blocks_scanned": 153,
+      "blocks_total": 158,
+      "blocks_scanned": 158,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
       "edits": 2
     },
     "enwikivoyage": {
-      "scanned_at": "2026-11-12T05:41:16Z",
+      "scanned_at": "2026-11-12T08:39:24Z",
       "window": [
         "2025-01-01T00:00:00Z",
         "2025-12-31T23:59:59Z"
       ],
-      "blocks_total": 153,
-      "blocks_scanned": 153,
+      "blocks_total": 158,
+      "blocks_scanned": 158,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,

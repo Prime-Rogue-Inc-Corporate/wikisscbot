@@ -1,12 +1,13 @@
 {
-  "generated": "2026-11-12T04:53:16Z",
-  "total_edits": 2526,
-  "unique_ips": 113,
+  "generated": "2026-11-12T07:51:23Z",
+  "total_edits": 2630,
+  "unique_ips": 115,
   "by_label": {
     "Shared Services Canada": 1107,
     "Canadian House of Commons": 774,
     "Canadian Department of National Defence": 262,
     "Canadian Broadcasting Corporation": 140,
+    "Shared Services Canada network (AS25689, legacy NRC)": 104,
     "Shared Services Canada network (AS2665)": 43,
     "Environment Canada": 35,
     "Shared Services Canada network (AS2675)": 34,
@@ -22,32 +23,37 @@
     "Canadian Space Agency": 1
   },
   "by_wiki": {
-    "enwiki": 2420,
-    "frwiki": 71,
-    "wikidatawiki": 19,
-    "commonswiki": 8,
-    "enwiktionary": 6,
+    "enwiki": 2426,
+    "wikidatawiki": 102,
+    "frwiki": 84,
+    "commonswiki": 9,
+    "enwiktionary": 7,
     "enwikivoyage": 2
   },
   "by_month": {
-    "2021-01": 627,
-    "2021-02": 315,
-    "2021-03": 135,
+    "2021-01": 628,
+    "2021-02": 342,
+    "2021-03": 136,
     "2021-04": 162,
-    "2021-05": 108,
-    "2021-06": 193,
+    "2021-05": 109,
+    "2021-06": 194,
     "2021-07": 196,
     "2021-08": 179,
-    "2021-09": 124,
-    "2021-10": 153,
-    "2021-11": 168,
-    "2021-12": 166
+    "2021-09": 127,
+    "2021-10": 207,
+    "2021-11": 177,
+    "2021-12": 173
   },
   "top_pages": [
     {
       "wiki": "enwiki",
       "title": "List of programs broadcast by YTV (Canadian TV channel)",
       "edits": 68
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q184874",
+      "edits": 53
     },
     {
       "wiki": "enwiki",
@@ -220,6 +226,11 @@
       "edits": 8
     },
     {
+      "wiki": "wikidatawiki",
+      "title": "Q380",
+      "edits": 8
+    },
+    {
       "wiki": "enwiki",
       "title": "Maersk",
       "edits": 7
@@ -282,16 +293,6 @@
     {
       "wiki": "enwiki",
       "title": "List of shipwrecks in September 1917",
-      "edits": 6
-    },
-    {
-      "wiki": "enwiki",
-      "title": "List of shipwrecks in April 1918",
-      "edits": 6
-    },
-    {
-      "wiki": "enwiki",
-      "title": "Canada at the 1991 Pan American Games",
       "edits": 6
     }
   ],
@@ -372,6 +373,18 @@
       "Ramesh Sangha": 1,
       "List of people from Saskatoon": 1,
       "Salvation Army": 1
+    },
+    "Shared Services Canada network (AS25689, legacy NRC)": {
+      "Q184874": 53,
+      "Q380": 8,
+      "Q20026": 5,
+      "Q2675007": 5,
+      "Discussion utilisateur:206.167.190.38": 4,
+      "Ludwig": 4,
+      "Q1024984": 3,
+      "Q12709592": 3,
+      "Les Amours de minuit": 2,
+      "Pong": 2
     },
     "Department of Fisheries and Oceans": {
       "March 30": 2,
@@ -469,83 +482,83 @@
     "wikidatawiki": "2021-12-29T13:56:37Z",
     "frwiki": "2021-12-15T16:39:59Z",
     "commonswiki": "2021-11-20T20:05:37Z",
-    "enwikivoyage": "2021-04-06T20:23:36Z",
-    "enwiktionary": "2021-11-26T05:47:09Z"
+    "enwiktionary": "2021-11-26T05:47:09Z",
+    "enwikivoyage": "2021-04-06T20:23:36Z"
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-11-12T04:49:34Z",
+      "scanned_at": "2026-11-12T07:47:37Z",
       "window": [
         "2021-01-01T00:00:00Z",
         "2021-12-31T23:59:59Z"
       ],
-      "blocks_total": 153,
-      "blocks_scanned": 153,
+      "blocks_total": 158,
+      "blocks_scanned": 158,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 2420
+      "edits": 2426
     },
     "frwiki": {
-      "scanned_at": "2026-11-12T04:50:05Z",
+      "scanned_at": "2026-11-12T07:48:11Z",
       "window": [
         "2021-01-01T00:00:00Z",
         "2021-12-31T23:59:59Z"
       ],
-      "blocks_total": 153,
-      "blocks_scanned": 153,
+      "blocks_total": 158,
+      "blocks_scanned": 158,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 71
+      "edits": 84
     },
     "wikidatawiki": {
-      "scanned_at": "2026-11-12T04:51:03Z",
+      "scanned_at": "2026-11-12T07:49:07Z",
       "window": [
         "2021-01-01T00:00:00Z",
         "2021-12-31T23:59:59Z"
       ],
-      "blocks_total": 153,
-      "blocks_scanned": 153,
+      "blocks_total": 158,
+      "blocks_scanned": 158,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 19
+      "edits": 102
     },
     "commonswiki": {
-      "scanned_at": "2026-11-12T04:52:00Z",
+      "scanned_at": "2026-11-12T07:50:02Z",
       "window": [
         "2021-01-01T00:00:00Z",
         "2021-12-31T23:59:59Z"
       ],
-      "blocks_total": 153,
-      "blocks_scanned": 153,
+      "blocks_total": 158,
+      "blocks_scanned": 158,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 8
+      "edits": 9
     },
     "enwiktionary": {
-      "scanned_at": "2026-11-12T04:52:19Z",
+      "scanned_at": "2026-11-12T07:50:28Z",
       "window": [
         "2021-01-01T00:00:00Z",
         "2021-12-31T23:59:59Z"
       ],
-      "blocks_total": 153,
-      "blocks_scanned": 153,
+      "blocks_total": 158,
+      "blocks_scanned": 158,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 6
+      "edits": 7
     },
     "enwikivoyage": {
-      "scanned_at": "2026-11-12T04:53:16Z",
+      "scanned_at": "2026-11-12T07:51:23Z",
       "window": [
         "2021-01-01T00:00:00Z",
         "2021-12-31T23:59:59Z"
       ],
-      "blocks_total": 153,
-      "blocks_scanned": 153,
+      "blocks_total": 158,
+      "blocks_scanned": 158,
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,

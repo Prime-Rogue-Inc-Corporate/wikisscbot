@@ -1,0 +1,668 @@
+{
+  "generated": "2026-11-12T06:44:24Z",
+  "total_edits": 6333,
+  "unique_ips": 253,
+  "by_label": {
+    "Shared Services Canada": 2591,
+    "Canadian Department of National Defence": 1297,
+    "Canadian House of Commons": 430,
+    "Canadian Broadcasting Corporation": 374,
+    "Environment Canada": 268,
+    "Shared Services Canada network (AS2665)": 243,
+    "Industry Canada": 200,
+    "National Research Council": 196,
+    "Natural Resources Canada": 156,
+    "Shared Services Canada network (AS2675)": 130,
+    "Government of Canada": 123,
+    "Department of Fisheries and Oceans": 52,
+    "Department of Justice Canada": 49,
+    "Canadian Space Agency": 49,
+    "Statistics Canada": 42,
+    "Bank of Canada": 36,
+    "Library and Archives Canada": 29,
+    "National Research Council (UofT)": 17,
+    "Correctional Services Canada": 13,
+    "Transport Canada": 9,
+    "Finance Canada": 8,
+    "National Research Council (SSC)": 8,
+    "Federal Court of Canada": 8,
+    "Canada Centre for Inland Waters": 3,
+    "National Research Council (UBC)": 1,
+    "Shared Services Canada network (AS25689, legacy NRC)": 1
+  },
+  "by_wiki": {
+    "enwiki": 5380,
+    "frwiki": 749,
+    "commonswiki": 100,
+    "enwikivoyage": 69,
+    "enwiktionary": 35
+  },
+  "by_month": {
+    "2010-01": 458,
+    "2010-02": 560,
+    "2010-03": 687,
+    "2010-04": 866,
+    "2010-05": 562,
+    "2010-06": 510,
+    "2010-07": 588,
+    "2010-08": 418,
+    "2010-09": 475,
+    "2010-10": 333,
+    "2010-11": 428,
+    "2010-12": 448
+  },
+  "top_pages": [
+    {
+      "wiki": "frwiki",
+      "title": "713e Régiment des communications",
+      "edits": 90
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Scotland",
+      "edits": 66
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Cadet Instructors Cadre",
+      "edits": 58
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Bataille des Pays-Bas",
+      "edits": 45
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Gatineau",
+      "edits": 44
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Rogers Xfinity Internet",
+      "edits": 39
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Wikipedia:Sandbox",
+      "edits": 32
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Jeffrey Morgan (writer)",
+      "edits": 21
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Wikipedia:Help desk",
+      "edits": 20
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Bell Internet",
+      "edits": 20
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Roomba",
+      "edits": 19
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Financial Consumer Agency of Canada",
+      "edits": 19
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Spirits Having Flown Tour",
+      "edits": 18
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Ganhada",
+      "edits": 17
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Fokker T.V",
+      "edits": 17
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of Royal Military College of Canada memorials",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of cinemas in Ottawa-Gatineau",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Apologetics",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Dog collar",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "TRIZ",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiktionary",
+      "title": "Appendix:Canadian English military slang",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Wikipedia:Reference desk/Language",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "ITIL",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Mathieu Fleury",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canada Border Services Agency",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "North Bay, Ontario",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "The DemonWars Saga",
+      "edits": 13
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Michaëlle Jean",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Adobe Flash Player",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Executive curl",
+      "edits": 12
+    },
+    {
+      "wiki": "enwikivoyage",
+      "title": "Port aux Basques",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Stephen Brunt",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Laser tag",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Royal Military College Saint-Jean",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Parliament Building (Quebec)",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "United States anti-abortion movement",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "NHL 11",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Concrete (comics)",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "CJNK-FM",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Candice Bergen (politician)",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Tracadie-Sheila",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Sticky & Sweet Tour (album)",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Uniforms of the Canadian Armed Forces",
+      "edits": 10
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Opération Hailstone",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Equerry",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Armed Forces ranks and insignia",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Laxgibuu",
+      "edits": 10
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Koolhoven F.K.51",
+      "edits": 10
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Centre météorologique canadien",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Paul Quarrington",
+      "edits": 9
+    }
+  ],
+  "top_pages_by_label": {
+    "Canadian Broadcasting Corporation": {
+      "Scotland": 66,
+      "Concrete (comics)": 11,
+      "Paul Quarrington": 9,
+      "The Golden Pin": 7,
+      "Kraft Hockeyville": 6,
+      "James Ford Seale": 6,
+      "North of the Border": 5,
+      "Société Radio-Canada": 4,
+      "Jon Brooks": 4,
+      "Justin Long": 4
+    },
+    "Shared Services Canada": {
+      "Bataille des Pays-Bas": 45,
+      "Gatineau": 44,
+      "Rogers Xfinity Internet": 39,
+      "Jeffrey Morgan (writer)": 21,
+      "Wikipedia:Sandbox": 20,
+      "Bell Internet": 20,
+      "Roomba": 19,
+      "Wikipedia:Help desk": 19,
+      "Financial Consumer Agency of Canada": 19,
+      "Fokker T.V": 18
+    },
+    "Canadian Department of National Defence": {
+      "713e Régiment des communications": 90,
+      "Cadet Instructors Cadre": 57,
+      "List of Royal Military College of Canada memorials": 16,
+      "Appendix:Canadian English military slang": 14,
+      "North Bay, Ontario": 12,
+      "Royal Military College Saint-Jean": 11,
+      "Parliament Building (Quebec)": 11,
+      "Uniforms of the Canadian Armed Forces": 10,
+      "Royal Military College of Canada": 9,
+      "List of rose cultivars named after people": 9
+    },
+    "Industry Canada": {
+      "Economy of Zimbabwe": 8,
+      "Satellite television": 6,
+      "Veena Rawat": 6,
+      "Competition Bureau": 5,
+      "Kyle Brandt": 3,
+      "Metaphysical naturalism": 3,
+      "Monnaie fiduciaire": 3,
+      "Episode Six (The Office series 2)": 3,
+      "False cognate": 3,
+      "Common Look and Feel": 3
+    },
+    "Shared Services Canada network (AS2675)": {
+      "Port aux Basques": 12,
+      "NHL 11": 11,
+      "Western Newfoundland": 5,
+      "Danny Messer": 4,
+      "Talk:MLB 10: The Show": 4,
+      "Nagam Janardhan Reddy": 3,
+      "MLB 10: The Show": 3,
+      "Talk:NHL 11": 3,
+      "Nissan Maxima": 2,
+      "Love Run Cold": 2
+    },
+    "Department of Justice Canada": {
+      "Rose McConnell Long": 3,
+      "Earl Long": 3,
+      "Lentil": 3,
+      "Trespass (2011 film)": 3,
+      "Silas Arngna'naaq": 2,
+      "Fun": 1,
+      "Mail": 1,
+      "3D television": 1,
+      "Allan Wachowich": 1,
+      "Mikhail Ryabko": 1
+    },
+    "Canadian House of Commons": {
+      "Candice Bergen (politician)": 10,
+      "Marlene Jennings": 10,
+      "Jim Flaherty": 8,
+      "Kerguelen Islands": 8,
+      "Siobhán Coady": 7,
+      "Nathan Cullen": 7,
+      "Lawrence Sanders": 7,
+      "1969 CFL season": 6,
+      "Irene Mathyssen": 5,
+      "Jim Neidhart": 5
+    },
+    "Government of Canada": {
+      "Spirits Having Flown Tour": 18,
+      "Sticky & Sweet Tour (album)": 10,
+      "The Golden Girls": 7,
+      "List of cinemas in Ottawa-Gatineau": 7,
+      "The Three Caballeros": 4,
+      "1992 MTV Video Music Awards": 4,
+      "Wikipedia:Sandbox": 3,
+      "The Caretakers (1963 film)": 3,
+      "Buford and the Galloping Ghost": 3,
+      "True Blue (Madonna song)": 3
+    },
+    "Shared Services Canada network (AS2665)": {
+      "Art of Living Foundation": 9,
+      "Chatroulette": 8,
+      "Diana, Princess of Wales": 8,
+      "Ottawa Bluesfest": 7,
+      "Lists of holidays by country": 6,
+      "Governor-general": 6,
+      "James Morris (Canada West politician)": 5,
+      "Vadim Menkov": 5,
+      "Windsor Park Collegiate": 4,
+      "Saint Lucia": 4
+    },
+    "National Research Council": {
+      "German nuclear program during World War II": 8,
+      "National Research Council Canada": 4,
+      "List of radio telescopes": 4,
+      "Lager": 4,
+      "Annunciation": 4,
+      "M4 Sherman": 4,
+      "List of U.S. government and military acronyms": 3,
+      "Talk:National Research Council Canada": 3,
+      "George Eliava Institute": 3,
+      "Tiki bar": 3
+    },
+    "Statistics Canada": {
+      "Victor Nendaka Bika": 9,
+      "UFC 112": 3,
+      "Firebird (database server)": 2,
+      "Talk:John Lennon": 2,
+      "Quebec French lexicon": 2,
+      "Markham": 2,
+      "Horloge démographique": 2,
+      "For Those Who Wait": 1,
+      "Gray Maynard": 1,
+      "Serge Marcil": 1
+    },
+    "Department of Fisheries and Oceans": {
+      "Beer snake": 3,
+      "List of Acadians": 2,
+      "CQ (call)": 2,
+      "CQD": 2,
+      "Sialkot International Airport": 2,
+      "Lacoste": 2,
+      "Winnipeg Blue Bombers": 2,
+      "Fisheries and Oceans Canada": 2,
+      "Prozzäk": 1,
+      "Frame rate": 1
+    },
+    "Natural Resources Canada": {
+      "Laser tag": 11,
+      "Ancaster, Ontario": 7,
+      "Digital geological mapping": 5,
+      "Thought": 4,
+      "Ottawa Senators": 3,
+      "The Keane Brothers": 2,
+      "Barbara Bedford (actress)": 2,
+      "Gladys Brockwell": 2,
+      "Alice White": 2,
+      "Lydia Yeamans Titus": 2
+    },
+    "Bank of Canada": {
+      "TRIZ": 12,
+      "List of Curb Your Enthusiasm recurring roles": 2,
+      "List of file formats": 2,
+      "No Vaseline": 1,
+      "Quebec City": 1,
+      "More Cowbell": 1,
+      "Prince of Wales Public School (Barrie)": 1,
+      "List of mobile network operators": 1,
+      "Art movement": 1,
+      "Crohn's and Colitis Canada": 1
+    },
+    "Environment Canada": {
+      "CJNK-FM": 10,
+      "Centre météorologique canadien": 9,
+      "CBPK": 7,
+      "Weatheradio Canada": 6,
+      "CBPS-FM": 6,
+      "Geneva": 6,
+      "Air quality law": 5,
+      "CBPU": 4,
+      "Jean-Bertrand Aristide": 4,
+      "Bells Corners": 4
+    },
+    "National Research Council (UofT)": {
+      "Eel River Crossing, New Brunswick": 4,
+      "Introduction to entropy": 3,
+      "RuleML Symposium": 2,
+      "Nicola Peltz": 1,
+      "Yulia Tymoshenko": 1,
+      "Talk:Yulia Tymoshenko": 1,
+      "Bud Bird": 1,
+      "Abstraction": 1,
+      "Koman Coulibaly": 1,
+      "Talk:Introduction to entropy": 1
+    },
+    "Canadian Space Agency": {
+      "STS-130": 4,
+      "Liste des astres de Star Wars": 4,
+      "Microbolometer": 3,
+      "History of general-purpose CPUs": 3,
+      "STS-131": 3,
+      "Santiago": 3,
+      "Temporal paradox": 2,
+      "Emissivity": 2,
+      "Roll-away computer": 2,
+      "Heure": 2
+    },
+    "Finance Canada": {
+      "Richard Rochefort": 1,
+      "Clique du Plateau": 1,
+      "Madaba": 1,
+      "Jerash": 1,
+      "Sidon": 1,
+      "Sur la route (film, 2012)": 1,
+      "Juliette Béliveau": 1,
+      "Michael Komisarek": 1
+    },
+    "Library and Archives Canada": {
+      "Libya": 6,
+      "Library and Archives Canada": 3,
+      "Mullet (haircut)": 2,
+      "Lacoste (entreprise)": 2,
+      "The Tenors": 2,
+      "PIGS (economics)": 2,
+      "Mayfair Theatre, Ottawa": 1,
+      "Charlotte Stewart": 1,
+      "Ezekiel Hart": 1,
+      "Robert Giguère": 1
+    },
+    "National Research Council (UBC)": {
+      "Wikipedia:Sandbox": 1
+    },
+    "Correctional Services Canada": {
+      "Gamadji Saré": 4,
+      "Jean Pascal (boxe anglaise)": 2,
+      "Djamila Bouhired": 1,
+      "Wikipedia:Introduction (historical)": 1,
+      "Photographic film": 1,
+      "Winnipeg": 1,
+      "Fluid dynamics": 1,
+      "Microsoft Word": 1,
+      "Salt (2010 film)": 1
+    },
+    "National Research Council (SSC)": {
+      "Solid oxide fuel cell": 2,
+      "File talk:Eurovision winners map.svg": 2,
+      "Strontium": 2,
+      "Pitcairn Islands": 1,
+      "My Super Sweet 16": 1
+    },
+    "Shared Services Canada network (AS25689, legacy NRC)": {
+      "Soudage MIG-MAG": 1
+    },
+    "Canada Centre for Inland Waters": {
+      "Aunt Jemima": 1,
+      "511 Bathurst": 1,
+      "Atlantis": 1
+    },
+    "Transport Canada": {
+      "7 septembre": 2,
+      "Mississauga": 1,
+      "Montreal/Quartier Latin-Le Village": 1,
+      "Dubai": 1,
+      "Montreal": 1,
+      "Montreal/Old Montreal": 1,
+      "8 février": 1,
+      "Discussion:Ryan PT-22": 1
+    },
+    "Federal Court of Canada": {
+      "Adultery": 2,
+      "Sweetest Day": 2,
+      "Conestoga": 1,
+      "Talk:Raymond Domenech": 1,
+      "NHL All-Star Game": 1,
+      "Borujerd": 1
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "frwiki": "2010-12-31T16:50:25Z",
+    "enwiki": "2010-12-31T22:49:14Z",
+    "commonswiki": "2010-12-27T07:35:15Z",
+    "enwiktionary": "2010-12-03T18:52:47Z",
+    "enwikivoyage": "2010-11-17T13:04:24Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-11-12T06:40:24Z",
+      "window": [
+        "2010-01-01T00:00:00Z",
+        "2010-12-31T23:59:59Z"
+      ],
+      "blocks_total": 158,
+      "blocks_scanned": 158,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 5380
+    },
+    "frwiki": {
+      "scanned_at": "2026-11-12T06:41:11Z",
+      "window": [
+        "2010-01-01T00:00:00Z",
+        "2010-12-31T23:59:59Z"
+      ],
+      "blocks_total": 158,
+      "blocks_scanned": 158,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 749
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-11-12T06:42:07Z",
+      "window": [
+        "2010-01-01T00:00:00Z",
+        "2010-12-31T23:59:59Z"
+      ],
+      "blocks_total": 158,
+      "blocks_scanned": 158,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 0
+    },
+    "commonswiki": {
+      "scanned_at": "2026-11-12T06:43:03Z",
+      "window": [
+        "2010-01-01T00:00:00Z",
+        "2010-12-31T23:59:59Z"
+      ],
+      "blocks_total": 158,
+      "blocks_scanned": 158,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 100
+    },
+    "enwiktionary": {
+      "scanned_at": "2026-11-12T06:43:28Z",
+      "window": [
+        "2010-01-01T00:00:00Z",
+        "2010-12-31T23:59:59Z"
+      ],
+      "blocks_total": 158,
+      "blocks_scanned": 158,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 35
+    },
+    "enwikivoyage": {
+      "scanned_at": "2026-11-12T06:44:23Z",
+      "window": [
+        "2010-01-01T00:00:00Z",
+        "2010-12-31T23:59:59Z"
+      ],
+      "blocks_total": 158,
+      "blocks_scanned": 158,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 69
+    }
+  }
+}

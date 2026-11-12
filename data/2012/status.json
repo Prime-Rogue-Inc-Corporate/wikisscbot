@@ -1,77 +1,77 @@
 {
   "enwiki": {
-    "scanned_at": "2026-11-12T03:53:07Z",
+    "scanned_at": "2026-11-12T06:50:08Z",
     "window": [
       "2012-01-01T00:00:00Z",
       "2012-12-31T23:59:59Z"
     ],
-    "blocks_total": 153,
-    "blocks_scanned": 153,
+    "blocks_total": 158,
+    "blocks_scanned": 158,
     "block_errors": 0,
     "error_samples": {},
     "fatal": null,
     "edits": 3523
   },
   "frwiki": {
-    "scanned_at": "2026-11-12T03:54:02Z",
+    "scanned_at": "2026-11-12T06:51:01Z",
     "window": [
       "2012-01-01T00:00:00Z",
       "2012-12-31T23:59:59Z"
     ],
-    "blocks_total": 153,
-    "blocks_scanned": 153,
+    "blocks_total": 158,
+    "blocks_scanned": 158,
     "block_errors": 0,
     "error_samples": {},
     "fatal": null,
     "edits": 507
   },
   "wikidatawiki": {
-    "scanned_at": "2026-11-12T03:54:20Z",
+    "scanned_at": "2026-11-12T06:51:27Z",
     "window": [
       "2012-01-01T00:00:00Z",
       "2012-12-31T23:59:59Z"
     ],
-    "blocks_total": 153,
-    "blocks_scanned": 153,
+    "blocks_total": 158,
+    "blocks_scanned": 158,
     "block_errors": 0,
     "error_samples": {},
     "fatal": null,
     "edits": 0
   },
   "commonswiki": {
-    "scanned_at": "2026-11-12T03:55:19Z",
+    "scanned_at": "2026-11-12T06:52:23Z",
     "window": [
       "2012-01-01T00:00:00Z",
       "2012-12-31T23:59:59Z"
     ],
-    "blocks_total": 153,
-    "blocks_scanned": 153,
+    "blocks_total": 158,
+    "blocks_scanned": 158,
     "block_errors": 0,
     "error_samples": {},
     "fatal": null,
     "edits": 92
   },
   "enwiktionary": {
-    "scanned_at": "2026-11-12T03:56:04Z",
+    "scanned_at": "2026-11-12T06:53:07Z",
     "window": [
       "2012-01-01T00:00:00Z",
       "2012-12-31T23:59:59Z"
     ],
-    "blocks_total": 153,
-    "blocks_scanned": 153,
+    "blocks_total": 158,
+    "blocks_scanned": 158,
     "block_errors": 0,
     "error_samples": {},
     "fatal": null,
     "edits": 19
   },
   "enwikivoyage": {
-    "scanned_at": "2026-11-12T03:57:02Z",
+    "scanned_at": "2026-11-12T06:54:05Z",
     "window": [
       "2012-01-01T00:00:00Z",
       "2012-12-31T23:59:59Z"
     ],
-    "blocks_total": 153,
-    "blocks_scanned": 153,
+    "blocks_total": 158,
+    "blocks_scanned": 158,
     "block_errors": 0,
     "error_samples": {},
     "fatal": null,
