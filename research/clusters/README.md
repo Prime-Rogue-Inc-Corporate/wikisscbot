@@ -30,6 +30,21 @@ The results committed here were computed on 2026-11-12 from the archive at commi
 - `cross_address_groups.csv`: all strong links in the archive, grouped.
 - `report.html`: the readable version.
 
+## Intra-year correlations
+
+`intra_year.py` asks a narrower question, one year at a time: which addresses carried the same traffic
+inside the same calendar year? It needs only the standard library.
+
+    python research/clusters/intra_year.py ./ research/clusters
+
+It writes `intra_year.md` (readable), `intra_year.json`, `intra_year_pairs.csv` and `intra_year_groups.csv`.
+The committed outputs were computed from the archive at e1b95a1 (2010 to 2025, 50,558 edits), which is
+newer than the archive the thread-matching results above were computed from.
+
+A pair is a **pool** when the two addresses alternate on one page inside the hour, **same-exit** when
+they share three or more rare pages without alternating, and **linked** when they share exactly two.
+A rare page is one that at most three addresses edited that year.
+
 ## Caveats
 
 Thresholds were set to recover cases found by hand; there is no ground truth. Metadata only:
