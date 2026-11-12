@@ -1,0 +1,101 @@
+group,mechanisms,max_score,address,thread_edits,from,to,top_pages
+1,parallel,0.86,207.35.15.27,183,2020-12,2021-02,List of shipwrecks in 1910; List of shipwrecks in 1902; List of shipwrecks in 2020
+1,parallel,0.86,207.35.15.11,55,2021-01,2021-02,List of shipwrecks in 1886; List of shipwrecks in July 1942; List of shipwrecks in 2021
+2,parallel,0.63,205.211.133.128,99,2016-04,2019-07,Vancouver; Charlottetown; Population of Canada by province and territory
+2,parallel,0.63,205.193.94.40,114,2018-06,2021-09,Population of Canada by province and territory; British Columbia; Northwest Territories
+3,pool,0.74,131.137.245.207,60,2012-03,2017-05,HMCS St. John's; HMCS Algonquin (DDG 283); Royal Regina Rifles
+3,pool,0.74,131.137.245.209,7,2012-03,2012-09,HMCS Charlottetown (FFH 339); Battle of Kock (1809); HMCS St. John's
+3,pool,0.74,131.137.245.206,71,2012-03,2019-10,HMCS St. John's; HMCS Ville de Québec (FFH 332); Commons:Village pump [Commons]
+3,pool,0.74,131.137.245.208,44,2012-03,2016-10,HMCS St. John's; HMCS Algonquin (DDG 283); HMCS Preserver (AOR 510)
+3,pool,0.74,131.137.245.209,16,2013-09,2014-11,HMCS St. John's; HMCS Quebec (C66); NCSM St. John's (FFH 340) [fr]
+4,pool+renumbering,0.81,131.137.245.206,20,2012-06,2014-09,3rd Canadian Division; Land Force Western Area; 4th Canadian Division Support Group
+4,pool+renumbering,0.81,131.137.245.209,18,2013-07,2015-06,3rd Canadian Division; Royal Canadian Air Force; 1 Canadian Air Division
+4,pool+renumbering,0.81,131.137.245.207,64,2013-08,2017-07,3rd Canadian Division; 39 Canadian Brigade Group; Lord Strathcona's Horse (Royal Canadians)
+4,pool+renumbering,0.81,131.137.245.208,14,2018-06,2020-11,82nd Airborne Division; 2e Division du Canada [fr]; 5th Canadian Division
+4,pool+renumbering,0.81,131.137.245.206,5,2021-11,2023-08,3rd Canadian Division; 4th Canadian Division Support Group; 32 Canadian Brigade Group
+4,pool+renumbering,0.81,205.193.239.44,8,2025-02,2025-07,4th Canadian Division Support Group; 1st Canadian Division; 6th Canadian Combat Support Brigade
+5,later,0.75,205.193.50.10,26,2023-03,2023-04,2024 Nova Scotia general election; Nova Scotia House of Assembly; 64th General Assembly of Nova Scotia
+5,later,0.75,205.194.16.3,65,2024-10,2025-10,2024 Nova Scotia general election; Nova Scotia Liberal Party; Executive Council of Nova Scotia
+5,later,0.75,205.194.16.3,22,2024-11,2025-10,65th General Assembly of Nova Scotia; Nova Scotia House of Assembly; 64th General Assembly of Nova Scotia
+6,pool,0.92,205.193.239.76,51,2024-05,2025-07,"30th Field Artillery Regiment, RCA; Royal Canadian Artillery Museum; 2nd Regiment, Royal Canadian Horse Artillery"
+6,pool,0.92,205.193.239.44,55,2024-06,2025-08,"30th Field Artillery Regiment, RCA; Lord Strathcona's Horse (Royal Canadians); 2nd Regiment, Royal Canadian Horse Artillery"
+7,pool,0.86,131.137.245.207,23,2015-05,2017-05,"Michael Moore; Baron de Longueuil; Ronald Charles Grant, 10th Baron de Longueuil"
+7,pool,0.86,131.137.245.208,5,2015-12,2015-12,"Ernestine Bowes-Lyon; Michael Grant, 12th Baron de Longueuil; Raymond Grant, 11th Baron de Longueuil"
+7,pool,0.86,131.137.245.209,12,2015-12,2015-12,"Raymond Grant, 11th Baron de Longueuil; Rachel Grant; Rebecca Grant"
+7,pool,0.86,131.137.245.206,20,2015-12,2017-01,"Ronald Charles Grant, 10th Baron de Longueuil; Grant Allen; Raymond Grant, 11th Baron de Longueuil"
+7,pool,0.86,131.137.245.208,13,2016-12,2017-01,"John Charles Moore Grant, 9th Baron de Longueuil; Charles James Irwin Grant, 6th Baron de Longueuil; Raymond Grant, 11th Baron de Longueuil"
+7,pool,0.86,131.137.245.209,12,2017-01,2017-02,"John Charles Moore Grant, 9th Baron de Longueuil [Wikidata]; John Charles Moore Grant, 9th Baron de Longueuil [Wikidata]; Charles James Irwin Grant, 6th Baron de Longueuil"
+8,pool,0.62,131.137.245.206,37,2015-10,2019-10,CFB Cold Lake; CFB Comox; Shearwater Heliport
+8,pool,0.62,131.137.245.207,40,2016-04,2019-10,CFB Halifax; CFB Esquimalt; CFB Montreal
+9,pool,0.62,131.137.245.206,15,2012-01,2012-07,"Algonquin Regiment (Northern Pioneers); 4 Engineer Support Regiment; 15th Field Artillery Regiment, RCA"
+9,pool,0.62,131.137.245.208,51,2012-01,2018-07,"7th Toronto Regiment, RCA; Royal Canadian Dragoons; Algonquin Regiment (Northern Pioneers)"
+10,pool,0.82,131.137.245.206,42,2018-09,2019-10,Judd Apatow; Ryan Adams; Ryan Rozicki
+10,pool,0.82,131.137.245.209,20,2018-10,2019-05,Judd Apatow; Ryan Adams; Ryan Rozicki
+11,later,0.63,198.103.108.130,52,2012-06,2013-07,Régiment de Hull; Dollard Ménard
+11,later,0.63,192.197.178.2,9,2017-04,2017-10,Régiment de Hull; National Capital Junior Hockey League; Cumberland Castors
+12,later+parallel+renumbering,0.78,198.103.104.11,13,2019-04,2020-08,S-train (Copenhagen); Rhodes International Airport; Zvartnots International Airport
+12,later+parallel+renumbering,0.78,198.103.198.254,14,2021-06,2022-01,Copenhagen Airport; Tampere–Pirkkala Airport; A Coruña Airport
+12,later+parallel+renumbering,0.78,198.103.198.250,25,2022-07,2024-02,"Copenhagen Airport; Oslo Airport, Gardermoen; Zvartnots International Airport"
+12,later+parallel+renumbering,0.78,198.103.198.248,7,2022-11,2023-03,Copenhagen Airport; Queen Alia International Airport
+13,pool,0.79,131.137.245.208,13,2012-05,2012-10,Wikipedia:Featured picture candidates/Westminster Palace; Commons:Featured picture candidates/File:Xylocopa pubescens male 3.jpg [Commons]; Commons:Featured picture candidates/File:St Peter Church Lindos.jpg [Commons]
+13,pool,0.79,131.137.245.209,12,2012-05,2012-09,"Commons:Featured picture candidates/File:Woman outside Sepulchre-2.jpg [Commons]; Commons:Featured picture candidates/File:Solar Eclipse May 20,2012.jpg [Commons]; Commons:Featured picture candidates/File:Xylocopa pubescens male 3.jpg [Commons]"
+13,pool,0.79,131.137.245.206,19,2012-05,2012-11,Wikipedia:Featured picture candidates/Blue monkey beetle; Commons:Featured picture candidates/File:AF-S DX NIKKOR 18-105mm f3.5-5.6G ED VR 28-07-2012.jpg [Commons]; Commons:Featured picture candidates/File:Autumn Oak - Broadhall Way - Stevenage.jpg [Commons]
+13,pool,0.79,131.137.245.207,13,2012-05,2012-10,Commons:Featured picture candidates/File:Blåvandshuk3.jpg [Commons]; Commons:Featured picture candidates/File:Sierra Nevada observatoire Pradollano 2.jpg [Commons]; Wikipedia:Featured picture candidates/Palais Saint-Georges
+14,pool,0.86,131.137.245.209,40,2014-07,2015-05,HMCS Algonquin (DDG 283)
+14,pool,0.86,131.137.245.206,10,2014-09,2015-05,HMCS Algonquin (DDG 283); HMCS Iroquois (DDG 280); HMCS Athabaskan (DDG 282)
+15,pool,0.66,131.137.245.209,25,2016-11,2021-08,65th Infantry Division (Wehrmacht); 3rd Canadian Division; 2e Division du Canada [fr]
+15,pool,0.66,131.137.245.206,23,2018-08,2020-07,65th Infantry Division (Wehrmacht); 2e Division du Canada [fr]; Gustav Heistermann von Ziehlberg
+16,parallel,0.66,198.103.184.76,41,2017-03,2018-04,2017 Tim Hortons Brier; 2018 Tim Hortons Brier; 2012 Tim Hortons Brier
+16,parallel,0.66,131.137.245.209,7,2017-03,2017-03,2017 Tim Hortons Brier
+17,pool,0.75,192.197.82.153,27,2013-09,2014-01,Jamie Nicholls [fr]; Jack Layton [fr]; Jack Marshall (Canadian politician)
+17,pool,0.75,192.197.82.203,8,2013-11,2015-02,Jamie Nicholls [fr]
+18,later,0.66,131.137.247.6,19,2013-02,2013-06,List of law enforcement agencies in Canada; June 18; Law enforcement in Canada
+18,later,0.66,198.103.104.11,14,2014-07,2015-02,List of law enforcement agencies in Canada; List of killings by law enforcement officers in Canada; Law enforcement in Canada
+19,renumbering,0.73,131.137.245.207,6,2018-08,2019-09,Kennebecasis Regional Police Force; Canadian Army Command and Staff College; Canadian Army
+19,renumbering,0.73,131.137.245.207,17,2020-12,2023-06,Canadian Army Command and Staff College; Royal Canadian Sea Cadets; Captain (Canadian army and air force)
+19,renumbering,0.73,205.193.239.44,6,2024-04,2024-04,Canadian Army Command and Staff College; Canadian Army
+20,later,0.67,205.211.133.128,17,2017-05,2018-05,2017 IIHF World Championship rosters; 2018 IIHF World Championship rosters; Canada men's national ice hockey team
+20,later,0.67,205.193.94.40,11,2019-01,2020-02,Switzerland men's national junior ice hockey team; Slovakia men's national junior ice hockey team; Czechia men's national junior ice hockey team
+21,later+pool,0.64,192.197.82.153,9,2012-02,2012-05,Isabelle Morin [fr]; Robert Aubin (homme politique) [fr]; Steven Fletcher (homme politique) [fr]
+21,later+pool,0.64,192.197.82.203,5,2012-05,2012-05,Isabelle Morin; Isabelle Morin [fr]
+21,later+pool,0.64,192.197.82.155,13,2014-03,2014-03,Isabelle Morin [fr]; Isabelle Morin
+22,parallel,0.83,198.103.152.52,5,2014-03,2014-05,Mitchell Kutney
+22,parallel,0.83,198.103.223.52,22,2014-03,2014-03,Mitchell Kutney; Melinda French Gates
+23,later,0.8,198.103.167.20,6,2015-05,2015-05,Ottawa Macdonald–Cartier International Airport; Iqaluit Airport
+23,later,0.8,198.103.96.11,21,2023-03,2023-11,Ottawa Macdonald–Cartier International Airport; Harry Reid International Airport; St. John's International Airport
+24,pool,0.84,131.137.245.209,11,2013-11,2014-01,Commons:Deletion requests/File:Jimmy Wales by Pricasso (the making of).ogv [Commons]; Commons:Deletion requests/Template:Nsfw [Commons]; Commons:Deletion requests/Santorum images [Commons]
+24,pool,0.84,131.137.245.206,7,2013-11,2014-01,Commons:Deletion requests/Santorum images [Commons]; Commons:Deletion requests/File:Jimmy Wales by Pricasso (the making of).ogv [Commons]; Commons:Deletion requests/File:I am blue.jpg [Commons]
+24,pool,0.84,131.137.245.208,6,2013-12,2013-12,Commons:Deletion requests/File:Jimmy Wales by Pricasso (the making of).ogv [Commons]; User talk:131.137.245.206 [Commons]
+25,pool,0.9,131.137.245.208,11,2013-11,2014-02,Commons talk:Featured picture candidates [Commons]; Commons:Featured picture candidates/File:Rila Monastery (Рилски манастир) - fresco 2.JPG [Commons]; Commons:Featured picture candidates/RFC: Censoring NSFW photographs [Commons]
+25,pool,0.9,131.137.245.209,13,2013-11,2014-07,Commons talk:Featured picture candidates [Commons]; Commons:Featured picture candidates/File:Flares over Fort Lee - Best Warrior 2010.jpg [Commons]; Commons:Featured picture candidates/File:Rila Monastery (Рилски манастир) - fresco 2.JPG [Commons]
+26,pool,0.96,131.137.245.206,7,2014-02,2014-02,St. John River campaign
+26,pool,0.96,131.137.245.209,8,2014-02,2014-02,St. John River campaign; Template talk:Personality rights [Commons]
+26,pool,0.96,131.137.245.208,6,2014-02,2014-02,St. John River campaign
+27,parallel,0.78,198.103.221.52,8,2018-12,2019-05,Strathroy Rockets
+27,parallel,0.78,198.103.152.52,12,2019-05,2019-05,Strathroy Rockets
+28,pool,0.97,131.137.245.206,6,2015-04,2015-08,Brioude [fr]
+28,pool,0.97,131.137.245.208,5,2015-04,2016-01,Brioude [fr]
+28,pool,0.97,131.137.245.207,8,2015-08,2015-12,Brioude [fr]
+29,renumbering,0.67,131.137.245.208,13,2015-02,2019-01,Régiment de Hull; 12e Régiment blindé du Canada [fr]; Royal 22e Régiment
+29,renumbering,0.67,205.193.239.44,6,2024-09,2024-10,Régiment de Hull; Royal 22e Régiment [fr]
+30,pool,0.94,131.137.245.209,6,2013-11,2014-02,Commons:Village pump [Commons]
+30,pool,0.94,131.137.245.208,5,2013-11,2014-02,Commons:Village pump [Commons]; Commons:Village pump/Copyright [Commons]
+30,pool,0.94,131.137.245.207,7,2013-11,2014-02,Commons:Village pump [Commons]; Commons:Village pump/Copyright [Commons]
+31,later,0.91,205.194.127.36,11,2015-05,2015-12,Skytone
+31,later,0.91,198.103.104.11,7,2017-07,2017-10,Skytone
+32,parallel,0.74,207.35.15.27,7,2023-05,2024-06,"2025 Canadian federal election; 2023 Manitoba general election; 2022 Hamilton, Ontario, municipal election"
+32,parallel,0.74,207.35.15.11,9,2023-07,2024-06,2025 Canadian federal election
+33,parallel,0.79,198.103.221.51,7,2017-03,2017-07,2014 Toronto municipal election
+33,parallel,0.79,198.103.223.51,8,2017-06,2018-06,2018 Toronto municipal election; 2018 Toronto mayoral election; 2014 Toronto municipal election
+34,later,0.8,131.137.247.7,9,2012-12,2013-07,Appendix:Glossary of military slang [Wiktionary]; Appendix:Canadian English military slang [Wiktionary]
+34,later,0.8,131.137.245.209,5,2016-09,2017-10,Appendix:Canadian English military slang [Wiktionary]; Appendix:Glossary of military slang [Wiktionary]
+35,parallel,0.86,142.206.2.14,7,2016-10,2016-11,List of Northeastern University people
+35,parallel,0.86,142.206.2.12,6,2016-10,2016-11,List of Northeastern University people; Greg Miller (host)
+36,pool,0.95,131.137.245.206,6,2021-10,2021-10,2021–22 Olympique de Marseille season
+36,pool,0.95,131.137.245.207,6,2021-10,2021-11,2021–22 Olympique de Marseille season
+37,pool,0.75,131.137.245.206,5,2015-03,2016-02,Talk:LeVar Burton; LeVar Burton; Star Trek: Enterprise
+37,pool,0.75,131.137.245.209,7,2015-03,2015-04,LeVar Burton; Talk:LeVar Burton; 19 Kids and Counting
+38,pool,0.8,205.193.239.44,7,2025-07,2025-07,List of copper mines in Canada; List of mines in Saskatchewan
+38,pool,0.8,205.193.239.76,5,2025-07,2025-07,List of mines in Saskatchewan; List of copper mines in Canada; Lists of mines in Canada
+39,parallel,0.84,207.35.15.27,5,2020-02,2020-02,Don Davies
+39,parallel,0.84,207.35.15.11,6,2020-02,2020-02,Don Davies
