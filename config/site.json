@@ -23,5 +23,6 @@
     "open government Canada",
     "OSINT"
   ],
-  "index_biographies": false
+  "index_biographies": false,
+  "clusters_threads": false
 }

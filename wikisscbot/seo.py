@@ -607,10 +607,20 @@ def clusters_page(site: dict, g: dict, built: str, topic_pages: dict) -> str:
                    for f in fnd["threads"]]
     ry = sorted(res["years"])
     folder = site["repo"] + "/tree/main/research/clusters"
+    # The hand-read thread table describes single editing routines, not the network. It is published
+    # only when config/site.json sets clusters_threads to true.
+    show_threads = bool(site.get("clusters_threads"))
+    threads_html = f"""<div class="prose">
+<h3>Threads that cross addresses</h3>
+<p>The matches outside the known pools, read by hand. The reading is a judgement from titles, summaries and timing. It is not a finding about any individual.</p>
+</div>
+{table(["Thread", "Addresses and dates", "How", "Evidence", "Reading"], thread_rows)}
+""" if show_threads else ""
+    also = ", and which editing threads turn up on more than one address" if show_threads else ""
 
     body = f"""<h1>Address clusters</h1>
 <div class="prose">
-<p class="lede">An address in this archive is a network exit, not a person, and one exit can use several addresses. This page shows which addresses carry the same traffic, which blocks replaced which, and which editing threads turn up on more than one address. Reviewed {e(nice_date(fnd['reviewed']))}.</p>
+<p class="lede">An address in this archive is a network exit, not a person, and one exit can use several addresses. This page shows which addresses carry the same traffic and which blocks replaced which{also}. Reviewed {e(nice_date(fnd['reviewed']))}.</p>
 </div>
 {stats([("address pairs sharing traffic inside one year", n(pair_years)), ("top-ten addresses with a strong match elsewhere", f"{total['strong']} of {sum(total.values())}"), ("blocks that replaced an earlier block", str(sum(1 for f in fnd['network'] if 'renumbering' in f['behaviour'])))])}
 <div class="prose">
@@ -652,12 +662,7 @@ def clusters_page(site: dict, g: dict, built: str, topic_pages: dict) -> str:
 <p>For each year from {ry[-1]} back to {ry[0]}, the ten busiest addresses were split into editing threads, and every thread was compared with the rest of the archive. Each cell counts how many of that year's ten had their best match explained that way.</p>
 </div>
 {table(["Year", "Edits", "Top-ten share", "Pool", "Renumbering", "Parallel exits", "Reappears later", "Possible", "No match"], match_rows, numeric=set(range(1, 9)))}
-<div class="prose">
-<h3>Threads that cross addresses</h3>
-<p>The matches outside the known pools, read by hand. The reading is a judgement from titles, summaries and timing. It is not a finding about any individual.</p>
-</div>
-{table(["Thread", "Addresses and dates", "How", "Evidence", "Reading"], thread_rows)}
-<div class="prose">
+{threads_html}<div class="prose">
 <h2>Limits</h2>
 <ul>
 <li>{e(CAVEAT)}</li>
@@ -671,8 +676,8 @@ def clusters_page(site: dict, g: dict, built: str, topic_pages: dict) -> str:
 <p>The scripts, the full per-year results and a longer report are in the repository: <a href="{e(folder)}" rel="noopener">research/clusters</a>.</p>
 </div>"""
     return page(site, path="clusters.html", title="Address clusters", body=body, built=built,
-                desc="Which Government of Canada addresses behave as one network exit, which address blocks replaced "
-                     "which, and which Wikipedia editing threads appear on more than one address, year by year.")
+                desc="Which Government of Canada addresses behave as one network exit and which address blocks replaced "
+                     "which, year by year.")
 
 
 def sitemap(site: dict, g: dict, built: str) -> str:
@@ -714,8 +719,8 @@ def llms_txt(site: dict, g: dict, built: str) -> str:
         f"- [Data and verification]({base}data.html): downloads, checksums and how to cite",
         f"- [Coverage]({base}coverage.html): which wikis and hockey-sim leagues can be checked for government "
         "network traffic, and which cannot",
-        *([f"- [Address clusters]({base}clusters.html): which addresses behave as one network exit, which blocks "
-           "replaced which, and editing threads that appear on more than one address"] if clusters_data() else []), "",
+        *([f"- [Address clusters]({base}clusters.html): which addresses behave as one network exit and which blocks "
+           "replaced which"] if clusters_data() else []), "",
         "## Data", "",
         *[f"- [{y['year']} edits, JSON Lines]({base}data/{y['year']}/edits.jsonl)" for y in reversed(g["years"])], "",
         "## Citing", "",
