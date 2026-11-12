@@ -177,7 +177,8 @@ def footer_links(depth: int) -> str:
     pre = "../" * depth
     return (f'<nav class="footnav" aria-label="Reference pages"><a href="{pre}years.html">Edits by year</a>'
             f'<a href="{pre}methodology.html">Methodology</a><a href="{pre}faq.html">FAQ</a>'
-            f'<a href="{pre}data.html">Data &amp; verification</a><a href="{pre}coverage.html">Coverage</a></nav>')
+            f'<a href="{pre}data.html">Data &amp; verification</a><a href="{pre}coverage.html">Coverage</a>'
+            f'<a href="{pre}clusters.html">Clusters</a></nav>')
 
 
 def page(site: dict, *, path: str, title: str, desc: str, body: str, built: str, depth: int = 0,
@@ -534,10 +535,151 @@ def coverage_page(site: dict, g: dict, built: str) -> str:
                      "Government of Canada network traffic, which were tried and did not answer, and which never can be.")
 
 
+def clusters_data() -> tuple[dict, dict, dict] | None:
+    """The three research/clusters files the clusters page is built from, or None if any is missing."""
+    base = ROOT / "research" / "clusters"
+    try:
+        return tuple(json.loads((base / f).read_text(encoding="utf-8"))
+                     for f in ("results.json", "intra_year.json", "findings.json"))
+    except (OSError, ValueError):
+        return None
+
+
+def clusters_page(site: dict, g: dict, built: str, topic_pages: dict) -> str:
+    """Which addresses carry the same traffic: thread matching across years and correlations inside each year."""
+    res, iy, fnd = clusters_data()
+    MECH = {"pool": "Pool", "renumbering": "Renumbering", "parallel": "Parallel exits", "later": "Reappears later"}
+    SHORT = {"Canadian Department of National Defence": "National Defence", "Canadian House of Commons": "House of Commons",
+             "Shared Services Canada network (AS2665)": "SSC (AS2665)", "Shared Services Canada": "SSC",
+             "Canadian Broadcasting Corporation": "CBC"}
+
+    def lab(a: str, b: str) -> str:
+        a, b = SHORT.get(a, a), SHORT.get(b, b)
+        return e(a if a == b else f"{a} / {b}")
+
+    def titles(shown: list[str]) -> str:
+        """Page titles, minus biographies and unclassified pages unless the site indexes biographies."""
+        out = []
+        for t in shown:
+            title, _, wiki = t.rpartition(" [")
+            key = f"{wiki[:-1]}|{title}" if title and wiki.endswith("]") else f"enwiki|{t}"
+            if g["keep_bios"] or is_biography(topic_pages.get(key)) is False:
+                out.append(e(t))
+        return "; ".join(out) or '<span class="muted">not listed</span>'
+
+    mono = lambda t: f'<span class="mono">{e(t)}</span>'
+    # thread matching, one row per year
+    match_rows, total = [], {"strong": 0, "possible": 0, "none": 0}
+    for y in sorted(res["years"], reverse=True):
+        Y, c = res["years"][y], {}
+        for r in Y["rows"]:
+            b = r.get("best")
+            k = b["mechanism"] if b and b["grade"] == "strong" else "possible" if b and b["grade"] == "moderate" else "none"
+            c[k] = c.get(k, 0) + 1
+            total["none" if k == "none" else "possible" if k == "possible" else "strong"] += 1
+        match_rows.append([y, n(Y["total_edits"]), f"{round(Y['top10_share'] * 100)}%"]
+                          + [str(c.get(k, 0)) for k in ("pool", "renumbering", "parallel", "later", "possible", "none")])
+    # intra-year
+    iy_years = sorted(iy["years"])
+    iy_rows = []
+    for y in reversed(iy_years):
+        Y = iy["years"][y]
+        c = {}
+        for p in Y["pairs"]:
+            c[p["class"]] = c.get(p["class"], 0) + 1
+        iy_rows.append([y, n(Y["edits"]), n(Y["active"]), str(c.get("pool", 0)), str(c.get("same-exit", 0)),
+                        str(c.get("linked", 0)), str(len(Y["groups"]))])
+    trend = sorted(iy["meta"]["block_trend"].items(), key=lambda kv: -sum(v["shared_rare"] for v in kv[1].values()))
+    trend_rows = [[mono(blk)] + [(f"{t[y]['handoffs']}/{t[y]['shared_rare']}" if y in t else "·") for y in iy_years]
+                  for blk, t in trend]
+    cross_rows = [[y, f"{mono(p['a'])} + {mono(p['b'])}", lab(p["label_a"], p["label_b"]), str(p["shared_rare"]),
+                   f"{p['closest_gap_days']:.0f}", titles(p["top_shared"][:3])]
+                  for y in reversed(iy_years) for p in iy["years"][y]["pairs"]
+                  if p["relation"] == "different block" and p["class"] in ("pool", "same-exit", "linked")]
+    recur_rows = [[f"{mono(r['a'])} + {mono(r['b'])}", lab(r["label_a"], r["label_b"]),
+                   f"{len(r['years'])} ({r['years'][0]}–{r['years'][-1]})", str(len(r["pool_years"])), n(r["handoffs"])]
+                  for r in iy["persistent_pairs"] if len(r["years"]) >= 3]
+    pair_years = sum(1 for Y in iy["years"].values() for p in Y["pairs"] if p["class"] in ("pool", "same-exit", "linked"))
+    cal = iy["meta"]["calibration"]
+    net_rows = [[mono(f["block"]), e(" + ".join(MECH[m] for m in f["behaviour"])), e(f["evidence"]), e(f["label"])]
+                for f in fnd["network"]]
+    thread_rows = [[e(f["thread"]), mono(f["addresses"]), e(MECH[f["mechanism"]]), e(f["evidence"]), e(f["reading"])]
+                   for f in fnd["threads"]]
+    ry = sorted(res["years"])
+    folder = site["repo"] + "/tree/main/research/clusters"
+
+    body = f"""<h1>Address clusters</h1>
+<div class="prose">
+<p class="lede">An address in this archive is a network exit, not a person, and one exit can use several addresses. This page shows which addresses carry the same traffic, which blocks replaced which, and which editing threads turn up on more than one address. Reviewed {e(nice_date(fnd['reviewed']))}.</p>
+</div>
+{stats([("address pairs sharing traffic inside one year", n(pair_years)), ("top-ten addresses with a strong match elsewhere", f"{total['strong']} of {sum(total.values())}"), ("blocks that replaced an earlier block", str(sum(1 for f in fnd['network'] if 'renumbering' in f['behaviour'])))])}
+<div class="prose">
+<h2>Four ways one thread reaches two addresses</h2>
+<ul>
+<li><b>Pool.</b> Two addresses edit the same page within the hour of each other, again and again. One exit, several addresses.</li>
+<li><b>Renumbering.</b> One block goes quiet, another starts, and pages from many unrelated threads carry over.</li>
+<li><b>Parallel exits.</b> The same thread on two addresses in the same weeks, without enough handoffs to call it a pool.</li>
+<li><b>Reappears later.</b> A thread stops on one address and turns up months or years later on another.</li>
+</ul>
+<p>The first three describe the network. Only the fourth says anything about an editor, and then only that the same routine moved.</p>
+
+<h2>What the network looks like</h2>
+<p>Blocks whose behaviour is consistent across years. Three of them carry only the label Shared Services Canada in the range file but behave like one institution's exit: National Defence, the House of Commons and the foreign service.</p>
+</div>
+{table(["Block", "Behaviour", "Evidence", "Range label"], net_rows)}
+<div class="prose">
+<h2>Inside each year</h2>
+<p>Each year from {iy_years[0]} to {iy_years[-1]} is taken on its own: only addresses with {iy['meta']['min_edits_per_year']} or more edits that year, only that year's edits. A rare page is one that at most {iy['meta']['rare_max']} addresses edited that year. A pair is a <b>pool</b> when the two addresses alternate on a page within the hour, <b>same exit</b> when they share three or more rare pages without alternating, and <b>linked</b> when they share exactly two.</p>
+</div>
+{table(["Year", "Edits", "Addresses compared", "Pool pairs", "Same-exit pairs", "Linked pairs", "Groups"], iy_rows, numeric={1, 2, 3, 4, 5, 6})}
+<div class="prose">
+<h3>Blocks that keep sharing traffic</h3>
+<p>Handoffs within the hour, then shared rare pages, summed over the pairs inside each block. When handoffs fall away and shared pages hold up, the exit has stopped alternating addresses inside one sitting. The National Defence block does this at the end of 2015.</p>
+</div>
+{table(["Block"] + [y[2:] for y in iy_years], trend_rows)}
+<div class="prose">
+<h3>Links between unrelated blocks</h3>
+<p>Two addresses in different blocks sharing rare pages inside one year. This is where a renumbering shows up in the year it happens, or one routine using two networks. As a check on the rule: pairs inside one /24 reach three or more shared rare pages {cal.get('same /24|3+', 0)} times, pairs in different blocks {cal.get('different block|3+', 0)} times.</p>
+</div>
+{table(["Year", "Addresses", "Range labels", "Shared rare pages", "Closest edits, days", "Shared pages"], cross_rows, numeric={3, 4})}
+<div class="prose">
+<h3>Pairs that recur</h3>
+<p>Pairs that meet one of the three rules in three or more separate years.</p>
+</div>
+{table(["Addresses", "Range label", "Years", "Of which pool", "Handoffs"], recur_rows, numeric={3, 4})}
+<div class="prose">
+<h2>Across years</h2>
+<p>For each year from {ry[-1]} back to {ry[0]}, the ten busiest addresses were split into editing threads, and every thread was compared with the rest of the archive. Each cell counts how many of that year's ten had their best match explained that way.</p>
+</div>
+{table(["Year", "Edits", "Top-ten share", "Pool", "Renumbering", "Parallel exits", "Reappears later", "Possible", "No match"], match_rows, numeric=set(range(1, 9)))}
+<div class="prose">
+<h3>Threads that cross addresses</h3>
+<p>The matches outside the known pools, read by hand. The reading is a judgement from titles, summaries and timing. It is not a finding about any individual.</p>
+</div>
+{table(["Thread", "Addresses and dates", "How", "Evidence", "Reading"], thread_rows)}
+<div class="prose">
+<h2>Limits</h2>
+<ul>
+<li>{e(CAVEAT)}</li>
+<li>Only metadata is used: page titles, edit summaries, sizes and timestamps. No diff text is read.</li>
+<li>The cut-offs were set to recover cases first found by hand. There is no ground truth to test them against.</li>
+<li>About half of all edits are one-off touches that belong to no thread and cannot be matched.</li>
+<li>Live events and much-edited pages draw several people to the same place, and two people can share an interest.</li>
+<li>The across-years tables were computed from {n(res['meta']['edits'])} edits ({ry[0]}–{ry[-1]}); the inside-each-year tables from {n(iy['meta']['edits'])} edits ({iy_years[0]}–{iy_years[-1]}). They are recomputed by hand, not on every build.</li>
+</ul>
+<h2>Method and data</h2>
+<p>The scripts, the full per-year results and a longer report are in the repository: <a href="{e(folder)}" rel="noopener">research/clusters</a>.</p>
+</div>"""
+    return page(site, path="clusters.html", title="Address clusters", body=body, built=built,
+                desc="Which Government of Canada addresses behave as one network exit, which address blocks replaced "
+                     "which, and which Wikipedia editing threads appear on more than one address, year by year.")
+
+
 def sitemap(site: dict, g: dict, built: str) -> str:
     base, day = site["base_url"], built[:10]
     urls = [("", "1.0"), ("years.html", "0.8"), ("faq.html", "0.7"), ("methodology.html", "0.7"),
-            ("data.html", "0.7"), ("coverage.html", "0.6")] + [(f"years/{y['year']}.html", "0.6") for y in reversed(g["years"])]
+            ("data.html", "0.7"), ("coverage.html", "0.6"),
+            *([("clusters.html", "0.6")] if clusters_data() else [])] + [(f"years/{y['year']}.html", "0.6") for y in reversed(g["years"])]
     body = "".join(f"<url><loc>{e(base + p)}</loc><lastmod>{day}</lastmod><priority>{pr}</priority></url>\n"
                    for p, pr in urls)
     return ('<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -571,7 +713,9 @@ def llms_txt(site: dict, g: dict, built: str) -> str:
         f"- [FAQ]({base}faq.html): what the data does and does not show",
         f"- [Data and verification]({base}data.html): downloads, checksums and how to cite",
         f"- [Coverage]({base}coverage.html): which wikis and hockey-sim leagues can be checked for government "
-        "network traffic, and which cannot", "",
+        "network traffic, and which cannot",
+        *([f"- [Address clusters]({base}clusters.html): which addresses behave as one network exit, which blocks "
+           "replaced which, and editing threads that appear on more than one address"] if clusters_data() else []), "",
         "## Data", "",
         *[f"- [{y['year']} edits, JSON Lines]({base}data/{y['year']}/edits.jsonl)" for y in reversed(g["years"])], "",
         "## Citing", "",
@@ -601,6 +745,7 @@ def write_all(out: Path, agg: dict, built: str, chain_len: int, latest: dict | N
             "methodology.html": methodology_page(site, g, built),
             "data.html": data_page(site, g, built, chain_len, latest),
             "coverage.html": coverage_page(site, g, built),
+            **({"clusters.html": clusters_page(site, g, built, cache.get("pages") or {})} if clusters_data() else {}),
             **{f"years/{y['year']}.html": year_page(site, g, y, labels, built) for y in g["years"]},
             "sitemap.xml": sitemap(site, g, built), "llms.txt": llms_txt(site, g, built),
         }

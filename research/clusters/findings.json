@@ -1,0 +1,169 @@
+{
+ "reviewed": "2026-11-12",
+ "note": "Hand-reviewed readings of the machine output in results.json and intra_year.json. Gateway-level: nothing here identifies an editor.",
+ "network": [
+  {
+   "block": "131.137.245.206–209",
+   "behaviour": [
+    "pool"
+   ],
+   "label": "National Defence",
+   "evidence": "Between about 90 and 330 same-page handoffs within the hour every year from 2010 to 2015, none in 2016, a few after. The four addresses share pages throughout. .208 and .209 stop in October 2021."
+  },
+  {
+   "block": "205.193.239.44, .76",
+   "behaviour": [
+    "renumbering",
+    "pool"
+   ],
+   "label": "Shared Services Canada",
+   "evidence": "Start in November 2023 as the DND pool winds down; 81 of their 310 pages were edited from that pool before. The two alternate within the hour in 2024 and 2025."
+  },
+  {
+   "block": "192.197.82.153, .203",
+   "behaviour": [
+    "pool"
+   ],
+   "label": "House of Commons",
+   "evidence": "Same-page handoffs within the hour, 2010–2012; shared pages to 2016."
+  },
+  {
+   "block": "207.35.15.x",
+   "behaviour": [
+    "renumbering"
+   ],
+   "label": "House of Commons",
+   "evidence": "Starts mid-2018 as 192.197.82.x winds down; 31 pages carried over. Its two busy addresses share pages in four separate years and never alternate."
+  },
+  {
+   "block": "167.32.2.x",
+   "behaviour": [
+    "renumbering"
+   ],
+   "label": "Shared Services Canada",
+   "evidence": "Starts August 2024 as 207.35.15.x stops; nine pages carried over, eight of them pages about members of Parliament."
+  },
+  {
+   "block": "198.103.198.248–255",
+   "behaviour": [
+    "renumbering"
+   ],
+   "label": "Shared Services Canada",
+   "evidence": "Starts two weeks after 198.103.104.11 falls silent in October 2020; embassy, ambassador-list and airport pages follow."
+  },
+  {
+   "block": "159.33.10.190–199",
+   "behaviour": [
+    "renumbering"
+   ],
+   "label": "CBC",
+   "evidence": "Replace 159.33.10.155 inside the same /24 during 2021; three of them share pages in 2021–22."
+  },
+  {
+   "block": "198.103.152.N, 198.103.221.N, 198.103.223.N",
+   "behaviour": [
+    "parallel"
+   ],
+   "label": "Shared Services Canada",
+   "evidence": "Addresses with the same last number share pages across the three blocks (.35, .36, .51, .52)."
+  }
+ ],
+ "threads": [
+  {
+   "thread": "Quarterly provincial population figures, plus national hockey rosters",
+   "addresses": "205.211.133.128 (2017–18) → 205.193.94.40 (2018–20) → 198.103.167.20 (Dec 2022) → 205.211.133.133 (Jun 2025)",
+   "mechanism": "later",
+   "evidence": "Sixteen shared pages. Summaries are variants of one phrase (\"Statscan Q4\", \"StatsCan Q2\", \"Q2 2025 Update\"). A second, unrelated thread on hockey rosters makes the same hop between the first two addresses.",
+   "reading": "Likely one editor",
+   "confidence": "likely"
+  },
+  {
+   "thread": "Shipwreck lists by year",
+   "addresses": "207.35.15.27 and 207.35.15.11, Dec 2020 – Feb 2021 (233 edits)",
+   "mechanism": "parallel",
+   "evidence": "Same weeks, same summaries on both (\"fixed link\", \"fixed ensign\", \"capitalisation\"), six shared pages.",
+   "reading": "Likely one editor leaving through two exits",
+   "confidence": "likely"
+  },
+  {
+   "thread": "European airport destination tables",
+   "addresses": "198.103.104.11 (2020) → 198.103.198.254 (2021) → .249 (2022) → .250 (2022–24), strays on .248",
+   "mechanism": "renumbering",
+   "evidence": "Section-only summaries, mostly deletions, European office hours. Copenhagen Airport edited from all five.",
+   "reading": "Likely one editor or one desk; the address change itself is a renumbering",
+   "confidence": "likely"
+  },
+  {
+   "thread": "Nova Scotia legislature and 2024 election",
+   "addresses": "205.193.50.10 (Mar–Apr 2023) → 205.194.16.3 (Oct 2024 – Oct 2025)",
+   "mechanism": "later",
+   "evidence": "Six shared pages, same seat-table sections. The rest of the earlier address is unrelated, so this is the thread moving, not the network.",
+   "reading": "Likely one editor",
+   "confidence": "likely"
+  },
+  {
+   "thread": "One band's discography page",
+   "addresses": "205.194.127.36 (May–Dec 2015) → 198.103.104.11 (Oct 2015 – Oct 2017)",
+   "mechanism": "later",
+   "evidence": "One obscure page, eleven edits from each address, the same section, no summaries, and the two runs overlap in late 2015.",
+   "reading": "Likely one editor",
+   "confidence": "likely"
+  },
+  {
+   "thread": "Ottawa airport route changes",
+   "addresses": "198.103.167.20 (2012–17), 198.103.184.76 (2016–17), 198.103.96.11 (2023–25)",
+   "mechanism": "later",
+   "evidence": "One shared page, the same destination-table sections, terse airline-change summaries.",
+   "reading": "Possible; a busy page that could draw several people",
+   "confidence": "possible"
+  },
+  {
+   "thread": "Olympique de Marseille season pages",
+   "addresses": "131.136.242.1 (2018, 85 edits) → 131.137.245.206 and .207 (Oct–Nov 2021)",
+   "mechanism": "later",
+   "evidence": "Different seasons, so no shared page; same match-table sections and no summaries. Both are DND addresses.",
+   "reading": "Possible",
+   "confidence": "possible"
+  },
+  {
+   "thread": "Lists of law-enforcement agencies",
+   "addresses": "199.212.150.5 (2012–15), 131.137.247.6 (2013), 198.103.104.11 (2014–15), 198.103.109.141 (2021)",
+   "mechanism": "later",
+   "evidence": "Province-by-province section edits with no summaries on the first three; the 2021 run is a different style.",
+   "reading": "Possible for the first three",
+   "confidence": "possible"
+  },
+  {
+   "thread": "A regiment's lists of commanding officers",
+   "addresses": "198.103.108.130 (2012–15, 52 edits), then 192.197.178.2 (2017) and 205.193.239.44 (2024)",
+   "mechanism": "later",
+   "evidence": "One page; the first two addresses edit the same two sections.",
+   "reading": "Possible, or successive members of the unit keeping it current",
+   "confidence": "possible"
+  },
+  {
+   "thread": "Three small threads: a biography, a junior hockey team, Toronto ward elections",
+   "addresses": "198.103.152.51/.52, 198.103.221.51/.52, 198.103.223.51/.52",
+   "mechanism": "parallel",
+   "evidence": "Each thread appears on two or three of these six addresses within weeks.",
+   "reading": "These six behave as one undeclared pool",
+   "confidence": "network"
+  },
+  {
+   "thread": "A university alumni list; the census article",
+   "addresses": "142.206.2.12, .14 and .22 (Statistics Canada)",
+   "mechanism": "parallel",
+   "evidence": "Alumni list edited from .12 and .14 in the same weeks of 2016; census article moves from .12 to .22.",
+   "reading": "Sibling exits of one network",
+   "confidence": "network"
+  },
+  {
+   "thread": "2017 Brier curling results",
+   "addresses": "198.103.184.76 and 131.137.245.209, same days in March 2017",
+   "mechanism": "parallel",
+   "evidence": "A live event. The first address hosts a prolific curling editor; the DND edits are seven on one day.",
+   "reading": "Probably two different fans",
+   "confidence": "unlikely"
+  }
+ ]
+}
