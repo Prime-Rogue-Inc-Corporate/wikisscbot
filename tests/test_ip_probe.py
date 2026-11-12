@@ -16,7 +16,7 @@ class IpProbeTests(unittest.TestCase):
     def test_all_years_paginated_and_labelled_by_date(self):
         calls = []
 
-        def fake(url, params):
+        def fake(url, params, **kw):
             calls.append(dict(params))
             row = lambda rev, ts: {"revid": rev, "parentid": rev - 1, "timestamp": ts, "title": "Ottawa",
                                    "comment": "fix", "sizediff": 3}
@@ -36,6 +36,33 @@ class IpProbeTests(unittest.TestCase):
                          ["SSC bgp", "Office of the Information Commissioner of Canada"])
         md = ip_probe.markdown([r], {}, [{"id": "enwiki", "host": "en.wikipedia.org"}], "now")
         self.assertIn("**2 edits**, 2008-05-01 to 2019-05-01", md)
+
+    def test_sitematrix_and_niche_entries(self):
+        matrix = {"sitematrix": {"count": 3, "0": {"code": "en", "site": [
+            {"url": "https://en.wikipedia.org", "dbname": "enwiki"},
+            {"url": "https://en.wikibooks.org", "dbname": "enwikibooks", "closed": True}]},
+            "specials": [{"url": "https://office.wikimedia.org", "dbname": "officewiki", "private": True},
+                         {"url": "https://species.wikimedia.org", "dbname": "specieswiki"}]}}
+        with mock.patch.object(ip_probe, "get_json", return_value=matrix):
+            wikis = ip_probe.all_wikimedia()
+        self.assertEqual([w["id"] for w in wikis], ["enwiki", "enwikibooks", "specieswiki"])
+        self.assertEqual(wikis[0]["api_url"], "https://en.wikipedia.org/w/api.php")
+        fandom = ip_probe.norm({"id": "canada", "base": "https://canada.fandom.com", "genre": "canada"})
+        self.assertEqual(fandom["api_url"], "https://canada.fandom.com/api.php")
+        self.assertEqual(ip_probe.link(fandom, 9, 8), "https://canada.fandom.com/index.php?diff=9&oldid=8")
+
+    def test_unreachable_wiki_does_not_stop_the_sweep(self):
+        def fake(url, params, **kw):
+            if "bad" in url:
+                raise ip_probe.ApiError("HTTP 404")
+            return {"query": {"usercontribs": []}}
+        with mock.patch.object(ip_probe, "get_json", side_effect=fake):
+            r = ip_probe.probe_ip("205.193.51.200", [{"id": "good", "host": "good.example"},
+                                                      {"id": "bad", "host": "bad.example"}],
+                                  ranges.Labeller([]), quick=True)
+        self.assertEqual(r["wikis"], {"good": 0})
+        self.assertIn("bad", r["errors"])
+        self.assertIn("1 wikis could not be checked: bad.", ip_probe.markdown([r], {}, [{"id": "good", "host": "good.example"}, {"id": "bad", "host": "bad.example"}], "now"))
 
     def test_rejects_ranges(self):
         with self.assertRaises(ValueError):

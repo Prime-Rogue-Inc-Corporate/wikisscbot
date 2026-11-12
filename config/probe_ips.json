@@ -1,14 +1,37 @@
 {
-  "about": "Addresses to look up one at a time, across all years, on each wiki below. Edit this file and push to run the probe; results land in research/probes/.",
+  "about": "Addresses to look up one at a time, across all years. Edit this file and push to run the probe; results land in research/probes/. all_wikimedia sweeps every public Wikimedia wiki; niche_wikis adds the wikis in config/niche_wikis.json.",
   "ips": [
-    {"ip": "205.193.51.200", "note": "Office of the Information Commissioner of Canada (confirmed; see config/ranges_confirmed.json)"}
+    {
+      "ip": "205.193.51.200",
+      "note": "Office of the Information Commissioner of Canada (confirmed; see config/ranges_confirmed.json)"
+    }
   ],
   "extra_wikis": [
-    {"id": "simplewiki", "host": "simple.wikipedia.org"},
-    {"id": "frwiktionary", "host": "fr.wiktionary.org"},
-    {"id": "enwikinews", "host": "en.wikinews.org"},
-    {"id": "enwikiquote", "host": "en.wikiquote.org"},
-    {"id": "enwikisource", "host": "en.wikisource.org"},
-    {"id": "metawiki", "host": "meta.wikimedia.org"}
-  ]
+    {
+      "id": "simplewiki",
+      "host": "simple.wikipedia.org"
+    },
+    {
+      "id": "frwiktionary",
+      "host": "fr.wiktionary.org"
+    },
+    {
+      "id": "enwikinews",
+      "host": "en.wikinews.org"
+    },
+    {
+      "id": "enwikiquote",
+      "host": "en.wikiquote.org"
+    },
+    {
+      "id": "enwikisource",
+      "host": "en.wikisource.org"
+    },
+    {
+      "id": "metawiki",
+      "host": "meta.wikimedia.org"
+    }
+  ],
+  "all_wikimedia": true,
+  "niche_wikis": true
 }
