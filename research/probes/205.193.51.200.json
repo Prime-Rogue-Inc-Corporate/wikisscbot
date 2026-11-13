@@ -1031,8 +1031,6 @@
     "wikimania2016wiki": 0,
     "wikimania2017wiki": 0,
     "wikimania2018wiki": 0,
-    "prowrestling": 0,
-    "aew": 0,
     "tennis": 0,
     "military-history": 0,
     "nintendo": 0,
@@ -1043,8 +1041,10 @@
   },
   "edits": [],
   "errors": {
-    "wwe": "HTTP 404 for https://wwe.fandom.com/api.php?action=query&list=usercontribs&format=json&formatversion=2&ucuser=205.193.51.200&uclimit=max&ucprop=ids%7Ctitle%7Ctimestamp%7Ccomment%7Csizediff%7Cflags&ucd",
-    "ice-hockey": "HTTP 404 for https://ice-hockey.fandom.com/api.php?action=query&list=usercontribs&format=json&formatversion=2&ucuser=205.193.51.200&uclimit=max&ucprop=ids%7Ctitle%7Ctimestamp%7Ccomment%7Csizediff%7Cfl",
+    "prowrestling": "HTTP 429 for https://prowrestling.fandom.com/api.php?action=query&list=usercontribs&format=json&formatversion=2&ucuser=205.193.51.200&uclimit=max&ucprop=ids%7Ctitle%7Ctimestamp%7Ccomment%7Csizediff%7C",
+    "wwe": "HTTP 429 for https://wwe.fandom.com/api.php?action=query&list=usercontribs&format=json&formatversion=2&ucuser=205.193.51.200&uclimit=max&ucprop=ids%7Ctitle%7Ctimestamp%7Ccomment%7Csizediff%7Cflags&ucd",
+    "aew": "HTTP 429 for https://aew.fandom.com/api.php?action=query&list=usercontribs&format=json&formatversion=2&ucuser=205.193.51.200&uclimit=max&ucprop=ids%7Ctitle%7Ctimestamp%7Ccomment%7Csizediff%7Cflags&ucd",
+    "ice-hockey": "HTTP 429 for https://ice-hockey.fandom.com/api.php?action=query&list=usercontribs&format=json&formatversion=2&ucuser=205.193.51.200&uclimit=max&ucprop=ids%7Ctitle%7Ctimestamp%7Ccomment%7Csizediff%7Cfl",
     "nhl": "HTTP 404 for https://nhl.fandom.com/api.php?action=query&list=usercontribs&format=json&formatversion=2&ucuser=205.193.51.200&uclimit=max&ucprop=ids%7Ctitle%7Ctimestamp%7Ccomment%7Csizediff%7Cflags&ucd",
     "hockey": "HTTP 404 for https://hockey.fandom.com/api.php?action=query&list=usercontribs&format=json&formatversion=2&ucuser=205.193.51.200&uclimit=max&ucprop=ids%7Ctitle%7Ctimestamp%7Ccomment%7Csizediff%7Cflags&",
     "military": "HTTP 404 for https://military.fandom.com/api.php?action=query&list=usercontribs&format=json&formatversion=2&ucuser=205.193.51.200&uclimit=max&ucprop=ids%7Ctitle%7Ctimestamp%7Ccomment%7Csizediff%7Cflag",
@@ -1053,5 +1053,5 @@
   "total": 0,
   "first": null,
   "last": null,
-  "probed_at": "2026-11-12T12:55:57Z"
+  "probed_at": "2026-11-13T04:45:04Z"
 }
