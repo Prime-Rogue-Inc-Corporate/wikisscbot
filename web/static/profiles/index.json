@@ -12,5 +12,19 @@
       "205.193.239.76"
     ],
     "updated": "2026-11-12"
+  },
+  {
+    "slug": "parliament-lineage",
+    "codename": "UNNAMED (Parliament)",
+    "summary": "Parliament's Wikipedia-visible exit across three generations: its own legacy block (to 2018), a Bell Canada link (2018–2024), and its newly self-routed block (2024–).",
+    "ips": [
+      "192.197.82.153",
+      "192.197.82.203",
+      "207.35.15.27",
+      "207.35.15.11",
+      "167.32.2.2",
+      "167.32.2.3"
+    ],
+    "updated": "2026-11-12"
   }
 ]

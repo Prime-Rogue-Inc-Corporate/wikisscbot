@@ -1,0 +1,109 @@
+<p class="lede">Three generations of one exit. Parliament's Wikipedia-visible internet traffic has moved twice since 2010: from its own legacy block, to a commercial Bell Canada link in 2018, then to its own newly self-routed block in 2024. Each move is visible in the edit record, and each one lines up with a public registry or routing change.</p>
+
+<div class="note">This profile describes network exit points, not people. Parliament's networks serve MPs' and senators' offices, committee and procedural staff, the library, security and visitors. An edit from one of these addresses is not evidence of who made it, or that it was made for an office or in an official capacity. Counts are from this archive (English, French and other Wikimedia wikis, 2010 to 3 November 2025, when Wikipedia stopped publishing IP addresses).</div>
+
+<div class="grid">
+  <div class="card"><h3>Generation 1</h3><div class="big">2,273</div><p class="muted small">edits · Jan 2010 – Jun 2018<br><span class="mono">192.197.82.153 · .155 · .203 · .205</span></p></div>
+  <div class="card"><h3>Generation 2</h3><div class="big">1,560</div><p class="muted small">edits · May 2018 – Jul 2024<br><span class="mono">207.35.15.0/27</span>, mainly <a href="#/ip/207.35.15.27" class="mono">.27</a> · <a href="#/ip/207.35.15.11" class="mono">.11</a></p></div>
+  <div class="card"><h3>Generation 3</h3><div class="big">69</div><p class="muted small">edits · Aug 2024 – Nov 2025<br><span class="mono">167.32.2.x</span>, mainly <a href="#/ip/167.32.2.2" class="mono">.2</a> · <a href="#/ip/167.32.2.3" class="mono">.3</a></p></div>
+  <div class="card"><h3>Pages carried into Gen 3</h3><div class="big">24%</div><p class="muted small">of its rarely edited pages were edited earlier by Gen 2, vs. 0.4% for other government blocks over the same months</p></div>
+</div>
+
+<div class="prose">
+
+<h2>Registration and routing</h2>
+<div class="tablewrap"><table>
+  <thead><tr><th></th><th>Generation 1</th><th>Generation 2</th><th>Generation 3</th></tr></thead>
+  <tbody>
+    <tr><td>Block</td><td class="mono">192.197.82.0/24</td><td class="mono">207.35.15.0/27</td><td class="mono">167.32.0.0/16</td></tr>
+    <tr><td>Registry name</td><td class="mono">PARL-C1</td><td>none for Parliament today; inside Bell Canada's <span class="mono">GRICS01</span></td><td class="mono">PARL-IPV4</td></tr>
+    <tr><td>Registered to</td><td>House of Commons (since 1993)</td><td>Bell Canada; sub-assigned to Glentel Inc. on 5 Nov 2024</td><td>House of Commons (since 1993; record changed 1 Mar 2024)</td></tr>
+    <tr><td>Routed by</td><td>Government network: AS2669, then SSC's AS2675 since 2015</td><td>Bell Canada, AS577</td><td>SSC's AS2665 until Dec 2023; <b>House of Commons' own AS398290</b> since 19 Nov 2023</td></tr>
+  </tbody>
+</table></div>
+<ul>
+  <li><b>Labels in this archive:</b> the 2014 @gccaedits list already named 207.35.15.0/27 as House of Commons, though it shows no edits before 2018. The same list files 167.32.0.0/17 under "Shared Services Canada", which is wrong for the registrant. The registry record names the House of Commons.</li>
+  <li><b>Wikipedia's own labels:</b> volunteers tagged 192.197.82.153 "Government of Canada – House of Commons" and 207.35.15.11 "House of Commons of Canada". The 167.32.2.x addresses carry no label.</li>
+</ul>
+
+<h2>The handovers</h2>
+<div class="tablewrap"><table>
+  <thead><tr><th>Month</th><th class="n">Gen 1</th><th class="n">Gen 2</th><th class="n">Gen 3</th></tr></thead>
+  <tbody>
+    <tr><td>2018-03</td><td class="n">17</td><td class="n">0</td><td class="n">–</td></tr>
+    <tr><td>2018-04</td><td class="n">18</td><td class="n">0</td><td class="n">–</td></tr>
+    <tr><td>2018-05</td><td class="n">14</td><td class="n">2</td><td class="n">–</td></tr>
+    <tr><td>2018-06</td><td class="n">3</td><td class="n">14</td><td class="n">–</td></tr>
+    <tr><td>2018-07</td><td class="n">0</td><td class="n">4</td><td class="n">–</td></tr>
+    <tr><td colspan="4" class="muted small">…</td></tr>
+    <tr><td>2024-06</td><td class="n">–</td><td class="n">20</td><td class="n">0</td></tr>
+    <tr><td>2024-07</td><td class="n">–</td><td class="n">9</td><td class="n">0</td></tr>
+    <tr><td>2024-08</td><td class="n">–</td><td class="n">0</td><td class="n">7</td></tr>
+    <tr><td>2024-09</td><td class="n">–</td><td class="n">0</td><td class="n">7</td></tr>
+    <tr><td>2024-10</td><td class="n">–</td><td class="n">0</td><td class="n">13</td></tr>
+  </tbody>
+</table></div>
+<ul>
+  <li><b>2018: three weeks of overlap.</b> Generation 2's first edits were on 24 May 2018. Generation 1's last working edits were three edits to the "Parliament of Canada" article on 13 June. One stray Gen 1 talk-page edit followed in May 2019.</li>
+  <li><b>2024: a clean break of 20 days.</b> Generation 2's last edits were on 17 July 2024. Generation 3's first was on 6 August. No month has edits from both.</li>
+  <li><b>The 2024 move follows a routing change.</b> The House of Commons began announcing its own 167.32.0.0/16 block from its own network (AS398290) on 19 November 2023. Shared Services Canada stopped announcing it on 24 December 2023. The registry record was updated on 1 March 2024. About eight months later, the Wikipedia-visible exit moved into that block.</li>
+  <li><b>The old Bell block was let go.</b> Bell sub-assigned 207.35.15.0/27 to a phone retailer, Glentel, on 5 November 2024. Edits from those addresses after that date would not be Parliament's. The archive has none.</li>
+  <li><b>The 2018 move</b> took Parliament from its own government-routed block onto a commercial link. No public document found here explains it.</li>
+</ul>
+
+<h2>Same pages, each generation</h2>
+<p>"Rare" pages are ones that no more than three address blocks ever edited in the archive. Controls are every other government block with at least 20 rare pages over the same months.</p>
+<div class="tablewrap"><table>
+  <thead><tr><th>Test</th><th class="n">Carried from the previous generation</th><th class="n">Control blocks</th></tr></thead>
+  <tbody>
+    <tr><td>Gen 3, all rare pages</td><td class="n">10 of 42 (23.8%)</td><td class="n">5 of 1,272 (0.39%)</td></tr>
+    <tr><td>Gen 2, rare biography pages</td><td class="n">22 of 145 (15.2%)</td><td class="n">53 of 1,515 (3.5%)</td></tr>
+    <tr><td>Gen 2, all rare pages</td><td class="n">31 of 911 (3.4%)</td><td class="n">78 of 5,817 (1.3%)</td></tr>
+  </tbody>
+</table></div>
+<ul>
+  <li><b>Gen 2 → Gen 3 carried pages</b> (Gen 2's last edit → Gen 3's first): Marcus Powlowski (17 Jul 2024 → 18 Sep 2024); 2025 Canadian federal election, "incumbents not running" section (Jun → Sep 2024); Greg Fergus; Ryan Williams; Garnett Genuis; Patricia Bovey; Wilson Miao; Shafqat Ali; Stan Kutcher; Taleeb Noormohamed; Marie-France Lalonde.</li>
+  <li><b>Gen 1 → Gen 2 carried pages</b> include the Liaison Committee, the House of Commons Page Program, the Parliamentary Protective Service, Party whip (Canada), Parliament Hill and the 41st Parliament members list, plus about two dozen MP and senator biographies.</li>
+  <li><b>Why Gen 2's overall figure is weaker:</b> Generation 2 also carried a long hobby thread. Of its 774 edits in 2021, 228 were year-by-year shipwreck lists, which dilute the all-pages figure. Restricted to biographies, it carries pages at four times the control rate.</li>
+</ul>
+
+<h2>Habits</h2>
+<div class="tablewrap"><table>
+  <thead><tr><th></th><th class="n">Gen 1</th><th class="n">Gen 2</th><th class="n">Gen 3</th><th class="n">All other government addresses</th></tr></thead>
+  <tbody>
+    <tr><td>Biography pages (Wikimedia topic model)</td><td class="n">54%</td><td class="n">21%</td><td class="n">64%</td><td class="n">20%</td></tr>
+    <tr><td>Weekend edits</td><td class="n">1%</td><td class="n">0%</td><td class="n">1%</td><td class="n">6%</td></tr>
+    <tr><td>Between 12:00 and 22:00 UTC</td><td class="n">95%</td><td class="n">98%</td><td class="n">96%</td><td class="n">85%</td></tr>
+    <tr><td>Edits later reverted (tag exists from 2020)</td><td class="n">–</td><td class="n">3%</td><td class="n">22%</td><td class="n">2%</td></tr>
+  </tbody>
+</table></div>
+<ul>
+  <li><b>Silent during federal campaigns.</b> Across the last three election periods, from dissolution to polling day, these exits made 1 edit in 2019 (41 days), none in 2021 (37 days) and none in 2025 (37 days). Of the government blocks with at least 30 edits in each of those years, this is the only one that is silent or near-silent in all three. Government editing as a whole barely dips during campaigns: 6.4 edits a day during the 2019 campaign against 7.2 for the rest of the year. That fits a network whose users stop work when Parliament is dissolved.</li>
+  <li><b>Almost no weekend editing</b> across all three generations: below even the strongly office-hours government average.</li>
+  <li><b>Two addresses at a time.</b> Each generation works mostly through two addresses (.153/.203, then .27/.11, then .2/.3). The first pair alternated within sittings. The later pairs do not, according to the project's intra-year pool analysis.</li>
+</ul>
+
+<h2>What Generation 3 edited</h2>
+<p>Most of Generation 3's 69 edits are routine updates to MPs' and senators' pages: roles, electoral records, committee posts, a death date, a photo. A few stand out because they removed material and were reverted. The pages are public figures' articles; who made the edits is not known.</p>
+<ul>
+  <li><b>Wilson Miao (Jan–Mar 2025):</b> three removals of about 2,000 bytes each, with summaries "aaa", "dada" and "wsadad". They took out sourced passages on reporting about leaked CSIS information, his constituency office and his travel spending. The last two were reverted. A Wikipedia editor then posted a conflict-of-interest notice on 167.32.2.3's talk page, pointing to a talk-page thread on "repeated deletions of material critical of the subject".</li>
+  <li><b>Arpan Khanna (14 Aug 2025):</b> −5,096 bytes, "updated to reflect accuracy", reverted. It removed passages on his 2019 campaign, a resurfaced old tweet and his move to the riding he now represents.</li>
+  <li><b>Shafqat Ali (15 May 2025):</b> −492 bytes, "removed contentious material", reverted. It removed the 2022 episode of his apology to the House for attending a sitting virtually from a washroom.</li>
+  <li><b>Eric Melillo (8 Aug 2025):</b> three removals of the personal-life section, "updated to remove personal information". Two were reverted.</li>
+  <li><b>Rebecca Patterson (1 Oct 2024):</b> four expansions of the senator's biography totalling about 7,000 bytes, starting "Saving Current Changes to Biography". All were reverted.</li>
+  <li><b>Pierre Paul-Hus, French Wikipedia (9 Dec 2024):</b> −2,575 bytes rewriting his education, business and military-career sections. Reverted.</li>
+  <li><b>Greg Fergus (3 Oct 2024):</b> a numbering correction with the summary that "it was determined by House of Commons staff" that he was the 39th Speaker, citing the House's own former-speakers page.</li>
+</ul>
+<p class="muted small">Earlier generations show the same pattern at larger volume. For example, Generation 1 removed controversy or personal sections from several MPs' articles between 2010 and 2016, often with summaries that object to the material. A Wikipedia CheckUser blocked 207.35.15.27 in October 2022. Wikipedia does not publish the reason, and this profile does not pursue it.</p>
+
+<h2>Confidence</h2>
+<p><b>High</b> that the three blocks are successive Wikipedia-visible internet exits of Parliament's network. The 2024 move is independently backed by the registry and routing record. The 2018 move rests on timing, carried pages and the 2014 label. <b>Not established:</b> whether the Senate and the Library of Parliament share this exit, or only the House of Commons. Senators' biographies (Bovey, Kutcher, Patterson, Dalphond, Cardozo, Boyer, Richards) are among Generation 3's pages, but editing a senator's page does not place the editor in the Senate.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li>ARIN RDAP: <a href="https://rdap.arin.net/registry/ip/192.197.82.153" target="_blank" rel="noopener">192.197.82.153</a>, <a href="https://rdap.arin.net/registry/ip/207.35.15.27" target="_blank" rel="noopener">207.35.15.27</a>, <a href="https://rdap.arin.net/registry/ip/167.32.2.2" target="_blank" rel="noopener">167.32.2.2</a></li>
+  <li>RIPEstat routing history: <a href="https://stat.ripe.net/data/routing-history/data.json?resource=167.32.0.0/16" target="_blank" rel="noopener">167.32.0.0/16</a>, <a href="https://stat.ripe.net/data/routing-history/data.json?resource=192.197.82.0/24" target="_blank" rel="noopener">192.197.82.0/24</a>, <a href="https://stat.ripe.net/data/routing-history/data.json?resource=207.35.15.0/27" target="_blank" rel="noopener">207.35.15.0/27</a>; <a href="https://stat.ripe.net/data/as-overview/data.json?resource=AS398290" target="_blank" rel="noopener">AS398290</a></li>
+  <li>Wikipedia: contributions for <a href="https://en.wikipedia.org/wiki/Special:Contributions/192.197.82.153" target="_blank" rel="noopener">192.197.82.153</a>, <a href="https://en.wikipedia.org/wiki/Special:Contributions/207.35.15.27" target="_blank" rel="noopener">207.35.15.27</a>, <a href="https://en.wikipedia.org/wiki/Special:Contributions/207.35.15.11" target="_blank" rel="noopener">207.35.15.11</a>, <a href="https://en.wikipedia.org/wiki/Special:Contributions/167.32.2.0/24" target="_blank" rel="noopener">167.32.2.0/24</a>; talk pages <a href="https://en.wikipedia.org/wiki/User_talk:167.32.2.3" target="_blank" rel="noopener">167.32.2.3</a>, <a href="https://en.wikipedia.org/wiki/User_talk:207.35.15.11" target="_blank" rel="noopener">207.35.15.11</a></li>
+  <li>Diffs: <a href="https://en.wikipedia.org/w/index.php?diff=1278774895" target="_blank" rel="noopener">Wilson Miao</a>, <a href="https://en.wikipedia.org/w/index.php?diff=1305862724" target="_blank" rel="noopener">Arpan Khanna</a>, <a href="https://en.wikipedia.org/w/index.php?diff=1290554359" target="_blank" rel="noopener">Shafqat Ali</a>, <a href="https://en.wikipedia.org/w/index.php?diff=1249196789" target="_blank" rel="noopener">Greg Fergus</a>, <a href="https://fr.wikipedia.org/w/index.php?diff=221010170" target="_blank" rel="noopener">Pierre Paul-Hus</a></li>
+</ul>
+</div>
