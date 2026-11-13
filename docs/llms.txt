@@ -1,10 +1,10 @@
 # Revision History
 
-> Searchable, verifiable archive of 57,116 anonymous Wikipedia edits made from Government of Canada networks, 2009–2025: Parliament, National Defence, Shared Services Canada and more. Published by Prime Rogue Inc. Data built 2026-11-13.
+> Searchable, verifiable archive of 63,623 anonymous Wikipedia edits made from Government of Canada networks, 2008–2025: Parliament, National Defence, Shared Services Canada and more. Published by Prime Rogue Inc. Data built 2026-11-13.
 
 ## Key facts
 
-- 57,116 edits from 1,168 IP addresses, 1 January 2009 to 3 November 2025.
+- 63,623 edits from 1,327 IP addresses, 2 January 2008 to 3 November 2025.
 - Sources: English and French Wikipedia, Wikidata, Wikimedia Commons, English Wiktionary, English Wikivoyage.
 - Edits are those made without logging in, where Wikipedia published the editor's IP address.
 - Networks: the @gccaedits department range list plus Shared Services Canada's routed prefixes (AS2665, AS2675, AS2682, AS25689, AS806).
@@ -15,14 +15,14 @@
 
 ## Edits by network label
 
-- Shared Services Canada: 26,665
-- Canadian Department of National Defence: 8,990
-- Canadian House of Commons: 4,527
-- Canadian Broadcasting Corporation: 3,819
-- Environment Canada: 3,149
-- Shared Services Canada network (AS2665): 1,746
-- Industry Canada: 1,330
-- Shared Services Canada network (AS2675): 1,096
+- Shared Services Canada: 30,065
+- Canadian Department of National Defence: 9,348
+- Canadian House of Commons: 5,080
+- Canadian Broadcasting Corporation: 4,104
+- Environment Canada: 3,403
+- Shared Services Canada network (AS2665): 1,981
+- Industry Canada: 1,533
+- Shared Services Canada network (AS2675): 1,311
 
 ## Edits by year
 
@@ -43,6 +43,7 @@
 - [2011](https://revisionhistory.ca/years/2011.html): 5,175 edits from 229 addresses
 - [2010](https://revisionhistory.ca/years/2010.html): 6,333 edits from 253 addresses
 - [2009](https://revisionhistory.ca/years/2009.html): 6,876 edits from 272 addresses
+- [2008](https://revisionhistory.ca/years/2008.html): 6,507 edits from 297 addresses
 
 ## Pages
 
@@ -51,7 +52,8 @@
 - [Methodology](https://revisionhistory.ca/methodology.html): collection, labelling, provenance and limits
 - [FAQ](https://revisionhistory.ca/faq.html): what the data does and does not show
 - [Data and verification](https://revisionhistory.ca/data.html): downloads, checksums and how to cite
-- [Coverage](https://revisionhistory.ca/coverage.html): which wikis and hockey-sim leagues can be checked for government network traffic, and which cannot
+- [Coverage](https://revisionhistory.ca/coverage.html): which wikis can be checked for government network traffic, and which cannot
+- [Roadmap](https://revisionhistory.ca/roadmap.html): what is done, in progress, planned and parked
 - [Address clusters](https://revisionhistory.ca/clusters.html): which addresses behave as one network exit and which blocks replaced which
 
 ## Data
@@ -73,6 +75,7 @@
 - [2011 edits, JSON Lines](https://revisionhistory.ca/data/2011/edits.jsonl)
 - [2010 edits, JSON Lines](https://revisionhistory.ca/data/2010/edits.jsonl)
 - [2009 edits, JSON Lines](https://revisionhistory.ca/data/2009/edits.jsonl)
+- [2008 edits, JSON Lines](https://revisionhistory.ca/data/2008/edits.jsonl)
 
 ## Citing
 

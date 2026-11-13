@@ -1,0 +1,675 @@
+{
+  "generated": "2026-11-13T07:37:06Z",
+  "total_edits": 6507,
+  "unique_ips": 297,
+  "by_label": {
+    "Shared Services Canada": 3400,
+    "Canadian House of Commons": 553,
+    "Canadian Department of National Defence": 358,
+    "Canadian Broadcasting Corporation": 285,
+    "Environment Canada": 254,
+    "Shared Services Canada network (AS2665)": 235,
+    "Natural Resources Canada": 221,
+    "Shared Services Canada network (AS2675)": 215,
+    "Industry Canada": 203,
+    "Government of Canada": 165,
+    "National Research Council": 159,
+    "National Research Council (UofT)": 90,
+    "Statistics Canada": 81,
+    "Department of Justice Canada": 79,
+    "Library and Archives Canada": 59,
+    "Department of Fisheries and Oceans": 57,
+    "Shared Services Canada network (AS25689, legacy NRC)": 26,
+    "Bank of Canada": 18,
+    "Canada Centre for Inland Waters": 11,
+    "Canadian Space Agency": 9,
+    "Institute for Biodiagnostics": 7,
+    "Correctional Services Canada": 6,
+    "National Research Council (UBC)": 5,
+    "Federal Court of Canada": 4,
+    "National Research Council (SSC)": 3,
+    "Finance Canada": 3,
+    "Canadian Museum of Civilization": 1
+  },
+  "by_wiki": {
+    "enwiki": 5335,
+    "frwiki": 1017,
+    "enwiktionary": 65,
+    "commonswiki": 53,
+    "enwikivoyage": 37
+  },
+  "by_month": {
+    "2008-01": 584,
+    "2008-02": 695,
+    "2008-03": 525,
+    "2008-04": 456,
+    "2008-05": 605,
+    "2008-06": 514,
+    "2008-07": 811,
+    "2008-08": 639,
+    "2008-09": 451,
+    "2008-10": 493,
+    "2008-11": 388,
+    "2008-12": 346
+  },
+  "top_pages": [
+    {
+      "wiki": "frwiki",
+      "title": "Fort Frontenac",
+      "edits": 63
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Mega Man",
+      "edits": 51
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Adam Dollard des Ormeaux",
+      "edits": 48
+    },
+    {
+      "wiki": "enwiktionary",
+      "title": "Appendix:Canadian English military slang",
+      "edits": 38
+    },
+    {
+      "wiki": "enwiki",
+      "title": "John McKay (Ontario politician, born 1948)",
+      "edits": 38
+    },
+    {
+      "wiki": "enwiki",
+      "title": "User:Bohunk/Paper Phil333",
+      "edits": 37
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of Master System games",
+      "edits": 30
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Gatineau Park",
+      "edits": 29
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Liste de jeux Sega Saturn",
+      "edits": 28
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Food Inspection Agency",
+      "edits": 27
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Haplogroup R1b",
+      "edits": 25
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Gwaii Haanas National Park Reserve and Haida Heritage Site",
+      "edits": 24
+    },
+    {
+      "wiki": "enwiki",
+      "title": "User talk:Bohunk/Paper Phil333",
+      "edits": 22
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Norman Bethune",
+      "edits": 20
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Bataille de Fort Frontenac",
+      "edits": 19
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Questioned document examination",
+      "edits": 18
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Jill Nicolini",
+      "edits": 18
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Give It 2 Me",
+      "edits": 17
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Percy Sparks",
+      "edits": 17
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Islamistan",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "The World's Finest",
+      "edits": 16
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Mega Man Maverick Hunter X",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Batman: Gotham Knight",
+      "edits": 16
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Concours Eurovision de la chanson 2009",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Jim Prentice",
+      "edits": 15
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Bataille de Fort Beauséjour",
+      "edits": 15
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Mega Man X3",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Wikipedia:Sandbox",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Filth and Wisdom",
+      "edits": 13
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Mega Man X (jeu vidéo)",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Office of the Conflict of Interest and Ethics Commissioner",
+      "edits": 13
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Mega Man (jeu vidéo, 1987)",
+      "edits": 12
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Mega Man 8",
+      "edits": 12
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Mega Man X2",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Fuel extraction in Pakistan",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Kraft Hockeyville",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2008 Canadian federal election",
+      "edits": 11
+    },
+    {
+      "wiki": "enwikivoyage",
+      "title": "Ottawa",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Scottish Regiment (Princess Mary's)",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Windsor, Ontario",
+      "edits": 10
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Mega Man 2",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "CityPlace, Toronto",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "University, Toronto",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Zimbabwean dollar (1980–2009)",
+      "edits": 9
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Mega Man V",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "GFL Memorial Gardens",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Steven Fletcher (politician)",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Churandy Martina",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Rambo (2008 film)",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Prince Edward Island Junior C Hockey League",
+      "edits": 8
+    }
+  ],
+  "top_pages_by_label": {
+    "Canadian Department of National Defence": {
+      "Appendix:Canadian English military slang": 38,
+      "Canadian Scottish Regiment (Princess Mary's)": 11,
+      "Le Régiment du Saguenay": 8,
+      "Category:A. Y. Jackson": 7,
+      "Scott Steiner": 5,
+      "Battlefield 2": 5,
+      "Need for Speed: Undercover": 5,
+      "Grand Theft Auto IV": 5,
+      "Monarchy of Canada": 4,
+      "ITIL": 4
+    },
+    "Industry Canada": {
+      "Jim Prentice": 12,
+      "Fuel extraction in Pakistan": 11,
+      "Zimbabwean dollar (1980–2009)": 9,
+      "Romeite": 6,
+      "Yamaha Thundercat": 5,
+      "Jyrki Lumme": 3,
+      "Brewer Park": 3,
+      "List of parks in Ottawa": 3,
+      "Hampton Park, Ottawa": 3,
+      "Drew Barrymore": 3
+    },
+    "Shared Services Canada": {
+      "Fort Frontenac": 63,
+      "Mega Man": 51,
+      "Adam Dollard des Ormeaux": 48,
+      "User:Bohunk/Paper Phil333": 37,
+      "List of Master System games": 30,
+      "Liste de jeux Sega Saturn": 28,
+      "Haplogroup R1b": 25,
+      "Gwaii Haanas National Park Reserve and Haida Heritage Site": 24,
+      "User talk:Bohunk/Paper Phil333": 22,
+      "Norman Bethune": 20
+    },
+    "Canadian House of Commons": {
+      "John McKay (Ontario politician, born 1948)": 38,
+      "Gatineau Park": 29,
+      "Percy Sparks": 17,
+      "Concours Eurovision de la chanson 2009": 15,
+      "Office of the Conflict of Interest and Ethics Commissioner": 13,
+      "2008 Canadian federal election": 10,
+      "Steven Fletcher (politician)": 9,
+      "Concours Eurovision de la chanson 2008": 8,
+      "Jeux olympiques d'hiver de 2018": 7,
+      "Ray Boughen": 7
+    },
+    "Shared Services Canada network (AS2675)": {
+      "Ian Bostridge": 6,
+      "National Film Board of Canada": 5,
+      "Luc Bradet": 4,
+      "Committee of Sponsoring Organizations of the Treadway Commission": 4,
+      "New media": 4,
+      "List of Bleach volumes": 3,
+      "Loonie": 3,
+      "St. Joseph's High School (Barrie)": 3,
+      "Template:Psychology": 3,
+      "Volleyball at the 2008 Summer Olympics – Women's tournament": 3
+    },
+    "Department of Fisheries and Oceans": {
+      "Canadian Coast Guard": 4,
+      "Tales of the World: Radiant Mythology": 4,
+      "Salmon": 3,
+      "Environment and Climate Change Canada": 3,
+      "Wikipedia:Manual of Style": 2,
+      "Forensic accounting": 2,
+      "Family Day": 2,
+      "Oncorhynchus": 2,
+      "Ottawa-Carleton District School Board": 2,
+      "Kevin Chan": 2
+    },
+    "Environment Canada": {
+      "David Walsh (mining)": 8,
+      "Survivalism": 6,
+      "2009 in literature": 6,
+      "Smiley": 5,
+      "Brushfire Records": 4,
+      "Murdoch Mysteries": 4,
+      "April 10": 4,
+      "Yeti": 4,
+      "Hell in the arts and popular culture": 4,
+      "Paruline couronnée": 3
+    },
+    "Canadian Broadcasting Corporation": {
+      "Kraft Hockeyville": 11,
+      "Inuvik": 7,
+      "Monica Bellucci": 5,
+      "Salvation Run": 5,
+      "Dolphin Island (novel)": 4,
+      "Larry Adler": 4,
+      "Mississippi Cold Case": 4,
+      "Jon Brooks": 3,
+      "Karlheinz Schreiber": 3,
+      "Abu Faraj al-Libbi": 3
+    },
+    "Shared Services Canada network (AS2665)": {
+      "Canadian Food Inspection Agency": 23,
+      "Muddy Waters": 7,
+      "Livestock transportation": 7,
+      "L'Idiot": 4,
+      "Everlast": 4,
+      "The Passion of the Christ": 3,
+      "Biplot": 3,
+      "Atomic Energy of Canada Limited": 3,
+      "Dave Godfrey": 3,
+      "Rye": 3
+    },
+    "Department of Justice Canada": {
+      "Don Jail": 8,
+      "North American Free Trade Agreement": 5,
+      "Rauvolfia": 4,
+      "Chester station (Toronto)": 3,
+      "List of leaders of the opposition of Montreal": 3,
+      "Colm Feore": 2,
+      "Autoroutes of Quebec": 2,
+      "Wombat": 2,
+      "New Testament apocrypha": 2,
+      "English Montreal School Board": 2
+    },
+    "Natural Resources Canada": {
+      "Doris Kenyon": 4,
+      "Jason Smith (ice hockey)": 4,
+      "Lamborghini Gallardo": 4,
+      "Virginia Brown Faire": 3,
+      "Laura La Plante": 3,
+      "ZP Theart": 3,
+      "Sakamoto Ryōma": 3,
+      "CBM-CFS3": 3,
+      "JSON": 3,
+      "Floyd Rose": 3
+    },
+    "National Research Council": {
+      "Ruffiac (Morbihan)": 7,
+      "Wetting layer": 6,
+      "Canadian Science Publishing": 6,
+      "Molecular biology": 5,
+      "Calcium silicate hydrate": 5,
+      "Codelco": 4,
+      "North Hatley": 4,
+      "Canadian passport": 3,
+      "Current density": 3,
+      "William Horwitz": 3
+    },
+    "National Research Council (UofT)": {
+      "The World's Finest": 16,
+      "Batman: Gotham Knight": 16,
+      "The Batman (TV series)": 6,
+      "Kevin Conroy": 5,
+      "Legion of Super Heroes (TV series)": 5,
+      "Batman: The Brave and the Bold": 5,
+      "DC Animated Universe": 4,
+      "The Brave and the Bold": 4,
+      "List of gay, lesbian or bisexual people: H": 3,
+      "Luke Watson": 3
+    },
+    "Statistics Canada": {
+      "Commandos 2: Men of Courage": 5,
+      "Human Be-In": 3,
+      "John Tonelli": 3,
+      "Intermodal freight transport": 3,
+      "List of television shows set in Las Vegas": 3,
+      "Template:Calendars": 2,
+      "2008 Jerusalem yeshiva attack": 2,
+      "The Fugitive (1963 TV series)": 2,
+      "Julie Sommars": 2,
+      "Jean Poirier": 2
+    },
+    "Government of Canada": {
+      "Give It 2 Me": 17,
+      "Filth and Wisdom": 13,
+      "4 Minutes": 8,
+      "Blond Ambition World Tour": 7,
+      "Sticky & Sweet Tour": 7,
+      "List of I Dream of Jeannie episodes": 6,
+      "Richie Rich (1980 TV series)": 5,
+      "Rhoda": 5,
+      "You Can Dance": 4,
+      "Hung Up": 4
+    },
+    "Institute for Biodiagnostics": {
+      "Wendy O. Williams": 1,
+      "Transistor model": 1,
+      "National Research Council Canada National Science Library": 1,
+      "National Research Council Canada": 1,
+      "Comparison of text editors": 1,
+      "Debt snowball method": 1,
+      "Accuracy and precision": 1
+    },
+    "Canada Centre for Inland Waters": {
+      "Lake Erie": 2,
+      "Common snapping turtle": 1,
+      "Sea turtle": 1,
+      "Talk:Recap sequence": 1,
+      "Home Depot": 1,
+      "Wikipedia:Sandbox": 1,
+      "Troy Van Leeuwen": 1,
+      "JumpTV": 1,
+      "Nanticoke Generating Station": 1,
+      "Stelco Lake Erie Works": 1
+    },
+    "Bank of Canada": {
+      "RSVP (disambiguation)": 2,
+      "Pearson College UWC": 2,
+      "Wiktionary:Requested entries (French)": 1,
+      "Ajax framework": 1,
+      "Almonte, Ontario": 1,
+      "Güshi Khan": 1,
+      "University of Toronto": 1,
+      "Shouyong Shi": 1,
+      "Women artists": 1,
+      "The Wedding Party (Fawlty Towers)": 1
+    },
+    "Library and Archives Canada": {
+      "SS Nascopie": 2,
+      "Continental AG": 2,
+      "Template:Association of Military Colleges and Schools of the United States": 2,
+      "Talk:Cecil Spring Rice": 2,
+      "Alcoholism in family systems": 2,
+      "User:Ibanez Guy/bandfilm": 2,
+      "anthrax": 2,
+      "Miriam Waddington": 2,
+      "Frank Lennon": 2,
+      "Igor Gouzenko": 1
+    },
+    "Shared Services Canada network (AS25689, legacy NRC)": {
+      "Pectinesterase": 5,
+      "Louisiana Tech University": 3,
+      "Sulfoxide": 3,
+      "Joan of Portugal": 2,
+      "Monkey (zodiac)": 2,
+      "Rabbit (zodiac)": 1,
+      "Adirondack High Peaks": 1,
+      "Eazy-E": 1,
+      "Sulfonium": 1,
+      "Gallium": 1
+    },
+    "Canadian Museum of Civilization": {
+      "Crohn's disease": 1
+    },
+    "Federal Court of Canada": {
+      "Statute of limitations": 2,
+      "Penrose tiling": 1,
+      "Mémoire (psychologie)": 1
+    },
+    "National Research Council (SSC)": {
+      "Inner product space": 1,
+      "Solid oxide fuel cell": 1,
+      "2008 Chinese milk scandal": 1
+    },
+    "National Research Council (UBC)": {
+      "Talk:Mortal Kombat vs. DC Universe": 5
+    },
+    "Canadian Space Agency": {
+      "Marc Garneau": 2,
+      "Mir (station spatiale)": 1,
+      "Chad Pennington": 1,
+      "Brett Favre": 1,
+      "MapServer": 1,
+      "Thanksgiving (United States)": 1,
+      "Université de Sherbrooke": 1,
+      "West Nipissing": 1
+    },
+    "Correctional Services Canada": {
+      "Ice hockey": 2,
+      "Gum": 1,
+      "Marie-Josée Saint-Pierre": 1,
+      "Mats Sundin": 1,
+      "Talk:Ice hockey": 1
+    },
+    "Finance Canada": {
+      "Boston": 3
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "frwiki": "2008-12-31T18:21:48Z",
+    "enwiki": "2008-12-31T23:25:15Z",
+    "enwikivoyage": "2008-12-08T17:29:50Z",
+    "enwiktionary": "2008-12-30T16:48:36Z",
+    "commonswiki": "2008-12-12T18:21:27Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-11-13T07:33:10Z",
+      "window": [
+        "2008-01-01T00:00:00Z",
+        "2008-12-31T23:59:59Z"
+      ],
+      "blocks_total": 159,
+      "blocks_scanned": 159,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 5335,
+      "lapsed_prefix_edits_excluded": 0
+    },
+    "frwiki": {
+      "scanned_at": "2026-11-13T07:34:00Z",
+      "window": [
+        "2008-01-01T00:00:00Z",
+        "2008-12-31T23:59:59Z"
+      ],
+      "blocks_total": 159,
+      "blocks_scanned": 159,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 1017,
+      "lapsed_prefix_edits_excluded": 0
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-11-13T07:34:25Z",
+      "window": [
+        "2008-01-01T00:00:00Z",
+        "2008-12-31T23:59:59Z"
+      ],
+      "blocks_total": 159,
+      "blocks_scanned": 159,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 0,
+      "lapsed_prefix_edits_excluded": 0
+    },
+    "commonswiki": {
+      "scanned_at": "2026-11-13T07:35:20Z",
+      "window": [
+        "2008-01-01T00:00:00Z",
+        "2008-12-31T23:59:59Z"
+      ],
+      "blocks_total": 159,
+      "blocks_scanned": 159,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 53,
+      "lapsed_prefix_edits_excluded": 0
+    },
+    "enwiktionary": {
+      "scanned_at": "2026-11-13T07:36:12Z",
+      "window": [
+        "2008-01-01T00:00:00Z",
+        "2008-12-31T23:59:59Z"
+      ],
+      "blocks_total": 159,
+      "blocks_scanned": 159,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 65,
+      "lapsed_prefix_edits_excluded": 0
+    },
+    "enwikivoyage": {
+      "scanned_at": "2026-11-13T07:37:06Z",
+      "window": [
+        "2008-01-01T00:00:00Z",
+        "2008-12-31T23:59:59Z"
+      ],
+      "blocks_total": 159,
+      "blocks_scanned": 159,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 37,
+      "lapsed_prefix_edits_excluded": 0
+    }
+  }
+}

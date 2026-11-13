@@ -1,6 +1,6 @@
 {
   "enwiki": {
-    "scanned_at": "2026-11-13T03:37:22Z",
+    "scanned_at": "2026-11-13T09:11:32Z",
     "window": [
       "2023-01-01T00:00:00Z",
       "2023-12-31T23:59:59Z"
@@ -14,7 +14,7 @@
     "lapsed_prefix_edits_excluded": 0
   },
   "frwiki": {
-    "scanned_at": "2026-11-13T03:38:04Z",
+    "scanned_at": "2026-11-13T09:12:13Z",
     "window": [
       "2023-01-01T00:00:00Z",
       "2023-12-31T23:59:59Z"
@@ -28,7 +28,7 @@
     "lapsed_prefix_edits_excluded": 0
   },
   "wikidatawiki": {
-    "scanned_at": "2026-11-13T03:39:01Z",
+    "scanned_at": "2026-11-13T09:13:04Z",
     "window": [
       "2023-01-01T00:00:00Z",
       "2023-12-31T23:59:59Z"
@@ -42,7 +42,7 @@
     "lapsed_prefix_edits_excluded": 0
   },
   "commonswiki": {
-    "scanned_at": "2026-11-13T03:39:20Z",
+    "scanned_at": "2026-11-13T09:13:27Z",
     "window": [
       "2023-01-01T00:00:00Z",
       "2023-12-31T23:59:59Z"
@@ -56,7 +56,7 @@
     "lapsed_prefix_edits_excluded": 0
   },
   "enwiktionary": {
-    "scanned_at": "2026-11-13T03:40:17Z",
+    "scanned_at": "2026-11-13T09:14:19Z",
     "window": [
       "2023-01-01T00:00:00Z",
       "2023-12-31T23:59:59Z"
@@ -70,7 +70,7 @@
     "lapsed_prefix_edits_excluded": 0
   },
   "enwikivoyage": {
-    "scanned_at": "2026-11-13T03:41:03Z",
+    "scanned_at": "2026-11-13T09:15:10Z",
     "window": [
       "2023-01-01T00:00:00Z",
       "2023-12-31T23:59:59Z"
