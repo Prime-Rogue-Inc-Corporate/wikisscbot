@@ -4,6 +4,10 @@
     {
       "ip": "205.193.51.200",
       "note": "Office of the Information Commissioner of Canada (confirmed; see config/ranges_confirmed.json)"
+    },
+    {
+      "ip": "198.103.109.141",
+      "note": "Registered to Correctional Service Canada (ARIN sub-allocation); 638 edits in the 2010–2025 archive. See research/ranges/198.103.109.141.md"
     }
   ],
   "extra_wikis": [
