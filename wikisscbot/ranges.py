@@ -56,9 +56,14 @@ class Range:
     last_seen: str | None = None
     # ISO date a confirmed label starts to apply; None = no start date.
     first_valid: str | None = None
+    # ISO date the range stopped being this institution's (registry or other
+    # dated evidence); exact, with no grace period. None = no known end.
+    valid_to: str | None = None
 
     @property
     def valid_until(self) -> str | None:
+        if self.valid_to:
+            return self.valid_to[:10]
         if not self.last_seen:
             return None
         day = dt.date.fromisoformat(self.last_seen[:10]) + dt.timedelta(days=BGP_GRACE_DAYS)
@@ -98,8 +103,24 @@ def load_gccaedits(path: Path = CONFIG / "ranges_gccaedits.json") -> list[Range]
         for e in entries:
             nets.extend(_parse_entry(e))
         for n in ipaddress.collapse_addresses(nets):
-            out.append(Range(n, label, "gccaedits"))
+            out.append(Range(n, label, "gccaedits", valid_to=_ended(n)))
     return out
+
+
+def _ended(net: Network, path: Path = CONFIG / "ranges_confirmed.json") -> str | None:
+    """End date for a listed range, if dated evidence shows it changed hands.
+
+    The @gccaedits list is undated. The "ended" entries in
+    config/ranges_confirmed.json record ranges that later stopped belonging to
+    the listed institution, so edits made after that date are not attributed.
+    """
+    if not path.exists():
+        return None
+    for item in json.loads(path.read_text()).get("ended", []):
+        gone = ipaddress.ip_network(item["range"], strict=False)
+        if net.version == gone.version and net.subnet_of(gone):
+            return item["until"]
+    return None
 
 
 def load_ssc_bgp(path: Path = CONFIG / "ranges_ssc_bgp.json") -> list[Range]:
@@ -120,7 +141,7 @@ def load_confirmed(path: Path = CONFIG / "ranges_confirmed.json") -> list[Range]
     out = []
     for item in json.loads(path.read_text()).get("ranges", []):
         out.append(Range(ipaddress.ip_network(item["range"], strict=False), item["label"],
-                         "confirmed", None, item.get("from")))
+                         "confirmed", None, item.get("from"), item.get("until")))
     return out
 
 
@@ -132,13 +153,11 @@ class Labeller:
     """Most-specific-match lookup from IP to range label."""
 
     def __init__(self, ranges: list[Range]):
-        # Confirmed and gccaedits ranges first (most specific first, confirmed
-        # winning ties), then SSC BGP prefixes.
-        self.ranges = sorted(
-            ranges,
-            key=lambda r: (1 if r.source == "ssc-bgp" else 0, -r.network.prefixlen,
-                           0 if r.source == "confirmed" else 1),
-        )
+        # Confirmed ranges first, then the gccaedits list, then SSC BGP prefixes;
+        # most specific first within each. A confirmed range outranks a list
+        # entry even when the list entry is narrower.
+        tier = {"confirmed": 0, "gccaedits": 1}
+        self.ranges = sorted(ranges, key=lambda r: (tier.get(r.source, 2), -r.network.prefixlen))
 
     def match(self, ip: str, ts: str | None = None) -> Range | None:
         """Most specific range containing `ip` that was valid at time `ts`."""
