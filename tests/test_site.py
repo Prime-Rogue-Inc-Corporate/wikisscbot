@@ -37,7 +37,7 @@ class SiteTests(unittest.TestCase):
             self.assertIn(f"Sitemap: {base}sitemap.xml", (out / "robots.txt").read_text())
             sitemap = (out / "sitemap.xml").read_text()
             years = sorted(p.parent.name for p in (site.ROOT / "data").glob("[0-9][0-9][0-9][0-9]/summary.json"))
-            for rel in ["years.html", "faq.html", "methodology.html", "data.html", "coverage.html", "clusters.html", "llms.txt",
+            for rel in ["years.html", "faq.html", "methodology.html", "data.html", "coverage.html", "clusters.html", "roadmap.html", "llms.txt",
                         "static/og.png", "static/favicon.svg"] + [f"years/{y}.html" for y in years]:
                 self.assertTrue((out / rel).exists(), rel)
                 if rel.endswith(".html"):
@@ -47,6 +47,14 @@ class SiteTests(unittest.TestCase):
                     # Every JSON-LD block must parse.
                     for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>', page, re.S):
                         json.loads(block)
+            coverage = (out / "coverage.html").read_text()
+            self.assertNotIn("Hockey", coverage)   # league sources live in a separate project
+            self.assertIn("Checked: Wikimedia", coverage)
+            roadmap = (out / "roadmap.html").read_text()
+            self.assertIn("<h2>Parked</h2>", roadmap)
+            self.assertIn("NFT collection", roadmap)
+            self.assertNotIn("**", roadmap)
+            self.assertIn('/blob/main/CHANGELOG.md"', roadmap)
             for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>', index, re.S):
                 self.assertIn(json.loads(block)["@type"], ("WebSite", "Dataset"))
 

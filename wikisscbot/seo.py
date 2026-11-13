@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import html
 import json
+import re
 from pathlib import Path
 from urllib.parse import urlencode
 
@@ -178,7 +179,7 @@ def footer_links(depth: int) -> str:
     return (f'<nav class="footnav" aria-label="Reference pages"><a href="{pre}years.html">Edits by year</a>'
             f'<a href="{pre}methodology.html">Methodology</a><a href="{pre}faq.html">FAQ</a>'
             f'<a href="{pre}data.html">Data &amp; verification</a><a href="{pre}coverage.html">Coverage</a>'
-            f'<a href="{pre}clusters.html">Clusters</a></nav>')
+            f'<a href="{pre}clusters.html">Clusters</a><a href="{pre}roadmap.html">Roadmap</a></nav>')
 
 
 def page(site: dict, *, path: str, title: str, desc: str, body: str, built: str, depth: int = 0,
@@ -487,24 +488,23 @@ def robots(site: dict) -> str:
 
 
 def coverage_page(site: dict, g: dict, built: str) -> str:
-    """Where the project can and cannot look: wikis and hockey-sim leagues, from config/coverage.json."""
+    """Which wikis the project can and cannot check, from config/coverage.json.
+
+    Sources that are not wikis (the league tables also kept in that file) are
+    not published here; they belong to a separate project.
+    """
     cov = json.loads((ROOT / "config" / "coverage.json").read_text(encoding="utf-8"))
     wm = cov["wikimedia"]
     checked = cov["wikis_checked"]
     hits = [w for w in checked if w["gc_edits"]]
-    hockey = cov["hockey_checked"]
-    hockey_hits = [h for h in hockey if h["gc_entries"]]
-    hockey_entries = sum(h["entries"] for h in hockey)
-    hockey_gc = sum(h["gc_entries"] for h in hockey)
-
-    ONE, THREE = {1}, {1, 2, 3}
+    ONE = {1}
 
     def reasons(rows):
         return table(["Where", "Why it cannot be checked"], [[e(a), e(b)] for a, b in rows])
 
     body = f"""<h1>Coverage</h1>
 <div class="prose">
-<p class="lede">Where this project can look for traffic from Government of Canada networks, and where it cannot. A place is checkable only if it publishes the IP address of the person acting; nothing here comes from private systems. Data as of {e(cov['as_of'])}.</p>
+<p class="lede">Which wikis this project can check for edits from Government of Canada networks, and which it cannot. A wiki is checkable only if it publishes the IP address of the person editing; nothing here comes from private systems. Data as of {e(cov['as_of'])}.</p>
 
 <h2>Wikis</h2>
 <h3>Checked: Wikimedia</h3>
@@ -515,24 +515,70 @@ def coverage_page(site: dict, g: dict, built: str) -> str:
 <h3>Attempted, not reachable</h3>
 <p>{len(cov['wikis_blocked'])} wikis were queried and did not answer (dead, renamed, API disabled or bot protection): {e(', '.join(w['site'] for w in cov['wikis_blocked']))}.</p>
 <h3>Not checkable</h3>
-{reasons(cov['wikis_not_checkable'])}
-
-<h2>Hockey-simulation leagues</h2>
-<p>One piece of league software, STHS (SimonT Hockey Simulator), prints the IP address of each general manager who saves a lineup through its web client into a public transaction log. Those logs are the only fantasy-sport source found that publishes member IPs. {len(hockey)} leagues answered; together they hold {n(hockey_entries)} lineup submissions this season, {n(hockey_gc)} of them from government ranges, in {len(hockey_hits)} leagues. The log timestamp is when the commissioner ran the simulation, not when the manager submitted, so it says nothing about time of day.</p>
-<h3>Checked</h3>
-{table(["League site", "Submissions", "From government ranges", "Teams"], [[e(h['site']), n(h['entries']), n(h['gc_entries']), n(h['gc_teams'])] for h in hockey], numeric=THREE)}
-<h3>Attempted, not reachable</h3>
-<p>{e(', '.join(cov['hockey_dead']))}.</p>
-<h3>Not checkable</h3>
-{reasons(cov['hockey_not_checkable'])}
+{reasons([r for r in cov['wikis_not_checkable'] if not r[1].startswith('Not wikis')])}
 
 <h2>What this list is for</h2>
 <p>Absence of a result means nothing unless the place was actually checkable and actually answered. This page is the denominator. It is regenerated with the data; sites move between sections as they come and go.</p>
-<p>{e(CAVEAT)} Team names are the leagues' own; managers are not identified.</p>
+<p>This page covers wikis only. Other kinds of site that publish visitor addresses are tracked in a separate Prime Rogue project.</p>
+<p>{e(CAVEAT)}</p>
 </div>"""
     return page(site, path="coverage.html", title="Coverage", body=body, built=built,
-                desc="Which wikis and hockey-simulation leagues publish user IP addresses and can be checked for "
-                     "Government of Canada network traffic, which were tried and did not answer, and which never can be.")
+                desc="Which wikis publish the IP addresses of logged-out editors and can be checked for Government of "
+                     "Canada network traffic, which were tried and did not answer, and which never can be.")
+
+
+def inline_md(text: str, site: dict) -> str:
+    """Bold, code and links from one line of Markdown, escaped for HTML."""
+    out = e(text)
+    out = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", out)
+    out = re.sub(r"`([^`]+)`", r'<span class="mono">\1</span>', out)
+
+    def link(m):
+        label, target = m.group(1), m.group(2)
+        if not re.match(r"https?://", target):  # a file in the repository
+            target = f"{site['repo']}/blob/main/{target}"
+        return f'<a href="{target}" rel="noopener">{label}</a>'
+
+    return re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)", link, out)
+
+
+def md_to_html(text: str, site: dict) -> str:
+    """The small subset of Markdown ROADMAP.md uses: headings, bullet lists and paragraphs."""
+    html_lines, in_list = [], False
+    for raw in text.splitlines():
+        line = raw.rstrip()
+        item = re.match(r"^[-*] (?:\[[ xX]\] )?(.*)$", line)
+        if in_list and not item:
+            html_lines.append("</ul>")
+            in_list = False
+        if not line:
+            continue
+        if line.startswith("# "):
+            html_lines.append(f"<h1>{inline_md(line[2:], site)}</h1>")
+        elif line.startswith("## "):
+            html_lines.append(f"<h2>{inline_md(line[3:], site)}</h2>")
+        elif line.startswith("### "):
+            html_lines.append(f"<h3>{inline_md(line[4:], site)}</h3>")
+        elif item:
+            if not in_list:
+                html_lines.append("<ul>")
+                in_list = True
+            html_lines.append(f"<li>{inline_md(item.group(1), site)}</li>")
+        else:
+            html_lines.append(f"<p>{inline_md(line, site)}</p>")
+    if in_list:
+        html_lines.append("</ul>")
+    return "\n".join(html_lines)
+
+
+def roadmap_page(site: dict, built: str) -> str | None:
+    """ROADMAP.md from the repository, as a page."""
+    path = ROOT / "ROADMAP.md"
+    if not path.exists():
+        return None
+    body = f'<div class="prose">\n{md_to_html(path.read_text(encoding="utf-8"), site)}\n</div>'
+    return page(site, path="roadmap.html", title="Roadmap", body=body, built=built,
+                desc=f"What {site['name']} has built, what is in progress, what is planned and what has been parked.")
 
 
 def clusters_data() -> tuple[dict, dict, dict] | None:
@@ -683,7 +729,7 @@ def clusters_page(site: dict, g: dict, built: str, topic_pages: dict) -> str:
 def sitemap(site: dict, g: dict, built: str) -> str:
     base, day = site["base_url"], built[:10]
     urls = [("", "1.0"), ("years.html", "0.8"), ("faq.html", "0.7"), ("methodology.html", "0.7"),
-            ("data.html", "0.7"), ("coverage.html", "0.6"),
+            ("data.html", "0.7"), ("coverage.html", "0.6"), ("roadmap.html", "0.4"),
             *([("clusters.html", "0.6")] if clusters_data() else [])] + [(f"years/{y['year']}.html", "0.6") for y in reversed(g["years"])]
     body = "".join(f"<url><loc>{e(base + p)}</loc><lastmod>{day}</lastmod><priority>{pr}</priority></url>\n"
                    for p, pr in urls)
@@ -717,8 +763,9 @@ def llms_txt(site: dict, g: dict, built: str) -> str:
         f"- [Methodology]({base}methodology.html): collection, labelling, provenance and limits",
         f"- [FAQ]({base}faq.html): what the data does and does not show",
         f"- [Data and verification]({base}data.html): downloads, checksums and how to cite",
-        f"- [Coverage]({base}coverage.html): which wikis and hockey-sim leagues can be checked for government "
-        "network traffic, and which cannot",
+        f"- [Coverage]({base}coverage.html): which wikis can be checked for government network traffic, and "
+        "which cannot",
+        f"- [Roadmap]({base}roadmap.html): what is done, in progress, planned and parked",
         *([f"- [Address clusters]({base}clusters.html): which addresses behave as one network exit and which blocks "
            "replaced which"] if clusters_data() else []), "",
         "## Data", "",
@@ -750,6 +797,7 @@ def write_all(out: Path, agg: dict, built: str, chain_len: int, latest: dict | N
             "methodology.html": methodology_page(site, g, built),
             "data.html": data_page(site, g, built, chain_len, latest),
             "coverage.html": coverage_page(site, g, built),
+            "roadmap.html": roadmap_page(site, built),
             **({"clusters.html": clusters_page(site, g, built, cache.get("pages") or {})} if clusters_data() else {}),
             **{f"years/{y['year']}.html": year_page(site, g, y, labels, built) for y in g["years"]},
             "sitemap.xml": sitemap(site, g, built), "llms.txt": llms_txt(site, g, built),
