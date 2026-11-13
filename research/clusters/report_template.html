@@ -153,7 +153,7 @@ function chip(grade, mech){
   return c;
 }
 const YEARS = Object.keys(D.years).sort().reverse();
-document.getElementById('reviewed').textContent = ' on ' + D.reviewed;
+document.getElementById('reviewed').textContent = ' on ' + D.reviewed + (D.review_current ? '' : ' (the archive has changed since, so some figures may be out of date)');
 const T = D.tally, g = k => T[k] || 0;
 const strong = g('strong|pool') + g('strong|renumbering') + g('strong|parallel') + g('strong|later');
 const possible = g('moderate|pool') + g('moderate|renumbering') + g('moderate|parallel') + g('moderate|later');

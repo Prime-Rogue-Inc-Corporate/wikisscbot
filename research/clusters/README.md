@@ -7,11 +7,14 @@ Run from the repo root (needs numpy, scipy and networkx, which the collector its
     python research/clusters/grade_matches.py /tmp/state.pkl research/clusters/results.json
     python research/clusters/build_report.py research/clusters/results.json research/clusters
 
-The committed results are recomputed whenever the archive changes (see `.github/workflows/clusters.yml`, if present);
+The committed results are recomputed after every successful backfill by `.github/workflows/clusters.yml`
+(library versions pinned in `requirements.txt`);
 `results.json` and `intra_year.json` each record the archive commit they were computed from.
 
 `findings.json` is different: it is the hand review of that output (network behaviour, the threads read by hand,
-the per-year notes). No script writes it. When a rerun changes the numbers it quotes, it has to be re-read by a person.
+the per-year notes). No script writes it. It records the archive fingerprint it was reviewed against in
+`reviewed_archive`; when a rerun moves past that, the workflow warns and the report says the review is behind.
+After re-reading, update the text, `reviewed` and `reviewed_archive` together.
 
 ## Steps
 

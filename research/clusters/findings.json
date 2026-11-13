@@ -1,5 +1,6 @@
 {
  "reviewed": "2026-11-12",
+ "reviewed_archive": "3f2fb5b88bdf",
  "note": "Hand-reviewed readings of the machine output in results.json and intra_year.json. The scripts never write this file. Gateway-level: nothing here identifies an editor.",
  "network": [
   {

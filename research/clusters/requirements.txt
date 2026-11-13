@@ -1,0 +1,4 @@
+# Pinned so a rerun on the same archive gives the same threads (Louvain is seeded, but library changes can move it).
+numpy==2.5.3
+scipy==1.18.1
+networkx==3.7

@@ -42,6 +42,7 @@ NOTES = FINDINGS.get('year_notes', {})
 
 page_data = {'meta': R['meta'], 'years': years, 'notes': NOTES, 'curated': CURATED,
              'network': FINDINGS['network'], 'reviewed': FINDINGS['reviewed'],
+             'review_current': FINDINGS.get('reviewed_archive') == R['meta'].get('archive'),
              'tally': {f'{g}|{m}': n for (g, m), n in tally.items()}}
 
 # ------------------------------------------------------------------ CSVs
