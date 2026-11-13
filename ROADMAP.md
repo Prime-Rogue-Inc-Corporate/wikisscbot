@@ -7,13 +7,13 @@ Status as of 2026-11-12 (v1.3.0). Shipped items are described in the [changelog]
 - **Provenance.** Each data pull is checksummed, hash-chained and timestamped in Bitcoin with OpenTimestamps. The site re-checks the files in the browser.
 - **Revision History site.** Search with filters by address, topic and range; address profiles; crawlable pages for each year, methodology, FAQ, data, coverage and address clusters; structured data, sitemap and `llms.txt`.
 - **Dated attribution.** An edit counts for a Shared Services Canada routing prefix only while that prefix was announced. Addresses confirmed by stronger evidence carry their own label and start date.
+- **Parliament's ranges, dated.** The House of Commons has used three address blocks since 2010. The newest is labelled from the date Parliament began routing it itself, and the middle one ends when the block was re-assigned.
+- **Runs that survive other changes.** A two-hour collection run no longer fails when something else changes the repository before it finishes.
 - **Single-address lookup.** Every public edit from one address, in any year, across every public Wikimedia wiki and a list of other wikis.
 
 ## Now
 - **Earlier years, one at a time.** 2009 is next, then back toward 2002. Each year is one configuration change and a full re-collection.
 - **Serve the site from the top of the domain.** The build is published on the `site` branch; the host still has to be pointed at it.
-- **Runs that survive other changes.** A two-hour run currently fails if anything else changes the published site before it finishes.
-- **Parliament's ranges, dated.** The House of Commons has used three address blocks since 2010; two of them need dates in the range files.
 
 ## Next
 - **One job per year.** Collect years in parallel so the full re-collection stays inside the time limit as the archive grows.
