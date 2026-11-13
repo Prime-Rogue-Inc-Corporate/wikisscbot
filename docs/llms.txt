@@ -51,6 +51,7 @@
 - [FAQ](https://revisionhistory.ca/faq.html): what the data does and does not show
 - [Data and verification](https://revisionhistory.ca/data.html): downloads, checksums and how to cite
 - [Coverage](https://revisionhistory.ca/coverage.html): which wikis and hockey-sim leagues can be checked for government network traffic, and which cannot
+- [Address clusters](https://revisionhistory.ca/clusters.html): which addresses behave as one network exit and which blocks replaced which
 
 ## Data
 
