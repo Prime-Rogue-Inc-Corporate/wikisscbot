@@ -54,8 +54,26 @@ jobs:
           git add -A data docs
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
           git commit -m "Watch: $(tail -n1 data/manifests/chain.jsonl | python -c "import json,sys;l=json.load(sys.stdin);print(l['run_id'], l['sha256'][:12])")"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          # Other chats may push to main while this run is collecting. Replay this
+          # run's commit on top of theirs. Where both touched a generated file, keep
+          # this run's copy, then rebuild the site with the code now on main.
+          pushed=0
+          for attempt in 1 2 3 4 5; do
+            before=$(git rev-parse HEAD)
+            if git pull --rebase -X theirs origin main; then
+              if [ "$(git rev-parse HEAD)" != "$before" ]; then
+                python -m wikisscbot verify
+                python -m wikisscbot site
+                git add -A docs
+                git diff --cached --quiet || git commit -m "Rebuild site on latest main"
+              fi
+              if git push origin HEAD:main; then pushed=1; break; fi
+            else
+              git rebase --abort || true
+            fi
+            sleep 20
+          done
+          [ "$pushed" = 1 ]
       - name: Publish docs/ to the site branch (the site at its web root)
         run: |
           # One fresh commit holding only the contents of docs/, so hosts that
