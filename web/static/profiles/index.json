@@ -12,5 +12,22 @@
       "205.193.239.76"
     ],
     "updated": "2026-11-12"
+  },
+  {
+    "slug": "foreign-service-lineage",
+    "codename": "UNNAMED (Foreign service)",
+    "summary": "The gate1.dfait-maeci.gc.ca gateway (2011–2020) and the eight-address Shared Services Canada block that took over Canada's embassy and ambassador pages two weeks later.",
+    "ips": [
+      "198.103.104.11",
+      "198.103.198.248",
+      "198.103.198.249",
+      "198.103.198.250",
+      "198.103.198.251",
+      "198.103.198.252",
+      "198.103.198.253",
+      "198.103.198.254",
+      "198.103.198.255"
+    ],
+    "updated": "2026-11-12"
   }
 ]
