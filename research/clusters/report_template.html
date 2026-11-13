@@ -106,7 +106,7 @@ li+li{margin-top:6px}
     <div class="card scroll"><table id="matrix"></table></div>
   </section>
 
-  <section>
+  <section id="threads-section">
     <h2>Threads that cross addresses</h2>
     <p>The matches outside the known pools, read by hand<span id="reviewed"></span>. The reading in the last column is a judgement from metadata, not a finding about any individual.</p>
     <div class="card scroll"><table id="curated"></table></div>
@@ -153,7 +153,7 @@ function chip(grade, mech){
   return c;
 }
 const YEARS = Object.keys(D.years).sort().reverse();
-document.getElementById('reviewed').textContent = ' on ' + D.reviewed;
+if (document.getElementById('reviewed')) document.getElementById('reviewed').textContent = ' on ' + D.reviewed;
 const T = D.tally, g = k => T[k] || 0;
 const strong = g('strong|pool') + g('strong|renumbering') + g('strong|parallel') + g('strong|later');
 const possible = g('moderate|pool') + g('moderate|renumbering') + g('moderate|parallel') + g('moderate|later');
@@ -182,8 +182,9 @@ YEARS.forEach(y => {
 });
 mx.append(mb);
 
-// curated
-const cu = document.getElementById('curated');
+// curated (hand-read threads; the section is dropped when findings.json carries none)
+if (!D.curated.length) document.getElementById('threads-section').remove();
+const cu = document.getElementById('curated') || document.createElement('table');
 const ch = el('thead'), chr = el('tr');
 ['Thread', 'Addresses and dates', 'Mechanism', 'Evidence', 'Reading'].forEach(h => chr.append(el('th', '', h))); ch.append(chr); cu.append(ch);
 const cb = el('tbody');
