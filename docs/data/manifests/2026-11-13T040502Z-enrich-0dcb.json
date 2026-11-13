@@ -1,0 +1,63 @@
+{
+  "schema": "wikisscbot-manifest/1",
+  "run_id": "2026-11-13T040502Z-enrich-0dcb",
+  "kind": "enrich",
+  "started": "2026-11-13T04:05:02Z",
+  "finished": "2026-11-13T04:06:28Z",
+  "tool_version": "1.3.0",
+  "code_commit": "108d9f5739cf54fb7b31f625d09f6f99743dabe9",
+  "workflow_run": {
+    "id": "43346074691",
+    "attempt": "1",
+    "workflow": "Backfill year",
+    "url": "https://github.com/Prime-Rogue-Inc-Corporate/wikisscbot/actions/runs/43346074691"
+  },
+  "params": {
+    "model": "outlink-topic-model",
+    "threshold": 0.5
+  },
+  "inputs": {
+    "config/coverage.json": "33eddfff66f62a66da8ad204c51275d07e9ac538eebb7adfb72d216fd36c0a57",
+    "config/niche_wikis.json": "87dc091e9277bdf6bddf25c43491fedf96f767c9b5a58098637fab3864965358",
+    "config/probe_ips.json": "8e2a812e9f2780d317acf7a41296e68f2c90b16bd51a9d3b409f136268c3a767",
+    "config/ranges_confirmed.json": "b08d977301d29fd202fea949d63b6f5eaa97d621ad208956dc82dc5864bd2d93",
+    "config/ranges_gccaedits.json": "b371a8e3c54b39b654ca23d67265255f7a4c93c56cb9ba2e91d8b48015ae0f17",
+    "config/ranges_ssc_bgp.json": "2e19c7c96762e94e4b0344304456524f9deee527efc93c1274dfd4490cd8cf17",
+    "config/settings.json": "7812543f3fa3a5a00536b11449df323a4d2b8b936c9f50036d34fd1cb9d8cb74",
+    "config/site.json": "a2a9edd44ed2ce0e87eb020d01d9b3aab4c18aaf5f220f9fe3150738499b46d3"
+  },
+  "responses": {
+    "count": 2908,
+    "bytes": 691323,
+    "by_host": {
+      "api.wikimedia.org": {
+        "responses": 2907,
+        "bytes": 690523
+      },
+      "www.wikidata.org": {
+        "responses": 1,
+        "bytes": 800
+      }
+    },
+    "chain_sha256": "c18c31e00087ccaf8bd07a7a72d78f8a68092c61dc15ac19a77a7736374258ff",
+    "log": "data/manifests/2026-11-13T040502Z-enrich-0dcb.responses.jsonl",
+    "log_sha256": "37f3706ff471226a8af20a4b57039c64625dd5f043cf50de329399fecc09aadd"
+  },
+  "outputs": {
+    "data/topics.json": "5fe75bc10246e76d02792157a6506c8d88de026be2e1ba98c9e55877789c34ff"
+  },
+  "data_sums_sha256": "2470c40a25b7a65fd31c675732427a215b466b71c3df79da8ad229fdd1045877",
+  "counts": {
+    "classified": 2907,
+    "failed": 0,
+    "remaining": 0,
+    "cached_total": 25078,
+    "wikidata_labelled": 0,
+    "stopped": ""
+  },
+  "previous_manifest": {
+    "run_id": "2026-11-13T020344Z-backfill-aa1c",
+    "sha256": "8184144d24e1d118f3fdfc78bd2741ba6e5a5bee070c921c899f9ecf7c98c095"
+  },
+  "notes": ""
+}

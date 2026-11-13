@@ -1,6 +1,6 @@
 # Intra-year address correlations
 
-Archive fingerprint `3f2fb5b88bdf`: 50,240 edits, 2010 to 2025. Each year is analysed on its own: only addresses with 5+ edits that year, only that year's edits.
+Archive fingerprint `615e22ede799`: 57,116 edits, 2009 to 2025. Each year is analysed on its own: only addresses with 5+ edits that year, only that year's edits.
 
 - **pool**: 5+ handoffs within 60 min, or 3+ across 2+ pages. The addresses alternate inside one sitting.
 - **same-exit**: 3+ shared rare pages (a rare page is one at most 3 addresses edited that year) without that many handoffs. Same traffic, but a sitting stays on one address.
@@ -15,9 +15,9 @@ Pair-years reaching each threshold, by how the two addresses are related. Differ
 
 | Relation | 2 shared rare pages | 3 or more |
 |---|---|---|
-| same /24 | 16 | 68 |
-| same /16 | 17 | 5 |
-| different block | 10 | 3 |
+| same /24 | 21 | 72 |
+| same /16 | 19 | 12 |
+| different block | 16 | 3 |
 
 ## Year summary
 
@@ -39,16 +39,17 @@ Pair-years reaching each threshold, by how the two addresses are related. Differ
 | 2012 | 4,150 | 202 | 80 | 7 | 0 | 5 | 3 | 1 |
 | 2011 | 5,175 | 229 | 91 | 5 | 1 | 3 | 7 | 2 |
 | 2010 | 6,333 | 253 | 97 | 7 | 2 | 3 | 6 | 2 |
+| 2009 | 6,876 | 272 | 109 | 4 | 7 | 13 | 5 | 2 |
 
 ## Blocks whose addresses keep sharing traffic
 
 Handoffs within the hour / shared rare pages, summed over the pairs inside each /24, per year. A fall in handoffs while shared pages hold up means the exit stopped alternating addresses inside a sitting.
 
-| Block | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 131.137.245.x | 328/234 | 122/101 | 141/131 | 96/49 | 92/70 | 99/72 | 0/34 | 28/50 | 4/30 | 5/19 | 0/2 | 4/11 | 0/7 | 0/3 | · | · |
-| 192.197.82.x | 14/16 | 47/30 | 28/25 | 0/2 | 0/4 | · | 0/2 | · | · | · | · | · | · | · | · | · |
-| 207.35.15.x | · | · | · | · | · | · | · | · | 0/2 | · | 0/1 | 0/7 | · | 0/4 | 0/2 | · |
+| Block | 09 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 131.137.245.x | 56/34 | 328/234 | 122/101 | 141/131 | 96/49 | 92/70 | 99/72 | 0/34 | 28/50 | 4/30 | 5/19 | 0/2 | 4/11 | 0/7 | 0/3 | · | · |
+| 192.197.82.x | 5/18 | 14/16 | 47/30 | 28/25 | 0/2 | 0/4 | · | 0/2 | · | · | · | · | · | · | · | · | · |
+| 207.35.15.x | · | · | · | · | · | · | · | · | · | 0/2 | · | 0/1 | 0/7 | · | 0/4 | 0/2 | · |
 
 ## Links across different blocks
 
@@ -56,8 +57,8 @@ Two addresses in unrelated blocks sharing rare pages inside one year. This is wh
 
 | Year | Addresses | Labels | Class | Shared rare | Closest edits (days) | Shared pages (top) |
 |---|---|---|---|---|---|---|
-| 2024 | 167.32.2.2 + 207.35.15.11 | SSC / House of Commons | linked | 2 | 62.88 | 2025 Canadian federal election; Marcus Powlowski |
-| 2024 | 167.32.2.2 + 207.35.15.27 | SSC / House of Commons | linked | 2 | 63.02 | Marcus Powlowski; 2025 Canadian federal election |
+| 2024 | 167.32.2.2 + 207.35.15.11 | House of Commons | linked | 2 | 62.88 | 2025 Canadian federal election; Marcus Powlowski |
+| 2024 | 167.32.2.2 + 207.35.15.27 | House of Commons | linked | 2 | 63.02 | Marcus Powlowski; 2025 Canadian federal election |
 | 2019 | 198.103.104.11 + 205.193.94.40 | SSC | linked | 2 | 71.06 | Chief William Commanda Bridge; Gord Miller (sportscaster) |
 | 2019 | 199.212.18.130 + 205.211.133.128 | Environment Canada | linked | 2 | 36.09 | Indigenous land claims in Canada; Harvest |
 | 2018 | 205.193.94.40 + 205.211.133.128 | SSC / Environment Canada | same-exit | 11 | 192.93 | British Columbia; Population of Canada by province and territory; Saskatchewan |
@@ -69,6 +70,12 @@ Two addresses in unrelated blocks sharing rare pages inside one year. This is wh
 | 2011 | 198.103.184.76 + 205.194.127.36 | SSC | linked | 2 | 48.27 | Biometrics; Richard Matheson |
 | 2010 | 198.103.172.9 + 205.193.96.10 | SSC | same-exit | 3 | 194.05 | Wikipedia:Reference desk/Language; Wikipedia:Reference desk/Science; Wikipedia:Reference desk/Miscellaneous |
 | 2010 | 199.212.17.130 + 205.211.133.129 | Environment Canada | linked | 2 | 160.09 | Centre météorologique canadien [frwiki]; Canada Gazette |
+| 2009 | 131.137.245.200 + 198.103.184.76 | National Defence / SSC | linked | 2 | 13.65 | Bataille de Long Sault [frwiki]; Wiktionary:Feedback [enwiktionary] |
+| 2009 | 131.137.245.206 + 198.103.167.20 | National Defence / SSC | linked | 2 | 46.96 | History of the Royal Canadian Navy; Royal Roads Military College |
+| 2009 | 131.137.245.207 + 198.103.167.20 | National Defence / SSC | linked | 2 | 0.81 | History of the Royal Canadian Navy; Royal Roads Military College |
+| 2009 | 131.137.245.207 + 198.103.184.76 | National Defence / SSC | linked | 2 | 123.34 | Wikipedia:Sandbox; Cadet Instructors Cadre; CHEK-DT |
+| 2009 | 192.197.71.189 + 199.212.17.130 | SSC (AS2665) / Environment Canada | linked | 2 | 14.12 | Family Day; Franco-Ontariens [frwiki] |
+| 2009 | 198.103.184.76 + 205.193.82.252 | SSC | linked | 2 | 6.87 | Fort Chambly [frwiki]; Rideau Centre |
 
 ## Pairs that recur across years
 
@@ -76,17 +83,17 @@ Pairs classed pool, same-exit or linked in three or more separate years.
 
 | Addresses | Labels | Years | Of which pool | Handoffs |
 |---|---|---|---|---|
-| 131.137.245.206 + 131.137.245.207 | National Defence | 13 (2010–2023) | 7 | 205 |
+| 131.137.245.206 + 131.137.245.207 | National Defence | 14 (2009–2023) | 8 | 258 |
 | 131.137.245.207 + 131.137.245.208 | National Defence | 12 (2010–2021) | 7 | 270 |
 | 131.137.245.206 + 131.137.245.208 | National Defence | 10 (2010–2021) | 7 | 194 |
 | 131.137.245.207 + 131.137.245.209 | National Defence | 9 (2012–2021) | 4 | 84 |
 | 131.137.245.206 + 131.137.245.209 | National Defence | 8 (2012–2019) | 5 | 82 |
 | 131.137.245.208 + 131.137.245.209 | National Defence | 7 (2012–2018) | 5 | 84 |
-| 192.197.82.153 + 192.197.82.203 | House of Commons | 6 (2010–2016) | 3 | 79 |
+| 192.197.82.153 + 192.197.82.203 | House of Commons | 7 (2009–2016) | 4 | 82 |
+| 192.197.82.155 + 192.197.82.205 | House of Commons | 4 (2009–2012) | 1 | 12 |
+| 198.103.221.52 + 198.103.223.52 | SSC | 4 (2009–2018) | 2 | 11 |
+| 198.103.152.52 + 198.103.223.52 | SSC | 4 (2009–2014) | 1 | 9 |
 | 207.35.15.11 + 207.35.15.27 | House of Commons | 4 (2018–2024) | 0 | 0 |
-| 192.197.82.155 + 192.197.82.205 | House of Commons | 3 (2010–2012) | 1 | 10 |
-| 198.103.152.52 + 198.103.223.52 | SSC | 3 (2010–2014) | 1 | 8 |
-| 198.103.221.52 + 198.103.223.52 | SSC | 3 (2010–2018) | 1 | 6 |
 
 ## 2025
 
@@ -95,14 +102,14 @@ Pairs classed pool, same-exit or linked in three or more separate years.
 | 198.103.249.201 + 198.103.254.241 (SSC) | linked | 782 | 2 | 2 | Grand Sault-Vallée-des-Rivières-Saint-Quentin [frwiki]; Élections fédérales canadiennes de 2006 dans les territoires du Nord canadien [frwiki] |
 | 205.193.239.44 + 205.193.239.76 (SSC) | pool | 311 | 36 | 13 | 30th Field Artillery Regiment, RCA; Commander of the Royal Canadian Air Force; Les Fusiliers de Sherbrooke [frwiki] |
 | 198.103.184.84 + 198.103.184.85 (SSC) | linked | 33 | 0 | 2 | Abbotsford Canucks; Government of Canada Building (North York) |
-| 167.32.2.2 + 167.32.2.3 (SSC) | linked | 23 | 0 | 2 | Eric Melillo; Vince Gasparro |
+| 167.32.2.2 + 167.32.2.3 (House of Commons) | linked | 23 | 0 | 2 | Eric Melillo; Vince Gasparro |
 
 ## 2024
 
 | Group | Kind | Edits | Handoffs | Shared rare | Shared pages (top) |
 |---|---|---|---|---|---|
 | 205.193.239.44 + 205.193.239.76 (SSC) | pool | 229 | 10 | 12 | 1 Signal Regiment; HMCS Radisson; Dylan Everett |
-| 167.32.2.2 + 207.35.15.11 + 207.35.15.27 (House of Commons, SSC) | linked · cross-block | 67 | 0 | 6 | 2025 Canadian federal election; Marcus Powlowski |
+| 167.32.2.2 + 207.35.15.11 + 207.35.15.27 (House of Commons) | linked · cross-block | 67 | 0 | 6 | 2025 Canadian federal election; Marcus Powlowski |
 
 ## 2023
 
@@ -221,3 +228,13 @@ Pairs classed pool, same-exit or linked in three or more separate years.
 | 198.103.172.9 + 205.193.96.10 (SSC) | same-exit · cross-block | 256 | 0 | 3 | Wikipedia:Reference desk/Language; Wikipedia:Reference desk/Science; Wikipedia:Reference desk/Miscellaneous |
 | 199.212.17.130 + 205.211.133.129 (Environment Canada) | linked · cross-block | 121 | 0 | 2 | Centre météorologique canadien [frwiki]; Canada Gazette |
 | 198.103.221.51 + 198.103.223.51 (SSC) | linked | 88 | 1 | 2 | Université Sainte-Anne [frwiki]; Critique de l'islam [frwiki] |
+
+## 2009
+
+| Group | Kind | Edits | Handoffs | Shared rare | Shared pages (top) |
+|---|---|---|---|---|---|
+| 131.137.245.197 + 131.137.245.199 + 131.137.245.200 + 131.137.245.206 + 131.137.245.207 + 198.103.152.51 + 198.103.152.52 + 198.103.167.20 + 198.103.184.76 + 198.103.221.51 + 198.103.221.52 + 198.103.223.51 + 198.103.223.52 + 205.193.82.252 (National Defence, SSC) | pool · cross-block | 2,621 | 67 | 87 | Essex, Ontario; Richmond Hill, Ontario; St. Theresa of Lisieux Catholic High School |
+| 192.197.82.153 + 192.197.82.155 + 192.197.82.203 + 192.197.82.205 (House of Commons) | pool | 625 | 5 | 18 | 2009 Progressive Conservative Party of Ontario leadership election; Concours Eurovision de la chanson 2009 [frwiki]; John McKay (Ontario politician, born 1948) |
+| 192.197.71.189 + 199.212.17.130 (Environment Canada, SSC (AS2665)) | linked · cross-block | 382 | 0 | 2 | Family Day; Franco-Ontariens [frwiki] |
+| 199.212.150.16 + 199.212.150.17 (SSC network (AS2675)) | same-exit | 74 | 1 | 3 | Pacific Mall; Błażej Augustyn; Indigenous police in Canada |
+| 142.206.2.12 + 142.206.2.15 (Statistics Canada) | linked | 50 | 2 | 2 | List of recipients of the Bronze Wolf Award; Capital Pride (Ottawa) |

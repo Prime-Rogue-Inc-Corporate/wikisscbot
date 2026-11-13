@@ -36,7 +36,7 @@ for y, Y in R['years'].items():
 
 FINDINGS = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'findings.json')))
 CURATED = [{'t': f['thread'], 'a': f['addresses'], 'm': f['mechanism'], 'e': f['evidence'], 'r': f['reading'], 'c': f['confidence']}
-           for f in FINDINGS['threads']]
+           for f in FINDINGS.get('threads', [])]
 NOTES = FINDINGS.get('year_notes', {})
 
 

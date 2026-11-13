@@ -1,0 +1,684 @@
+{
+  "generated": "2026-11-13T02:08:02Z",
+  "total_edits": 6876,
+  "unique_ips": 272,
+  "by_label": {
+    "Shared Services Canada": 3398,
+    "Canadian House of Commons": 625,
+    "Canadian Department of National Defence": 579,
+    "Environment Canada": 344,
+    "Canadian Broadcasting Corporation": 295,
+    "Shared Services Canada network (AS2665)": 281,
+    "Shared Services Canada network (AS2675)": 237,
+    "Industry Canada": 190,
+    "Government of Canada": 176,
+    "Natural Resources Canada": 144,
+    "National Research Council": 142,
+    "Department of Justice Canada": 76,
+    "Statistics Canada": 73,
+    "Department of Fisheries and Oceans": 67,
+    "Canadian Space Agency": 52,
+    "National Research Council (UofT)": 46,
+    "Bank of Canada": 36,
+    "Library and Archives Canada": 33,
+    "Shared Services Canada network (AS25689, legacy NRC)": 25,
+    "Correctional Services Canada": 22,
+    "Canada Centre for Inland Waters": 12,
+    "Federal Court of Canada": 11,
+    "National Research Council (UBC)": 5,
+    "National Research Council (SSC)": 3,
+    "Finance Canada": 2,
+    "Institute for Biodiagnostics": 1,
+    "Transport Canada": 1
+  },
+  "by_wiki": {
+    "enwiki": 5651,
+    "frwiki": 1034,
+    "commonswiki": 72,
+    "enwikivoyage": 63,
+    "enwiktionary": 56
+  },
+  "by_month": {
+    "2009-01": 452,
+    "2009-02": 412,
+    "2009-03": 603,
+    "2009-04": 596,
+    "2009-05": 605,
+    "2009-06": 651,
+    "2009-07": 792,
+    "2009-08": 708,
+    "2009-09": 524,
+    "2009-10": 536,
+    "2009-11": 476,
+    "2009-12": 521
+  },
+  "top_pages": [
+    {
+      "wiki": "enwiki",
+      "title": "List of Star Trek novels",
+      "edits": 92
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Jeffrey Morgan (writer)",
+      "edits": 44
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Ancaster, Ontario",
+      "edits": 40
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Mogami (croiseur)",
+      "edits": 37
+    },
+    {
+      "wiki": "frwiki",
+      "title": "713e Régiment des communications",
+      "edits": 36
+    },
+    {
+      "wiki": "enwiktionary",
+      "title": "Appendix:Canadian English military slang",
+      "edits": 32
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Pierre de Troyes",
+      "edits": 30
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Semantic link",
+      "edits": 28
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Bataille de la mer de Corail",
+      "edits": 28
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Wikipedia:Sandbox",
+      "edits": 26
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Invasion de Tulagi",
+      "edits": 26
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Fort Frontenac",
+      "edits": 23
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Fort Niagara",
+      "edits": 22
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Lor-Zod",
+      "edits": 21
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2009 swine flu pandemic timeline",
+      "edits": 21
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Concours Eurovision de la chanson 2009",
+      "edits": 20
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2011 Canadian federal election",
+      "edits": 20
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Nakajima A6M2-N",
+      "edits": 20
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Blessed by a Broken Heart",
+      "edits": 20
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Pacific Mall",
+      "edits": 18
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Fubuki (1927)",
+      "edits": 17
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Liberal Party of Canada candidates in the 2008 Canadian federal election",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "John McKay (Ontario politician, born 1948)",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Richmond Hill, Ontario",
+      "edits": 15
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Louis de Santangel",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Essex, Ontario",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2009 Progressive Conservative Party of Ontario leadership election",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "The Confessions Tour (album)",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Alliance Quebec",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "A&P Canada",
+      "edits": 14
+    },
+    {
+      "wiki": "frwiki",
+      "title": "USS Enterprise (NCC-1701)",
+      "edits": 14
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Bataille des Pays-Bas",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Ottawa Macdonald–Cartier International Airport",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "The Souljazz Orchestra",
+      "edits": 13
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Bataille de Fort Frontenac",
+      "edits": 13
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Algonquins",
+      "edits": 13
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Asashio (1936)",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Talk:The Souljazz Orchestra",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Madonna videography",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of Doctor Who home video releases",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Western Economic Diversification Canada",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "University of Waterloo Faculty of Science",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Communications Research Centre Canada",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Montreal",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Waterloo campaign order of battle",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Orca-class patrol vessel",
+      "edits": 10
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Société de transport de l'Outaouais",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Workplace Hazardous Materials Information System",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Wikipedia talk:Sandbox",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Nisgaʼa",
+      "edits": 10
+    }
+  ],
+  "top_pages_by_label": {
+    "Canadian Department of National Defence": {
+      "713e Régiment des communications": 36,
+      "Appendix:Canadian English military slang": 29,
+      "Orca-class patrol vessel": 10,
+      "Gulf Islands": 9,
+      "Amputation": 8,
+      "Metric (band)": 7,
+      "melee": 7,
+      "Happy Valley, Ontario": 5,
+      "Saint-Jean-sur-Richelieu": 5,
+      "Royal Military College of Canada": 5
+    },
+    "Industry Canada": {
+      "Communications Research Centre Canada": 11,
+      "Ottawa Police Service": 7,
+      "Rex Norris (American football)": 6,
+      "Network topology": 5,
+      "Alfred Carroll": 5,
+      "Technology and Engineering Emmy Awards": 3,
+      "Miami Vice": 3,
+      "Suzuki": 3,
+      "Vito Rizzuto": 3,
+      "Very Large Telescope": 2
+    },
+    "Shared Services Canada": {
+      "Jeffrey Morgan (writer)": 44,
+      "Mogami (croiseur)": 37,
+      "Pierre de Troyes": 30,
+      "Bataille de la mer de Corail": 28,
+      "Invasion de Tulagi": 26,
+      "Fort Frontenac": 23,
+      "Fort Niagara": 22,
+      "Nakajima A6M2-N": 20,
+      "Wikipedia:Sandbox": 18,
+      "Fubuki (1927)": 17
+    },
+    "Shared Services Canada network (AS2675)": {
+      "Pacific Mall": 18,
+      "University of Waterloo Faculty of Science": 11,
+      "The Log Driver's Waltz": 9,
+      "The Hockey Sweater": 3,
+      "The Cat Came Back": 3,
+      "Data modeling": 3,
+      "Star Ocean: The Last Hope": 3,
+      "The Ring and the Book": 3,
+      "Operation Opera": 3,
+      "Błażej Augustyn": 3
+    },
+    "Shared Services Canada network (AS2665)": {
+      "Lor-Zod": 21,
+      "Vicki Vale": 7,
+      "Tennessee Williams": 5,
+      "Rick McCrank": 5,
+      "Craig Simpson": 5,
+      "Olympiques de Gatineau": 5,
+      "Titel": 4,
+      "UNIT": 4,
+      "Royal Galipeau": 4,
+      "Zhao (surname)": 4
+    },
+    "Environment Canada": {
+      "2009 swine flu pandemic timeline": 21,
+      "2007 Elie tornado": 9,
+      "Fragapalooza": 8,
+      "File:Edit-this-page-large.png": 8,
+      "Fraternité sacerdotale Saint-Pie-X": 7,
+      "Pierre Pettigrew": 5,
+      "Herd mentality": 5,
+      "Talk:Tornado": 4,
+      "Talk:2007 Elie tornado": 4,
+      "Liste des volcans d'Europe": 3
+    },
+    "Canadian Broadcasting Corporation": {
+      "Jon Brooks": 8,
+      "Canadian Broadcasting Centre": 7,
+      "Udaipur": 5,
+      "The Burning Hell (band)": 5,
+      "CHOT-DT": 4,
+      "Tommy Tune": 3,
+      "Jussi Jokinen": 3,
+      "2004 Stanley Cup playoffs": 3,
+      "Philippe Girard (auteur)": 3,
+      "Fête de la Saint-Jean": 3
+    },
+    "Shared Services Canada network (AS25689, legacy NRC)": {
+      "Laser-induced breakdown spectroscopy": 4,
+      "Silver chloride electrode": 3,
+      "Used car": 2,
+      "Ambergris Caye": 1,
+      "Transistor": 1,
+      "Light-emitting diode": 1,
+      "Gallium antimonide": 1,
+      "Electroless nickel-phosphorus plating": 1,
+      "Jorge de Alvarado": 1,
+      "National People's Congress": 1
+    },
+    "Natural Resources Canada": {
+      "Ancaster, Ontario": 40,
+      "Natural Resources Canada": 4,
+      "Talk:Ancaster, Ontario": 4,
+      "Gold (color)": 3,
+      "Discussion:Barachois (géographie)": 2,
+      "Marie Prevost": 2,
+      "Talk:Prostitution in the Netherlands": 2,
+      "Built environment": 2,
+      "Jake Zyrus": 2,
+      "June 1": 2
+    },
+    "Department of Fisheries and Oceans": {
+      "Hellschreiber": 4,
+      "Template:CATV Latin America and the Caribbean": 3,
+      "HMCS Quesnel": 3,
+      "AC/DC": 3,
+      "Appleton (duo)": 2,
+      "Chatham-Kent": 2,
+      "Motorsport Club of Ottawa": 2,
+      "Saint-Jean-Chrysostome": 2,
+      "Teal": 2,
+      "Lycode à carreaux": 2
+    },
+    "Canadian House of Commons": {
+      "List of Star Trek novels": 92,
+      "Concours Eurovision de la chanson 2009": 20,
+      "Liberal Party of Canada candidates in the 2008 Canadian federal election": 16,
+      "John McKay (Ontario politician, born 1948)": 15,
+      "2009 Progressive Conservative Party of Ontario leadership election": 14,
+      "2011 Canadian federal election": 13,
+      "Marlene Jennings": 13,
+      "George Smitherman": 8,
+      "College of St. Scholastica": 8,
+      "Don Catlin": 7
+    },
+    "Library and Archives Canada": {
+      "Library and Archives Canada": 9,
+      "Yellowknife": 5,
+      "World Council of Indigenous Peoples": 2,
+      "The Youngbloods": 2,
+      "Mark Bourrie": 2,
+      "Island of Montreal": 2,
+      "Atheist (band)": 1,
+      "Alan Woodrow": 1,
+      "Charlotte Sometimes (novel)": 1,
+      "Georgette Heyer": 1
+    },
+    "National Research Council": {
+      "Hydroxyl radical": 7,
+      "Blood plasma": 6,
+      "Kanesatake": 4,
+      "Omega−3 fatty acid": 4,
+      "Camino de Santiago": 3,
+      "National Research Council Canada": 3,
+      "Inuktitut": 3,
+      "Beta2-adrenergic agonist": 3,
+      "Frequency comb": 3,
+      "German diaspora": 3
+    },
+    "Government of Canada": {
+      "The Confessions Tour (album)": 14,
+      "Madonna videography": 12,
+      "Fred Flintstone and Friends": 10,
+      "Jump (Madonna song)": 9,
+      "The Pebbles and Bamm-Bamm Show": 7,
+      "Blond Ambition World Tour": 6,
+      "Ray of Light (song)": 6,
+      "Celebration (Madonna song)": 6,
+      "List of awards and nominations received by Madonna": 5,
+      "Bedknobs and Broomsticks": 5
+    },
+    "Department of Justice Canada": {
+      "Kevin Murphy": 6,
+      "Frank Lloyd Wright": 3,
+      "Sylvia Plath": 3,
+      "Draco Malfoy": 3,
+      "Krav Maga": 3,
+      "Frank Williams (pitcher)": 2,
+      "2010 Ottawa municipal election": 2,
+      "The Colbert Report": 2,
+      "Meizu M8": 2,
+      "Bishop's University": 2
+    },
+    "Statistics Canada": {
+      "List of recipients of the Bronze Wolf Award": 9,
+      "Capital Pride (Ottawa)": 5,
+      "Mila Rodino": 4,
+      "Wikipedia:Sandbox": 2,
+      "German occupation of Luxembourg during World War II": 2,
+      "The Charlatan (student newspaper)": 2,
+      "Pacific Bell": 2,
+      "Walter Young (baseball)": 2,
+      "La Guerre des clans": 2,
+      "Talk:John Lennon": 2
+    },
+    "Bank of Canada": {
+      "List of Nobel laureates by university affiliation": 8,
+      "History of graphic design": 3,
+      "1998 Arizona Diamondbacks season": 2,
+      "Innovation": 2,
+      "Guity Novin": 2,
+      "Ouled Hamla": 2,
+      "Jessica Linnebach": 2,
+      "St Hilda's College, Oxford": 2,
+      "List of South Park episodes": 1,
+      "Hazel McCallion": 1
+    },
+    "Canadian Space Agency": {
+      "Blessed by a Broken Heart": 20,
+      "David Florida Laboratory": 3,
+      "National security": 3,
+      "STS-127": 2,
+      "Kapton": 2,
+      "Comparison of issue-tracking systems": 2,
+      "Qualia": 2,
+      "Feedback": 2,
+      "STS-129": 2,
+      "Space Shuttle Atlantis": 2
+    },
+    "Federal Court of Canada": {
+      "Tax Court of Canada": 2,
+      "Anti-French sentiment": 2,
+      "Portable media player": 1,
+      "MP4 player": 1,
+      "Terrorism in Canada": 1,
+      "Baker": 1,
+      "Mahmoud Ahmadinejad": 1,
+      "Stare decisis": 1,
+      "Legal person": 1
+    },
+    "Institute for Biodiagnostics": {
+      "Southwest Paleohispanic script": 1
+    },
+    "Transport Canada": {
+      "Commons:Deletion requests/File:Bear9991.jpg": 1
+    },
+    "Canada Centre for Inland Waters": {
+      "Prototype (video game)": 2,
+      "Little Boy Lost (The Twilight Zone)": 1,
+      "The Curse of Camp Cold Lake": 1,
+      "List of books in the Goosebumps series": 1,
+      "The Nun (2005 film)": 1,
+      "Rubidium": 1,
+      "Talk:Bun": 1,
+      "Bun": 1,
+      "User talk:J.delanoy": 1,
+      "Talk:Kingman Reef": 1
+    },
+    "Correctional Services Canada": {
+      "The Queen of the Damned": 3,
+      "ESE": 2,
+      "Aaliyah": 2,
+      "Quebec City": 1,
+      "Preston Park, Brighton": 1,
+      "Parallel education": 1,
+      "La Perla, San Juan, Puerto Rico": 1,
+      "Switzerland": 1,
+      "Portugal": 1,
+      "Queen": 1
+    },
+    "National Research Council (UofT)": {
+      "Semantic link": 28,
+      "Semantic network": 8,
+      "Semantic web data space": 2,
+      "Social Semantic Web": 2,
+      "Fuzzy clustering": 1,
+      "Riverview High School (New Brunswick)": 1,
+      "SFT": 1,
+      "Typed link": 1,
+      "Resource Description Framework": 1,
+      "Moncton": 1
+    },
+    "National Research Council (UBC)": {
+      "King Alfred School, London": 3,
+      "MSXML": 2
+    },
+    "National Research Council (SSC)": {
+      "Ballard Power Systems": 1,
+      "Solid oxide fuel cell": 1,
+      "Overpotential": 1
+    },
+    "Finance Canada": {
+      "File:Dialog ballons icon.svg": 1,
+      "File:Bogotá, Cundinamarca, Colombia.jpg": 1
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "enwiki": "2009-12-31T16:32:24Z",
+    "frwiki": "2009-12-31T13:34:31Z",
+    "enwikivoyage": "2009-12-11T21:36:31Z",
+    "commonswiki": "2009-12-19T19:07:47Z",
+    "enwiktionary": "2009-11-30T20:56:03Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-11-13T02:04:16Z",
+      "window": [
+        "2009-01-01T00:00:00Z",
+        "2009-12-31T23:59:59Z"
+      ],
+      "blocks_total": 158,
+      "blocks_scanned": 158,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 5651,
+      "lapsed_prefix_edits_excluded": 0
+    },
+    "frwiki": {
+      "scanned_at": "2026-11-13T02:05:00Z",
+      "window": [
+        "2009-01-01T00:00:00Z",
+        "2009-12-31T23:59:59Z"
+      ],
+      "blocks_total": 158,
+      "blocks_scanned": 158,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 1034,
+      "lapsed_prefix_edits_excluded": 0
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-11-13T02:05:20Z",
+      "window": [
+        "2009-01-01T00:00:00Z",
+        "2009-12-31T23:59:59Z"
+      ],
+      "blocks_total": 158,
+      "blocks_scanned": 158,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 0,
+      "lapsed_prefix_edits_excluded": 0
+    },
+    "commonswiki": {
+      "scanned_at": "2026-11-13T02:06:17Z",
+      "window": [
+        "2009-01-01T00:00:00Z",
+        "2009-12-31T23:59:59Z"
+      ],
+      "blocks_total": 158,
+      "blocks_scanned": 158,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 72,
+      "lapsed_prefix_edits_excluded": 0
+    },
+    "enwiktionary": {
+      "scanned_at": "2026-11-13T02:07:04Z",
+      "window": [
+        "2009-01-01T00:00:00Z",
+        "2009-12-31T23:59:59Z"
+      ],
+      "blocks_total": 158,
+      "blocks_scanned": 158,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 56,
+      "lapsed_prefix_edits_excluded": 0
+    },
+    "enwikivoyage": {
+      "scanned_at": "2026-11-13T02:08:02Z",
+      "window": [
+        "2009-01-01T00:00:00Z",
+        "2009-12-31T23:59:59Z"
+      ],
+      "blocks_total": 158,
+      "blocks_scanned": 158,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 63,
+      "lapsed_prefix_edits_excluded": 0
+    }
+  }
+}

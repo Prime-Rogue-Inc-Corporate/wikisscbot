@@ -1,15 +1,15 @@
 {
   "source": "RIPEstat announced-prefixes",
-  "since": "2010-01-01T00:00",
-  "fetched": "2026-11-12T10:47:33Z",
+  "since": "2009-01-01T00:00",
+  "fetched": "2026-11-13T02:03:44Z",
   "counts_by_asn": {
     "2665": 281,
     "2675": 372,
     "2682": 10,
     "25689": 61,
-    "806": 27
+    "806": 28
   },
-  "lapsed": 52,
+  "lapsed": 53,
   "prefixes": [
     {
       "prefix": "128.43.0.0/16",
@@ -135,7 +135,7 @@
       "prefix": "131.235.0.0/16",
       "asn": 806,
       "label": "Shared Services Canada network (AS806, legacy Environment Canada)",
-      "first_seen": "2010-01-01",
+      "first_seen": "2009-01-01",
       "last_seen": "2011-10-04",
       "current": false
     },
@@ -159,7 +159,7 @@
       "prefix": "132.246.0.0/16",
       "asn": 25689,
       "label": "Shared Services Canada network (AS25689, legacy NRC)",
-      "first_seen": "2010-01-01",
+      "first_seen": "2009-01-01",
       "last_seen": "2026-02-07",
       "current": false
     },
@@ -255,7 +255,7 @@
       "prefix": "132.246.192.0/19",
       "asn": 25689,
       "label": "Shared Services Canada network (AS25689, legacy NRC)",
-      "first_seen": "2010-04-24",
+      "first_seen": "2009-04-06",
       "last_seen": "2026-11-12",
       "current": true
     },
@@ -359,7 +359,7 @@
       "prefix": "142.135.0.0/16",
       "asn": 806,
       "label": "Shared Services Canada network (AS806, legacy Environment Canada)",
-      "first_seen": "2010-01-01",
+      "first_seen": "2009-01-01",
       "last_seen": "2011-10-04",
       "current": false
     },
@@ -940,6 +940,14 @@
       "current": true
     },
     {
+      "prefix": "192.16.240.0/20",
+      "asn": 806,
+      "label": "Shared Services Canada network (AS806, legacy Environment Canada)",
+      "first_seen": "2009-01-01",
+      "last_seen": "2009-10-15",
+      "current": false
+    },
+    {
       "prefix": "192.16.250.0/24",
       "asn": 2675,
       "label": "Shared Services Canada network (AS2675)",
@@ -967,7 +975,7 @@
       "prefix": "192.70.164.0/24",
       "asn": 25689,
       "label": "Shared Services Canada network (AS25689, legacy NRC)",
-      "first_seen": "2010-01-01",
+      "first_seen": "2009-01-01",
       "last_seen": "2010-08-27",
       "current": false
     },
@@ -1031,7 +1039,7 @@
       "prefix": "192.139.21.0/24",
       "asn": 25689,
       "label": "Shared Services Canada network (AS25689, legacy NRC)",
-      "first_seen": "2010-01-01",
+      "first_seen": "2009-01-01",
       "last_seen": "2026-11-12",
       "current": true
     },
@@ -1039,7 +1047,7 @@
       "prefix": "192.139.116.0/23",
       "asn": 25689,
       "label": "Shared Services Canada network (AS25689, legacy NRC)",
-      "first_seen": "2010-01-01",
+      "first_seen": "2009-08-21",
       "last_seen": "2026-11-12",
       "current": true
     },
@@ -1071,7 +1079,7 @@
       "prefix": "192.139.198.0/24",
       "asn": 25689,
       "label": "Shared Services Canada network (AS25689, legacy NRC)",
-      "first_seen": "2010-01-01",
+      "first_seen": "2009-01-01",
       "last_seen": "2026-11-12",
       "current": true
     },
@@ -1991,7 +1999,7 @@
       "prefix": "199.212.17.0/24",
       "asn": 2675,
       "label": "Shared Services Canada network (AS2675)",
-      "first_seen": "2010-01-01",
+      "first_seen": "2009-01-01",
       "last_seen": "2026-11-12",
       "current": true
     },
@@ -2287,7 +2295,7 @@
       "prefix": "204.174.103.0/24",
       "asn": 25689,
       "label": "Shared Services Canada network (AS25689, legacy NRC)",
-      "first_seen": "2010-01-01",
+      "first_seen": "2009-01-01",
       "last_seen": "2026-11-12",
       "current": true
     },
@@ -3671,7 +3679,7 @@
       "prefix": "2001:410:9000::/42",
       "asn": 25689,
       "label": "Shared Services Canada network (AS25689, legacy NRC)",
-      "first_seen": "2010-01-01",
+      "first_seen": "2009-03-06",
       "last_seen": "2018-09-20",
       "current": false
     },
@@ -3711,7 +3719,7 @@
       "prefix": "2001:410:9080::/42",
       "asn": 25689,
       "label": "Shared Services Canada network (AS25689, legacy NRC)",
-      "first_seen": "2010-01-01",
+      "first_seen": "2009-03-26",
       "last_seen": "2018-09-20",
       "current": false
     },

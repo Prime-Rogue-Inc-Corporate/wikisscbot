@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-12T12:32:03Z",
+  "generated": "2026-11-13T03:53:03Z",
   "total_edits": 1249,
   "unique_ips": 129,
   "by_label": {
-    "Shared Services Canada": 876,
-    "Canadian House of Commons": 60,
+    "Shared Services Canada": 842,
+    "Canadian House of Commons": 94,
     "Canadian Broadcasting Corporation": 48,
     "Environment Canada": 34,
     "Library and Archives Canada": 30,
@@ -384,15 +384,15 @@
     },
     "Canadian House of Commons": {
       "2022 New Brunswick municipal elections": 15,
+      "2025 Canadian federal election": 8,
       "Marie-Françoise Mégie": 7,
-      "Marcus Powlowski": 5,
-      "2025 Canadian federal election": 5,
+      "Marcus Powlowski": 6,
       "Francis Drouin": 5,
+      "Rebecca Patterson": 4,
       "Abdullah Yaqta": 3,
+      "Ryan Williams (Canadian politician)": 3,
       "St. Boniface, Winnipeg": 2,
-      "John Allen Fraser": 2,
-      "Stéphane Lauzon": 2,
-      "James Maloney (Canadian politician)": 2
+      "John Allen Fraser": 2
     },
     "Canadian Broadcasting Corporation": {
       "Mount Pearl": 3,
@@ -529,7 +529,7 @@
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-11-12T12:28:20Z",
+      "scanned_at": "2026-11-13T03:49:20Z",
       "window": [
         "2024-01-01T00:00:00Z",
         "2024-12-31T23:59:59Z"
@@ -543,7 +543,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "frwiki": {
-      "scanned_at": "2026-11-12T12:29:04Z",
+      "scanned_at": "2026-11-13T03:50:03Z",
       "window": [
         "2024-01-01T00:00:00Z",
         "2024-12-31T23:59:59Z"
@@ -557,7 +557,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "wikidatawiki": {
-      "scanned_at": "2026-11-12T12:30:01Z",
+      "scanned_at": "2026-11-13T03:51:00Z",
       "window": [
         "2024-01-01T00:00:00Z",
         "2024-12-31T23:59:59Z"
@@ -571,7 +571,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "commonswiki": {
-      "scanned_at": "2026-11-12T12:30:20Z",
+      "scanned_at": "2026-11-13T03:51:19Z",
       "window": [
         "2024-01-01T00:00:00Z",
         "2024-12-31T23:59:59Z"
@@ -585,7 +585,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "enwiktionary": {
-      "scanned_at": "2026-11-12T12:31:16Z",
+      "scanned_at": "2026-11-13T03:52:16Z",
       "window": [
         "2024-01-01T00:00:00Z",
         "2024-12-31T23:59:59Z"
@@ -599,7 +599,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "enwikivoyage": {
-      "scanned_at": "2026-11-12T12:32:03Z",
+      "scanned_at": "2026-11-13T03:53:02Z",
       "window": [
         "2024-01-01T00:00:00Z",
         "2024-12-31T23:59:59Z"
