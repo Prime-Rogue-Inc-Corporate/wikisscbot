@@ -1,0 +1,44 @@
+name: Clusters diff text
+
+# Research only. Fetches what each edit in a few hand-picked threads changed and
+# reduces it to habits (research/clusters/diff_features.json and .md).
+# Runs when the script or its target list changes on main, or by hand.
+# About 450 small API calls. Commits research/clusters only; starts no backfill.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "research/clusters/diff_features.py"
+      - "research/clusters/diff_targets.json"
+      - ".github/workflows/clusters-diff.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wikisscbot-clusters-diff
+  cancel-in-progress: false
+
+jobs:
+  diff:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check the diff parser
+        run: python research/clusters/diff_features.py --selftest
+      - name: Fetch and reduce the diffs
+        run: python research/clusters/diff_features.py
+      - name: Commit
+        run: |
+          git config user.name "wikisscbot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research/clusters/diff_features.json research/clusters/diff_features.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Clusters diff text: $(python -c "import json;d=json.load(open('research/clusters/diff_features.json'));print(', '.join(s['id']+' '+str(sum(a['summary']['fetched'] for a in s['addresses'].values()))+' edits' for s in d['sets']))")"
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 20; done

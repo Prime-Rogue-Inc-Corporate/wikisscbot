@@ -1,0 +1,20 @@
+{
+ "note": "Threads whose diff text is read to test a same-routine reading. Research only: not used by the site. Gateway-level; no thread is tied to a person.",
+ "sets": [
+  {
+   "id": "population",
+   "question": "Do the quarterly provincial population updates on four addresses change the same fields in the same way?",
+   "wiki": "enwiki",
+   "title_regex": "^(Alberta|British Columbia|Manitoba|New Brunswick|Newfoundland and Labrador|Nova Scotia|Ontario|Prince Edward Island|Quebec|Saskatchewan|Northwest Territories|Nunavut|Yukon)$|Provinces and territories of Canada|Population of Canada by province",
+   "addresses": ["205.211.133.128", "205.193.94.40", "198.103.167.20", "205.211.133.133"]
+  },
+  {
+   "id": "airport-tables",
+   "question": "Do the airport destination-table edits on 198.103.104.11 (2020) and its successor block follow one habit?",
+   "wiki": "enwiki",
+   "title_regex": "Airport",
+   "addresses": ["198.103.104.11", "198.103.198.248", "198.103.198.249", "198.103.198.250", "198.103.198.253", "198.103.198.254"],
+   "since": {"198.103.104.11": "2020-01-01"}
+  }
+ ]
+}
