@@ -1,6 +1,6 @@
 # Intra-year address correlations
 
-Archive fingerprint `615e22ede799`: 57,116 edits, 2009 to 2025. Each year is analysed on its own: only addresses with 5+ edits that year, only that year's edits.
+Archive fingerprint `f7d66cdaadd5`: 63,623 edits, 2008 to 2025. Each year is analysed on its own: only addresses with 5+ edits that year, only that year's edits.
 
 - **pool**: 5+ handoffs within 60 min, or 3+ across 2+ pages. The addresses alternate inside one sitting.
 - **same-exit**: 3+ shared rare pages (a rare page is one at most 3 addresses edited that year) without that many handoffs. Same traffic, but a sitting stays on one address.
@@ -15,9 +15,9 @@ Pair-years reaching each threshold, by how the two addresses are related. Differ
 
 | Relation | 2 shared rare pages | 3 or more |
 |---|---|---|
-| same /24 | 21 | 72 |
-| same /16 | 19 | 12 |
-| different block | 16 | 3 |
+| same /24 | 25 | 82 |
+| same /16 | 26 | 20 |
+| different block | 23 | 4 |
 
 ## Year summary
 
@@ -40,16 +40,18 @@ Pair-years reaching each threshold, by how the two addresses are related. Differ
 | 2011 | 5,175 | 229 | 91 | 5 | 1 | 3 | 7 | 2 |
 | 2010 | 6,333 | 253 | 97 | 7 | 2 | 3 | 6 | 2 |
 | 2009 | 6,876 | 272 | 109 | 4 | 7 | 13 | 5 | 2 |
+| 2008 | 6,507 | 297 | 108 | 13 | 7 | 17 | 4 | 1 |
 
 ## Blocks whose addresses keep sharing traffic
 
 Handoffs within the hour / shared rare pages, summed over the pairs inside each /24, per year. A fall in handoffs while shared pages hold up means the exit stopped alternating addresses inside a sitting.
 
-| Block | 09 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 131.137.245.x | 56/34 | 328/234 | 122/101 | 141/131 | 96/49 | 92/70 | 99/72 | 0/34 | 28/50 | 4/30 | 5/19 | 0/2 | 4/11 | 0/7 | 0/3 | · | · |
-| 192.197.82.x | 5/18 | 14/16 | 47/30 | 28/25 | 0/2 | 0/4 | · | 0/2 | · | · | · | · | · | · | · | · | · |
-| 207.35.15.x | · | · | · | · | · | · | · | · | · | 0/2 | · | 0/1 | 0/7 | · | 0/4 | 0/2 | · |
+| Block | 08 | 09 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 131.137.245.x | 43/33 | 56/34 | 328/234 | 122/101 | 141/131 | 96/49 | 92/70 | 99/72 | 0/34 | 28/50 | 4/30 | 5/19 | 0/2 | 4/11 | 0/7 | 0/3 | · | · |
+| 192.197.82.x | 20/33 | 5/18 | 14/16 | 47/30 | 28/25 | 0/2 | 0/4 | · | 0/2 | · | · | · | · | · | · | · | · | · |
+| 207.35.15.x | · | · | · | · | · | · | · | · | · | · | 0/2 | · | 0/1 | 0/7 | · | 0/4 | 0/2 | · |
+| 159.33.10.x | 0/2 | · | · | · | · | · | · | · | · | · | · | · | · | 0/2 | 0/6 | · | · | · |
 
 ## Links across different blocks
 
@@ -61,7 +63,7 @@ Two addresses in unrelated blocks sharing rare pages inside one year. This is wh
 | 2024 | 167.32.2.2 + 207.35.15.27 | House of Commons | linked | 2 | 63.02 | Marcus Powlowski; 2025 Canadian federal election |
 | 2019 | 198.103.104.11 + 205.193.94.40 | SSC | linked | 2 | 71.06 | Chief William Commanda Bridge; Gord Miller (sportscaster) |
 | 2019 | 199.212.18.130 + 205.211.133.128 | Environment Canada | linked | 2 | 36.09 | Indigenous land claims in Canada; Harvest |
-| 2018 | 205.193.94.40 + 205.211.133.128 | SSC / Environment Canada | same-exit | 11 | 192.93 | British Columbia; Population of Canada by province and territory; Saskatchewan |
+| 2018 | 205.193.94.40 + 205.211.133.128 | SSC / Environment Canada | same-exit | 11 | 192.89 | British Columbia; Population of Canada by province and territory; Saskatchewan |
 | 2018 | 192.197.82.153 + 207.35.15.27 | House of Commons | same-exit | 4 | 182.57 | Churence Rogers; Canadian House of Commons Liaison Committee; Matthew Dubé |
 | 2018 | 198.103.167.20 + 205.193.94.40 | SSC | linked | 2 | 47.05 | North Preston; Elm Hill, New Brunswick |
 | 2013 | 131.137.247.6 + 205.193.94.40 | National Defence / SSC | linked | 2 | 114.05 | List of law enforcement agencies in Canada; BlackBerry 10 |
@@ -69,13 +71,21 @@ Two addresses in unrelated blocks sharing rare pages inside one year. This is wh
 | 2011 | 192.197.71.189 + 198.103.109.141 | SSC (AS2665) / SSC | linked | 2 | 54.06 | 2011 Vancouver Stanley Cup riot; Williams Lake, British Columbia |
 | 2011 | 198.103.184.76 + 205.194.127.36 | SSC | linked | 2 | 48.27 | Biometrics; Richard Matheson |
 | 2010 | 198.103.172.9 + 205.193.96.10 | SSC | same-exit | 3 | 194.05 | Wikipedia:Reference desk/Language; Wikipedia:Reference desk/Science; Wikipedia:Reference desk/Miscellaneous |
-| 2010 | 199.212.17.130 + 205.211.133.129 | Environment Canada | linked | 2 | 160.09 | Centre météorologique canadien [frwiki]; Canada Gazette |
+| 2010 | 199.212.17.130 + 205.211.133.129 | Environment Canada | linked | 2 | 160.04 | Centre météorologique canadien [frwiki]; Canada Gazette |
 | 2009 | 131.137.245.200 + 198.103.184.76 | National Defence / SSC | linked | 2 | 13.65 | Bataille de Long Sault [frwiki]; Wiktionary:Feedback [enwiktionary] |
-| 2009 | 131.137.245.206 + 198.103.167.20 | National Defence / SSC | linked | 2 | 46.96 | History of the Royal Canadian Navy; Royal Roads Military College |
+| 2009 | 131.137.245.206 + 198.103.167.20 | National Defence / SSC | linked | 2 | 46.92 | History of the Royal Canadian Navy; Royal Roads Military College |
 | 2009 | 131.137.245.207 + 198.103.167.20 | National Defence / SSC | linked | 2 | 0.81 | History of the Royal Canadian Navy; Royal Roads Military College |
-| 2009 | 131.137.245.207 + 198.103.184.76 | National Defence / SSC | linked | 2 | 123.34 | Wikipedia:Sandbox; Cadet Instructors Cadre; CHEK-DT |
+| 2009 | 131.137.245.207 + 198.103.184.76 | National Defence / SSC | linked | 2 | 123.3 | Wikipedia:Sandbox; Cadet Instructors Cadre; CHEK-DT |
 | 2009 | 192.197.71.189 + 199.212.17.130 | SSC (AS2665) / Environment Canada | linked | 2 | 14.12 | Family Day; Franco-Ontariens [frwiki] |
 | 2009 | 198.103.184.76 + 205.193.82.252 | SSC | linked | 2 | 6.87 | Fort Chambly [frwiki]; Rideau Centre |
+| 2008 | 159.33.10.92 + 198.103.104.11 | CBC / SSC | same-exit | 3 | 19.12 | Global Affairs Canada; Leamington, Ontario; Stanley Cup |
+| 2008 | 192.197.178.2 + 198.103.167.20 | Industry Canada / SSC | linked | 2 | 31.01 | Gatineau [frwiki]; Fulcrum (newspaper) |
+| 2008 | 192.197.82.203 + 198.103.152.52 | House of Commons / SSC | linked | 2 | 47.15 | Gini coefficient; North West River |
+| 2008 | 192.197.82.203 + 198.103.171.2 | House of Commons / SSC | linked | 2 | 2.16 | 2008 Canadian federal election; Vancouver Quadra |
+| 2008 | 192.197.82.203 + 198.103.184.76 | House of Commons / SSC | linked | 2 | 41.87 | Roberto Luongo; Tom Mulcair |
+| 2008 | 192.197.82.203 + 198.103.196.130 | House of Commons / SSC | linked | 2 | 126.98 | Ezra Levant; Usher of the Black Rod (Canada) |
+| 2008 | 198.103.196.130 + 205.194.127.36 | SSC | linked | 2 | 292.95 | Ted Byfield; Jason Kenney |
+| 2008 | 198.103.221.52 + 205.194.127.36 | SSC | linked | 2 | 1.07 | 2009 Liberal Party of Canada leadership election; Jason Kenney |
 
 ## Pairs that recur across years
 
@@ -83,17 +93,20 @@ Pairs classed pool, same-exit or linked in three or more separate years.
 
 | Addresses | Labels | Years | Of which pool | Handoffs |
 |---|---|---|---|---|
-| 131.137.245.206 + 131.137.245.207 | National Defence | 14 (2009–2023) | 8 | 258 |
+| 131.137.245.206 + 131.137.245.207 | National Defence | 15 (2008–2023) | 9 | 265 |
 | 131.137.245.207 + 131.137.245.208 | National Defence | 12 (2010–2021) | 7 | 270 |
 | 131.137.245.206 + 131.137.245.208 | National Defence | 10 (2010–2021) | 7 | 194 |
 | 131.137.245.207 + 131.137.245.209 | National Defence | 9 (2012–2021) | 4 | 84 |
+| 192.197.82.153 + 192.197.82.203 | House of Commons | 8 (2008–2016) | 5 | 102 |
 | 131.137.245.206 + 131.137.245.209 | National Defence | 8 (2012–2019) | 5 | 82 |
 | 131.137.245.208 + 131.137.245.209 | National Defence | 7 (2012–2018) | 5 | 84 |
-| 192.197.82.153 + 192.197.82.203 | House of Commons | 7 (2009–2016) | 4 | 82 |
-| 192.197.82.155 + 192.197.82.205 | House of Commons | 4 (2009–2012) | 1 | 12 |
-| 198.103.221.52 + 198.103.223.52 | SSC | 4 (2009–2018) | 2 | 11 |
-| 198.103.152.52 + 198.103.223.52 | SSC | 4 (2009–2014) | 1 | 9 |
+| 198.103.221.52 + 198.103.223.52 | SSC | 5 (2008–2018) | 3 | 15 |
+| 198.103.152.52 + 198.103.223.52 | SSC | 5 (2008–2014) | 2 | 12 |
+| 192.197.82.155 + 192.197.82.205 | House of Commons | 5 (2008–2012) | 1 | 12 |
 | 207.35.15.11 + 207.35.15.27 | House of Commons | 4 (2018–2024) | 0 | 0 |
+| 198.103.152.52 + 198.103.221.52 | SSC | 3 (2008–2010) | 1 | 11 |
+| 198.103.152.51 + 198.103.223.51 | SSC | 3 (2008–2015) | 2 | 6 |
+| 198.103.221.51 + 198.103.223.51 | SSC | 3 (2008–2010) | 1 | 6 |
 
 ## 2025
 
@@ -238,3 +251,12 @@ Pairs classed pool, same-exit or linked in three or more separate years.
 | 192.197.71.189 + 199.212.17.130 (Environment Canada, SSC (AS2665)) | linked · cross-block | 382 | 0 | 2 | Family Day; Franco-Ontariens [frwiki] |
 | 199.212.150.16 + 199.212.150.17 (SSC network (AS2675)) | same-exit | 74 | 1 | 3 | Pacific Mall; Błażej Augustyn; Indigenous police in Canada |
 | 142.206.2.12 + 142.206.2.15 (Statistics Canada) | linked | 50 | 2 | 2 | List of recipients of the Bronze Wolf Award; Capital Pride (Ottawa) |
+
+## 2008
+
+| Group | Kind | Edits | Handoffs | Shared rare | Shared pages (top) |
+|---|---|---|---|---|---|
+| 159.33.10.92 + 159.33.10.93 + 192.197.178.2 + 192.197.82.153 + 192.197.82.155 + 192.197.82.203 + 192.197.82.205 + 198.103.104.11 + 198.103.152.51 + 198.103.152.52 + 198.103.167.20 + 198.103.171.2 + 198.103.172.9 + 198.103.184.76 + 198.103.196.130 + 198.103.221.51 + 198.103.221.52 + 198.103.223.51 + 198.103.223.52 + 205.194.127.36 (CBC, House of Commons, Industry Canada, SSC) | pool · cross-block | 3,625 | 39 | 109 | John McKay (Ontario politician, born 1948); Dean Allison; Newfoundland and Labrador [enwikivoyage] |
+| 131.137.245.197 + 131.137.245.198 + 131.137.245.199 + 131.137.245.200 (National Defence) | pool | 187 | 36 | 27 | Appendix:Canadian English military slang [enwiktionary]; Category:A. Y. Jackson [commonswiki]; Le Régiment du Saguenay [frwiki] |
+| 199.212.150.16 + 199.212.150.17 (SSC network (AS2675)) | linked | 90 | 1 | 2 | New media; Volleyball at the 2008 Summer Olympics – Women's tournament; Wikipedia:Sandbox |
+| 131.137.245.206 + 131.137.245.207 (National Defence) | pool | 70 | 7 | 6 | Template:Infobox/sandbox; Batmobile; Cadet Instructors Cadre |
