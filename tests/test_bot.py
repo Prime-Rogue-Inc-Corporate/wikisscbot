@@ -59,6 +59,24 @@ class RangeTests(unittest.TestCase):
         self.assertTrue(only.valid_in_year(2011))
         self.assertFalse(only.valid_in_year(2010))
 
+    def test_parliament_ranges_are_dated(self):
+        lab = ranges.Labeller(ranges.load_confirmed() + ranges.load_gccaedits())
+        hoc = "Canadian House of Commons"
+        # 167.32/16: the list says SSC; confirmed as House of Commons once it routed the block itself.
+        self.assertEqual(lab.match("167.32.2.3", "2025-01-15T00:00:00Z").label, hoc)
+        self.assertEqual(lab.match("167.32.2.3", "2025-01-15T00:00:00Z").source, "confirmed")
+        self.assertEqual(lab.match("167.32.2.3", "2016-01-15T00:00:00Z").label, "Shared Services Canada")
+        # 207.35.15.0/27: House of Commons until the block was re-assigned.
+        self.assertEqual(lab.match("207.35.15.27", "2021-06-01T00:00:00Z").label, hoc)
+        self.assertEqual(lab.match("207.35.15.27", "2024-11-05T00:00:00Z").label, hoc)
+        self.assertIsNone(lab.match("207.35.15.27", "2025-02-01T00:00:00Z"))
+        self.assertTrue(lab.lapsed("207.35.15.27", "2025-02-01T00:00:00Z"))
+        # The older House of Commons block is untouched.
+        self.assertEqual(lab.match("192.197.82.153", "2025-02-01T00:00:00Z").label, hoc)
+        blocks_2025 = ranges.query_blocks(lab.ranges, 2025)[0]
+        self.assertFalse(any(ipaddress.ip_address("207.35.15.27") in b for b in blocks_2025))
+        self.assertTrue(any(ipaddress.ip_address("167.32.200.1") in b for b in blocks_2025))
+
     def test_bgp_refresh_records_announcement_dates(self):
         import json, tempfile
         from pathlib import Path

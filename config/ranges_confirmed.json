@@ -1,11 +1,26 @@
 {
-  "about": "Addresses whose institution has been confirmed by evidence stronger than a range list. These take priority over the @gccaedits list and the SSC routing prefixes. 'from' is the earliest date the label is applied; before it the address falls back to its ordinary range label.",
+  "about": "Addresses whose institution has been confirmed by evidence stronger than a range list. These take priority over the @gccaedits list and the SSC routing prefixes. 'from' is the earliest date the label is applied; before it the address falls back to its ordinary range label. 'until' is the last date it applies. 'ended' lists ranges from the @gccaedits list that later stopped belonging to the listed institution: edits after 'until' are not attributed to it.",
   "ranges": [
     {
       "range": "205.193.51.200/32",
       "label": "Office of the Information Commissioner of Canada",
       "from": "2011-08-04",
       "basis": "Reverse DNS, confirmed by Prime Rogue Inc. Applies from the office's move onto Shared Services Canada's network; the exact date is not established, so the label starts no earlier than the creation of Shared Services Canada (4 August 2011).",
+      "added": "2026-11-12"
+    },
+    {
+      "range": "167.32.0.0/16",
+      "label": "Canadian House of Commons",
+      "from": "2023-11-19",
+      "basis": "ARIN registers 167.32.0.0/16 (PARL-IPV4) to the House of Commons, and the House of Commons' own network (AS398290) has announced it since 19 November 2023; Shared Services Canada (AS2665) stopped announcing 167.32.0.0/17 in December 2023. The @gccaedits list files the lower half under Shared Services Canada. Registry and routing checked by Prime Rogue Inc. on 2026-11-12.",
+      "added": "2026-11-12"
+    }
+  ],
+  "ended": [
+    {
+      "range": "207.35.15.0/27",
+      "until": "2024-11-05",
+      "basis": "Bell Canada address space used by the House of Commons from May 2018; the last edit from it is dated 17 July 2024, and ARIN shows the block re-assigned to another Bell customer on 5 November 2024. Checked by Prime Rogue Inc. on 2026-11-12.",
       "added": "2026-11-12"
     }
   ]
