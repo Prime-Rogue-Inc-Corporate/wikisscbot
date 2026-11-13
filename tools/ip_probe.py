@@ -50,6 +50,7 @@ def norm(w: dict) -> dict:
                 "diff_base": f"https://{w['host']}/w/index.php", "family": w.get("family", "wikimedia")}
     base = w["base"].rstrip("/")
     return {"id": w["id"], "api_url": base + w.get("api", "/api.php"),
+            "alt_api_url": None if w.get("api") else base + "/w/api.php",
             "diff_base": base + "/index.php", "family": w.get("genre") or "other"}
 
 
@@ -101,6 +102,12 @@ def probe_ip(ip: str, wikis: list[dict], labeller: Labeller, quick: bool = False
         try:
             return w, contributions(w["api_url"], ip, quick), None
         except Exception as e:  # one unreachable wiki must not stop the sweep
+            alt = w.get("alt_api_url")
+            if alt:  # some wikis serve the API under /w/
+                try:
+                    return w, contributions(alt, ip, quick), None
+                except Exception:
+                    pass
             return w, [], str(e)
 
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:

@@ -77,6 +77,29 @@ class IpProbeTests(unittest.TestCase):
         self.assertEqual(seen[1], {})
         self.assertIn("1 wikis could not be checked: bad.", ip_probe.markdown([r], {}, [{"id": "good", "host": "good.example"}, {"id": "bad", "host": "bad.example"}], "now"))
 
+    def test_falls_back_to_the_w_api_path(self):
+        seen = []
+        def fake(url, params, **kw):
+            seen.append(url)
+            if url.endswith("example.org/api.php"):
+                raise ip_probe.ApiError("HTTP 404")
+            return {"query": {"usercontribs": []}}
+        with mock.patch.object(ip_probe, "get_json", side_effect=fake):
+            r = ip_probe.probe_ip("205.193.51.200", [{"id": "x", "base": "https://example.org", "genre": "other"}],
+                                  ranges.Labeller([]))
+        self.assertEqual((r["wikis"], r["errors"]), ({"x": 0}, {}))
+        self.assertEqual(seen, ["https://example.org/api.php", "https://example.org/w/api.php"])
+
+    def test_niche_list_is_well_formed(self):
+        import json
+        wikis = json.loads((Path(__file__).resolve().parent.parent / "config" / "niche_wikis.json").read_text())["wikis"]
+        ids = [w["id"] for w in wikis]
+        self.assertEqual(len(ids), len(set(ids)))
+        self.assertEqual(len({w["base"] for w in wikis}), len(wikis))
+        for w in wikis:
+            self.assertTrue(w["base"].startswith("https://") and w["genre"], w)
+            ip_probe.norm(w)
+
     def test_rejects_ranges(self):
         with self.assertRaises(ValueError):
             ip_probe.probe_ip("205.193.51.0/24", [], ranges.Labeller([]))

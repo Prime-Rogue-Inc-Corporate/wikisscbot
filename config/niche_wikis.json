@@ -1,22 +1,227 @@
 {
-  "_note": "Candidate niche wikis to probe for public IP-attributed edits from Government of Canada ranges. Probed by IP range only; never by username.",
+  "_note": "Wikis outside the yearly archive that are probed for public IP-attributed edits from Government of Canada ranges. Probed by IP range only; never by username. This is the single list for wiki probing: the league-log project's wiki list was folded in on 2026-11-12. The API is looked for at /api.php and /w/api.php unless an 'api' path is given.",
   "wikis": [
-    {"id": "prowrestling", "base": "https://prowrestling.fandom.com", "genre": "wrestling"},
-    {"id": "wwe", "base": "https://wwe.fandom.com", "genre": "wrestling"},
-    {"id": "aew", "base": "https://aew.fandom.com", "genre": "wrestling"},
-    {"id": "ice-hockey", "base": "https://ice-hockey.fandom.com", "genre": "hockey"},
-    {"id": "nhl", "base": "https://nhl.fandom.com", "genre": "hockey"},
-    {"id": "hockey", "base": "https://hockey.fandom.com", "genre": "hockey"},
-    {"id": "tennis", "base": "https://tennis.fandom.com", "genre": "tennis"},
-    {"id": "military-history", "base": "https://military-history.fandom.com", "genre": "military"},
-    {"id": "military", "base": "https://military.fandom.com", "genre": "military"},
-    {"id": "nintendo", "base": "https://nintendo.fandom.com", "genre": "retro gaming"},
-    {"id": "nes", "base": "https://nes.fandom.com", "genre": "retro gaming"},
-    {"id": "canada", "base": "https://canada.fandom.com", "genre": "Canada"},
-    {"id": "nextmodel", "base": "https://antm.fandom.com", "genre": "reality TV"},
-    {"id": "airports", "base": "https://airports.fandom.com", "genre": "aviation"},
-    {"id": "aviation", "base": "https://aviation.fandom.com", "genre": "aviation"},
-    {"id": "wiktionary-en", "base": "https://en.wiktionary.org", "genre": "Wikimedia sister (control)", "api": "/w/api.php"},
-    {"id": "wikivoyage-en", "base": "https://en.wikivoyage.org", "genre": "Wikimedia sister (control)", "api": "/w/api.php"}
+    {
+      "id": "prowrestling",
+      "base": "https://prowrestling.fandom.com",
+      "genre": "wrestling"
+    },
+    {
+      "id": "aew",
+      "base": "https://aew.fandom.com",
+      "genre": "wrestling"
+    },
+    {
+      "id": "tennis",
+      "base": "https://tennis.fandom.com",
+      "genre": "tennis"
+    },
+    {
+      "id": "military-history",
+      "base": "https://military-history.fandom.com",
+      "genre": "military"
+    },
+    {
+      "id": "nintendo",
+      "base": "https://nintendo.fandom.com",
+      "genre": "retro gaming"
+    },
+    {
+      "id": "nes",
+      "base": "https://nes.fandom.com",
+      "genre": "retro gaming"
+    },
+    {
+      "id": "canada",
+      "base": "https://canada.fandom.com",
+      "genre": "Canada"
+    },
+    {
+      "id": "nextmodel",
+      "base": "https://antm.fandom.com",
+      "genre": "reality TV"
+    },
+    {
+      "id": "airports",
+      "base": "https://airports.fandom.com",
+      "genre": "aviation"
+    },
+    {
+      "id": "aviation",
+      "base": "https://aviation.fandom.com",
+      "genre": "aviation"
+    },
+    {
+      "id": "wiktionary-en",
+      "base": "https://en.wiktionary.org",
+      "genre": "Wikimedia sister (control)",
+      "api": "/w/api.php"
+    },
+    {
+      "id": "wikivoyage-en",
+      "base": "https://en.wikivoyage.org",
+      "genre": "Wikimedia sister (control)",
+      "api": "/w/api.php"
+    },
+    {
+      "id": "fallout",
+      "base": "https://fallout.fandom.com",
+      "genre": "gaming"
+    },
+    {
+      "id": "en-uncyclopedia-co",
+      "base": "https://en.uncyclopedia.co",
+      "genre": "humour"
+    },
+    {
+      "id": "metalgear",
+      "base": "https://metalgear.fandom.com",
+      "genre": "gaming"
+    },
+    {
+      "id": "starwars",
+      "base": "https://starwars.fandom.com",
+      "genre": "science fiction"
+    },
+    {
+      "id": "elderscrolls",
+      "base": "https://elderscrolls.fandom.com",
+      "genre": "gaming"
+    },
+    {
+      "id": "battlefield",
+      "base": "https://battlefield.fandom.com",
+      "genre": "gaming"
+    },
+    {
+      "id": "memory-alpha",
+      "base": "https://memory-alpha.fandom.com",
+      "genre": "science fiction"
+    },
+    {
+      "id": "memory-beta",
+      "base": "https://memory-beta.fandom.com",
+      "genre": "science fiction"
+    },
+    {
+      "id": "ageofempires",
+      "base": "https://ageofempires.fandom.com",
+      "genre": "gaming"
+    },
+    {
+      "id": "icehockey",
+      "base": "https://icehockey.fandom.com",
+      "genre": "hockey"
+    },
+    {
+      "id": "ottawa",
+      "base": "https://ottawa.fandom.com",
+      "genre": "canada"
+    },
+    {
+      "id": "transformers",
+      "base": "https://transformers.fandom.com",
+      "genre": "television"
+    },
+    {
+      "id": "warthunder",
+      "base": "https://warthunder.fandom.com",
+      "genre": "gaming"
+    },
+    {
+      "id": "callofduty",
+      "base": "https://callofduty.fandom.com",
+      "genre": "gaming"
+    },
+    {
+      "id": "community",
+      "base": "https://community.fandom.com",
+      "genre": "fandom"
+    },
+    {
+      "id": "cryptidz",
+      "base": "https://cryptidz.fandom.com",
+      "genre": "other"
+    },
+    {
+      "id": "tardis",
+      "base": "https://tardis.fandom.com",
+      "genre": "science fiction"
+    },
+    {
+      "id": "tomclancy",
+      "base": "https://tomclancy.fandom.com",
+      "genre": "gaming"
+    },
+    {
+      "id": "appropedia-org",
+      "base": "https://www.appropedia.org",
+      "genre": "reference"
+    },
+    {
+      "id": "harrypotter",
+      "base": "https://harrypotter.fandom.com",
+      "genre": "books"
+    },
+    {
+      "id": "historica",
+      "base": "https://historica.fandom.com",
+      "genre": "history"
+    },
+    {
+      "id": "liquipedia-net-counterstrike",
+      "base": "https://liquipedia.net/counterstrike",
+      "genre": "esports"
+    },
+    {
+      "id": "liquipedia-net-leagueoflegends",
+      "base": "https://liquipedia.net/leagueoflegends",
+      "genre": "esports"
+    },
+    {
+      "id": "lostpedia",
+      "base": "https://lostpedia.fandom.com",
+      "genre": "television"
+    },
+    {
+      "id": "marvel",
+      "base": "https://marvel.fandom.com",
+      "genre": "comics"
+    },
+    {
+      "id": "minecraft-wiki",
+      "base": "https://minecraft.wiki",
+      "genre": "gaming"
+    },
+    {
+      "id": "wiki-archlinux-org",
+      "base": "https://wiki.archlinux.org",
+      "genre": "technology"
+    },
+    {
+      "id": "wiki-openstreetmap-org",
+      "base": "https://wiki.openstreetmap.org",
+      "genre": "technology"
+    },
+    {
+      "id": "wikispooks-com",
+      "base": "https://wikispooks.com",
+      "genre": "politics"
+    },
+    {
+      "id": "conservapedia-com",
+      "base": "https://www.conservapedia.com",
+      "genre": "politics"
+    },
+    {
+      "id": "pcgamingwiki-com",
+      "base": "https://www.pcgamingwiki.com",
+      "genre": "gaming"
+    },
+    {
+      "id": "wikihow-com",
+      "base": "https://www.wikihow.com",
+      "genre": "reference"
+    }
   ]
 }
