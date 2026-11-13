@@ -250,7 +250,7 @@ for comp in nx.connected_components(LG):
                    'max_score': round(max(d['score'] for _, _, d in LG.subgraph(comp).edges(data=True)), 2)})
 GROUPS.sort(key=lambda g: -g['edits'])
 rowmax = sc.max(1)
-META = {'threads_total': len(CL), 'threads_fingerprinted': len(BIG),
+META = {'archive': S.get('archive', ''), 'years': sorted(YEARS), 'threads_total': len(CL), 'threads_fingerprinted': len(BIG),
         'edit_mass_fingerprinted': round(sum(len(CL[i]['edits']) for i in BIG) / len(ALL), 3),
         'edits': len(ALL), 'addresses': len(ADDR),
         'best_score_percentiles': {str(p): round(float(np.percentile(rowmax, p)), 2) for p in (50, 75, 90, 95)},

@@ -1,6 +1,6 @@
 # Intra-year address correlations
 
-Archive at `e1b95a1`: 50,558 edits, 2010 to 2025. Each year is analysed on its own: only addresses with 5+ edits that year, only that year's edits.
+Archive fingerprint `3f2fb5b88bdf`: 50,240 edits, 2010 to 2025. Each year is analysed on its own: only addresses with 5+ edits that year, only that year's edits.
 
 - **pool**: 5+ handoffs within 60 min, or 3+ across 2+ pages. The addresses alternate inside one sitting.
 - **same-exit**: 3+ shared rare pages (a rare page is one at most 3 addresses edited that year) without that many handoffs. Same traffic, but a sitting stays on one address.
@@ -23,20 +23,20 @@ Pair-years reaching each threshold, by how the two addresses are related. Differ
 
 | Year | Edits | Addresses | Compared | Pool pairs | Same-exit pairs | Linked pairs | Groups | Cross-block groups |
 |---|---|---|---|---|---|---|---|---|
-| 2025 | 2,652 | 109 | 48 | 1 | 0 | 3 | 4 | 0 |
-| 2024 | 1,264 | 130 | 51 | 1 | 0 | 3 | 2 | 1 |
-| 2023 | 1,537 | 109 | 46 | 0 | 2 | 1 | 3 | 0 |
-| 2022 | 2,190 | 110 | 56 | 0 | 3 | 0 | 2 | 0 |
-| 2021 | 2,630 | 115 | 57 | 0 | 4 | 4 | 5 | 0 |
-| 2020 | 1,536 | 102 | 44 | 0 | 0 | 1 | 1 | 0 |
-| 2019 | 2,731 | 148 | 71 | 0 | 3 | 3 | 3 | 2 |
-| 2018 | 3,745 | 162 | 66 | 0 | 8 | 5 | 4 | 2 |
-| 2017 | 3,520 | 167 | 64 | 5 | 1 | 2 | 3 | 0 |
+| 2025 | 2,645 | 107 | 47 | 1 | 0 | 3 | 4 | 0 |
+| 2024 | 1,249 | 129 | 50 | 1 | 0 | 3 | 2 | 1 |
+| 2023 | 1,534 | 108 | 46 | 0 | 2 | 1 | 3 | 0 |
+| 2022 | 2,157 | 107 | 55 | 0 | 3 | 0 | 2 | 0 |
+| 2021 | 2,526 | 113 | 55 | 0 | 4 | 4 | 5 | 0 |
+| 2020 | 1,518 | 100 | 43 | 0 | 0 | 1 | 1 | 0 |
+| 2019 | 2,702 | 146 | 69 | 0 | 3 | 3 | 3 | 2 |
+| 2018 | 3,704 | 160 | 64 | 0 | 8 | 5 | 4 | 2 |
+| 2017 | 3,455 | 165 | 62 | 5 | 1 | 2 | 3 | 0 |
 | 2016 | 2,617 | 163 | 64 | 0 | 6 | 1 | 2 | 0 |
 | 2015 | 3,733 | 165 | 64 | 6 | 0 | 1 | 2 | 0 |
 | 2014 | 3,151 | 173 | 67 | 6 | 1 | 4 | 4 | 0 |
-| 2013 | 3,592 | 172 | 75 | 6 | 1 | 4 | 3 | 1 |
-| 2012 | 4,152 | 203 | 80 | 7 | 0 | 5 | 3 | 1 |
+| 2013 | 3,591 | 171 | 75 | 6 | 1 | 4 | 3 | 1 |
+| 2012 | 4,150 | 202 | 80 | 7 | 0 | 5 | 3 | 1 |
 | 2011 | 5,175 | 229 | 91 | 5 | 1 | 3 | 7 | 2 |
 | 2010 | 6,333 | 253 | 97 | 7 | 2 | 3 | 6 | 2 |
 

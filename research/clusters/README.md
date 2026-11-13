@@ -7,8 +7,11 @@ Run from the repo root (needs numpy, scipy and networkx, which the collector its
     python research/clusters/grade_matches.py /tmp/state.pkl research/clusters/results.json
     python research/clusters/build_report.py research/clusters/results.json research/clusters
 
-The results committed here were computed on 2026-11-12 from the archive at commit 932b722, which held
-2012 to 2025 (38,735 edits, 801 addresses). Years backfilled since then are not in them; rerun to include them.
+The committed results are recomputed whenever the archive changes (see `.github/workflows/clusters.yml`, if present);
+`results.json` and `intra_year.json` each record the archive commit they were computed from.
+
+`findings.json` is different: it is the hand review of that output (network behaviour, the threads read by hand,
+the per-year notes). No script writes it. When a rerun changes the numbers it quotes, it has to be re-read by a person.
 
 ## Steps
 
@@ -38,9 +41,6 @@ inside the same calendar year? It needs only the standard library.
     python research/clusters/intra_year.py ./ research/clusters
 
 It writes `intra_year.md` (readable), `intra_year.json`, `intra_year_pairs.csv` and `intra_year_groups.csv`.
-The committed outputs were computed from the archive at e1b95a1 (2010 to 2025, 50,558 edits), which is
-newer than the archive the thread-matching results above were computed from.
-
 A pair is a **pool** when the two addresses alternate on one page inside the hour, **same-exit** when
 they share three or more rare pages without alternating, and **linked** when they share exactly two.
 A rare page is one that at most three addresses edited that year.

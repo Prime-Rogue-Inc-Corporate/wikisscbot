@@ -9,7 +9,7 @@ Stage 5  address-pair mechanics: same-page handoffs within 60 min (pool),
          disjoint activity windows + page carry-over (renumbering)
 Output   pickle with everything, used by the reporting scripts
 """
-import json, glob, re, math, collections, pickle, sys, datetime as dt
+import json, glob, os, re, math, collections, pickle, sys, datetime as dt
 import numpy as np, scipy.sparse as sp, networkx as nx
 
 R = sys.argv[1]
@@ -20,6 +20,15 @@ RESOLUTION = float(sys.argv[3]) if len(sys.argv) > 3 else 0.6
 EPISODE_GAP = float(sys.argv[4]) if len(sys.argv) > 4 else 365
 MIN_EDITS = 5          # a thread needs this many edits to be fingerprinted / matched
 SEED = 7
+
+def archive_fingerprint(root):
+    """Short digest of the yearly edit files, so outputs change only when the archive does."""
+    import hashlib
+    h = hashlib.sha256()
+    for f in sorted(glob.glob(os.path.join(root, 'data', '20*', 'edits.jsonl'))):
+        h.update(os.path.basename(os.path.dirname(f)).encode())
+        h.update(hashlib.sha256(open(f, 'rb').read()).digest())
+    return h.hexdigest()[:12]
 
 # ---------------------------------------------------------------- load
 ALL = []
@@ -247,7 +256,7 @@ for ip in IPS:
                 'label': byip[ip][0]['label'], 'range': byip[ip][0]['range'],
                 'pages': set(e['p'] for e in byip[ip])}
 
-pickle.dump({'ALL': ALL, 'CL': CL, 'BIG_ids': [c['id'] for c in BIG], 'score': score.astype(np.float32),
+pickle.dump({'archive': archive_fingerprint(R), 'ALL': ALL, 'CL': CL, 'BIG_ids': [c['id'] for c in BIG], 'score': score.astype(np.float32),
              'content': content.astype(np.float32), 'style': style.astype(np.float32),
              'S_page': S_page.astype(np.float32), 'S_title': S_title.astype(np.float32),
              'S_sect': S_sect.astype(np.float32), 'S_free': S_free.astype(np.float32), 'S_hour': S_hour.astype(np.float32),
