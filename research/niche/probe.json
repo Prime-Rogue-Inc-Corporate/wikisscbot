@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T05:46:20Z",
+ "generated": "2026-11-13T05:08:24Z",
  "since": "2021-01-01T00:00:00Z",
  "wikis": [
   {
@@ -7,37 +7,32 @@
    "base": "https://prowrestling.fandom.com",
    "genre": "wrestling",
    "reachable": true,
+   "api": "https://prowrestling.fandom.com/api.php",
    "sitename": "Pro Wrestling",
-   "generator": "MediaWiki 1.43.9",
+   "generator": "MediaWiki 1.43.10",
    "temp_accounts": false,
    "range_queries": true,
-   "blocks_scanned": 146,
-   "blocks_total": 146,
+   "blocks_scanned": 158,
+   "blocks_total": 158,
    "gc_edits": 0,
    "gc_ips": [],
    "top_pages": [],
    "by_year": {},
    "last_gc_edit": null,
    "sample": []
-  },
-  {
-   "id": "wwe",
-   "base": "https://wwe.fandom.com",
-   "genre": "wrestling",
-   "reachable": false,
-   "error": "HTTP 404 for https://wwe.fandom.com/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
   },
   {
    "id": "aew",
    "base": "https://aew.fandom.com",
    "genre": "wrestling",
    "reachable": true,
+   "api": "https://aew.fandom.com/api.php",
    "sitename": "AEW Wiki",
-   "generator": "MediaWiki 1.43.9",
+   "generator": "MediaWiki 1.43.10",
    "temp_accounts": false,
    "range_queries": true,
-   "blocks_scanned": 146,
-   "blocks_total": 146,
+   "blocks_scanned": 158,
+   "blocks_total": 158,
    "gc_edits": 0,
    "gc_ips": [],
    "top_pages": [],
@@ -46,37 +41,17 @@
    "sample": []
   },
   {
-   "id": "ice-hockey",
-   "base": "https://ice-hockey.fandom.com",
-   "genre": "hockey",
-   "reachable": false,
-   "error": "HTTP 404 for https://ice-hockey.fandom.com/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
-  },
-  {
-   "id": "nhl",
-   "base": "https://nhl.fandom.com",
-   "genre": "hockey",
-   "reachable": false,
-   "error": "HTTP 404 for https://nhl.fandom.com/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
-  },
-  {
-   "id": "hockey",
-   "base": "https://hockey.fandom.com",
-   "genre": "hockey",
-   "reachable": false,
-   "error": "HTTP 404 for https://hockey.fandom.com/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
-  },
-  {
    "id": "tennis",
    "base": "https://tennis.fandom.com",
    "genre": "tennis",
    "reachable": true,
+   "api": "https://tennis.fandom.com/api.php",
    "sitename": "Tennis Database Wiki",
-   "generator": "MediaWiki 1.43.9",
+   "generator": "MediaWiki 1.43.10",
    "temp_accounts": false,
    "range_queries": true,
-   "blocks_scanned": 146,
-   "blocks_total": 146,
+   "blocks_scanned": 158,
+   "blocks_total": 158,
    "gc_edits": 0,
    "gc_ips": [],
    "top_pages": [],
@@ -89,12 +64,13 @@
    "base": "https://military-history.fandom.com",
    "genre": "military",
    "reachable": true,
+   "api": "https://military-history.fandom.com/api.php",
    "sitename": "Military Wiki",
-   "generator": "MediaWiki 1.43.9",
+   "generator": "MediaWiki 1.43.10",
    "temp_accounts": false,
    "range_queries": true,
-   "blocks_scanned": 146,
-   "blocks_total": 146,
+   "blocks_scanned": 158,
+   "blocks_total": 158,
    "gc_edits": 35,
    "gc_ips": [
     [
@@ -308,41 +284,58 @@
    ]
   },
   {
-   "id": "military",
-   "base": "https://military.fandom.com",
-   "genre": "military",
-   "reachable": false,
-   "error": "HTTP 404 for https://military.fandom.com/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
-  },
-  {
    "id": "nintendo",
    "base": "https://nintendo.fandom.com",
    "genre": "retro gaming",
    "reachable": true,
+   "api": "https://nintendo.fandom.com/api.php",
    "sitename": "Nintendo",
-   "generator": "MediaWiki 1.43.9",
+   "generator": "MediaWiki 1.43.10",
    "temp_accounts": false,
    "range_queries": true,
-   "blocks_scanned": 146,
-   "blocks_total": 146,
-   "gc_edits": 0,
-   "gc_ips": [],
-   "top_pages": [],
-   "by_year": {},
-   "last_gc_edit": null,
-   "sample": []
+   "blocks_scanned": 158,
+   "blocks_total": 158,
+   "gc_edits": 1,
+   "gc_ips": [
+    [
+     "206.167.190.38",
+     1
+    ]
+   ],
+   "top_pages": [
+    [
+     "Nintendo DSi",
+     1
+    ]
+   ],
+   "by_year": {
+    "2023": 1
+   },
+   "last_gc_edit": "2023-05-12T15:16:46Z",
+   "sample": [
+    {
+     "ts": "2023-05-12T15:16:46Z",
+     "ip": "206.167.190.38",
+     "title": "Nintendo DSi",
+     "label": "Shared Services Canada network (AS25689, legacy NRC)",
+     "comment": "",
+     "sizediff": 21,
+     "url": "https://nintendo.fandom.com/?diff=776288&oldid=770901"
+    }
+   ]
   },
   {
    "id": "nes",
    "base": "https://nes.fandom.com",
    "genre": "retro gaming",
    "reachable": true,
+   "api": "https://nes.fandom.com/api.php",
    "sitename": "NES Wiki",
-   "generator": "MediaWiki 1.43.9",
+   "generator": "MediaWiki 1.43.10",
    "temp_accounts": false,
    "range_queries": true,
-   "blocks_scanned": 146,
-   "blocks_total": 146,
+   "blocks_scanned": 143,
+   "blocks_total": 158,
    "gc_edits": 0,
    "gc_ips": [],
    "top_pages": [],
@@ -354,64 +347,43 @@
    "id": "canada",
    "base": "https://canada.fandom.com",
    "genre": "Canada",
-   "reachable": true,
-   "sitename": "Canada Wiki",
-   "generator": "MediaWiki 1.43.9",
-   "temp_accounts": false,
-   "range_queries": true,
-   "blocks_scanned": 146,
-   "blocks_total": 146,
-   "gc_edits": 0,
-   "gc_ips": [],
-   "top_pages": [],
-   "by_year": {},
-   "last_gc_edit": null,
-   "sample": []
+   "reachable": false,
+   "error": "HTTP 429 for https://canada.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
   },
   {
    "id": "nextmodel",
    "base": "https://antm.fandom.com",
    "genre": "reality TV",
-   "reachable": true,
-   "sitename": "America's Next Top Model",
-   "generator": "MediaWiki 1.43.9",
-   "temp_accounts": false,
-   "range_queries": true,
-   "blocks_scanned": 60,
-   "blocks_total": 146,
-   "gc_edits": 0,
-   "gc_ips": [],
-   "top_pages": [],
-   "by_year": {},
-   "last_gc_edit": null,
-   "sample": []
+   "reachable": false,
+   "error": "HTTP 429 for https://antm.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
   },
   {
    "id": "airports",
    "base": "https://airports.fandom.com",
    "genre": "aviation",
    "reachable": false,
-   "error": "HTTP 429 for https://airports.fandom.com/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+   "error": "HTTP 429 for https://airports.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
   },
   {
    "id": "aviation",
    "base": "https://aviation.fandom.com",
    "genre": "aviation",
    "reachable": false,
-   "error": "HTTP 429 for https://aviation.fandom.com/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+   "error": "HTTP 429 for https://aviation.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
   },
   {
    "id": "wiktionary-en",
    "base": "https://en.wiktionary.org",
    "genre": "Wikimedia sister (control)",
    "reachable": true,
+   "api": "https://en.wiktionary.org/w/api.php",
    "sitename": "Wiktionary",
-   "generator": "MediaWiki 1.47.0-wmf.24",
+   "generator": "MediaWiki 1.48.0-wmf.4",
    "temp_accounts": false,
    "range_queries": true,
-   "blocks_scanned": 146,
-   "blocks_total": 146,
-   "gc_edits": 14,
+   "blocks_scanned": 158,
+   "blocks_total": 158,
+   "gc_edits": 15,
    "gc_ips": [
     [
      "198.103.167.20",
@@ -486,10 +458,14 @@
     [
      "fine",
      1
+    ],
+    [
+     "chate",
+     1
     ]
    ],
    "by_year": {
-    "2021": 6,
+    "2021": 7,
     "2022": 1,
     "2023": 1,
     "2024": 4,
@@ -622,6 +598,15 @@
      "comment": "",
      "sizediff": 96,
      "url": "https://en.wiktionary.org/?diff=62518415&oldid=62357973"
+    },
+    {
+     "ts": "2021-03-11T14:38:48Z",
+     "ip": "206.167.190.38",
+     "title": "chate",
+     "label": "Shared Services Canada network (AS25689, legacy NRC)",
+     "comment": "/* Noun */",
+     "sizediff": 1,
+     "url": "https://en.wiktionary.org/?diff=62021537&oldid=61019383"
     }
    ]
   },
@@ -630,12 +615,13 @@
    "base": "https://en.wikivoyage.org",
    "genre": "Wikimedia sister (control)",
    "reachable": true,
+   "api": "https://en.wikivoyage.org/w/api.php",
    "sitename": "Wikivoyage",
-   "generator": "MediaWiki 1.47.0-wmf.24",
+   "generator": "MediaWiki 1.48.0-wmf.4",
    "temp_accounts": false,
    "range_queries": true,
-   "blocks_scanned": 146,
-   "blocks_total": 146,
+   "blocks_scanned": 158,
+   "blocks_total": 158,
    "gc_edits": 14,
    "gc_ips": [
     [
@@ -844,6 +830,378 @@
      "url": "https://en.wikivoyage.org/?diff=4179685&oldid=4163026"
     }
    ]
+  },
+  {
+   "id": "fallout",
+   "base": "https://fallout.fandom.com",
+   "genre": "gaming",
+   "reachable": false,
+   "error": "HTTP 429 for https://fallout.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "en-uncyclopedia-co",
+   "base": "https://en.uncyclopedia.co",
+   "genre": "humour",
+   "reachable": true,
+   "api": "https://en.uncyclopedia.co/w/api.php",
+   "sitename": "Uncyclopedia",
+   "generator": "MediaWiki 1.39.17",
+   "temp_accounts": false,
+   "range_queries": true,
+   "blocks_scanned": 158,
+   "blocks_total": 158,
+   "gc_edits": 0,
+   "gc_ips": [],
+   "top_pages": [],
+   "by_year": {},
+   "last_gc_edit": null,
+   "sample": []
+  },
+  {
+   "id": "metalgear",
+   "base": "https://metalgear.fandom.com",
+   "genre": "gaming",
+   "reachable": false,
+   "error": "HTTP 429 for https://metalgear.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "starwars",
+   "base": "https://starwars.fandom.com",
+   "genre": "science fiction",
+   "reachable": false,
+   "error": "HTTP 429 for https://starwars.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "elderscrolls",
+   "base": "https://elderscrolls.fandom.com",
+   "genre": "gaming",
+   "reachable": false,
+   "error": "HTTP 429 for https://elderscrolls.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "battlefield",
+   "base": "https://battlefield.fandom.com",
+   "genre": "gaming",
+   "reachable": false,
+   "error": "HTTP 429 for https://battlefield.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "memory-alpha",
+   "base": "https://memory-alpha.fandom.com",
+   "genre": "science fiction",
+   "reachable": false,
+   "error": "HTTP 429 for https://memory-alpha.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "memory-beta",
+   "base": "https://memory-beta.fandom.com",
+   "genre": "science fiction",
+   "reachable": false,
+   "error": "HTTP 429 for https://memory-beta.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "ageofempires",
+   "base": "https://ageofempires.fandom.com",
+   "genre": "gaming",
+   "reachable": false,
+   "error": "HTTP 429 for https://ageofempires.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "icehockey",
+   "base": "https://icehockey.fandom.com",
+   "genre": "hockey",
+   "reachable": false,
+   "error": "HTTP 429 for https://icehockey.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "ottawa",
+   "base": "https://ottawa.fandom.com",
+   "genre": "canada",
+   "reachable": false,
+   "error": "HTTP 429 for https://ottawa.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "transformers",
+   "base": "https://transformers.fandom.com",
+   "genre": "television",
+   "reachable": false,
+   "error": "HTTP 429 for https://transformers.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "warthunder",
+   "base": "https://warthunder.fandom.com",
+   "genre": "gaming",
+   "reachable": false,
+   "error": "HTTP 429 for https://warthunder.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "callofduty",
+   "base": "https://callofduty.fandom.com",
+   "genre": "gaming",
+   "reachable": false,
+   "error": "HTTP 429 for https://callofduty.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "community",
+   "base": "https://community.fandom.com",
+   "genre": "fandom",
+   "reachable": false,
+   "error": "HTTP 429 for https://community.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "cryptidz",
+   "base": "https://cryptidz.fandom.com",
+   "genre": "other",
+   "reachable": false,
+   "error": "HTTP 429 for https://cryptidz.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "tardis",
+   "base": "https://tardis.fandom.com",
+   "genre": "science fiction",
+   "reachable": false,
+   "error": "HTTP 429 for https://tardis.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "tomclancy",
+   "base": "https://tomclancy.fandom.com",
+   "genre": "gaming",
+   "reachable": false,
+   "error": "HTTP 429 for https://tomclancy.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "appropedia-org",
+   "base": "https://www.appropedia.org",
+   "genre": "reference",
+   "reachable": true,
+   "api": "https://www.appropedia.org/w/api.php",
+   "sitename": "Appropedia",
+   "generator": "MediaWiki 1.45.5",
+   "temp_accounts": false,
+   "range_queries": true,
+   "blocks_scanned": 158,
+   "blocks_total": 158,
+   "gc_edits": 4,
+   "gc_ips": [
+    [
+     "132.246.114.208",
+     4
+    ]
+   ],
+   "top_pages": [
+    [
+     "Open-source 3D Printable Forearm Crutch",
+     1
+    ],
+    [
+     "AC off-grid photovoltaic powered open-source ball mill",
+     1
+    ],
+    [
+     "Open Source Scientific Bottle Roller",
+     1
+    ],
+    [
+     "User:Maryam Mottaghi",
+     1
+    ]
+   ],
+   "by_year": {
+    "2025": 4
+   },
+   "last_gc_edit": "2025-07-18T14:15:33Z",
+   "sample": [
+    {
+     "ts": "2025-07-18T14:15:33Z",
+     "ip": "132.246.114.208",
+     "title": "Open-source 3D Printable Forearm Crutch",
+     "label": "National Research Council",
+     "comment": "",
+     "sizediff": 145,
+     "url": "https://www.appropedia.org/?diff=1177661&oldid=1153172"
+    },
+    {
+     "ts": "2025-07-18T14:14:23Z",
+     "ip": "132.246.114.208",
+     "title": "AC off-grid photovoltaic powered open-source ball mill",
+     "label": "National Research Council",
+     "comment": "",
+     "sizediff": 208,
+     "url": "https://www.appropedia.org/?diff=1177660&oldid=1172295"
+    },
+    {
+     "ts": "2025-07-18T14:13:09Z",
+     "ip": "132.246.114.208",
+     "title": "Open Source Scientific Bottle Roller",
+     "label": "National Research Council",
+     "comment": "",
+     "sizediff": 172,
+     "url": "https://www.appropedia.org/?diff=1177659&oldid=1153348"
+    },
+    {
+     "ts": "2025-07-18T11:38:05Z",
+     "ip": "132.246.114.208",
+     "title": "User:Maryam Mottaghi",
+     "label": "National Research Council",
+     "comment": "Add parameter \"location\" with value \"; Western University\" to Template:User data #EditParam",
+     "sizediff": 35,
+     "url": "https://www.appropedia.org/?diff=1177648&oldid=1153687"
+    }
+   ]
+  },
+  {
+   "id": "harrypotter",
+   "base": "https://harrypotter.fandom.com",
+   "genre": "books",
+   "reachable": false,
+   "error": "HTTP 429 for https://harrypotter.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "historica",
+   "base": "https://historica.fandom.com",
+   "genre": "history",
+   "reachable": false,
+   "error": "HTTP 429 for https://historica.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "liquipedia-net-counterstrike",
+   "base": "https://liquipedia.net/counterstrike",
+   "genre": "esports",
+   "reachable": false,
+   "error": "HTTP 404 for https://liquipedia.net/counterstrike/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "liquipedia-net-leagueoflegends",
+   "base": "https://liquipedia.net/leagueoflegends",
+   "genre": "esports",
+   "reachable": false,
+   "error": "HTTP 404 for https://liquipedia.net/leagueoflegends/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "lostpedia",
+   "base": "https://lostpedia.fandom.com",
+   "genre": "television",
+   "reachable": false,
+   "error": "HTTP 429 for https://lostpedia.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "marvel",
+   "base": "https://marvel.fandom.com",
+   "genre": "comics",
+   "reachable": false,
+   "error": "HTTP 429 for https://marvel.fandom.com/w/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "minecraft-wiki",
+   "base": "https://minecraft.wiki",
+   "genre": "gaming",
+   "reachable": true,
+   "api": "https://minecraft.wiki/api.php",
+   "sitename": "Minecraft Wiki",
+   "generator": "MediaWiki 1.45.3",
+   "temp_accounts": false,
+   "range_queries": true,
+   "blocks_scanned": 158,
+   "blocks_total": 158,
+   "gc_edits": 0,
+   "gc_ips": [],
+   "top_pages": [],
+   "by_year": {},
+   "last_gc_edit": null,
+   "sample": []
+  },
+  {
+   "id": "wiki-archlinux-org",
+   "base": "https://wiki.archlinux.org",
+   "genre": "technology",
+   "reachable": true,
+   "api": "https://wiki.archlinux.org/api.php",
+   "sitename": "ArchWiki",
+   "generator": "MediaWiki 1.46.2",
+   "temp_accounts": false,
+   "range_queries": true,
+   "blocks_scanned": 158,
+   "blocks_total": 158,
+   "gc_edits": 0,
+   "gc_ips": [],
+   "top_pages": [],
+   "by_year": {},
+   "last_gc_edit": null,
+   "sample": []
+  },
+  {
+   "id": "wiki-openstreetmap-org",
+   "base": "https://wiki.openstreetmap.org",
+   "genre": "technology",
+   "reachable": true,
+   "api": "https://wiki.openstreetmap.org/api.php",
+   "sitename": "OpenStreetMap Wiki",
+   "generator": "MediaWiki 1.46.2",
+   "temp_accounts": false,
+   "range_queries": true,
+   "blocks_scanned": 158,
+   "blocks_total": 158,
+   "gc_edits": 0,
+   "gc_ips": [],
+   "top_pages": [],
+   "by_year": {},
+   "last_gc_edit": null,
+   "sample": []
+  },
+  {
+   "id": "wikispooks-com",
+   "base": "https://wikispooks.com",
+   "genre": "politics",
+   "reachable": true,
+   "api": "https://wikispooks.com/w/api.php",
+   "sitename": "Wikispooks",
+   "generator": "MediaWiki 1.33.2",
+   "temp_accounts": false,
+   "range_queries": false,
+   "range_error": "missingparam: One of the parameters \"ucuserprefix\", \"ucuserids\" and \"ucuser\" is required."
+  },
+  {
+   "id": "conservapedia-com",
+   "base": "https://www.conservapedia.com",
+   "genre": "politics",
+   "reachable": true,
+   "api": "https://www.conservapedia.com/api.php",
+   "sitename": "Conservapedia",
+   "generator": "MediaWiki 1.35.14",
+   "temp_accounts": false,
+   "range_queries": false,
+   "range_error": "missingparam: One of the parameters \"ucuserprefix\", \"ucuserids\" and \"ucuser\" is required."
+  },
+  {
+   "id": "pcgamingwiki-com",
+   "base": "https://www.pcgamingwiki.com",
+   "genre": "gaming",
+   "reachable": true,
+   "api": "https://www.pcgamingwiki.com/w/api.php",
+   "sitename": "PCGamingWiki",
+   "generator": "MediaWiki 1.43.11",
+   "temp_accounts": false,
+   "range_queries": true,
+   "blocks_scanned": 147,
+   "blocks_total": 158,
+   "gc_edits": 0,
+   "gc_ips": [],
+   "top_pages": [],
+   "by_year": {},
+   "last_gc_edit": null,
+   "sample": []
+  },
+  {
+   "id": "wikihow-com",
+   "base": "https://www.wikihow.com",
+   "genre": "reference",
+   "reachable": true,
+   "api": "https://www.wikihow.com/api.php",
+   "sitename": "wikiHow",
+   "generator": "MediaWiki 1.33.0-alpha",
+   "temp_accounts": false,
+   "range_queries": false,
+   "range_error": "HTTP 500 for https://www.wikihow.com/api.php?action=query&list=usercontribs&uciprange=205.193.0.0%2F16&uclimit=1&format=json&formatversion=2"
   }
  ]
 }
