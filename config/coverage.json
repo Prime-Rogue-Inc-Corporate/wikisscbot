@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-12",
+ "as_of": "2026-11-13",
  "wikimedia": {
   "wikis": 1009,
   "gc_edits": 26746,
@@ -518,7 +518,7 @@
  "hockey_checked": [
   {
    "site": "www.nrhl.lhse.org/website",
-   "entries": 1471,
+   "entries": 1485,
    "gc_entries": 1,
    "gc_teams": 1
   },
@@ -530,7 +530,7 @@
   },
   {
    "site": "cphl.sths.ca",
-   "entries": 1423,
+   "entries": 1457,
    "gc_entries": 0,
    "gc_teams": 0
   },
@@ -542,25 +542,25 @@
   },
   {
    "site": "dchl.sths.ca",
-   "entries": 1108,
-   "gc_entries": 14,
-   "gc_teams": 1
+   "entries": 1127,
+   "gc_entries": 18,
+   "gc_teams": 2
   },
   {
    "site": "swhl.sths.ca",
-   "entries": 840,
+   "entries": 851,
    "gc_entries": 0,
    "gc_teams": 0
   },
   {
    "site": "the-cchl.byethost4.com",
-   "entries": 736,
+   "entries": 738,
    "gc_entries": 0,
    "gc_teams": 0
   },
   {
    "site": "swe-hl.com",
-   "entries": 716,
+   "entries": 737,
    "gc_entries": 0,
    "gc_teams": 0
   },
@@ -572,13 +572,13 @@
   },
   {
    "site": "fchs.sths.ca",
-   "entries": 652,
+   "entries": 660,
    "gc_entries": 0,
    "gc_teams": 0
   },
   {
    "site": "mfhl.sths.ca",
-   "entries": 622,
+   "entries": 628,
    "gc_entries": 0,
    "gc_teams": 0
   },
@@ -590,7 +590,13 @@
   },
   {
    "site": "lhsrsm.com",
-   "entries": 574,
+   "entries": 576,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "nlhsa.sths.ca",
+   "entries": 539,
    "gc_entries": 0,
    "gc_teams": 0
   },
@@ -601,10 +607,10 @@
    "gc_teams": 2
   },
   {
-   "site": "nlhsa.sths.ca",
-   "entries": 528,
-   "gc_entries": 0,
-   "gc_teams": 0
+   "site": "nashl.sths.ca",
+   "entries": 501,
+   "gc_entries": 1,
+   "gc_teams": 1
   },
   {
    "site": "www.nsimhl.com",
@@ -613,20 +619,14 @@
    "gc_teams": 0
   },
   {
-   "site": "nashl.sths.ca",
-   "entries": 481,
-   "gc_entries": 1,
-   "gc_teams": 1
-  },
-  {
    "site": "lnhvs.sths.ca",
-   "entries": 477,
+   "entries": 480,
    "gc_entries": 7,
    "gc_teams": 1
   },
   {
    "site": "laahs.info",
-   "entries": 474,
+   "entries": 478,
    "gc_entries": 0,
    "gc_teams": 0
   },
@@ -643,6 +643,12 @@
    "gc_teams": 0
   },
   {
+   "site": "lnhs.sths.ca",
+   "entries": 432,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
    "site": "schl.sths.ca",
    "entries": 430,
    "gc_entries": 0,
@@ -650,25 +656,19 @@
   },
   {
    "site": "lvch.sths.ca",
-   "entries": 426,
-   "gc_entries": 0,
-   "gc_teams": 0
-  },
-  {
-   "site": "lnhs.sths.ca",
-   "entries": 424,
+   "entries": 429,
    "gc_entries": 0,
    "gc_teams": 0
   },
   {
    "site": "lhsnq.sths.ca",
-   "entries": 411,
+   "entries": 414,
    "gc_entries": 0,
    "gc_teams": 0
   },
   {
    "site": "nahl.sths.ca",
-   "entries": 375,
+   "entries": 387,
    "gc_entries": 0,
    "gc_teams": 0
   },
@@ -680,7 +680,19 @@
   },
   {
    "site": "lh117.sths.ca",
-   "entries": 365,
+   "entries": 371,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "bfha.sths.ca",
+   "entries": 359,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "othl.net",
+   "entries": 355,
    "gc_entries": 0,
    "gc_teams": 0
   },
@@ -691,51 +703,39 @@
    "gc_teams": 0
   },
   {
-   "site": "bfha.sths.ca",
-   "entries": 349,
-   "gc_entries": 0,
-   "gc_teams": 0
-  },
-  {
-   "site": "othl.net",
-   "entries": 347,
+   "site": "lmhsq.sths.ca",
+   "entries": 340,
    "gc_entries": 0,
    "gc_teams": 0
   },
   {
    "site": "sim.virtualhockeyleague.com",
-   "entries": 338,
+   "entries": 340,
    "gc_entries": 0,
    "gc_teams": 0
   },
   {
    "site": "virtualhockeyleague.com",
-   "entries": 338,
-   "gc_entries": 0,
-   "gc_teams": 0
-  },
-  {
-   "site": "lmhsq.sths.ca",
-   "entries": 329,
+   "entries": 340,
    "gc_entries": 0,
    "gc_teams": 0
   },
   {
    "site": "glhs.sths.ca",
-   "entries": 325,
+   "entries": 332,
    "gc_entries": 0,
    "gc_teams": 0
   },
   {
    "site": "bash.sths.ca",
-   "entries": 321,
+   "entries": 330,
    "gc_entries": 8,
    "gc_teams": 2
   },
   {
    "site": "spxhl.sths.ca",
-   "entries": 311,
-   "gc_entries": 5,
+   "entries": 322,
+   "gc_entries": 7,
    "gc_teams": 1
   },
   {
@@ -751,6 +751,12 @@
    "gc_teams": 0
   },
   {
+   "site": "retrohockeyleague.ca",
+   "entries": 295,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
    "site": "breakawayhockey.sths.ca",
    "entries": 294,
    "gc_entries": 2,
@@ -758,7 +764,7 @@
   },
   {
    "site": "lhat.sths.ca",
-   "entries": 276,
+   "entries": 279,
    "gc_entries": 0,
    "gc_teams": 0
   },
@@ -770,13 +776,13 @@
   },
   {
    "site": "nahlligue.com",
-   "entries": 258,
+   "entries": 263,
    "gc_entries": 0,
    "gc_teams": 0
   },
   {
    "site": "pfkhl.ca",
-   "entries": 242,
+   "entries": 243,
    "gc_entries": 0,
    "gc_teams": 0
   },
@@ -787,20 +793,26 @@
    "gc_teams": 0
   },
   {
+   "site": "lnhv3.sths.ca",
+   "entries": 213,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "cafhl.sths.ca",
+   "entries": 211,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
    "site": "sa.sths.ca",
    "entries": 209,
    "gc_entries": 1,
    "gc_teams": 1
   },
   {
-   "site": "cafhl.sths.ca",
-   "entries": 205,
-   "gc_entries": 0,
-   "gc_teams": 0
-  },
-  {
    "site": "laswhl.sths.ca",
-   "entries": 202,
+   "entries": 204,
    "gc_entries": 3,
    "gc_teams": 1
   },
@@ -811,14 +823,8 @@
    "gc_teams": 0
   },
   {
-   "site": "lnhv3.sths.ca",
-   "entries": 200,
-   "gc_entries": 0,
-   "gc_teams": 0
-  },
-  {
    "site": "lhvs.sths.ca",
-   "entries": 194,
+   "entries": 197,
    "gc_entries": 0,
    "gc_teams": 0
   },
@@ -835,26 +841,32 @@
    "gc_teams": 0
   },
   {
+   "site": "slnf.sths.ca",
+   "entries": 140,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
    "site": "lhsmki.sths.ca",
    "entries": 135,
    "gc_entries": 0,
    "gc_teams": 0
   },
   {
-   "site": "slnf.sths.ca",
-   "entries": 134,
+   "site": "ohl.sths.ca",
+   "entries": 133,
    "gc_entries": 0,
    "gc_teams": 0
   },
   {
-   "site": "ohl.sths.ca",
-   "entries": 122,
+   "site": "wellhockeyleague.ca",
+   "entries": 127,
    "gc_entries": 0,
    "gc_teams": 0
   },
   {
    "site": "lnhsim.sths.ca",
-   "entries": 115,
+   "entries": 125,
    "gc_entries": 0,
    "gc_teams": 0
   },
@@ -871,20 +883,26 @@
    "gc_teams": 1
   },
   {
+   "site": "www.lhss.ca/File/2021-Preseason",
+   "entries": 68,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
    "site": "www.thebfhl.ca/sths",
-   "entries": 61,
+   "entries": 67,
    "gc_entries": 0,
    "gc_teams": 0
   },
   {
    "site": "rhlq.sths.ca",
-   "entries": 49,
+   "entries": 61,
    "gc_entries": 0,
    "gc_teams": 0
   },
   {
    "site": "lssh.sths.ca",
-   "entries": 38,
+   "entries": 45,
    "gc_entries": 0,
    "gc_teams": 0
   },
@@ -902,13 +920,19 @@
   },
   {
    "site": "fnhl.cz",
-   "entries": 1,
+   "entries": 5,
    "gc_entries": 0,
    "gc_teams": 0
   },
   {
    "site": "yghl.sths.ca",
    "entries": 1,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
+   "site": "chl71.com",
+   "entries": 0,
    "gc_entries": 0,
    "gc_teams": 0
   },
@@ -997,6 +1021,12 @@
    "gc_teams": 0
   },
   {
+   "site": "www.chl71.com",
+   "entries": 0,
+   "gc_entries": 0,
+   "gc_teams": 0
+  },
+  {
    "site": "www.thebfhl.ca/bfhl/sths",
    "entries": 0,
    "gc_entries": 0,
@@ -1037,6 +1067,7 @@
   "nvhl.sths.ca",
   "otha.sths.ca",
   "pbhl.sths.ca",
+  "sslpro.ca/custom",
   "ssqc.sths.ca",
   "tgihf.sths.ca",
   "ths.sths.ca",
