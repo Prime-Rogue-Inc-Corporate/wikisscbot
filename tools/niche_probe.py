@@ -33,23 +33,34 @@ SINCE = "2021-01-01T00:00:00Z"
 PER_WIKI_BUDGET_S = 240
 
 
-def api_url(w: dict) -> str:
-    return w["base"].rstrip("/") + w.get("api", "/api.php")
+API_PATHS = ("/api.php", "/w/api.php")
+
+
+def api_urls(w: dict) -> list[str]:
+    """Where the wiki's API may live: the configured path, or the two usual ones."""
+    base = w["base"].rstrip("/")
+    return [base + w["api"]] if w.get("api") else [base + path for path in API_PATHS]
 
 
 def probe(w: dict, blocks, labeller) -> dict:
     res = {"id": w["id"], "base": w["base"], "genre": w["genre"], "reachable": False}
-    api = api_url(w)
-    try:
-        si = get_json(api, {"action": "query", "meta": "siteinfo", "siprop": "general",
-                            "format": "json", "formatversion": "2"}, retries=2, timeout=20)
-    except ApiError as ex:
-        res["error"] = str(ex)[:200]
-        return res
-    gen = (si.get("query") or {}).get("general") or {}
-    if not gen:
+    api, gen = None, {}
+    for candidate in api_urls(w):
+        try:
+            si = get_json(candidate, {"action": "query", "meta": "siteinfo", "siprop": "general",
+                                      "format": "json", "formatversion": "2"}, retries=2, timeout=20)
+        except ApiError as ex:
+            res["error"] = str(ex)[:200]
+            continue
+        gen = (si.get("query") or {}).get("general") or {}
+        if gen:
+            api = candidate
+            res.pop("error", None)
+            break
         res["error"] = "no siteinfo"
+    if not api:
         return res
+    res["api"] = api
     res.update(reachable=True, sitename=gen.get("sitename"), generator=gen.get("generator"),
                temp_accounts=bool(gen.get("autocreatetempuser", {}).get("enabled")
                                   if isinstance(gen.get("autocreatetempuser"), dict) else False))
