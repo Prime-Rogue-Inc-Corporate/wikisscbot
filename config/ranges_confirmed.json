@@ -14,6 +14,26 @@
       "from": "2023-11-19",
       "basis": "ARIN registers 167.32.0.0/16 (PARL-IPV4) to the House of Commons, and the House of Commons' own network (AS398290) has announced it since 19 November 2023; Shared Services Canada (AS2665) stopped announcing 167.32.0.0/17 in December 2023. The @gccaedits list files the lower half under Shared Services Canada. Registry and routing checked by Prime Rogue Inc. on 2026-11-12.",
       "added": "2026-11-12"
+    },
+    {
+      "range": "198.103.184.76/32",
+      "label": "Canada Revenue Agency / Canada Border Services Agency (shared proxy)",
+      "basis": "Reverse DNS proxy-w.ccra-adrc.gc.ca, forward-confirmed (looked up 2026-11-12); ccra-adrc was the domain of the Canada Customs and Revenue Agency, whose successors are CRA and CBSA. In the archive, 61 of 63 federal-network edits to the CBSA article and 18 of 20 to the CRA article came from this /24. Which agency any single edit came from is not established.",
+      "added": "2026-11-13"
+    },
+    {
+      "range": "198.103.184.77/32",
+      "label": "Canada Revenue Agency / Canada Border Services Agency (shared proxy)",
+      "basis": "Reverse DNS proxy-c.ccra-adrc.gc.ca, forward-confirmed (looked up 2026-11-12); the companion of 198.103.184.76. No edits in the archive.",
+      "added": "2026-11-13"
+    },
+    {
+      "range": "198.103.104.11/32",
+      "label": "Department of Foreign Affairs and International Trade (now Global Affairs Canada)",
+      "until": "2020-10-15",
+      "basis": "Reverse DNS gate1.dfait-maeci.gc.ca, forward-confirmed (looked up 2026-11-13); ARIN registers 198.103.104.0/24 as DFAIT-MAECI. Most of its edits from 2011 to 2019 are to Canadian embassy, consulate, ambassador-list and Trade Commissioner Service pages. Its last archived edit is 15 October 2020, after which the same pages were edited from another block. The address also made 236 edits in 2008 and none in 2009 or 2010; none of the 2008 edits is to a foreign-service page, so the label starts in 2011, when the run of foreign-service edits begins.",
+      "added": "2026-11-13",
+      "from": "2011-01-01"
     }
   ],
   "ended": [

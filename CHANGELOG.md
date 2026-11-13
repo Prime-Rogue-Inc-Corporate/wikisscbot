@@ -4,6 +4,21 @@ All notable changes to wikisscbot. Versions follow [semantic versioning](https:/
 
 ## [Unreleased]
 
+### Added
+- **Years 2008 and 2009** in the archive; it now covers 2008 to 3 November 2025.
+- **Dated range labels for Parliament:** 167.32.0.0/16 is "Canadian House of Commons" from 19 November 2023, when Parliament began routing it itself; 207.35.15.0/27 stops being House of Commons on 5 November 2024, when the block was re-assigned. `ranges_confirmed.json` can now outrank a narrower list entry and put an end date on a list range.
+- **Confirmed gateway labels:** 198.103.184.76 and .77, "Canada Revenue Agency / Canada Border Services Agency (shared proxy)"; 198.103.104.11, "Department of Foreign Affairs and International Trade (now Global Affairs Canada)", 2011 to October 2020. Each rests on a forward-confirmed reverse DNS name plus the address's own editing.
+- **Roadmap page** (`roadmap.html`), rendered from `ROADMAP.md`, with a Parked section.
+- **Range notes** in `research/ranges/`.
+- **Single-address lookup** (`tools/ip_probe.py`): every public edit from one address, all years, across every public Wikimedia wiki and the niche-wiki list.
+- **Clusters workflow:** thread matching is recomputed after every backfill.
+
+### Changed
+- **Edits from prefixes Shared Services Canada only began announcing after the archive ends** are labelled "Government of Canada range; holder at the time not verified" instead of as SSC networks. About 1,300 edits; the edits stay in the archive.
+- Collection runs survive other pushes to `main` while they run.
+- The coverage page lists wikis only; the hockey-league tables moved to the separate non-wiki project.
+- One wiki probe list (`config/niche_wikis.json`); both probes look for the API at `/api.php` and `/w/api.php`.
+
 ## [1.3.0] — 2026-11-12
 
 ### Added

@@ -77,6 +77,28 @@ class RangeTests(unittest.TestCase):
         self.assertFalse(any(ipaddress.ip_address("207.35.15.27") in b for b in blocks_2025))
         self.assertTrue(any(ipaddress.ip_address("167.32.200.1") in b for b in blocks_2025))
 
+    def test_prefix_first_announced_after_the_archive_gets_a_neutral_label(self):
+        late = ranges.Range(ipaddress.ip_network("203.0.113.0/24"), "SSC network (AS2675)", "ssc-bgp",
+                            first_seen="2026-09-10")
+        early = ranges.Range(ipaddress.ip_network("198.51.100.0/24"), "SSC network (AS2665)", "ssc-bgp",
+                             first_seen="2015-11-22")
+        lab = ranges.Labeller([late, early])
+        self.assertEqual(lab.match("203.0.113.5", "2012-03-01T00:00:00Z").label, ranges.UNVERIFIED_LABEL)
+        self.assertEqual(lab.match("203.0.113.5", "2026-10-01T00:00:00Z").label, "SSC network (AS2675)")
+        self.assertEqual(lab.match("203.0.113.5").label, "SSC network (AS2675)")
+        self.assertEqual(lab.match("198.51.100.5", "2012-03-01T00:00:00Z").label, "SSC network (AS2665)")
+
+    def test_confirmed_gateway_labels(self):
+        lab = ranges.Labeller(ranges.load_all())
+        joint = "Canada Revenue Agency / Canada Border Services Agency (shared proxy)"
+        self.assertEqual(lab.match("198.103.184.76", "2012-05-01T00:00:00Z").label, joint)
+        self.assertEqual(lab.match("198.103.184.77", "2012-05-01T00:00:00Z").label, joint)
+        self.assertNotEqual(lab.match("198.103.184.85", "2025-05-01T00:00:00Z").label, joint)  # tentative
+        dfait = "Department of Foreign Affairs and International Trade (now Global Affairs Canada)"
+        self.assertEqual(lab.match("198.103.104.11", "2015-05-01T00:00:00Z").label, dfait)
+        self.assertNotEqual(lab.match("198.103.104.11", "2021-05-01T00:00:00Z").label, dfait)
+        self.assertNotEqual(lab.match("198.103.104.11", "2008-05-01T00:00:00Z").label, dfait)
+
     def test_bgp_refresh_records_announcement_dates(self):
         import json, tempfile
         from pathlib import Path

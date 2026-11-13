@@ -24,6 +24,7 @@ because an unlabelled announcement says nothing about the department.
 
 from __future__ import annotations
 
+import dataclasses
 import datetime as dt
 import ipaddress
 import json
@@ -44,6 +45,15 @@ MAX_V6_SPLIT = 64
 # to allow for gaps in routing visibility.
 BGP_GRACE_DAYS = 90
 
+# English Wikipedia stopped publishing logged-out editors' addresses on
+# 4 November 2025, so no archived edit is later than this.
+ARCHIVE_END = "2025-11-04"
+
+# Label for an edit from an SSC-announced prefix that SSC only began announcing
+# after the archive ends: the range is in federal address space, but who held
+# it when the edit was made is not established.
+UNVERIFIED_LABEL = "Government of Canada range; holder at the time not verified"
+
 Network = ipaddress.IPv4Network | ipaddress.IPv6Network
 
 
@@ -59,6 +69,8 @@ class Range:
     # ISO date the range stopped being this institution's (registry or other
     # dated evidence); exact, with no grace period. None = no known end.
     valid_to: str | None = None
+    # ISO date an SSC ASN was first seen announcing the prefix (ssc-bgp only).
+    first_seen: str | None = None
 
     @property
     def valid_until(self) -> str | None:
@@ -131,7 +143,8 @@ def load_ssc_bgp(path: Path = CONFIG / "ranges_ssc_bgp.json") -> list[Range]:
     for item in data.get("prefixes", []):
         out.append(Range(ipaddress.ip_network(item["prefix"], strict=False),
                          item["label"], "ssc-bgp",
-                         None if item.get("current", True) else item.get("last_seen")))
+                         None if item.get("current", True) else item.get("last_seen"),
+                         first_seen=item.get("first_seen")))
     return out
 
 
@@ -167,6 +180,10 @@ class Labeller:
             return None
         for r in self.ranges:
             if addr.version == r.network.version and addr in r.network and r.valid_at(ts):
+                if (ts and r.source == "ssc-bgp" and r.first_seen and r.first_seen[:10] > ARCHIVE_END
+                        and ts[:10] < r.first_seen[:10]):
+                    # SSC began announcing this prefix only after the archive ends.
+                    return dataclasses.replace(r, label=UNVERIFIED_LABEL)
                 return r
         return None
 
