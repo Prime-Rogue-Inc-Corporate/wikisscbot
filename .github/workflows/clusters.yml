@@ -1,0 +1,71 @@
+name: Clusters
+
+# Recomputes research/clusters when the archive changes: after every successful
+# backfill, or by hand from the Actions tab.
+#
+# It commits research/clusters only. It never touches data/ or docs/, so it
+# cannot collide with a collection run, and its push does not start a backfill.
+# The clusters page on the site picks the new numbers up at the next site build.
+#
+# research/clusters/findings.json is hand review. Nothing here writes it; the
+# run warns when the archive has moved on since it was last reviewed.
+
+on:
+  workflow_run:
+    workflows: ["Backfill year"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wikisscbot-clusters
+  cancel-in-progress: false
+
+jobs:
+  clusters:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install pinned libraries
+        run: pip install -r research/clusters/requirements.txt
+      - name: Thread matching across years
+        run: |
+          python research/clusters/cluster_threads.py ./ "$RUNNER_TEMP/state.pkl" 1.0 365
+          python research/clusters/grade_matches.py "$RUNNER_TEMP/state.pkl" research/clusters/results.json
+          python research/clusters/build_report.py research/clusters/results.json research/clusters
+      - name: Correlations inside each year
+        run: python research/clusters/intra_year.py ./ research/clusters
+      - name: Is the hand review behind?
+        run: |
+          python - <<'PY'
+          import json
+          f = json.load(open("research/clusters/findings.json"))
+          r = json.load(open("research/clusters/results.json"))["meta"]
+          if f.get("reviewed_archive") != r["archive"]:
+              print(f"::warning::findings.json was reviewed against archive {f.get('reviewed_archive')}; "
+                    f"results are now for {r['archive']} ({r['edits']:,} edits, {r['years'][0]}-{r['years'][-1]}). Hand review needed.")
+          PY
+      - name: Commit results
+        run: |
+          git config user.name "wikisscbot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A research/clusters
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Clusters: recompute for archive $(python -c "import json;m=json.load(open('research/clusters/results.json'))['meta'];print(m['archive'], '(%d edits, %s-%s)' % (m['edits'], m['years'][0], m['years'][-1]))")"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 15
+          done
+          echo "::error::could not push the recomputed clusters to main"
+          exit 1

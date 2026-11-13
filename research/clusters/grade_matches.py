@@ -44,7 +44,12 @@ def family(ip):
     """Addresses in the same /24 that came into use within about a year of this one."""
     return [m for m in by24[net24(ip)] if abs(ADDR[m]['q_lo'] - ADDR[ip]['q_lo']) <= 400 * DAY]
 
-REVIEWED_NOT_RENUMBERING = {('205.193.50.10', '205.194.16')}
+# Hand-reviewed pairs that meet the succession rule but are not a network change.
+REVIEWED_NOT_RENUMBERING = {
+    ('205.193.50.10', '205.194.16'),      # six of the seven carried pages are one Nova Scotia politics thread
+    ('192.197.82.153', '205.211.133'),    # carried pages are province articles and the help desk, which many addresses edit
+    ('192.197.82.203', '205.211.133'),
+}
 PAGE_THREAD = {}
 for c in CL:
     for p in c['pages']:
@@ -69,7 +74,6 @@ for L in bigaddr:
         frac = carry / len(lp)
         # the carried pages must come from several separate threads, or it is one editor moving, not a network change
         spread = len(set(PAGE_THREAD[(m, p)] for m in fam for p in carried if (m, p) in PAGE_THREAD))
-        # hand-reviewed exception: six of the seven carried pages are one editor's Nova Scotia politics thread
         if (F, net24(L)) in REVIEWED_NOT_RENUMBERING:
             continue
         if spread >= 3 and ((carry >= 5 and frac >= 0.07) or carry >= 25):
@@ -250,7 +254,7 @@ for comp in nx.connected_components(LG):
                    'max_score': round(max(d['score'] for _, _, d in LG.subgraph(comp).edges(data=True)), 2)})
 GROUPS.sort(key=lambda g: -g['edits'])
 rowmax = sc.max(1)
-META = {'threads_total': len(CL), 'threads_fingerprinted': len(BIG),
+META = {'archive': S.get('archive', ''), 'years': sorted(YEARS), 'threads_total': len(CL), 'threads_fingerprinted': len(BIG),
         'edit_mass_fingerprinted': round(sum(len(CL[i]['edits']) for i in BIG) / len(ALL), 3),
         'edits': len(ALL), 'addresses': len(ADDR),
         'best_score_percentiles': {str(p): round(float(np.percentile(rowmax, p)), 2) for p in (50, 75, 90, 95)},

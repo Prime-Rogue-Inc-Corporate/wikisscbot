@@ -90,7 +90,7 @@ li+li{margin-top:6px}
 
   <section>
     <h2>How to read a match</h2>
-    <p>A thread is a set of pages one address edits in the same sittings, or pages with similar titles and sections. Each thread on a top-ten address is scored against every thread on every other address, 2012 to 2025. A match then gets one of four explanations.</p>
+    <p>A thread is a set of pages one address edits in the same sittings, or pages with similar titles and sections. Each thread on a top-ten address is scored against every thread on every other address, across every year in the archive. A match then gets one of four explanations.</p>
     <div class="legend card note">
       <div><span class="chip pool">Pool</span><span>The two addresses hand the same page back and forth within the hour. One exit, several addresses.</span></div>
       <div><span class="chip renumbering">Renumbering</span><span>One address goes quiet, another block starts, and pages from many threads carry over.</span></div>
@@ -101,14 +101,14 @@ li+li{margin-top:6px}
   </section>
 
   <section>
-    <h2>Fourteen years at a glance</h2>
+    <h2>Year by year at a glance</h2>
     <p>Each cell counts how many of that year's ten busiest addresses had their best match explained that way. Pick a year to see its ten.</p>
     <div class="card scroll"><table id="matrix"></table></div>
   </section>
 
-  <section>
+  <section id="threads-section">
     <h2>Threads that cross addresses</h2>
-    <p>The matches outside the known pools, read by hand. The reading in the last column is a judgement from metadata, not a finding about any individual.</p>
+    <p>The matches outside the known pools, read by hand<span id="reviewed"></span>. The reading in the last column is a judgement from metadata, not a finding about any individual.</p>
     <div class="card scroll"><table id="curated"></table></div>
   </section>
 
@@ -116,16 +116,7 @@ li+li{margin-top:6px}
     <h2>What the matches say about the network</h2>
     <div class="card scroll"><table>
       <thead><tr><th>Block</th><th>Behaviour</th><th>Evidence</th><th>Label in the range file</th></tr></thead>
-      <tbody>
-        <tr><td class="ip">131.137.245.206–209</td><td><span class="chip pool">Pool</span></td><td>Hundreds of same-page handoffs within an hour, 2012–2021.</td><td>National Defence</td></tr>
-        <tr><td class="ip">205.193.239.44, .76</td><td><span class="chip renumbering">Renumbering</span> <span class="chip pool">Pool</span></td><td>Start in November 2023 as the DND pool winds down; 81 of their 310 pages were edited from that pool before.</td><td>Shared Services Canada</td></tr>
-        <tr><td class="ip">192.197.82.153, .203</td><td><span class="chip pool">Pool</span></td><td>Same-page handoffs within the hour, 2012–2018.</td><td>House of Commons</td></tr>
-        <tr><td class="ip">207.35.15.x</td><td><span class="chip renumbering">Renumbering</span></td><td>Starts mid-2018 as 192.197.82.x winds down; 31 pages carried over.</td><td>House of Commons</td></tr>
-        <tr><td class="ip">167.32.2.x</td><td><span class="chip renumbering">Renumbering</span></td><td>Starts August 2024 as 207.35.15.x stops; nine pages carried over, eight of them MP biographies.</td><td>Shared Services Canada</td></tr>
-        <tr><td class="ip">198.103.198.248–255</td><td><span class="chip renumbering">Renumbering</span></td><td>Starts two weeks after 198.103.104.11 falls silent in October 2020; embassy, ambassador and airport threads follow.</td><td>Shared Services Canada</td></tr>
-        <tr><td class="ip">159.33.10.190–199</td><td><span class="chip renumbering">Renumbering</span></td><td>Replace 159.33.10.155 inside the same /24 during 2021.</td><td>CBC</td></tr>
-        <tr><td class="ip">198.103.152/221/223 .51–.52</td><td><span class="chip parallel">Parallel exits</span></td><td>Three separate threads each appear on two or three of the six within weeks.</td><td>Shared Services Canada</td></tr>
-      </tbody></table></div>
+      <tbody id="network"></tbody></table></div>
     <p>Three blocks the range file labels only as Shared Services Canada behave like a specific institution's exit: National Defence, the House of Commons and the foreign service.</p>
   </section>
 
@@ -162,11 +153,12 @@ function chip(grade, mech){
   return c;
 }
 const YEARS = Object.keys(D.years).sort().reverse();
+if (document.getElementById('reviewed')) document.getElementById('reviewed').textContent = ' on ' + D.reviewed + (D.review_current ? '' : ' (the archive has changed since, so some figures may be out of date)');
 const T = D.tally, g = k => T[k] || 0;
 const strong = g('strong|pool') + g('strong|renumbering') + g('strong|parallel') + g('strong|later');
 const possible = g('moderate|pool') + g('moderate|renumbering') + g('moderate|parallel') + g('moderate|later');
 document.getElementById('lede').textContent =
-  'For each year from 2025 back to 2012, the ten busiest addresses were split into editing threads and every thread was compared with the rest of the archive. Of the ' +
+  'For each year from ' + YEARS[0] + ' back to ' + YEARS[YEARS.length - 1] + ', the ten busiest addresses were split into editing threads and every thread was compared with the rest of the archive. Of the ' +
   (YEARS.length * 10) + ' address-years, ' + strong + ' have a strong match on another address, ' + possible + ' a possible one and ' + g('none|') +
   ' none. Most strong matches are network plumbing; ' + g('strong|later') + ' are a thread that reappears somewhere else later.';
 const tiles = document.getElementById('tiles');
@@ -190,8 +182,9 @@ YEARS.forEach(y => {
 });
 mx.append(mb);
 
-// curated
-const cu = document.getElementById('curated');
+// curated (hand-read threads; the section is dropped when findings.json carries none)
+if (!D.curated.length) document.getElementById('threads-section').remove();
+const cu = document.getElementById('curated') || document.createElement('table');
 const ch = el('thead'), chr = el('tr');
 ['Thread', 'Addresses and dates', 'Mechanism', 'Evidence', 'Reading'].forEach(h => chr.append(el('th', '', h))); ch.append(chr); cu.append(ch);
 const cb = el('tbody');
@@ -204,6 +197,16 @@ D.curated.forEach(c => {
   cb.append(tr);
 });
 cu.append(cb);
+
+// network
+const nb = document.getElementById('network');
+D.network.forEach(f => {
+  const tr = el('tr'), b = el('td');
+  f.behaviour.forEach((m, i) => { if (i) b.append(document.createTextNode(' ')); b.append(chip('strong', m)); });
+  const blk = el('td', 'ip', f.block); blk.style.whiteSpace = 'normal';
+  tr.append(blk, b, el('td', '', f.evidence), el('td', '', f.label));
+  nb.append(tr);
+});
 
 // years
 const bar = document.getElementById('yearbar');

@@ -1,6 +1,7 @@
 {
  "reviewed": "2026-11-12",
- "note": "Hand-reviewed readings of the machine output in results.json and intra_year.json. Gateway-level: nothing here identifies an editor.",
+ "reviewed_archive": "615e22ede799",
+ "note": "Hand-reviewed readings of the machine output in results.json and intra_year.json. The scripts never write this file. Gateway-level: nothing here identifies an editor.",
  "network": [
   {
    "block": "131.137.245.206–209",
@@ -8,7 +9,15 @@
     "pool"
    ],
    "label": "National Defence",
-   "evidence": "Between about 90 and 330 same-page handoffs within the hour every year from 2010 to 2015, none in 2016, a few after. The four addresses share pages throughout. .208 and .209 stop in October 2021."
+   "evidence": "Between about 55 and 330 same-page handoffs within the hour every year from 2009 to 2015, none in 2016, a few after. The addresses share pages throughout. .206 and .207 from the start of the archive; .208 joins in December 2009 and .209 in December 2011. A second set, .197–.200, makes about 130 edits in 2009 and fades out by 2010. Silent from December 2012 to June 2013 (see the next row). .208 and .209 stop in October 2021."
+  },
+  {
+   "block": "131.137.247.6, .7, .10",
+   "behaviour": [
+    "renumbering"
+   ],
+   "label": "National Defence",
+   "evidence": "Carry the DND exit from November 2012 to July 2013 (about 400 edits) while the pool makes four edits in seven months, then stop when the pool resumes. 55 of their 240 pages were also edited from the pool."
   },
   {
    "block": "205.193.239.44, .76",
@@ -17,15 +26,15 @@
     "pool"
    ],
    "label": "Shared Services Canada",
-   "evidence": "Start in November 2023 as the DND pool winds down; 81 of their 310 pages were edited from that pool before. The two alternate within the hour in 2024 and 2025."
+   "evidence": "Start in November 2023 as the DND pool winds down; 88 of their 310 pages were edited from that pool before. The two alternate within the hour in 2024 and 2025."
   },
   {
-   "block": "192.197.82.153, .203",
+   "block": "192.197.82.153 + .203, .155 + .205",
    "behaviour": [
     "pool"
    ],
    "label": "House of Commons",
-   "evidence": "Same-page handoffs within the hour, 2010–2012; shared pages to 2016."
+   "evidence": "Two pairs, each with same-page handoffs within the hour, 2009–2012; shared pages to 2016."
   },
   {
    "block": "207.35.15.x",
@@ -33,7 +42,7 @@
     "renumbering"
    ],
    "label": "House of Commons",
-   "evidence": "Starts mid-2018 as 192.197.82.x winds down; 31 pages carried over. Its two busy addresses share pages in four separate years and never alternate."
+   "evidence": "Starts mid-2018 as 192.197.82.x winds down; 34 pages carried over. Its two busy addresses share pages in four separate years and never alternate."
   },
   {
    "block": "167.32.2.x",
@@ -52,20 +61,21 @@
    "evidence": "Starts two weeks after 198.103.104.11 falls silent in October 2020; embassy, ambassador-list and airport pages follow."
   },
   {
-   "block": "159.33.10.190–199",
+   "block": "159.33.10.92 → .155 → .190–199",
    "behaviour": [
     "renumbering"
    ],
    "label": "CBC",
-   "evidence": "Replace 159.33.10.155 inside the same /24 during 2021; three of them share pages in 2021–22."
+   "evidence": "One exit under three sets of addresses inside the same /24: .92 until August 2012, .155 from May 2011 to May 2021, then .190–.199. Three of the last set share pages in 2021–22."
   },
   {
    "block": "198.103.152.N, 198.103.221.N, 198.103.223.N",
    "behaviour": [
+    "pool",
     "parallel"
    ],
    "label": "Shared Services Canada",
-   "evidence": "Addresses with the same last number share pages across the three blocks (.35, .36, .51, .52)."
+   "evidence": "Addresses with the same last number share pages across the three blocks (.35, .36, .51, .52). The .51 and .52 sets also alternate within the hour, as early as 2009."
   }
  ],
  "threads": [
@@ -111,7 +121,7 @@
   },
   {
    "thread": "Ottawa airport route changes",
-   "addresses": "198.103.167.20 (2012–17), 198.103.184.76 (2016–17), 198.103.96.11 (2023–25)",
+   "addresses": "198.103.167.20 (2009–17), 198.103.184.76 (2009, 2016–17), 198.103.96.11 (2023–25)",
    "mechanism": "later",
    "evidence": "One shared page, the same destination-table sections, terse airline-change summaries.",
    "reading": "Possible; a busy page that could draw several people",
@@ -164,6 +174,41 @@
    "evidence": "A live event. The first address hosts a prolific curling editor; the DND edits are seven on one day.",
    "reading": "Probably two different fans",
    "confidence": "unlikely"
+  },
+  {
+   "thread": "Questions on the Wikipedia reference desks",
+   "addresses": "198.103.172.9 (Mar–Apr 2010) → 205.193.96.10 (Nov 2010 – Apr 2011)",
+   "mechanism": "later",
+   "evidence": "Eighteen and twenty-two edits to reference-desk pages, nearly all new questions with no other summary.",
+   "reading": "Possible; the reference desks draw many anonymous users",
+   "confidence": "possible"
+  },
+  {
+   "thread": "The page on the cadet instructor branch",
+   "addresses": "DND pool (2010–12, about 65 edits) → 199.212.150.5 (Oct 2015, 27 edits)",
+   "mechanism": "later",
+   "evidence": "One page, the same training sections, three years apart.",
+   "reading": "Possible, or successive maintainers of one organisation's page",
+   "confidence": "possible"
   }
- ]
+ ],
+ "year_notes": {
+  "2025": "Two addresses carry 56% of the year. 198.103.249.201 works on Quebec ridings and elections in French Wikipedia and Wikidata; 198.103.167.20 fills in Wikidata records on heraldry. Neither thread appears anywhere else. The quarterly population routine turns up on 205.211.133.133.",
+  "2024": "The quietest year. The DND successor pair is now the busiest block and picks up pages last edited from the old DND pool. A Nova Scotia election thread on 205.194.16.3 continues one that ran on 205.193.50.10 in spring 2023.",
+  "2023": "Wrestling roster lists dominate and stay on one address. The European airport tables and the Ottawa airport route updates both match earlier addresses. The two House of Commons exits share a thread on the next federal election.",
+  "2022": "A CBC address leads with broad, mostly one-off edits and no match. The airport tables are on 198.103.198.249 this year. The population routine makes its single appearance on 198.103.167.20.",
+  "2021": "One editor's shipwreck lists run through both House of Commons exits for eight weeks, with the same summaries on each. 198.103.184.76 hosts a long thread on Montreal shopping centres and television schedules.",
+  "2020": "The airport tables leave 198.103.104.11 for the 198.103.198.x block when the address is replaced. Naval ship pages appear on both House of Commons exits ahead of the shipwreck run.",
+  "2019": "Three of the ten are the DND pool, tied together by a filmography thread that hops between them. The population routine is on 205.193.94.40. Four big threads stay on one address: reality television, Wikidata scientist records, a Canadiens season page, and Hamilton local television.",
+  "2018": "198.103.184.76 makes 893 edits, led by a long run of curling results. The population routine and a set of national hockey roster pages both move from 205.211.133.128 to 205.193.94.40 this year.",
+  "2017": "198.103.184.76 peaks at 1,170 edits, again led by curling results. All four DND pool addresses work on one family of baronial biographies. A band discography moves from 205.194.127.36 to 198.103.104.11.",
+  "2016": "The DND pool takes four of ten places. Ottawa airport route updates are on 198.103.184.76 this year, between their earlier and later homes.",
+  "2015": "205.211.133.128 makes 954 edits, mostly single touches to image files on Commons, so little of it forms threads. The DND pool shares a warship page across all four addresses.",
+  "2014": "Province-by-province edits to a list of law-enforcement agencies move from a DND address (2013) to 198.103.104.11. The old House of Commons pair behaves as a pool.",
+  "2013": "A short-lived DND address, 131.137.247.6, leads the year and then disappears in July. Most other threads this year sit on one address each.",
+  "2012": "The DND pool again takes four places, linked by image-review discussions on Commons. A single address makes 87 edits to the Quebec election page.",
+  "2011": "A CBC address leads with 670 edits, almost all single touches to image files on Commons. The DND pool takes three places. 198.103.184.76 works on a French article about a British aircraft carrier and on one writer's biography.",
+  "2010": "The DND pool takes three places, with bank-history pages and the page on the cadet instructor branch. A run of reference-desk questions moves from 198.103.172.9 in the spring to 205.193.96.10 from November.",
+  "2009": "The busiest year in the archive: 6,876 edits from 272 addresses. 198.103.184.76 alone makes 1,099, split between English and French Wikipedia. Both addresses of the old House of Commons pool are in the top ten. National Defence still has two sets of addresses this year, so only one reaches the top ten."
+ }
 }

@@ -37,7 +37,6 @@ import itertools
 import json
 import math
 import os
-import subprocess
 import sys
 
 R = sys.argv[1]
@@ -50,6 +49,16 @@ def relation(a, b):
     if a.rsplit('.', 1)[0] == b.rsplit('.', 1)[0]:
         return 'same /24'
     return 'same /16' if a.split('.')[:2] == b.split('.')[:2] else 'different block'
+
+def archive_fingerprint(root):
+    """Short digest of the yearly edit files, so outputs change only when the archive does."""
+    import hashlib
+    h = hashlib.sha256()
+    for f in sorted(glob.glob(os.path.join(root, 'data', '20*', 'edits.jsonl'))):
+        h.update(os.path.basename(os.path.dirname(f)).encode())
+        h.update(hashlib.sha256(open(f, 'rb').read()).digest())
+    return h.hexdigest()[:12]
+
 
 def load():
     edits = []
@@ -212,11 +221,7 @@ def main():
                            'handoffs': sum(p['handoffs_60min'] for p in ys.values()),
                            'shared_pages': sum(p['shared_pages'] for p in ys.values())})
     persistent.sort(key=lambda r: (-len(r['years']), -r['handoffs']))
-    try:
-        commit = subprocess.run(['git', '-C', R, 'rev-parse', '--short', 'HEAD'], capture_output=True, text=True).stdout.strip()
-    except Exception:
-        commit = ''
-    meta = {'archive_commit': commit, 'edits': len(edits), 'years': sorted(years), 'min_edits_per_year': MIN_EDITS,
+    meta = {'archive': archive_fingerprint(R), 'edits': len(edits), 'years': sorted(years), 'min_edits_per_year': MIN_EDITS,
             'pool_rule': f'{POOL_HANDOFFS}+ handoffs within 60 min, or 3+ across 2+ pages', 'rare_max': RARE_MAX}
     calib = collections.Counter()
     for Y in years.values():
@@ -261,7 +266,7 @@ def short(label):
 def write_md(meta, years, persistent):
     L = []
     L.append('# Intra-year address correlations\n')
-    L.append(f"Archive at `{meta['archive_commit']}`: {meta['edits']:,} edits, {meta['years'][0]} to {meta['years'][-1]}. "
+    L.append(f"Archive fingerprint `{meta['archive']}`: {meta['edits']:,} edits, {meta['years'][0]} to {meta['years'][-1]}. "
              f"Each year is analysed on its own: only addresses with {meta['min_edits_per_year']}+ edits that year, only that year's edits.\n")
     L.append('- **pool**: ' + meta['pool_rule'] + '. The addresses alternate inside one sitting.')
     L.append(f"- **same-exit**: 3+ shared rare pages (a rare page is one at most {meta['rare_max']} addresses edited that year) without that many handoffs. Same traffic, but a sitting stays on one address.")
