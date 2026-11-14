@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roadmap | Revision History</title>
+<meta name="description" content="What Revision History has built, what is in progress, what is planned and what has been parked.">
+<link rel="canonical" href="https://revisionhistory.ca/roadmap.html">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="geo.region" content="CA">
+<meta name="geo.placename" content="Canada">
+<meta name="author" content="Prime Rogue Inc.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Revision History">
+<meta property="og:title" content="Roadmap | Revision History">
+<meta property="og:description" content="What Revision History has built, what is in progress, what is planned and what has been parked.">
+<meta property="og:url" content="https://revisionhistory.ca/roadmap.html">
+<meta property="og:image" content="https://revisionhistory.ca/static/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Revision History: Wikipedia edits from Government of Canada networks">
+<meta property="og:locale" content="en_CA">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="static/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="text/plain" href="llms.txt" title="Summary for AI assistants">
+<meta name="theme-color" content="#f5f3ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12120f" media="(prefers-color-scheme: dark)">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Revision History","item":"https://revisionhistory.ca/"},{"@type":"ListItem","position":2,"name":"Roadmap","item":"https://revisionhistory.ca/roadmap.html"}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <a class="brand" href="./">
+      <span class="brand-mark" aria-hidden="true">▚</span>
+      <span class="brand-name">Revision History</span>
+      <span class="brand-tag">watching you watching me watching SSC</span>
+    </a>
+    <nav class="nav">
+      <a href="#/">Search</a>
+      <a href="#/ips">Addresses</a>
+      <a href="#/topics">Topics</a>
+      <a href="#/ranges">Ranges</a>
+      <a href="years.html">Years</a>
+      <a href="#/provenance">Provenance</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+<div class="prose">
+<h1>Roadmap</h1>
+<p>Status as of 2026-11-12 (v1.3.0). Shipped items are described in the <a href="https://github.com/Prime-Rogue-Inc-Corporate/wikisscbot/blob/main/CHANGELOG.md" rel="noopener">changelog</a>.</p>
+<h2>Done</h2>
+<ul>
+<li><strong>Archive, 2010 to 2025.</strong> Every logged-out edit from Government of Canada ranges on English and French Wikipedia, Wikidata, Wikimedia Commons, English Wiktionary and English Wikivoyage. Every year is collected again in full on each run.</li>
+<li><strong>Provenance.</strong> Each data pull is checksummed, hash-chained and timestamped in Bitcoin with OpenTimestamps. The site re-checks the files in the browser.</li>
+<li><strong>Revision History site.</strong> Search with filters by address, topic and range; address profiles; crawlable pages for each year, methodology, FAQ, data, coverage and address clusters; structured data, sitemap and <span class="mono">llms.txt</span>.</li>
+<li><strong>Dated attribution.</strong> An edit counts for a Shared Services Canada routing prefix only while that prefix was announced. Addresses confirmed by stronger evidence carry their own label and start date.</li>
+<li><strong>Parliament&#x27;s ranges, dated.</strong> The House of Commons has used three address blocks since 2010. The newest is labelled from the date Parliament began routing it itself, and the middle one ends when the block was re-assigned.</li>
+<li><strong>Runs that survive other changes.</strong> A two-hour collection run no longer fails when something else changes the repository before it finishes.</li>
+<li><strong>Single-address lookup.</strong> Every public edit from one address, in any year, across every public Wikimedia wiki and a list of other wikis.</li>
+</ul>
+<h2>Now</h2>
+<ul>
+<li><strong>Earlier years, one at a time.</strong> 2009 is next, then back toward 2002. Each year is one configuration change and a full re-collection.</li>
+<li><strong>Serve the site from the top of the domain.</strong> The build is published on the <span class="mono">site</span> branch; the host still has to be pointed at it.</li>
+</ul>
+<h2>Next</h2>
+<ul>
+<li><strong>One job per year.</strong> Collect years in parallel so the full re-collection stays inside the time limit as the archive grows.</li>
+<li><strong>Full diffs.</strong> Archive the added and removed text of each edit, so the archive survives revision deletion and search can cover changed text, not just titles and summaries.</li>
+<li><strong>Revision-deletion watch.</strong> Re-check archived revisions and flag any that Wikipedia has since hidden or suppressed.</li>
+<li><strong>Dated range records.</strong> Record registry and reverse-DNS evidence for each range, with dates, so every label can be audited. The department list from 2014–16 is undated.</li>
+<li><strong>More wikis.</strong> Other language Wikipedias in the yearly archive, and one list of non-Wikimedia wikis that still publish addresses.</li>
+<li><strong>Thread matching after each run.</strong> Recompute which addresses behave as one network exit whenever the archive changes.</li>
+<li><strong>Dumps cross-check.</strong> Use Wikimedia&#x27;s public history dumps to cross-check API results.</li>
+</ul>
+<h2>Later</h2>
+<ul>
+<li>Alerts for watched pages or topics (email or RSS).</li>
+<li>Annotated collections: pin edits, add notes and publish a permalinked set.</li>
+<li>Public API keys and rate limits for researchers.</li>
+<li>A second, independent timestamp alongside OpenTimestamps.</li>
+<li>Access-to-information helper: request text for a given set of edits, ranges and dates.</li>
+</ul>
+<h2>Parked</h2>
+<ul>
+<li><strong>NFT collection.</strong> Cards for individual edits as Solana compressed NFTs. Parked indefinitely on 2026-11-12; the <span class="mono">nft</span> branch stays unmerged.</li>
+</ul>
+<h2>Known limits</h2>
+<ul>
+<li>Logged-out edits made after English Wikipedia switched to temporary accounts on 4 November 2025 do not show an address and are out of scope.</li>
+<li>Edits that Wikipedia has deleted or suppressed are not returned and are not in the archive.</li>
+<li>Department labels come from a crowd-sourced list compiled in 2014–16. Most current traffic leaves through shared gateways, where the department cannot be determined.</li>
+<li>An edit from a government network is not evidence of who made it, or that it was made in an official capacity.</li>
+</ul>
+</div>
+</main>
+<footer class="foot wrap">
+  <span>Revision History · built 2026-11-14 · a <a href="https://primerogueinc.com/">Prime Rogue Inc.</a> project</span>
+  <nav class="footnav" aria-label="Reference pages"><a href="years.html">Edits by year</a><a href="methodology.html">Methodology</a><a href="faq.html">FAQ</a><a href="data.html">Data &amp; verification</a><a href="coverage.html">Coverage</a><a href="clusters.html">Clusters</a><a href="roadmap.html">Roadmap</a></nav>
+  <span>An edit from a government network is not evidence of who made it, or that it was made in an official capacity.</span>
+</footer>
+</body>
+</html>

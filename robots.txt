@@ -1,0 +1,26 @@
+# Revision History welcomes search engines and AI answer engines.
+# Only the bulky per-run provenance logs are excluded from crawling.
+
+User-agent: *
+Allow: /
+Disallow: /data/manifests/
+
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Amazonbot
+User-agent: meta-externalagent
+User-agent: DuckAssistBot
+User-agent: MistralAI-User
+Allow: /
+Disallow: /data/manifests/
+
+Sitemap: https://revisionhistory.ca/sitemap.xml

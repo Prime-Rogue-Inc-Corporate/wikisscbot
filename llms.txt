@@ -1,0 +1,82 @@
+# Revision History
+
+> Searchable, verifiable archive of 63,623 anonymous Wikipedia edits made from Government of Canada networks, 2008–2025: Parliament, National Defence, Shared Services Canada and more. Published by Prime Rogue Inc. Data built 2026-11-14.
+
+## Key facts
+
+- 63,623 edits from 1,327 IP addresses, 2 January 2008 to 3 November 2025.
+- Sources: English and French Wikipedia, Wikidata, Wikimedia Commons, English Wiktionary, English Wikivoyage.
+- Edits are those made without logging in, where Wikipedia published the editor's IP address.
+- Networks: the @gccaedits department range list plus Shared Services Canada's routed prefixes (AS2665, AS2675, AS2682, AS25689, AS806).
+- The archive ends on 3 November 2025, because English Wikipedia replaced public IP attribution with temporary accounts on 4 November 2025.
+- Every data pull is checksummed (SHA-256), hash-chained and timestamped in Bitcoin with OpenTimestamps.
+- Important caveat: An edit from a government network is not evidence of who made it, or that it was made in an official capacity. Most addresses are shared gateways used by hundreds or thousands of people.
+- Edits are attributed to networks, never to named individuals.
+
+## Edits by network label
+
+- Shared Services Canada: 30,065
+- Canadian Department of National Defence: 9,348
+- Canadian House of Commons: 5,080
+- Canadian Broadcasting Corporation: 4,104
+- Environment Canada: 3,403
+- Shared Services Canada network (AS2665): 1,981
+- Industry Canada: 1,533
+- Shared Services Canada network (AS2675): 1,311
+
+## Edits by year
+
+- [2025](https://revisionhistory.ca/years/2025.html): 2,645 edits from 107 addresses
+- [2024](https://revisionhistory.ca/years/2024.html): 1,249 edits from 129 addresses
+- [2023](https://revisionhistory.ca/years/2023.html): 1,534 edits from 108 addresses
+- [2022](https://revisionhistory.ca/years/2022.html): 2,157 edits from 107 addresses
+- [2021](https://revisionhistory.ca/years/2021.html): 2,526 edits from 113 addresses
+- [2020](https://revisionhistory.ca/years/2020.html): 1,518 edits from 100 addresses
+- [2019](https://revisionhistory.ca/years/2019.html): 2,702 edits from 146 addresses
+- [2018](https://revisionhistory.ca/years/2018.html): 3,704 edits from 160 addresses
+- [2017](https://revisionhistory.ca/years/2017.html): 3,455 edits from 165 addresses
+- [2016](https://revisionhistory.ca/years/2016.html): 2,617 edits from 163 addresses
+- [2015](https://revisionhistory.ca/years/2015.html): 3,733 edits from 165 addresses
+- [2014](https://revisionhistory.ca/years/2014.html): 3,151 edits from 173 addresses
+- [2013](https://revisionhistory.ca/years/2013.html): 3,591 edits from 171 addresses
+- [2012](https://revisionhistory.ca/years/2012.html): 4,150 edits from 202 addresses
+- [2011](https://revisionhistory.ca/years/2011.html): 5,175 edits from 229 addresses
+- [2010](https://revisionhistory.ca/years/2010.html): 6,333 edits from 253 addresses
+- [2009](https://revisionhistory.ca/years/2009.html): 6,876 edits from 272 addresses
+- [2008](https://revisionhistory.ca/years/2008.html): 6,507 edits from 297 addresses
+
+## Pages
+
+- [Search the archive](https://revisionhistory.ca/): full-text search with filters by year, wiki, network, address and topic
+- [Edits by year](https://revisionhistory.ca/years.html): one summary page per year
+- [Methodology](https://revisionhistory.ca/methodology.html): collection, labelling, provenance and limits
+- [FAQ](https://revisionhistory.ca/faq.html): what the data does and does not show
+- [Data and verification](https://revisionhistory.ca/data.html): downloads, checksums and how to cite
+- [Coverage](https://revisionhistory.ca/coverage.html): which wikis can be checked for government network traffic, and which cannot
+- [Roadmap](https://revisionhistory.ca/roadmap.html): what is done, in progress, planned and parked
+- [Address clusters](https://revisionhistory.ca/clusters.html): which addresses behave as one network exit and which blocks replaced which
+
+## Data
+
+- [2025 edits, JSON Lines](https://revisionhistory.ca/data/2025/edits.jsonl)
+- [2024 edits, JSON Lines](https://revisionhistory.ca/data/2024/edits.jsonl)
+- [2023 edits, JSON Lines](https://revisionhistory.ca/data/2023/edits.jsonl)
+- [2022 edits, JSON Lines](https://revisionhistory.ca/data/2022/edits.jsonl)
+- [2021 edits, JSON Lines](https://revisionhistory.ca/data/2021/edits.jsonl)
+- [2020 edits, JSON Lines](https://revisionhistory.ca/data/2020/edits.jsonl)
+- [2019 edits, JSON Lines](https://revisionhistory.ca/data/2019/edits.jsonl)
+- [2018 edits, JSON Lines](https://revisionhistory.ca/data/2018/edits.jsonl)
+- [2017 edits, JSON Lines](https://revisionhistory.ca/data/2017/edits.jsonl)
+- [2016 edits, JSON Lines](https://revisionhistory.ca/data/2016/edits.jsonl)
+- [2015 edits, JSON Lines](https://revisionhistory.ca/data/2015/edits.jsonl)
+- [2014 edits, JSON Lines](https://revisionhistory.ca/data/2014/edits.jsonl)
+- [2013 edits, JSON Lines](https://revisionhistory.ca/data/2013/edits.jsonl)
+- [2012 edits, JSON Lines](https://revisionhistory.ca/data/2012/edits.jsonl)
+- [2011 edits, JSON Lines](https://revisionhistory.ca/data/2011/edits.jsonl)
+- [2010 edits, JSON Lines](https://revisionhistory.ca/data/2010/edits.jsonl)
+- [2009 edits, JSON Lines](https://revisionhistory.ca/data/2009/edits.jsonl)
+- [2008 edits, JSON Lines](https://revisionhistory.ca/data/2008/edits.jsonl)
+
+## Citing
+
+Cite as: Revision History (revisionhistory.ca), Prime Rogue Inc. For a specific edit, cite the Wikipedia diff as the primary source.

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology | Revision History</title>
+<meta name="description" content="How Revision History collects anonymous Wikipedia edits from Government of Canada IP ranges, labels networks, secures each data pull with checksums and Bitcoin timestamps, and what the data cannot show.">
+<link rel="canonical" href="https://revisionhistory.ca/methodology.html">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="geo.region" content="CA">
+<meta name="geo.placename" content="Canada">
+<meta name="author" content="Prime Rogue Inc.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Revision History">
+<meta property="og:title" content="Methodology | Revision History">
+<meta property="og:description" content="How Revision History collects anonymous Wikipedia edits from Government of Canada IP ranges, labels networks, secures each data pull with checksums and Bitcoin timestamps, and what the data cannot show.">
+<meta property="og:url" content="https://revisionhistory.ca/methodology.html">
+<meta property="og:image" content="https://revisionhistory.ca/static/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Revision History: Wikipedia edits from Government of Canada networks">
+<meta property="og:locale" content="en_CA">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="static/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="text/plain" href="llms.txt" title="Summary for AI assistants">
+<meta name="theme-color" content="#f5f3ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12120f" media="(prefers-color-scheme: dark)">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Revision History","item":"https://revisionhistory.ca/"},{"@type":"ListItem","position":2,"name":"Methodology","item":"https://revisionhistory.ca/methodology.html"}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <a class="brand" href="./">
+      <span class="brand-mark" aria-hidden="true">▚</span>
+      <span class="brand-name">Revision History</span>
+      <span class="brand-tag">watching you watching me watching SSC</span>
+    </a>
+    <nav class="nav">
+      <a href="#/">Search</a>
+      <a href="#/ips">Addresses</a>
+      <a href="#/topics">Topics</a>
+      <a href="#/ranges">Ranges</a>
+      <a href="years.html">Years</a>
+      <a href="#/provenance">Provenance</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+<h1>Methodology</h1>
+<div class="prose">
+<p class="lede">How the 63,623 edits in the archive were collected, labelled and secured, and what the data cannot show.</p>
+<h2>Collection</h2>
+<p>For every Government of Canada IP block, the collector asks the MediaWiki API for all logged-out contributions in a calendar year (<span class="mono">list=usercontribs</span> with <span class="mono">uciprange</span>). It covers English and French Wikipedia, Wikidata, Wikimedia Commons, English Wiktionary and English Wikivoyage. Blocks are queried at /16 or smaller, and a block that times out is split into smaller blocks down to /24 until it succeeds. Every configured year is collected again in full on every run.</p>
+<h2>Network labels</h2>
+<p>Each address gets the label of the most specific range that contains it. Ranges come from the public-domain department list compiled for @gccaedits in 2014–16, and from every prefix announced by Shared Services Canada's networks (AS2665, AS2675, AS2682, AS25689, AS806) according to RIPEstat. An edit is attributed to a Shared Services Canada prefix only while that prefix was being announced by one of those networks, plus 90 days, because address space can change hands. A few individual addresses carry a label that Prime Rogue has confirmed with stronger evidence, such as reverse DNS; these are listed with their basis and start date in <span class="mono">config/ranges_confirmed.json</span>. A department label is a lead, not proof. The label "Shared Services Canada" means the department cannot be determined.</p>
+<h2>Topics</h2>
+<p>Pages are classified with Wikimedia's own article-topic model and with keyword groups called beats, tuned for Canadian government reporting. Beats are simple rules and will mislabel some pages.</p>
+<h2>Provenance</h2>
+<p>Each run writes a manifest with the code version, the parameters, the SHA-256 of every API response and every output file, and the hash of the previous manifest. The chain of manifests is timestamped in Bitcoin with OpenTimestamps. Published files are byte-for-byte copies, and the site re-checks their hashes in the browser. See <a href="data.html">data and verification</a>.</p>
+<h2>Limits</h2>
+<ul>
+<li>An edit from a government network is not evidence of who made it, or that it was made in an official capacity. Most addresses are shared gateways used by hundreds or thousands of people.</li>
+<li>English Wikipedia stopped publishing the IP addresses of logged-out editors on 4 November 2025. Later edits are out of scope, and nothing here tries to reveal them.</li>
+<li>Edits that have been deleted or suppressed on Wikipedia are not returned by the API.</li>
+<li>Address ranges change hands. A range that is a government network today may not have been one in an earlier year, and the reverse.</li>
+<li>Edits made from home networks, mobile networks or VPNs by government staff are not captured.</li>
+</ul>
+<h2>Source code</h2>
+<p>The collector, the site and the full build log are open: <a href="https://github.com/Prime-Rogue-Inc-Corporate/wikisscbot" rel="noopener">github.com/Prime-Rogue-Inc-Corporate/wikisscbot</a>.</p>
+</div>
+</main>
+<footer class="foot wrap">
+  <span>Revision History · built 2026-11-14 · a <a href="https://primerogueinc.com/">Prime Rogue Inc.</a> project</span>
+  <nav class="footnav" aria-label="Reference pages"><a href="years.html">Edits by year</a><a href="methodology.html">Methodology</a><a href="faq.html">FAQ</a><a href="data.html">Data &amp; verification</a><a href="coverage.html">Coverage</a><a href="clusters.html">Clusters</a><a href="roadmap.html">Roadmap</a></nav>
+  <span>An edit from a government network is not evidence of who made it, or that it was made in an official capacity.</span>
+</footer>
+</body>
+</html>

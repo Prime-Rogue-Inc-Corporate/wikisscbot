@@ -1,0 +1,83 @@
+{
+  "schema": "wikisscbot-manifest/1",
+  "run_id": "2026-11-12T212903Z-watch-c8f9",
+  "kind": "watch",
+  "started": "2026-11-12T21:29:03Z",
+  "finished": "2026-11-12T21:41:23Z",
+  "tool_version": "1.3.0",
+  "code_commit": "881bcf4bb7a84c1f9bc939a9d66f0e85ca2b4bbf",
+  "workflow_run": {
+    "id": "43310617982",
+    "attempt": "1",
+    "workflow": "Watch for new edits",
+    "url": "https://github.com/Prime-Rogue-Inc-Corporate/wikisscbot/actions/runs/43310617982"
+  },
+  "params": {
+    "window": [
+      "2026-11-11T15:29:03Z",
+      "2026-11-12T21:29:03Z"
+    ],
+    "wikis": [
+      "enwiki",
+      "frwiki",
+      "wikidatawiki",
+      "commonswiki",
+      "enwiktionary",
+      "enwikivoyage"
+    ]
+  },
+  "inputs": {
+    "config/niche_wikis.json": "87dc091e9277bdf6bddf25c43491fedf96f767c9b5a58098637fab3864965358",
+    "config/probe_ips.json": "8e2a812e9f2780d317acf7a41296e68f2c90b16bd51a9d3b409f136268c3a767",
+    "config/ranges_confirmed.json": "bcbfc491421c6374c7e5d1f7d102a4bc7af7dc70325294c558e1ca0326429bea",
+    "config/ranges_gccaedits.json": "b371a8e3c54b39b654ca23d67265255f7a4c93c56cb9ba2e91d8b48015ae0f17",
+    "config/ranges_ssc_bgp.json": "33a0fb83e4ff30cd827ba2bd8093bf9eda625df7bd3291f1af40df9e2a56bc50",
+    "config/settings.json": "2cdf7a6b7363cf97db36e1d9e20857b0455b5c721d6f29f2994f834b502c93ad",
+    "config/site.json": "3e42cf61127c5b08401e8bb91b30c573fbf12e58b3eac49c01636f1f492c4346"
+  },
+  "responses": {
+    "count": 949,
+    "bytes": 75920,
+    "by_host": {
+      "en.wikipedia.org": {
+        "responses": 159,
+        "bytes": 12720
+      },
+      "fr.wikipedia.org": {
+        "responses": 158,
+        "bytes": 12640
+      },
+      "www.wikidata.org": {
+        "responses": 158,
+        "bytes": 12640
+      },
+      "commons.wikimedia.org": {
+        "responses": 158,
+        "bytes": 12640
+      },
+      "en.wiktionary.org": {
+        "responses": 158,
+        "bytes": 12640
+      },
+      "en.wikivoyage.org": {
+        "responses": 158,
+        "bytes": 12640
+      }
+    },
+    "chain_sha256": "058067a7bff4f3ad853f12bbf78f33254663c5b0ad06eb5d66d0e48b232daf70",
+    "log": "data/manifests/2026-11-12T212903Z-watch-c8f9.responses.jsonl",
+    "log_sha256": "39d02f739098e7c06c186b7b962195361f1e3428cfa6b7da85d1ebad666a90a6"
+  },
+  "outputs": {
+    "data/live/edits.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "data_sums_sha256": "1590215a52e7922db12c2fb780aba5b66b14da55a02b4f0cd953408a1f330a44",
+  "counts": {
+    "new_edits": 0
+  },
+  "previous_manifest": {
+    "run_id": "2026-11-12T124403Z-enrich-0be5",
+    "sha256": "659445a09432f4af4a9b0baeb455ee795b93c888a7f43950c1d90470897e2187"
+  },
+  "notes": ""
+}
