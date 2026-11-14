@@ -1,6 +1,6 @@
 # Revision History
 
-> Searchable, verifiable archive of 63,623 anonymous Wikipedia edits made from Government of Canada networks, 2008–2025: Parliament, National Defence, Shared Services Canada and more. Published by Prime Rogue Inc. Data built 2026-11-13.
+> Searchable, verifiable archive of 63,623 anonymous Wikipedia edits made from Government of Canada networks, 2008–2025: Parliament, National Defence, Shared Services Canada and more. Published by Prime Rogue Inc. Data built 2026-11-14.
 
 ## Key facts
 
