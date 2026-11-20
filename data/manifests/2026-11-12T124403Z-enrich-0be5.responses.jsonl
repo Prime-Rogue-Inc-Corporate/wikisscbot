@@ -1,0 +1,1 @@
+{"t": "2026-11-12T12:44:04Z", "method": "GET", "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q131004987%7CQ16943273%7CQ17339402%7CQ25197588%7CQ39810054%7CQ41009387&props=labels%7Cdescriptions&languages=en%7Cfr&format=json", "bytes": 800, "sha256": "8c1ec80cfbac62cb78650b6486694a2d56e4580cf6097914f99634d311ecbf8b"}
