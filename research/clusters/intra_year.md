@@ -1,6 +1,6 @@
 # Intra-year address correlations
 
-Archive fingerprint `f7d66cdaadd5`: 63,623 edits, 2008 to 2025. Each year is analysed on its own: only addresses with 5+ edits that year, only that year's edits.
+Archive fingerprint `ea0ed6534523`: 63,624 edits, 2008 to 2025. Each year is analysed on its own: only addresses with 5+ edits that year, only that year's edits.
 
 - **pool**: 5+ handoffs within 60 min, or 3+ across 2+ pages. The addresses alternate inside one sitting.
 - **same-exit**: 3+ shared rare pages (a rare page is one at most 3 addresses edited that year) without that many handoffs. Same traffic, but a sitting stays on one address.
@@ -29,7 +29,7 @@ Pair-years reaching each threshold, by how the two addresses are related. Differ
 | 2022 | 2,157 | 107 | 55 | 0 | 3 | 0 | 2 | 0 |
 | 2021 | 2,526 | 113 | 55 | 0 | 4 | 4 | 5 | 0 |
 | 2020 | 1,518 | 100 | 43 | 0 | 0 | 1 | 1 | 0 |
-| 2019 | 2,702 | 146 | 69 | 0 | 3 | 3 | 3 | 2 |
+| 2019 | 2,703 | 146 | 69 | 0 | 3 | 3 | 3 | 2 |
 | 2018 | 3,704 | 160 | 64 | 0 | 8 | 5 | 4 | 2 |
 | 2017 | 3,455 | 165 | 62 | 5 | 1 | 2 | 3 | 0 |
 | 2016 | 2,617 | 163 | 64 | 0 | 6 | 1 | 2 | 0 |

@@ -7,31 +7,31 @@ group,mechanisms,max_score,address,thread_edits,from,to,top_pages
 1,later+pool,0.71,131.137.245.209,76,2013-09,2018-04,HMCS Algonquin (DDG 283); HMCS St. John's; HMCS Calgary (FFH 335)
 2,parallel,0.86,207.35.15.27,183,2020-12,2021-02,List of shipwrecks in 1910; List of shipwrecks in 1902; List of shipwrecks in 2020
 2,parallel,0.86,207.35.15.11,55,2021-01,2021-02,List of shipwrecks in 1886; List of shipwrecks in July 1942; List of shipwrecks in 2021
-3,parallel,0.62,205.211.133.128,99,2016-04,2019-07,Vancouver; Charlottetown; Population of Canada by province and territory
-3,parallel,0.62,205.193.94.40,117,2018-06,2021-09,Population of Canada by province and territory; British Columbia; Northwest Territories
-4,later+pool,0.71,131.137.245.207,42,2008-11,2012-10,Cadet Instructors Cadre; Peel Regional Police; Royal Canadian Army Cadets
-4,later+pool,0.71,131.137.245.206,79,2008-11,2016-02,"Cadet Instructors Cadre; Victoria, British Columbia; McMaster University"
-4,later+pool,0.71,131.137.245.208,65,2009-12,2012-10,Cadet Instructors Cadre; Regina Cougars; History of the Cadet Instructors Cadre
-4,later+pool,0.71,199.212.150.5,29,2015-10,2015-10,Cadet Instructors Cadre; History of the Cadet Instructors Cadre
-5,later+parallel+pool+renumbering,0.84,131.137.245.197,10,2008-06,2009-09,713e Régiment des communications [fr]; Le Régiment du Saguenay [fr]; Génie militaire [fr]
-5,later+parallel+pool+renumbering,0.84,131.137.245.200,11,2008-06,2009-05,Le Régiment du Saguenay [fr]; 713e Régiment des communications [fr]; 34e Régiment des transmissions [fr]
-5,later+parallel+pool+renumbering,0.84,131.137.245.206,63,2009-08,2012-02,713e Régiment des communications [fr]; Communications and Electronics Branch; K.d. lang
-5,later+parallel+pool+renumbering,0.84,131.137.245.207,58,2009-08,2012-10,713e Régiment des communications [fr]; Communications and Electronics Branch; Incident Command System
-5,later+parallel+pool+renumbering,0.84,131.137.245.199,5,2009-10,2010-02,12e Régiment blindé du Canada [fr]; 713e Régiment des communications [fr]; 34e Régiment des transmissions [fr]
-5,later+parallel+pool+renumbering,0.84,131.137.245.208,34,2010-02,2013-10,713e Régiment des communications [fr]; 12e Régiment blindé du Canada [fr]; 71e Groupe des communications [fr]
-5,later+parallel+pool+renumbering,0.84,131.137.245.208,16,2015-02,2019-10,33 Canadian Brigade Group; Régiment de Hull; 12e Régiment blindé du Canada [fr]
-5,later+parallel+pool+renumbering,0.84,205.193.239.44,6,2024-09,2024-10,Régiment de Hull; Royal 22e Régiment [fr]
+3,later+parallel+pool+renumbering,0.84,131.137.245.207,72,2008-03,2012-10,713e Régiment des communications [fr]; Orca-class patrol vessel; Royal Canadian Navy
+3,later+parallel+pool+renumbering,0.84,131.137.245.197,10,2008-06,2009-09,713e Régiment des communications [fr]; Le Régiment du Saguenay [fr]; Génie militaire [fr]
+3,later+parallel+pool+renumbering,0.84,131.137.245.200,11,2008-06,2009-05,Le Régiment du Saguenay [fr]; 713e Régiment des communications [fr]; 34e Régiment des transmissions [fr]
+3,later+parallel+pool+renumbering,0.84,131.137.245.206,63,2009-08,2012-02,713e Régiment des communications [fr]; Communications and Electronics Branch; K.d. lang
+3,later+parallel+pool+renumbering,0.84,131.137.245.199,5,2009-10,2010-02,12e Régiment blindé du Canada [fr]; 713e Régiment des communications [fr]; 34e Régiment des transmissions [fr]
+3,later+parallel+pool+renumbering,0.84,131.137.245.208,34,2010-02,2013-10,713e Régiment des communications [fr]; 12e Régiment blindé du Canada [fr]; 71e Groupe des communications [fr]
+3,later+parallel+pool+renumbering,0.84,131.137.245.208,16,2015-02,2019-10,33 Canadian Brigade Group; Régiment de Hull; 12e Régiment blindé du Canada [fr]
+3,later+parallel+pool+renumbering,0.84,205.193.239.44,6,2024-09,2024-10,Régiment de Hull; Royal 22e Régiment [fr]
+4,parallel,0.62,205.211.133.128,99,2016-04,2019-07,Vancouver; Charlottetown; Population of Canada by province and territory
+4,parallel,0.62,205.193.94.40,117,2018-06,2021-09,Population of Canada by province and territory; British Columbia; Northwest Territories
+5,later+pool,0.71,131.137.245.207,42,2008-11,2012-10,Cadet Instructors Cadre; Peel Regional Police; Royal Canadian Army Cadets
+5,later+pool,0.71,131.137.245.206,79,2008-11,2016-02,"Cadet Instructors Cadre; Victoria, British Columbia; McMaster University"
+5,later+pool,0.71,131.137.245.208,65,2009-12,2012-10,Cadet Instructors Cadre; Regina Cougars; History of the Cadet Instructors Cadre
+5,later+pool,0.71,199.212.150.5,29,2015-10,2015-10,Cadet Instructors Cadre; History of the Cadet Instructors Cadre
 6,pool,0.76,131.137.245.206,62,2009-06,2010-10,Appendix:Canadian English military slang [Wiktionary]; Bank of Upper Canada; Canadian Imperial Bank of Commerce
-6,pool,0.76,131.137.245.207,58,2010-04,2012-04,Imperial Bank of Canada; Bank of Toronto; Banque Canadienne Nationale
 6,pool,0.76,131.137.245.208,50,2010-04,2012-04,Canadian Bank of Commerce; Canadian Imperial Bank of Commerce; Canadian Commercial Bank
+6,pool,0.76,131.137.245.207,58,2010-04,2012-04,Imperial Bank of Canada; Bank of Toronto; Banque Canadienne Nationale
 7,pool,0.78,131.137.245.207,32,2008-12,2012-10,Royal Military College of Canada; List of Royal Military College of Canada people; Royal Roads Military College
 7,pool,0.78,131.137.245.206,53,2009-05,2012-07,List of Royal Military College of Canada memorials; Royal Military College of Canada; Royal Military College Saint-Jean
 7,pool,0.78,131.137.245.208,51,2009-12,2012-09,List of Royal Military College of Canada memorials; Royal Military College Saint-Jean; Canadian Forces Military Police
-8,pool,0.82,131.137.245.206,17,2012-06,2014-09,3rd Canadian Division; Land Force Western Area; 4th Canadian Division Support Group
-8,pool,0.82,131.137.245.209,15,2013-07,2015-06,3rd Canadian Division; 1 Canadian Air Division; 4th Canadian Division
-8,pool,0.82,131.137.245.207,62,2013-09,2017-07,3rd Canadian Division; 39 Canadian Brigade Group; Lord Strathcona's Horse (Royal Canadians)
-8,pool,0.82,131.137.245.208,14,2018-06,2020-11,82nd Airborne Division; 2e Division du Canada [fr]; 5th Canadian Division
-8,pool,0.82,131.137.245.206,5,2021-11,2023-08,3rd Canadian Division; 4th Canadian Division Support Group; 32 Canadian Brigade Group
+8,pool,0.83,131.137.245.206,17,2012-06,2014-09,3rd Canadian Division; Land Force Western Area; 4th Canadian Division Support Group
+8,pool,0.83,131.137.245.209,15,2013-07,2015-06,3rd Canadian Division; 1 Canadian Air Division; 4th Canadian Division
+8,pool,0.83,131.137.245.207,60,2013-09,2017-07,3rd Canadian Division; 39 Canadian Brigade Group; Lord Strathcona's Horse (Royal Canadians)
+8,pool,0.83,131.137.245.208,14,2018-06,2020-11,82nd Airborne Division; 2e Division du Canada [fr]; 5th Canadian Division
+8,pool,0.83,131.137.245.206,5,2021-11,2023-08,3rd Canadian Division; 4th Canadian Division Support Group; 32 Canadian Brigade Group
 9,pool,0.92,205.193.239.76,51,2024-05,2025-07,"30th Field Artillery Regiment, RCA; Royal Canadian Artillery Museum; 2nd Regiment, Royal Canadian Horse Artillery"
 9,pool,0.92,205.193.239.44,55,2024-06,2025-08,"30th Field Artillery Regiment, RCA; Lord Strathcona's Horse (Royal Canadians); 2nd Regiment, Royal Canadian Horse Artillery"
 10,pool,0.81,192.197.82.205,84,2009-12,2009-12,List of Star Trek novels
@@ -49,8 +49,8 @@ group,mechanisms,max_score,address,thread_edits,from,to,top_pages
 13,pool,0.87,131.137.245.208,13,2016-12,2017-01,"John Charles Moore Grant, 9th Baron de Longueuil; Charles James Irwin Grant, 6th Baron de Longueuil; Raymond Grant, 11th Baron de Longueuil"
 13,pool,0.87,131.137.245.209,12,2017-01,2017-02,"John Charles Moore Grant, 9th Baron de Longueuil [Wikidata]; John Charles Moore Grant, 9th Baron de Longueuil [Wikidata]; Charles James Irwin Grant, 6th Baron de Longueuil"
 14,pool,0.79,198.103.223.52,23,2008-02,2010-07,Gatineau [fr]; List of cinemas in Ottawa-Gatineau; Christ Church Cathedral (Ottawa)
-14,pool,0.79,198.103.152.52,25,2010-04,2010-07,Gatineau [fr]; List of cinemas in Ottawa-Gatineau
 14,pool,0.79,198.103.221.52,16,2010-04,2010-07,Gatineau [fr]; List of cinemas in Ottawa-Gatineau
+14,pool,0.79,198.103.152.52,25,2010-04,2010-07,Gatineau [fr]; List of cinemas in Ottawa-Gatineau
 15,pool,0.81,131.137.245.206,42,2018-09,2019-10,Judd Apatow; Ryan Adams; Ryan Rozicki
 15,pool,0.81,131.137.245.209,20,2018-10,2019-05,Judd Apatow; Ryan Adams; Ryan Rozicki
 16,later,0.62,198.103.108.130,52,2012-06,2013-07,Régiment de Hull; Dollard Ménard
@@ -59,8 +59,8 @@ group,mechanisms,max_score,address,thread_edits,from,to,top_pages
 17,later+parallel+renumbering,0.79,198.103.198.254,14,2021-06,2022-01,Copenhagen Airport; Tampere–Pirkkala Airport; A Coruña Airport
 17,later+parallel+renumbering,0.79,198.103.198.250,25,2022-07,2024-02,"Copenhagen Airport; Oslo Airport, Gardermoen; Zvartnots International Airport"
 17,later+parallel+renumbering,0.79,198.103.198.248,7,2022-11,2023-03,Copenhagen Airport; Queen Alia International Airport
-18,pool,0.78,131.137.245.209,12,2012-05,2012-09,"Commons:Featured picture candidates/File:Woman outside Sepulchre-2.jpg [Commons]; Commons:Featured picture candidates/File:Solar Eclipse May 20,2012.jpg [Commons]; Commons:Featured picture candidates/File:Xylocopa pubescens male 3.jpg [Commons]"
 18,pool,0.78,131.137.245.208,13,2012-05,2012-10,Wikipedia:Featured picture candidates/Westminster Palace; Commons:Featured picture candidates/File:Xylocopa pubescens male 3.jpg [Commons]; Commons:Featured picture candidates/File:St Peter Church Lindos.jpg [Commons]
+18,pool,0.78,131.137.245.209,12,2012-05,2012-09,"Commons:Featured picture candidates/File:Woman outside Sepulchre-2.jpg [Commons]; Commons:Featured picture candidates/File:Solar Eclipse May 20,2012.jpg [Commons]; Commons:Featured picture candidates/File:Xylocopa pubescens male 3.jpg [Commons]"
 18,pool,0.78,131.137.245.207,13,2012-05,2012-10,Commons:Featured picture candidates/File:Blåvandshuk3.jpg [Commons]; Commons:Featured picture candidates/File:Sierra Nevada observatoire Pradollano 2.jpg [Commons]; Wikipedia:Featured picture candidates/Palais Saint-Georges
 18,pool,0.78,131.137.245.206,19,2012-05,2012-11,Wikipedia:Featured picture candidates/Blue monkey beetle; Commons:Featured picture candidates/File:AF-S DX NIKKOR 18-105mm f3.5-5.6G ED VR 28-07-2012.jpg [Commons]; Commons:Featured picture candidates/File:Autumn Oak - Broadhall Way - Stevenage.jpg [Commons]
 19,pool,0.85,192.197.82.153,30,2008-02,2009-02,Concours Eurovision de la chanson 2009 [fr]; Concours Eurovision de la chanson 2008 [fr]; Reichsgericht
@@ -69,8 +69,8 @@ group,mechanisms,max_score,address,thread_edits,from,to,top_pages
 20,pool,0.67,131.137.245.207,20,2011-06,2014-01,"Norman Buchanan; Land Force Central Area; St. Stephen, New Brunswick"
 21,later,0.75,205.193.50.10,26,2023-03,2023-04,2024 Nova Scotia general election; Nova Scotia House of Assembly; 64th General Assembly of Nova Scotia
 21,later,0.75,205.194.16.3,22,2024-11,2025-10,65th General Assembly of Nova Scotia; Nova Scotia House of Assembly; 64th General Assembly of Nova Scotia
-22,parallel,0.68,131.137.245.209,7,2017-03,2017-03,2017 Tim Hortons Brier
 22,parallel,0.68,198.103.184.76,39,2017-03,2018-04,2017 Tim Hortons Brier; 2018 Tim Hortons Brier; 1998 Labatt Brier
+22,parallel,0.68,131.137.245.209,7,2017-03,2017-03,2017 Tim Hortons Brier
 23,pool,0.73,198.103.221.51,11,2008-08,2009-08,Essex District High School; Essex 73's; Grimsby Peach Kings
 23,pool,0.73,198.103.223.51,16,2008-11,2011-09,"Essex, Ontario; Essex District High School; Ontario Highway 401"
 23,pool,0.73,198.103.152.51,14,2009-07,2009-08,"Essex, Ontario; Essex 73's; Essex Memorial Arena"
@@ -107,8 +107,8 @@ group,mechanisms,max_score,address,thread_edits,from,to,top_pages
 37,pool,0.82,131.137.245.209,11,2013-11,2014-01,Commons:Deletion requests/File:Jimmy Wales by Pricasso (the making of).ogv [Commons]; Commons:Deletion requests/Template:Nsfw [Commons]; Commons:Deletion requests/Santorum images [Commons]
 37,pool,0.82,131.137.245.206,7,2013-11,2014-01,Commons:Deletion requests/Santorum images [Commons]; Commons:Deletion requests/File:Jimmy Wales by Pricasso (the making of).ogv [Commons]; Commons:Deletion requests/File:I am blue.jpg [Commons]
 37,pool,0.82,131.137.245.208,6,2013-12,2013-12,Commons:Deletion requests/File:Jimmy Wales by Pricasso (the making of).ogv [Commons]; User talk:131.137.245.206 [Commons]
-38,pool,0.9,131.137.245.209,13,2013-11,2014-07,Commons talk:Featured picture candidates [Commons]; Commons:Featured picture candidates/File:Flares over Fort Lee - Best Warrior 2010.jpg [Commons]; Commons:Featured picture candidates/File:Rila Monastery (Рилски манастир) - fresco 2.JPG [Commons]
 38,pool,0.9,131.137.245.208,11,2013-11,2014-02,Commons talk:Featured picture candidates [Commons]; Commons:Featured picture candidates/File:Rila Monastery (Рилски манастир) - fresco 2.JPG [Commons]; Commons:Featured picture candidates/RFC: Censoring NSFW photographs [Commons]
+38,pool,0.9,131.137.245.209,13,2013-11,2014-07,Commons talk:Featured picture candidates [Commons]; Commons:Featured picture candidates/File:Flares over Fort Lee - Best Warrior 2010.jpg [Commons]; Commons:Featured picture candidates/File:Rila Monastery (Рилски манастир) - fresco 2.JPG [Commons]
 39,pool,0.83,198.103.223.52,12,2010-05,2010-05,Ensoulment; United States anti-abortion movement; User talk:Esoglou
 39,pool,0.83,198.103.152.52,12,2010-05,2010-05,United States anti-abortion movement; User talk:198.103.152.52; User talk:Andrew c
 40,pool,0.96,131.137.245.206,7,2014-02,2014-02,St. John River campaign
@@ -118,14 +118,14 @@ group,mechanisms,max_score,address,thread_edits,from,to,top_pages
 41,later,0.73,132.156.224.223,13,2014-07,2015-01,"Ancaster, Ontario"
 42,pool,0.78,198.103.221.52,8,2018-12,2019-05,Strathroy Rockets
 42,pool,0.78,198.103.152.52,12,2019-05,2019-05,Strathroy Rockets
-43,pool,0.97,131.137.245.206,6,2015-04,2015-08,Brioude [fr]
 43,pool,0.97,131.137.245.208,5,2015-04,2016-01,Brioude [fr]
+43,pool,0.97,131.137.245.206,6,2015-04,2015-08,Brioude [fr]
 43,pool,0.97,131.137.245.207,8,2015-08,2015-12,Brioude [fr]
 44,later+pool,0.74,198.103.221.52,6,2008-10,2009-10,The Walking Dead (comic book)
 44,later+pool,0.74,198.103.223.51,5,2009-07,2010-07,The Walking Dead (comic book); List of The Walking Dead (comics) characters
 44,later+pool,0.74,198.103.152.51,8,2009-07,2009-08,The Walking Dead (comic book); List of The Walking Dead (comics) characters
-45,pool,0.83,131.137.245.207,5,2015-02,2015-03,Colt Canada C7
 45,pool,0.83,131.137.245.209,13,2015-02,2015-03,Colt Canada C7; C79 optical sight
+45,pool,0.83,131.137.245.207,5,2015-02,2015-03,Colt Canada C7
 46,later,0.64,192.197.82.203,5,2012-05,2012-05,Isabelle Morin; Isabelle Morin [fr]
 46,later,0.64,192.197.82.155,13,2014-03,2014-03,Isabelle Morin [fr]; Isabelle Morin
 47,later,0.92,205.194.127.36,11,2015-05,2015-12,Skytone
@@ -148,7 +148,7 @@ group,mechanisms,max_score,address,thread_edits,from,to,top_pages
 55,later,0.84,205.193.39.2,8,2011-02,2011-02,Cuthbert Sebastian
 56,pool,0.95,131.137.245.207,6,2021-10,2021-11,2021–22 Olympique de Marseille season
 56,pool,0.95,131.137.245.206,6,2021-10,2021-10,2021–22 Olympique de Marseille season
-57,pool,0.8,205.193.239.76,5,2025-07,2025-07,List of mines in Saskatchewan; List of copper mines in Canada; Lists of mines in Canada
 57,pool,0.8,205.193.239.44,7,2025-07,2025-07,List of copper mines in Canada; List of mines in Saskatchewan
+57,pool,0.8,205.193.239.76,5,2025-07,2025-07,List of mines in Saskatchewan; List of copper mines in Canada; Lists of mines in Canada
 58,parallel,0.85,207.35.15.27,5,2020-02,2020-02,Don Davies
 58,parallel,0.85,207.35.15.11,6,2020-02,2020-02,Don Davies
