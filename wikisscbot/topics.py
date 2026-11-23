@@ -72,7 +72,8 @@ def enrich(edits: list[dict], log=sys.stderr, workers: int = 6,
     deadline = time.monotonic() + budget * 60
     cache = load_cache()
     pages = cache["pages"]
-    langs = {w["id"]: w["lang"] for w in settings()["wikis"] if w["host"].endswith("wikipedia.org")}
+    langs = {w["id"]: w["lang"] for w in settings()["wikis"]
+             if w["host"] == "wikipedia.org" or w["host"].endswith(".wikipedia.org")}
     todo = sorted({(e["wiki"], e["title"]) for e in edits
                    if e["wiki"] in langs and e.get("ns", 0) == 0
                    and page_key(e["wiki"], e["title"]) not in pages})

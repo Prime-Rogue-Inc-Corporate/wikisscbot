@@ -31,7 +31,7 @@ import threading
 import time
 import urllib.request
 from contextlib import asynccontextmanager
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
@@ -469,12 +469,18 @@ def api_provenance(limit: int = Query(100, le=1000)):
 @app.get("/api/provenance/file/{path:path}")
 def api_provenance_file(path: str):
     """Serve a manifest, response log or .ots proof for independent verification."""
-    root = STATE["data_dir"].parent
-    base = (root / "data" / "manifests").resolve()
-    p = (root / path).resolve()
-    if base not in p.parents or not p.is_file():
+    base = (STATE["data_dir"].parent / "data" / "manifests").resolve()
+    # Manifests, response logs and .ots proofs are always flat files directly in
+    # data/manifests. Drop any directory part the caller sent, then serve the
+    # matching directory entry itself rather than a path built from the request,
+    # so no caller-controlled string ever reaches a path expression.
+    name = PurePosixPath(path.replace("\\", "/")).name
+    entries = base.iterdir() if base.is_dir() else ()
+    match = next((q for q in entries
+                  if q.name == name and q.is_file() and not q.is_symlink()), None)
+    if match is None:
         raise HTTPException(404)
-    return FileResponse(p, filename=p.name)
+    return FileResponse(match, filename=match.name)
 
 
 @app.get("/api/health")

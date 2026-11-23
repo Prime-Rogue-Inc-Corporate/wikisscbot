@@ -102,6 +102,31 @@ class WebTests(unittest.TestCase):
         self.assertEqual(self.client.get("/api/provenance/file/../../etc/passwd").status_code, 404)
         self.assertEqual(self.client.get("/api/provenance/file/data/2025/edits.jsonl").status_code, 404)
 
+    def test_provenance_file_serves_manifests_and_nothing_else(self):
+        from fastapi import HTTPException
+        root = Path(self.tmp.name)
+        man = root / "data" / "manifests"
+        man.mkdir(exist_ok=True)
+        (man / "run.json").write_text('{"ok":1}')
+        (man / "run.responses.jsonl").write_text("{}\n")
+        (man / "run.json.ots").write_bytes(b"\x00proof")
+        (root / "secret.txt").write_text("SECRET")
+        # the shapes the frontend builds (app.js: "/api/provenance/file/" + link.manifest)
+        for name, want in [("run.json", '{"ok":1}'), ("run.responses.jsonl", "{}\n")]:
+            r = self.client.get("/api/provenance/file/data/manifests/" + name)
+            self.assertEqual((r.status_code, r.text), (200, want), name)
+        self.assertEqual(
+            self.client.get("/api/provenance/file/data/manifests/run.json.ots").content,
+            b"\x00proof")
+        # nothing outside data/manifests, including via the handler directly so the
+        # test does not just exercise the HTTP client's URL normalisation
+        for raw in ("../../secret.txt", "/etc/passwd", "....//secret.txt",
+                    "data/2025/edits.jsonl", "data/manifests/../../secret.txt",
+                    "..\\..\\secret.txt", "run.json/../../../secret.txt"):
+            with self.assertRaises(HTTPException, msg=raw) as cm:
+                self.appmod.api_provenance_file(raw)
+            self.assertEqual(cm.exception.status_code, 404, raw)
+
 
 if __name__ == "__main__":
     unittest.main()
