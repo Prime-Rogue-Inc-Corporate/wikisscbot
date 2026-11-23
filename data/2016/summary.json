@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T08:14:02Z",
+  "generated": "2026-11-23T09:27:09Z",
   "total_edits": 2617,
   "unique_ips": 163,
   "by_label": {
@@ -506,7 +506,7 @@
       "Henry Corden": 2,
       "The Raes": 2,
       "Dancing Up a Storm": 2,
-      "The Raes (TV series)": 2,
+      "The Raes (TV program)": 2,
       "List of Madonna concerts": 1,
       "Victor/Victoria (1995 film)": 1,
       "Victor/Victoria (musical)": 1,
@@ -542,7 +542,7 @@
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-11-13T08:10:12Z",
+      "scanned_at": "2026-11-23T09:23:29Z",
       "window": [
         "2016-01-01T00:00:00Z",
         "2016-12-31T23:59:59Z"
@@ -556,7 +556,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "frwiki": {
-      "scanned_at": "2026-11-13T08:11:02Z",
+      "scanned_at": "2026-11-23T09:24:11Z",
       "window": [
         "2016-01-01T00:00:00Z",
         "2016-12-31T23:59:59Z"
@@ -570,7 +570,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "wikidatawiki": {
-      "scanned_at": "2026-11-13T08:11:27Z",
+      "scanned_at": "2026-11-23T09:25:05Z",
       "window": [
         "2016-01-01T00:00:00Z",
         "2016-12-31T23:59:59Z"
@@ -584,7 +584,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "commonswiki": {
-      "scanned_at": "2026-11-13T08:12:17Z",
+      "scanned_at": "2026-11-23T09:26:01Z",
       "window": [
         "2016-01-01T00:00:00Z",
         "2016-12-31T23:59:59Z"
@@ -598,7 +598,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "enwiktionary": {
-      "scanned_at": "2026-11-13T08:13:09Z",
+      "scanned_at": "2026-11-23T09:26:25Z",
       "window": [
         "2016-01-01T00:00:00Z",
         "2016-12-31T23:59:59Z"
@@ -612,7 +612,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "enwikivoyage": {
-      "scanned_at": "2026-11-13T08:14:02Z",
+      "scanned_at": "2026-11-23T09:27:09Z",
       "window": [
         "2016-01-01T00:00:00Z",
         "2016-12-31T23:59:59Z"

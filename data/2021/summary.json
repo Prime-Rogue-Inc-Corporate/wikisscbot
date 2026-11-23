@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T08:51:10Z",
+  "generated": "2026-11-23T10:04:07Z",
   "total_edits": 2526,
   "unique_ips": 113,
   "by_label": {
@@ -46,7 +46,7 @@
   "top_pages": [
     {
       "wiki": "enwiki",
-      "title": "List of programs broadcast by YTV (Canadian TV channel)",
+      "title": "List of programs broadcast by YTV",
       "edits": 68
     },
     {
@@ -297,7 +297,7 @@
   ],
   "top_pages_by_label": {
     "Shared Services Canada": {
-      "List of programs broadcast by YTV (Canadian TV channel)": 68,
+      "List of programs broadcast by YTV": 68,
       "Fairview Pointe-Claire": 42,
       "Galeries d'Anjou": 38,
       "Neighbourhood shopping centres in Montreal": 28,
@@ -474,7 +474,7 @@
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-11-13T08:47:34Z",
+      "scanned_at": "2026-11-23T10:00:28Z",
       "window": [
         "2021-01-01T00:00:00Z",
         "2021-12-31T23:59:59Z"
@@ -488,7 +488,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "frwiki": {
-      "scanned_at": "2026-11-13T08:48:13Z",
+      "scanned_at": "2026-11-23T10:01:09Z",
       "window": [
         "2021-01-01T00:00:00Z",
         "2021-12-31T23:59:59Z"
@@ -502,7 +502,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "wikidatawiki": {
-      "scanned_at": "2026-11-13T08:49:05Z",
+      "scanned_at": "2026-11-23T10:02:03Z",
       "window": [
         "2021-01-01T00:00:00Z",
         "2021-12-31T23:59:59Z"
@@ -516,7 +516,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "commonswiki": {
-      "scanned_at": "2026-11-13T08:49:28Z",
+      "scanned_at": "2026-11-23T10:02:18Z",
       "window": [
         "2021-01-01T00:00:00Z",
         "2021-12-31T23:59:59Z"
@@ -530,7 +530,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "enwiktionary": {
-      "scanned_at": "2026-11-13T08:50:18Z",
+      "scanned_at": "2026-11-23T10:03:12Z",
       "window": [
         "2021-01-01T00:00:00Z",
         "2021-12-31T23:59:59Z"
@@ -544,7 +544,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "enwikivoyage": {
-      "scanned_at": "2026-11-13T08:51:10Z",
+      "scanned_at": "2026-11-23T10:04:07Z",
       "window": [
         "2021-01-01T00:00:00Z",
         "2021-12-31T23:59:59Z"

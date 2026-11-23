@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-13T08:27:14Z",
-  "total_edits": 2702,
+  "generated": "2026-11-23T09:40:19Z",
+  "total_edits": 2703,
   "unique_ips": 146,
   "by_label": {
     "Shared Services Canada": 1178,
     "Canadian Department of National Defence": 550,
-    "Canadian Broadcasting Corporation": 226,
+    "Canadian Broadcasting Corporation": 227,
     "Environment Canada": 154,
     "Shared Services Canada network (AS2665)": 143,
     "Canadian House of Commons": 120,
@@ -28,7 +28,7 @@
     "Institute for Biodiagnostics": 1
   },
   "by_wiki": {
-    "enwiki": 2262,
+    "enwiki": 2263,
     "wikidatawiki": 248,
     "frwiki": 180,
     "commonswiki": 5,
@@ -41,7 +41,7 @@
     "2019-03": 219,
     "2019-04": 154,
     "2019-05": 237,
-    "2019-06": 165,
+    "2019-06": 166,
     "2019-07": 406,
     "2019-08": 337,
     "2019-09": 158,
@@ -530,7 +530,7 @@
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-11-13T08:23:41Z",
+      "scanned_at": "2026-11-23T09:37:07Z",
       "window": [
         "2019-01-01T00:00:00Z",
         "2019-12-31T23:59:59Z"
@@ -540,11 +540,11 @@
       "block_errors": 0,
       "error_samples": {},
       "fatal": null,
-      "edits": 2262,
+      "edits": 2263,
       "lapsed_prefix_edits_excluded": 0
     },
     "frwiki": {
-      "scanned_at": "2026-11-13T08:24:16Z",
+      "scanned_at": "2026-11-23T09:37:24Z",
       "window": [
         "2019-01-01T00:00:00Z",
         "2019-12-31T23:59:59Z"
@@ -558,7 +558,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "wikidatawiki": {
-      "scanned_at": "2026-11-13T08:25:08Z",
+      "scanned_at": "2026-11-23T09:38:16Z",
       "window": [
         "2019-01-01T00:00:00Z",
         "2019-12-31T23:59:59Z"
@@ -572,7 +572,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "commonswiki": {
-      "scanned_at": "2026-11-13T08:25:31Z",
+      "scanned_at": "2026-11-23T09:39:09Z",
       "window": [
         "2019-01-01T00:00:00Z",
         "2019-12-31T23:59:59Z"
@@ -586,7 +586,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "enwiktionary": {
-      "scanned_at": "2026-11-13T08:26:22Z",
+      "scanned_at": "2026-11-23T09:40:03Z",
       "window": [
         "2019-01-01T00:00:00Z",
         "2019-12-31T23:59:59Z"
@@ -600,7 +600,7 @@
       "lapsed_prefix_edits_excluded": 0
     },
     "enwikivoyage": {
-      "scanned_at": "2026-11-13T08:27:14Z",
+      "scanned_at": "2026-11-23T09:40:19Z",
       "window": [
         "2019-01-01T00:00:00Z",
         "2019-12-31T23:59:59Z"

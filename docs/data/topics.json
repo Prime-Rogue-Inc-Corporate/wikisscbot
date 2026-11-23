@@ -143984,6 +143984,7 @@
     "topic": "Geography: Europe"
    }
   ],
+  "enwiki|List of internet exchange points by size": [],
   "enwiki|List of internet service providers in Canada": [
    {
     "score": 0.951,
@@ -145752,6 +145753,16 @@
    },
    {
     "score": 0.874,
+    "topic": "Culture: Media"
+   }
+  ],
+  "enwiki|List of programs broadcast by YTV": [
+   {
+    "score": 0.912,
+    "topic": "Culture: Television"
+   },
+   {
+    "score": 0.871,
     "topic": "Culture: Media"
    }
   ],
@@ -161606,6 +161617,36 @@
    {
     "score": 1.0,
     "topic": "Culture: Biography"
+   }
+  ],
+  "enwiki|Michael McCrudden": [
+   {
+    "score": 0.999,
+    "topic": "Culture: Media"
+   },
+   {
+    "score": 0.997,
+    "topic": "Culture: Biography"
+   },
+   {
+    "score": 0.94,
+    "topic": "Culture: Music"
+   },
+   {
+    "score": 0.928,
+    "topic": "Culture: Entertainment"
+   },
+   {
+    "score": 0.881,
+    "topic": "Culture: Films"
+   },
+   {
+    "score": 0.712,
+    "topic": "Geography: North America"
+   },
+   {
+    "score": 0.5,
+    "topic": "Culture: Internet culture"
    }
   ],
   "enwiki|Michael Moore": [
@@ -199331,6 +199372,12 @@
     "topic": "STEM: STEM"
    }
   ],
+  "enwiki|Reverse sweep": [
+   {
+    "score": 1.0,
+    "topic": "Culture: Sports"
+   }
+  ],
   "enwiki|Reversible computing": [
    {
     "score": 0.994,
@@ -210359,6 +210406,16 @@
   "enwiki|Satellite Internet access": [
    {
     "score": 0.93,
+    "topic": "STEM: STEM"
+   },
+   {
+    "score": 0.884,
+    "topic": "STEM: Technology"
+   }
+  ],
+  "enwiki|Satellite internet access": [
+   {
+    "score": 0.932,
     "topic": "STEM: STEM"
    },
    {
@@ -232084,6 +232141,16 @@
     "topic": "Culture: Biography"
    }
   ],
+  "enwiki|The Girlie Show (tour)": [
+   {
+    "score": 0.712,
+    "topic": "Culture: Media"
+   },
+   {
+    "score": 0.57,
+    "topic": "Culture: Biography"
+   }
+  ],
   "enwiki|The Girls in the Office": [
    {
     "score": 0.947,
@@ -233642,6 +233709,16 @@
     "topic": "Culture: Media"
    }
   ],
+  "enwiki|The Ocean (train)": [
+   {
+    "score": 0.988,
+    "topic": "History and Society: Transportation"
+   },
+   {
+    "score": 0.863,
+    "topic": "Geography: North America"
+   }
+  ],
   "enwiki|The Ocean Walker": [
    {
     "score": 0.992,
@@ -234186,6 +234263,12 @@
    {
     "score": 0.731,
     "topic": "Geography: North America"
+   }
+  ],
+  "enwiki|The Raes (TV program)": [
+   {
+    "score": 0.725,
+    "topic": "Culture: Media"
    }
   ],
   "enwiki|The Raes (TV series)": [
@@ -234823,6 +234906,20 @@
    },
    {
     "score": 0.881,
+    "topic": "Culture: Television"
+   },
+   {
+    "score": 0.831,
+    "topic": "Culture: Media"
+   }
+  ],
+  "enwiki|The Spot (web series)": [
+   {
+    "score": 0.932,
+    "topic": "Culture: Entertainment"
+   },
+   {
+    "score": 0.884,
     "topic": "Culture: Television"
    },
    {
@@ -236534,6 +236631,12 @@
    }
   ],
   "enwiki|This Is It (concert residency)": [
+   {
+    "score": 0.637,
+    "topic": "Culture: Media"
+   }
+  ],
+  "enwiki|This Is It (residency)": [
    {
     "score": 0.637,
     "topic": "Culture: Media"
