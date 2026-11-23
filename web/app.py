@@ -470,16 +470,17 @@ def api_provenance(limit: int = Query(100, le=1000)):
 def api_provenance_file(path: str):
     """Serve a manifest, response log or .ots proof for independent verification."""
     base = (STATE["data_dir"].parent / "data" / "manifests").resolve()
-    # Manifests, response logs and .ots proofs are always flat files directly
-    # inside data/manifests, so discard any directory part the caller sent and
-    # accept only a conservative filename.
+    # Manifests, response logs and .ots proofs are always flat files directly in
+    # data/manifests. Drop any directory part the caller sent, then serve the
+    # matching directory entry itself rather than a path built from the request,
+    # so no caller-controlled string ever reaches a path expression.
     name = PurePosixPath(path.replace("\\", "/")).name
-    if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]{0,127}", name):
+    entries = base.iterdir() if base.is_dir() else ()
+    match = next((q for q in entries
+                  if q.name == name and q.is_file() and not q.is_symlink()), None)
+    if match is None:
         raise HTTPException(404)
-    p = (base / name).resolve()
-    if p.parent != base or not p.is_file():
-        raise HTTPException(404)
-    return FileResponse(p, filename=p.name)
+    return FileResponse(match, filename=match.name)
 
 
 @app.get("/api/health")
