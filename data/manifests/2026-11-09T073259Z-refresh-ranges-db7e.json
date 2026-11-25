@@ -1,0 +1,56 @@
+{
+  "schema": "wikisscbot-manifest/1",
+  "run_id": "2026-11-09T073259Z-refresh-ranges-db7e",
+  "kind": "refresh-ranges",
+  "started": "2026-11-09T07:32:59Z",
+  "finished": "2026-11-09T07:34:15Z",
+  "tool_version": "1.2.0",
+  "code_commit": "195fae9f3a15e381932018c1f67de34c96a61798",
+  "workflow_run": {
+    "id": "42580004486",
+    "attempt": "1",
+    "workflow": "Backfill year",
+    "url": "https://github.com/Prime-Rogue-Inc-Corporate/wikisscbot/actions/runs/42580004486"
+  },
+  "params": {
+    "since": "2016-01-01T00:00",
+    "asns": [
+      "2665",
+      "2675",
+      "2682",
+      "25689",
+      "806"
+    ]
+  },
+  "inputs": {
+    "config/niche_wikis.json": "87dc091e9277bdf6bddf25c43491fedf96f767c9b5a58098637fab3864965358",
+    "config/ranges_gccaedits.json": "b371a8e3c54b39b654ca23d67265255f7a4c93c56cb9ba2e91d8b48015ae0f17",
+    "config/ranges_ssc_bgp.json": "d0dc905fa2224629f80f1798c1f3555f08cbfebfd56c171a69273fc14a68121e",
+    "config/settings.json": "0b1cf32bd09349acfb84ee40e444df2b24e06d08e7b236697e1cfdd661fe94b3"
+  },
+  "responses": {
+    "count": 5,
+    "bytes": 225188,
+    "by_host": {
+      "stat.ripe.net": {
+        "responses": 5,
+        "bytes": 225188
+      }
+    },
+    "chain_sha256": "6f99933765ff35a4dcdf29dd781118b6139e6a4cd6595a8a77df7520c58ebbb0",
+    "log": "data/manifests/2026-11-09T073259Z-refresh-ranges-db7e.responses.jsonl",
+    "log_sha256": "c5313b81a46b071a874eae71bcef35f3f3c65fcfa94640944110b02d14a9c901"
+  },
+  "outputs": {
+    "config/ranges_ssc_bgp.json": "d0dc905fa2224629f80f1798c1f3555f08cbfebfd56c171a69273fc14a68121e"
+  },
+  "data_sums_sha256": "813d4b39486ee26aea23e820d0436b8302f73acd92ac58423c4fb592367c20f6",
+  "counts": {
+    "prefixes": 448
+  },
+  "previous_manifest": {
+    "run_id": "2026-11-09T052008Z-enrich-49ef",
+    "sha256": "b747d499718763b98e0ea658202f456f8d45a6484153ec21e1a93857ba1e11ac"
+  },
+  "notes": ""
+}

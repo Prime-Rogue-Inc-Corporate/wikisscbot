@@ -1,0 +1,80 @@
+{
+  "schema": "wikisscbot-manifest/1",
+  "run_id": "2026-11-03T203111Z-watch-33c3",
+  "kind": "watch",
+  "started": "2026-11-03T20:31:11Z",
+  "finished": "2026-11-03T20:43:10Z",
+  "tool_version": "1.2.0",
+  "code_commit": "cbe84a5042a42a621cc1ea76286ddff4d72814b1",
+  "workflow_run": {
+    "id": "41713200871",
+    "attempt": "1",
+    "workflow": "Watch for new edits",
+    "url": "https://github.com/Prime-Rogue-Inc-Corporate/wikisscbot/actions/runs/41713200871"
+  },
+  "params": {
+    "window": [
+      "2026-11-02T14:31:11Z",
+      "2026-11-03T20:31:11Z"
+    ],
+    "wikis": [
+      "enwiki",
+      "frwiki",
+      "wikidatawiki",
+      "commonswiki",
+      "enwiktionary",
+      "enwikivoyage"
+    ]
+  },
+  "inputs": {
+    "config/niche_wikis.json": "87dc091e9277bdf6bddf25c43491fedf96f767c9b5a58098637fab3864965358",
+    "config/ranges_gccaedits.json": "b371a8e3c54b39b654ca23d67265255f7a4c93c56cb9ba2e91d8b48015ae0f17",
+    "config/ranges_ssc_bgp.json": "8d864a5290b7127067465fe05c2a6201336bc0a14e483f3372632fcc19ee8a88",
+    "config/settings.json": "c87a58864afb17c67e2ae98e100965cd7a59945edfb8d89e0e4a1158cca29718"
+  },
+  "responses": {
+    "count": 877,
+    "bytes": 70160,
+    "by_host": {
+      "en.wikipedia.org": {
+        "responses": 147,
+        "bytes": 11760
+      },
+      "fr.wikipedia.org": {
+        "responses": 146,
+        "bytes": 11680
+      },
+      "www.wikidata.org": {
+        "responses": 146,
+        "bytes": 11680
+      },
+      "commons.wikimedia.org": {
+        "responses": 146,
+        "bytes": 11680
+      },
+      "en.wiktionary.org": {
+        "responses": 146,
+        "bytes": 11680
+      },
+      "en.wikivoyage.org": {
+        "responses": 146,
+        "bytes": 11680
+      }
+    },
+    "chain_sha256": "4e9f2a44ad0b7d4a3841cafc92a0ea9998052d4b40a009fe773d26e39f463f9b",
+    "log": "data/manifests/2026-11-03T203111Z-watch-33c3.responses.jsonl",
+    "log_sha256": "14ddba59f3b7a9bbf17223eb50df28f7b23cf9eb811a635e84e2ddd83dfe92f5"
+  },
+  "outputs": {
+    "data/live/edits.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "data_sums_sha256": "8d0946be65fdf9383f0e8408060eac0024c531d2d14c7ba1579599d0690a9268",
+  "counts": {
+    "new_edits": 0
+  },
+  "previous_manifest": {
+    "run_id": "2026-11-02T224742Z-watch-7737",
+    "sha256": "3c46cda96552add017f13b1c0aeebb5640f0a00ab55f243b59d77b0072b42b16"
+  },
+  "notes": ""
+}
